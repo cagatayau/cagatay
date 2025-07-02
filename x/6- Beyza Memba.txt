@@ -1,0 +1,46 @@
+Power Efficiency in High Performance Computing
+KIYASLAMALAR VE SONUÇLAR 
+TEST DÜĞÜM GÜCÜ
+Test metodolojisi, tek düğüm test uygulamalarını sırayla çalıştırmaktan ve işlemcinin her test arasında boşta çalışmaya dönmesine izin vermekten oluşmaktadır. Her uygulama 3 dakika çalıştırılıp ve işlemcinin boşta çalışmaya dönmesi için 2 dakika beklenilmiştir. Tek işlem testlerine ek olarak, aynı anda iki kıyaslama örneğini çalıştırma da test edilmiştir. (çekirdek/işlemci başına bir tane)
+Tek Düğüm Sonuçları
+ Bu bölümde, test kıyaslamalarını çalıştırırken bağımsız makineler için güç tüketimi sonuçları bulunuyor. Önce G/Ç dışı sonuçları ardından test makinelerinde IOZone güç kullanımı sunulacak.
+G/Ç Dışı Kıyaslamalar
+Resim 1, kıyaslama paketini 2.0 GHz Core Duo MacBook Pro'da çalıştırmanın sonuçlarını göstermektedir. Bu sistemin mutlak güç kullanımı hem boşta hem de yüksekte oldukça düşüktür. En yüksekteki göreceli güç kullanımı yüksüzken kullanılan güce kıyasla yüksektir. Boştayken yaklaşık 20 watt güç tüketir ve en yüksekte 32 W veya boşta olduğundan %60 daha fazla güç tüketimi görülmektedir.
+Opteron makinesi, slaphappy, Şekil 2'de gösterildiği gibi MacBook Pro sistemin 10 katından daha fazla güç tüketiyor. Boştayken, güç tüketimi 250 W'ın hemen altındayken yüksek güç kullanımı yaklaşık 295 W olarak ölçülmektedir. Bu makinede, kıyaslama testleri çok fazla farklılık göstermedi, kıyaslama testlerinden herhangi birinin bir yinelemesi çalıştırıldığında neredeyse aynı güç kullanımı elde edilmiştir.
+Son olarak, PowerMac G5'in güç kullanımı Şekil 3'te sunulmaktadır. Boşta güç kullanımı yaklaşık 170 W'tır ve tepe 302 W'ta %80 daha yüksektir. Güç kullanımı iki işlemde veya iki işlemde çalıştırmamıza bağlı olarak çok fazla değişmez. Güç kullanımı artıp sonra biraz düşer; bu, başlangıçta oldukça yüksek bir hıza ulaşıp sonra yavaşlayan fan gürültüsüne yansır. Bu sistem, tepe ve boşta güç kullanımı arasındaki en yüksek farkı gösterdi.
+Test edilen Core Duo makinesi bir SATA 100 GB sürücü ile donatılmıştır; IOZone çalıştırma sonuçları Şekil 4'te gösterilmiştir. Güç kullanımı I/O dışı kıyaslamalarda gözlemlenilen maksimuma ulaşmamıştır. Test boyunca güç kullanımı 28 ila 32 watt arasında değişmektedir.
+IOZone SONUÇLARI
+Şekil 5, PowerPC G5 test sisteminde IOZone çalıştırmanın sonuçlarını göstermektedir. Güç kullanımı test boyunca oldukça değişkendir, neredeyse boşta 170 watt’tan neredeyse 270 W'a kadar değişir, G/Ç testi boyunca 100 watt'lık bir değişkenlik vardır.
+TARTIŞMA
+Üç test sisteminde kıyaslama paketini çalıştırırken güç kullanımının tablo halinde özeti Tablo 1'de verilmiştir.
+Üç makinedeki sonuçlar incelendiğinde, her durumda işlemci sistemi bir kıyaslama çalıştırmaya başladığında güç kullanımının hemen arttığını, ardından kıyaslama çalıştırması boyunca nispeten sabit kaldığı görülmektedir. Çalıştırma bittikten sonra ise güç kullanımında rölantiye anında bir düşüş görülmekte.
+
+G5 sistemi için, her kıyaslamanın bir veya iki örneğini çalıştırmak temelde aynı güç imzasını verirken, Opteron için, kıyaslamaların her biri neredeyse aynı güç kullanımına sahipti. Bu çıkarımdan yola çıkarak güç kullanımının hangi kıyaslamayı çalıştırdığımıza bağlı olarak çok fazla değişmediği çıkarılabilir.
+TEK KABİNLİ GÜÇ KULLANIMI
+Bu bölümde, büyük bir HPC sisteminin tek bir kabinindeki güç kullanımı incelenmektedir. Tam uygulamalar, mikro kıyaslamalar ve uygulama benzeri proxy'lerin bir karışımı olan kıyaslamaları kullanarak, Franklin'in tek bir 96 düğümlü kabini olan NERSC'deki Cray XT4 sistemi için güç tüketimleri ölçülmektedir. 
+Şekil 6'da görüldüğü gibi, boşta güç 220 amper DC civarında ölçüldü ve uygulamaların çoğu için yüklü güç yaklaşık 245 amperdir. HPL ve Paratec en yüksek güç kullanımını yaklaşık 270 amper olarak gösterir. Boşta ve tepe arasındaki fark neredeyse %20 iken, HPL ile diğer uygulamalar arasındaki fark %9'dan azdır. 
+TAM SİSTEM GÜÇ KULLANIMI
+İşlem düğümlerinde Catamount OS'yi kullanarak bir test seti ve CNL'yi kullanarak başka bir test seti çalıştırıldı ve üç iş yükü için güç kullanımı karakterize edildi: Sonuçlar Şekil 7'de gösterilmiştir.
+SONUÇLAR
+Linux ve diğer işletim sistemi karşılaştırmasında, yük altındaki güç tüketimi benzer olsa da, Linux’un daha iyi güç yönetimi sayesinde boşta güç tüketimi daha düşüktür. 
+Linux, düşük sistem yüklerinde Dinamik Voltaj Ölçekleme (DVS) kullanarak enerji tasarrufu sağlar, ancak bu teknik simüle edilen iş yüklerinde sınırlı fayda sunar. 
+HPL testinin güç tüketimi, üretim ortamındaki kodlara oldukça benzerdir. Önceki sonuçlara dayanarak Franklin süper bilgisayarının tüm sistem güç tüketimi tek kabin sonuçlarıyla modellenmeye çalışılmıştır. 
+Ayrıca, DDN tabanlı dosya sistemi altyapısının yaklaşık 50 KW enerji tükettiği tahmin edilmiştir, bu da toplam sistem tüketiminin küçük bir kısmını oluşturur.
+HPL, STREAM ve NERSC tarafından kullanılan ve makineyi doldurmak için aynı anda çalışan bir dizi üretim uygulamasından oluşan karma bir iş yükü. 
+Ölçülen AC gücünün %90 dönüşüm verimliliğinde modeldeki güç kullanımını DC gücüyle karşılaştırması
+Model Franklin'in güç kullanımını oldukça iyi bir şekilde yakalamayı başarıyor. Basit doğrusallaştırılmış modeli kullanarak, AC'den DC'ye %90 verimli dönüşüm altında ölçülen güç kullanımından %5'ten daha az hata elde ediliyor.
+
+Bu modelden yola çıkarak;
+
+Bazı süper bilgisayar merkezleri için, güç tüketimini ölçmek amacıyla tüm bir makineyi çevrimdışı yapmak imkansız olabilir. Tek bir kabinden ölçümler kullanarak makinedeki gücü tahmin eden basit model ile gerçek kullanım arasındaki yakın uyum, makinenin tamamen kapatılmasını gerektirmeden güç tüketimini ölçmek için olası bir metodolojiye işaret etmektedir.
+
+SONUÇLAR
+Bu makalede, HPC iş yükleri altında büyük ölçekli süper bilgisayarların güç tüketimini ölçmek için bazı ilk çalışmalar sunuldu. Tek düğümlü testlerle başlanarak, güç ölçümlerinin ölçeğini tam ölçekli modern bir süper bilgisayar olan Cray XT4'e kadar artırıldı.
+
+Adlandırılmış (veya "nominal") gücün, bir üretim senaryosu altında herhangi bir gerçekçi güç ölçümünden genellikle çok daha yüksek olduğu ve CPU gücünün de güç tüketiminin yanlış bir tahmincisi olduğu genel anlayışı doğrulandı. Bu nedenle, uygun bir iş yükü çalıştırılırken tüketilen gücü ölçmek önemlidir. 
+Tek tek iş istasyonlarında yapılan testlerin, büyük ölçekli bir sistemde çalıştırılan testlere benzer sonuçlar verdiği  tespit edildi. Yani, kullandığımız kıyaslamalarda anahtar yapısı veya küme genelindeki diğer sorunlar nedeniyle güç kullanımında büyük bir fark görünmüyordu.
+Maksimum güç kullanımı, yoğun işlem gerektiren bir kıyaslama olan HPL'nin çalıştırılması sırasındaydı; bellek yoğun MPI-STREAM kıyaslamamız en düşük güç kullanımını verdi. Ancak, ikisi arasındaki fark çok azdı; bu nedenle, HPL çalıştırmanın genel bir HPC iş yükünün güç tüketimi için iyi bir temsilci olduğu kanıtlandı.
+Sistemin daha küçük bir parçasından doğrusal olarak ekstrapolasyon yaparak tam sistem gücü modellenebildi; bu nedenle, muhtemelen bir rafın veya raf grubunun güç tüketimini ölçmek ve doğrudan ölçüm imkansız olduğunda ekstrapolasyon yapmak için yeterince iyidir. 
+DİNLEDİĞİNİZ İÇİN TEŞEKKÜR EDERİM.
+BEYZA MEMBA
+223255061

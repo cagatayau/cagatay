@@ -1,0 +1,117 @@
+
+IoT–Edge–Cloud Sürekliliğinde İletişim Yükünün Azaltılması: Protokoller ve Veri Azaltma Stratejileri
+
+
+
+Baturalp Budak - 223205055
+
+Giriş
+
+
+
+
+Modern Nesnelerin İnterneti (IoT) çözümleri, karmaşık bilgi işlem ve iletişim ortamlarında çalışarak giderek daha dağıtık ve merkeziyetsiz hale gelmektedir.  Büyük ölçekli IoT dağıtımları, büyük miktarda veri üreterek işlemeyi uca taşıyan alternatif mimarilere ihtiyaç duyulmasına neden olmaktadır. Merkezi bulut tabanlı IoT platformlarından uzaklaşılması, IoT-edge-cloud sürekliliği kavramının ortaya çıkmasına neden olmuştur.
+
+
+
+
+IoT trafiğinin büyük bir kısmı verilerin bulut sunucularına veya işlemeye gönderilirken yaşanmakta. Bu da ağ tıkanıklığına ve uzun yanıt sürelerine neden olmaktadır.
+Giriş
+ IoT-edge-cloud sürekliliği, veri işlemenin veri kaynağına mümkün olduğunca yakın edge cihazlarda veya hatta doğrudan IoT cihazlarının kendisinde yapılmasını sağlayarak bu eğilimi tersine çevirmektedir. Ham IoT verilerinin edge’de ön işleme tabi tutulması ve filtrelenmesi, süreklilik içinde iletilen veri miktarını ve buluta gönderilen toplam veri hacmini azaltarak ağ bant genişliğinden tasarruf sağlar.
+
+
+
+
+Son olarak, Edge Computing hassas verilerin yerel olarak işlenmesine ve analiz edilmesine olanak tanıyarak güvenliği artırır ve buluta aktarım sırasında verilerin açığa çıkma riskini en aza indirir.
+Giriş
+
+
+
+
+Amaç
+IoT iletişimine yönelik geleneksel yaklaşımlar ağ kaynaklarını zorlayarak veri iletiminde tıkanıklığa ve gecikmelere neden olabilen yüksek veri hacimleri nedeniyle iletişim performansının önemli ölçüde düşmesine ve sık veri iletimi nedeniyle IoT cihazlarının enerji tüketiminin artmasına neden olabilir.
+ Bu araştırma, IoT cihazları tarafından üretilen verileri azaltmak için mevcut yöntemleri ve ağ trafiğini azaltmaya katkıda bulunan iletişim protokollerini birlikte araştırarak IoT-edge-cloud sürekliliğinde verimli ve işbirliğine dayalı iletişime odaklanarak bu zorlukları ele almaktadır.
+ IoT-Edge-Cloud
+ Sürekliliğinde İletişim Teknolojileri 
+
+
+
+
+
+
+
+
+Bir IoT ortamı tipik olarak  IoT-edge-cloud sürekliliğini oluşturan cihaz katmanı, edge katmanı ve bulut katmanından oluşan hiyerarşik üç katmanlı bir genel mimari kullanır. Cihaz katmanında üretilen veriler, doğrudan veya Edge katmanındaki cihazlar aracılığıyla buluta iletilir.
+ Katmanlar arasındaki bu veri aktarımı, ortamda çalışan cihazların ve hizmetlerin özelliklerine göre seçilen çeşitli kablosuz iletişim teknolojilerine ve uygulama katmanı protokollerine dayanır.
+
+
+
+
+IoT-Edge-Cloud sürekliliği, Far Edge ve Near Edge ortamı olarak ikiye ayrılan Edge katmanı içerisinde farklı cihazlar içermektedir.  
+Near Edge katmanındaki cihazlar Far Edge katmanındaki cihazlardan daha fazla işlem gücüne sahiptir. Ancak her iki katmandaki cihazlar da belirli kısıtlamalar altında çalışır.
+- Sınırlı işlem gücü
+- Kısıtlı bellek
+- Sınırlı enerji kaynağı
+- Ağ çeşitliliği
+
+
+
+
+IoT Cihazlarında Yaygın Olan Kablosuz İletişim Teknolojileri
+ Başlangıçta akıllı IoT sensörleri ve sınırlı güç tüketimine sahip cihazlarla kısa menzilli iletişim için tasarlanmış bir Kablosuz Kişisel Alan Ağı (WPAN) teknolojisidir. Günümüzde, cep telefonları ve dizüstü bilgisayarlar gibi bilgi işlem cihazlarının yanı sıra çeşitli çevre birimleri tarafından desteklendiği için IoT'deki en yaygın Kablosuz Kişisel Alan Ağı  protokolüdür.
+ Genellikle akıllı ev uygulamalarında kullanılan bir Kablosuz Kişisel Alan Ağı protokolüdür. Temel avantajı daha düşük güç tüketimidir, çünkü başlangıçta birkaç aydan birkaç yıla kadar pil ömrü gerektiren, ancak Bluetooth kadar yüksek veri aktarım hızlarına ihtiyaç duymayan cihazlar için düşük maliyetli ve düşük güçlü bağlantıyı desteklemek üzere geliştirilmiştir.
+[BLE] Bluetooth Low Energy
+[ZigBee]
+Mevcut IoT sistemlerinde, Edge cihazları internete bağlı ağ geçitlerine bağlamak için farklı kablosuz iletişim teknolojileri kullanılmaktadır.
+
+
+
+
+
+IoT Cihazlarında Yaygın Olan Kablosuz İletişim Teknolojileri
+ Birbirlerinin menzilindeki cihazları bağlamak ve kablosuz yönlendirici aracılığıyla İnternet'e bağlamak için kullanılan bir kablosuz iletişim protokolüdür. Başlangıçta IoT cihazları için değil, dizüstü bilgisayarlar, akıllı telefonlar ve sunucular gibi geleneksel cihazları birbirlerine bağlamak için tasarlandığından, yoğun IoT ortamlarına uygun hale getirmek için bazı temel yönlerinin gözden geçirilmesi gerekir. BLE ve ZigBee'ye göre avantajı daha yüksek veri hızı iken dezavantajı yüksek güç tüketimidir.
+IoT cihazlarını daha geniş bir alana bağlayan ağ teknolojisidir.  Benzer ağ teknolojilerine kıyasla dezavantajı düşük veri hızı ve daha düşük güvenilirliktir.
+[WİFİ]
+[LoRaWAN]
+
+
+
+
+IoT Cihazlarında Yaygın Olan Kablosuz İletişim Teknolojileri
+Lisanslı bir spektrumda çalışan ağ teknolojisidir ve sonuç olarak LoRaWAN'a göre veri hızı, gecikme süresi, güvenilirlik ve menzil açısından LoRa'nın lisanssız bir spektrumda çalışarak sunduğu belirli avantajlar pahasına, pil ömrü, kapasite ve maliyet gibi  avantajlar sunar.
+Hücresel ağ teknolojileri, öncelikle IoT kullanım durumları için tasarlanmamış olan 2G/3G, 4G ve 5G mobil ağları ifade etmektedir. Bununla birlikte, 5G hücresel ağ, üç ana kullanım durumu grubu için önemli bir IoT sağlayıcısı haline gelmiştir: 
+Gelişmiş Mobil Geniş Bant (eMBB)
+Devasa Makine Tipi İletişim (mMTC) 
+Ultra Güvenilir Düşük Gecikmeli İletişim (URLLC) 
+[NB-IoT]
+[Hücresel Ağ]
+
+IoT'de Uygulama Katmanı Protokolleri
+
+
+
+Uygulama katmanı protokolleri, kullanılan iletişim modeline bağlı olarak istek-yanıt veya yayınla-abone ol protokolleri olarak sınıflandırılabilir.
+
+
+
+
+İstek - Yanıt Protokolleri
+Başlangıçta web tabanlı iletişim için tasarlanmıştır. Bir TCP (İletim Kontrol Protokolü) bağlantısı üzerinden çalışır ve güvenilir iletişim sunar, ancak önemli bir mesaj yükü vardır. Tcp'yi de temel alan diğer uygulama katmanı protokolleriyle karşılaştırıldığında, TCP paketlerine ve genel mesaj boyutuna en büyük yükü eklediği için HTTP en ayrıntılı ve ağırıdır. Dolayısıyla HTTP yüksek bant genişliği gerektiriyor, bu da işlem gecikmesini ve enerji tüketimini artırır ve onu IoT ortamları için daha az uygun bir çözüm haline getirir.
+
+ Kısıtlı cihazlar için uyarlanmış bir iletişim protokolüdür. Http'ye benzer istek-yanıt iletişim modelini uygular, ancak yayınla-abone ol iletişim modelini de destekler. HTTP ile karşılaştırıldığında temel fark, CoAP'ın aktarım katmanında TCP yerine UDP kullanmasıdır. Bu, iletişim yükünü önemli ölçüde azaltır, ancak aynı zamanda iletişimi daha az güvenilir hale getirir.
+[HTTP]
+[CoAP]
+
+
+
+
+Yayınla - Abone Ol Protokolleri
+ IoT çözümleri de dahil olmak üzere çeşitli dağıtılmış sistemlerde yaygın olarak kullanılan hafif bir yayınla–abone ol protokolüdür. Temel sürümü TCP bağlantıları üzerinden çalışır, ancak kısıtlı sensör cihazlarının UDP'nin üzerinde çalışması ve azaltılmış yük boyutları kullanması için uyarlanmış MQTT-SN adlı özel bir sürüm de vardır.  Bununla birlikte, hafif mimarisi, enerji verimliliği ve düşük gecikme süresi nedeniyle, günümüzde IoT uygulamalarında muhtemelen en yaygın olarak kullanılan protokoldür.
+MQTT'den daha gelişmiş bir protokoldür ve daha yüksek güvenilirlik ve gelişmiş güvenlik sunar. Performansı MQTT protokolüyle karşılaştırıldığında, AMQP'nin daha yüksek bir verim sunduğunu, ancak daha büyük bir paket boyutunda paket kaybı oranı daha fazla olduğunu söyleyebiliriz.
+[MQTT]
+[AMQP]
+
+Teşekkürler
+
+
+

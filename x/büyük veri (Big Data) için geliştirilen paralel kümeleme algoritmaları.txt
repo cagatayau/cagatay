@@ -1,0 +1,251 @@
+BIG DATA İÇİN
+PARALEL
+KÜMELEME
+PLATFORMLARI
+VE
+ALGORİTMALARI
+Batuhan
+SÜRSAVUR
+190255051BIG DATA NEDİR ?
+Büyük Veri (Big Data), günümüzde dijitalleşmenin bir sonucu olarak ortaya çıkan devasa hacimlerdeki verileri ifade eder. Gartner
+tarafından ortaya atılan 3V tanımı bu kavramı üç temel özellikle açıklar:
+Hacim (Volume): Verilerin petabaytlardan zettabaytlara ulaşan büyüklüğü,
+Hız (Velocity): Bu verilerin sürekli ve hızlı biçimde üretilmesi ve güncellenmesi,
+Çeşitlilik (Variety): Farklı formatlarda ve kaynaklardan gelen yapılandırılmış, yapılandırılmamış ya da yarı yapılandırılmış verilerin bir
+arada bulunması.Bu özellkler, geleneksel ver şleme ve analz yöntemlernn
+sınırlarını zorlamaktadır. Özellkle ver kümeleme gb temel
+ver madenclğ yöntemler, bg data karşısında yetersz
+kalmakta; hız, vermllk ve ölçekleneblrlk gb konularda
+cdd sınırlamalar göstermektedr.Bu nedenle, son yıllarda
+araştırmacılar paralel hesaplama temell yen algortmalar
+gelştrmeye yönelmştr. PARALEL
+KÜMELEME
+PLATFORMLARI
+Bg Data Neden Özel Platformlara İhtyaç Duyar?
+Big Data ‘ nın yüksek hacmi ve işleme ihtiyacı, sıradan bilgisayarlarla analiz edilemez.
+Bu nedenle veriyi paralel ve hızlı şekilde işleyebilecek altyapılar kullanılır.
+Big Data platformları, yatay ve dikey ölçekleme mimarileri şeklinde sınıflandırılır: yatay ölçeklemede iş yükü
+birden fazla düğüme (node) dağıtılarak veri paralel olarak işlenirken; dikey ölçeklemede ise tek bir sistemin
+işlemci, bellek ve özel donanım kaynakları artırılarak yüksek işlem kapasitesi sağlanır.MapReduce
+MapReduce, Google tarafından tanıtılmış popüler bir paralel programlama modelidir. Büyük veri kümelerini okuma, işleme ve yazma işlemlerini kolaylaştırmak
+için tasarlanmıştır. İki temel işleve sahiptir: Map ve Reduce.
+Map işlemi, veri parçalarını (kayıtları) alarak anahtar/değer çiftleri üretir.
+Reduce işlemi, aynı anahtara sahip olan bu ara verileri birleştirir ve nihai çıktıyı oluşturur.
+Bunun dışında, programın yürütülmesn optmze eden k steğe bağlı şlev vardır:
+Partitioner: Ara anahtarları, belirlenen çıktı dosyası sayısına göre böler.
+Combiner: Ara sonuçları özetleyerek, Reduce aşamasına giden veri miktarını azaltır.
+       
+Apache Spark
+Yoğun uygulamalar için tasarlanmış ve ticari kümelerde yürütülen büyük bir veri işleme çerçevesidir . MapReduce'un aksine, Spark çerçevesi yinelemeli işleri destekler ve yalnızca yararlı veri kümesini
+belleğe yükleyerek büyük veri kümelerinde sorgular çalıştırmaya izin verir. Bu şekilde, yürütme süresi önemli ölçüde azaltılır. 
+Spark üç temel yönü tanıtır: 
+Dayanıklı dağıtılmış veri kümeler (RDD'ler), paralel işlemler ve paylaşılan değişkenler. 
+RDD, bir makine kümesi tarafından paylaşılan ve kayıp durumunda kurtarılabilen bir nesne koleksiyonudur; ayrıca birden fazla paralel MapReduce işinde yeniden kullanılmak üzere bellekte
+saklanabilir.
+İkinci yön, RDD'lerde gerçekleştirilebilen paralel işlemlerdir. Reduce, Collect ve Foreach işlemlerini içerir. 
+Son yön, yayın değişkenleri ve akümülatörlerden oluşur.
+Spark esnektir, kullanımı kolaydır ve programlamak için herhangi bir soyutlamaya ihtiyaç duymaz. Spark Streaming modülünü kullanarak verileri gerçek zamanlı olarak 
+işler ve dağıtılmış işçileri kullanarak kısmi sonuçları bellekte önbelleğe alır. Dahası, Spark verimlidir ve etkileşimli makine öğrenimi iş yüklerinde MapReduce çerçevesini 10 kat aşar ve MapReduce'un
+hata toleransını ve ölçeklenebilirliğini korur. Ancak Spark, büyük kaynaklar gerektirmesi ve bellek açısından pahalı olması gibi bazı sınırlamalar gösterir.Eşler Arası (Peer-to-Peer, P2P) 
+Eşler arası (P2P) ağlar, görevlerin ağdaki katılımcılar (eşler) arasında paylaştırıldığı dağınık bir mimariyi temsil eder. P2P ağ mimarisi, bilgi transferini kontrol eden merkezi bir sunucuya ihtiyaç duymaksızın,
+ her katılımcının kendi kaynaklarının bir kısmını aynı ağdaki diğer katılımcılara erişilebilir kıldığı her türlü ağ yapısını kapsar.
+Bu sistemler sayesinde:
+Değerli dışsallıklar oluşturulabilir,
+Mülkiyet ve paylaşım maliyetleri düşürülebilir,
+Anonimlik sağlanabilir.
+Bu platformlarda en yaygın kullanılan yapı Message Passing Interface (MPI)’dir. MPI standardının temelinde, eşler arası iletişimi sağlamak üzere gerekli soyutlamaların sunulması yer alır. 
+Aynı zamanda, sistem çalışırken süreçleri canlı tutabilme özelliğine sahiptir; bu da verinin diske tekrar tekrar yazılmasına gerek kalmadan işlenmesini mümkün kılar. Bu özelliği sayesinde, MPI özellikle iteratif (tekrarlamalı) 
+işler için son derece uygundur.
+P2P ağ mimarisi, yeni düğümlerin dinamik olarak eklenmesine imkân tanıyarak, çok büyük veri içeren uygulamaları işleyebilecek düzeyde verimli şekilde ölçeklenebilir. 
+Bu tür platformların bir diğer avantajı ise hata toleransı sağlamalarıdır; yani, herhangi bir düğümde meydana gelen yerel bir arıza, diğer düğümlerin işleyişini etkilemez. 
+Ayrıca, yeni düğümlerin sisteme eklenmesiyle birlikte sistemin toplam kapasitesi artar.
+Bununla birlikte, sisteme yeni düğüm eklemek, bağlantıdaki kullanıcılar için veri aktarım hızını yavaşlatabilir. Ayrıca, P2P sistemler güvenlik açıklarına karşı savunmasız olabilir ve genellikle yüksek bant genişliği
+ gerektirir.
+Grafk İşleme Brm(GPU)
+      Grafik İşleme Birimi (GPU), başlangıçta 2B ve 3B hesaplamaları işlemek için ayrılmış tek çipli bir işlemcidir.
+Giriş olarak, CPU'dan 3B formda geometri ilkelleri alır. Daha sonra bunları ayrı köşelerden piksellere
+dönüştürür, bunlar gölgelendirilir ve ekrana eşlenir. Son görüntüyü üretmek için, işlenmiş pikseller bir
+görüntüleme aygıtında görselleştirilmek üzere tasarlanmış bir çıktı oluşturmak üzere birleştirilir. Bu aşamalar,
+sözde grafik boru hattını oluşturur . GPU'lar, bir programlama modeli olarak tek program çoklu veri (SPMD) ve
+paralel mimari olarak tek talimat, çoklu veri (SIMD) modelini takip eder. 
+Günümüzde, modern GPU'lar, yüksek yüzen nokta hesaplamaları gerektiren uygulamaların performansını
+hızlandıran büyük ölçüde paralel işlem mimarileri nedeniyle giderek daha fazla ilgi görmektedir. Gerçekten de,
+GPU'lar yalnızca grafik uygulamaları için yararlı değildir; aynı zamanda genel amaçlı grafik işleme birimi
+(GPGPU) hesaplamasına yol açan uzmanlaşmamış hesaplamalar yapmak için de kullanılırlar. GPU'ların
+sunduğu paralellikten tam olarak yararlanmak için, CUDA ve OpenCL gibi yeni paralel programlama dilleri
+ortaya çıkmıştır. Bu diller, GPU'larda doğrusal cebirin performansını basitleştirir ve iyileştirir. 
+GPU'lar aritmetik yoğunluk ve akış belleği sorunları için enerji ve maliyet verimliliği göstermiştir. Ancak, en
+büyük dezavantajları, genellikle karmaşık bellek yönetimini gerektiren sınırlı bellek kapasitesinde yatmaktadır. Mult-Core CPU
+      Çok çekirdekli işlemciler, birden fazla işlem çekirdeğini tek bir yonga üzerinde entegre eden platformlardır. Genellikle
+üç temel mimari türü bulunur.
+Ortak önbellekl mmar: Tüm çekirdekler aynı önbelleği paylaşır.
+Özel önbellekl mmar: Her çekirdek için ayrı önbellek bulunur.
+Hbrt mmar: Önbellek iki katmana ayrılır; bir kısmı her çekirdeğe özel, bir kısmı ise tüm çekirdekler arasında
+ortaktır.
+      Çok çekirdekli sistemlerin sunduğu paralellik avantajından yararlanmak için, iş yükünün mevcut işlemciler arasında
+uygun şekilde dağıtılması gerekir .Bu amaçla yaygın olarak kullanılan yöntemlerden biri çok iş parçacıklı (multi-
+threading) modeldir. Bu model, işi bağımsız yürütme birimlerine bölerek, her birini aynı anda farklı çekirdeklerde
+çalıştırmayı mümkün kılar.
+    
+    Çok çekirdekli platformlar, yüksek performans ve düşük ısı üretimi gibi avantajlar sunar. Ancak bu avantajlardan tam
+anlamıyla yararlanabilmek için uygulamaların yüksek derecede paralel çalışmaya uygun olması gerekir. Aksi takdirde, bu
+platformlar beklenen verimi sağlayamaz. Bu nedenle, uygulamaların mümkün olduğunca paralelleştirilmesi gerekir ki bu
+da her zaman kolay ya da uygulanabilir değildir.Alan Programlanablr Kapı Dzler (FPGA)
+  Entegre bir devre aygıtı olarak, programlanabilir mantık blokları dizisi, yeniden yapılandırılabilir ara bağlantılar ve Giriş/
+Çıkış blokları hiyerarşisinden oluşur; bu sayede karmaşık devreler, birden fazla alt devre ve çıkış içerecek şekilde
+tasarlanabilir ve tüm bileşenlerin yapılandırmaları bir donanım tanımlama dili (HDL) ile tanımlanır . FPGA’lar çeşitli
+uygulamalarda yaygın şekilde kullanılır ve özellikle içinde barındırdıkları yüksek derecedeki paralellikten faydalanmayı
+gerektiren hesaplama problemlerine çözüm sunar . Bu platformların temel avantajları; genişletilebilirlik, esneklik ve
+azaltılmış prototip maliyetlerinde kendini gösterirken, esneklik aynı zamanda cihazların daha büyük boyutlu, nispeten daha
+yavaş ve daha fazla güç tüketir hâle gelmesi gibi dezavantajları da beraberinde getirir . Bu özellikleri sayesinde FPGA’lar,
+yüksek performanslı paralel kümeleme algoritmalarının uygulandığı senaryolarda önemli bir rol oynar.Paralel Kümeleme Algoritmaları
+MapReduce Kullanarak Paralel Kümeleme Algortmaları
+1. Bölümlere Ayırma
+Örnekleme Tabanlı K-Means
+ Küçük alt-kümeler oluşturup bunları ayrı iş birimlerinde k-means ile işler, ara merkezleri birleştirir.
+Multplex K-Means
+ Farklı başlangıç merkezleriyle eş zamanlı birden çok k-means süreci çalıştırıp en iyi sonucu seçer.
+2. Yoğunluğa Dayalı Yöntemler 
+MR-DBSCAN
+ Veriyi uzaysal yakınlığa göre böl, her bölgeyi ayrı çalıştır, ara kümeleri küresel düzeyde birleştir.
+3. Doğadan Esnlenen Yaklaşımlar
+MR-ABC (Arı Kolons Opt.)
+ “Fitness” ölçüsünü MapReduce ile hesaplayarak arı kolonisi optimizasyonu uygular.
+MBSC (Ant Colony Semantk Kümeleme)
+ Tek bir MapReduce işiyle feromon temelli semantik kümeleme.Yatay Ölçekleme Platformlarına Dayalı Kümeleme AlgortmalarıSpark Kullanan Paralel Kümeleme Algortmaları
+1. Spark le K-Means Varyantları
+Parallel Kernel K-Means
+ Alt örnekleme ile büyük veri kümelerini küçültür, kernel matrisini iteratif Map/Reduce adımlarıyla hesaplayıp kırpar; ardından bu matris üzerinden RDD’lerde kernel k-means uygulayarak yüksek hız ve doğruluk elde eder.
+Yoğun/Seyrek Vektör K-Means
+ Veriyi önce RDD bloklarına dense ya da sparse vektörler halinde yükler; Map fonksiyonunda uzaklık hesaplaması, Reduce fonksiyonunda merkez güncellemesi yaparak hem sert (crisp) hem de bulanık (fuzzy) kümelemeyi destekler.
+Overlappng K-Means (POKM)
+ Her örneği birden çok kümeye atar; Map aşamasında yerel atama, Reduce aşamasında prototip güncelleme işlemleriyle üst üste binen kümeler oluşturur ve konverjans sağlar.
+Akış Vers K-Means
+ İleri düzey k değeriyle ilk merkezleri oluşturur, iteratif olarak merkezleri günceller, eşik altı kadar yakın merkezleri birleştirerek sürekli veri akışında adaptif kümeleme sunar.
+2. Fuzzy C-Means
+SLFCM (Scalable Lteral Fuzzy c-Means)
+ Veri setini rastgele alt-kümelere böler; Map aşamasında her noktanın üyelik derecesini, ReduceByKey aşamasında ise üyelik bilgisi ve merkez güncellemelerini hesaplayarak büyük veri üzerinde bulanık kümeleri hızlı ve ölçeklenebilir şekilde elde eder.
+3. Yoğunluk-Tabanlı Yöntemler
+Patchwork
+ Özellik uzayını D boyutlu ızgara hücrelerine ayırır; Map ile her hücrenin yoğunluğunu toplar, Reduce ile yoğunluk azalan sırayla hücreleri işleyerek ölçeklenebilir yoğunluk kümeleme sonucu üretir.
+Spark-DBSCAN Türevller
+ S_DBSCAN, SEED-tabanlı ve RDD-DBSCAN gibi yaklaşımlar, veriyi paralel DBSCAN ile yerel olarak kümeledikten sonra global küme etiketlerini birleştirerek tam küresel yoğunluk kümeleme sonucu sunar.
+4. Graf ve Spektral Yaklaşımlar
+Densty Peaks – GraphX
+ Noktalar arası mesafeleri vertex/edge RDD’lerinde tutar, local density ve daha yoğun komşu mesafesi eşiklerini eş zamanlı hesaplar; Spark GraphX API’si ile 10×  hızlanma sağlar.
+Spektral Kümeleme Spark Kullanımları
+ Benzerlik matrislerinin Map/Reduce yerine Spark RDD’lerinde hesaplandığı, Lanczos temelli öznitelik vektör çıkarımı ve paralel k-means entegrasyonuyla spektral kümeleme sürecine ölçeklenebilirlik kazandırır.
+5. Genel Çerçeveler
+Mallos Round-Trp Mmar
+ Master ve worker düğümleri arasında üç aşamalı (yerel önişleme, küresel dağıtık işlem, yerel son işleme) döngüler tanımlar; veri alışverişi modlarıyla (no-restriction, kısmi veya sıkı sınırlı) hem k-means hem de ID3 gibi algoritmaların paralel ve ölçeklenebilir 
+çalışmasını mümkün kılar.1.GBDC-P2P
+Her düğüm, K-medoids ve k-means ile M adet temsilci seçer.
+CYCLON tabanlı “gossip” protokolüyle temsilciler komşulara yayılır ve yaş değişkeniyle eski veriler
+dinamik olarak yenilenir.
+Son aşamada Persistent k-means ile nihai kümeler hesaplanır.
+2.DIDIC
+BSP modelinde üç aşamalı diffüzyon sistemi: yoğun grafik bölgelerinin keşfi, büyük küme bileşenlerinin
+oluşumu ve izolasyonlu alanlarda yeni kümeler.
+3.WaveCluster
+Dalga dönüşümü sonrası grid hücreleri oluşturup işlemciler arasında replikasyon (replicated approach) ile
+paralel kümeleme yapar. MPI ile düğümler arası iletişim kurulur.
+4.p-PIC
+Güç iterasyonu kümelemede benzerlik matrisini satır bloklarına bölerek paralel matris-vektör çarpımları
+gerçekleştirir; her işlemci yalnızca iki blok tutarak doğrusal hızlanma sağlar.
+5.MPI-DBSCAN
+Worker düğümler veri bölüp yerel DBSCAN uygular, kümelerin çember temsilleri paylaşılır ve kesişim
+analizleriyle birleşerek küresel kümeler oluşturulur.P2P Tabanlı Paralel Kümeleme AlgoritmalarıDkey Ölçekleme Platformlarına Dayalı Kümeleme Algortmaları
+Çok Çekrdekl CPU Kullanan Kümeleme Algortmaları 
+     Paralel K-Means++ 
+Veri kümesi, önceden tanımlı büyüklükteki bloklara bölünür.
+Master thread, blokları kuyruk mantığıyla işlemci çekirdeklerine dağıtır; her çekirdek blok üzerinde k-means++ çalıştırarak merkezleri hesaplar.
+Tüm bloklar işlendiğinde elde edilen merkezler, yine k-means++ ile küresel merkezlere dönüştürülür.
+12 çekirdekli bir makinada yapılan deneyler, neredeyse doğrusal ölçeklenebilirlik ve k-means++ kalitesini korurken, akış tabanlı yöntemlere kıyasla belirgin hız avantajı göstermiştir.
+      M-FDBSCAN
+Geleneksel DBSCAN’e bulanık uzaklık fonksiyonları entegre eden FDBSCAN’ı, OpenMP ile çok çekirdekli ortama uyarlayarak M-FDBSCAN’i geliştirir.
+İki boyutlu bulanık veri, çekirdek sayısına göre alt kümelere ayrılır; her alt küme eşzamanlı DBSCAN çalıştırılarak kısmi küme bölgeleri belirlenir.
+Son aşamada, bu kısmi bölgeler ikili birleştirme adımıyla tüm veri için nihai küme bölgelerine dönüştürülür.
+Sentetik veri setlerinde çekirdek sayısı arttıkça doğrusal hızlanma ve seri FDBSCAN’a göre yüksek performans gösterir.
+      McKmeans & Paralel K-Modes 
+k-means ve k-modes algoritmalarını, deferred-update STM (yazılım tabanlı işlem belleği) ile çok çekirdekli ortamda paralel yürütür.
+Veri noktaları, eşzamanlı iş parçacıklarıyla paylaşılan belleğe doğrulanarak gönderilir; çakışma yoksa işlem kabul, aksi hâlde tekrar denenir.
+Dual quad-core bir sistemde R’deki tek çekirdekli k-means ve web tabanlı ParaKMeans ile karşılaştırıldığında, 10× hızlanma ve yüksek hesaplama verimliliği elde edilmiştir.CUDA Tabanlı K-Means Varyantları 
+Host ve device arasında hibrit yürütme: “coalesced” bellek erişimi ve pitch temelli matris tahsisiyle her iterasyonda GPU’ya çağrı yapar.
+Üç sürüm sunar: (i) tek matrise dayalı, (ii) iki farklı veri yapısı, (iii) paralel kare Öklid uzaklık hesaplama.
+En rafine sürüm, CPU versiyonuna kıyasla 88× hızlanma gösterir.
+PaStream 
+CluStream çerçevesini mikro ve makro kümeleme aşamalarıyla GPU’ya taşır.
+Online faz: Her veri noktası mevcut mikro kümeye eklenir, yeni küme oluşturur veya yakın mikro kümeler birleştirilir.
+Offline faz: Tüm merkezler arası Öklid mesafeleri hesaplanır, karar grafiğiyle nihai kümeler belirlenir.
+CPU tabanlı versiyona kıyasla hem süre hem kalite kriterlerinde üstünlük sağlar.
+Flockng-Tabanlı Belge Kümeleme 
+Her belgeyi “birey” olarak ele alır; ayrışma, hizalanma ve çekim kurallarıyla komşu belgeleri gruplanır.
+Beowulf-benzeri GPU kümesinde CUDA bellek yönetimi ve özelleştirilmiş iş parçacığı planlaması kullanır.
+Tek seferde 1 milyon belge işleyebilen 16 düğümlü kümede CPU’ya göre 50× hız kazancı sunar.
+Async-EM 
+EM’in küme temsilci güncellemelerini asenkron yürütür, böylece bellek bant genişliği ve senkronizasyon yükünü azaltır.
+“Model consolidation” tekniğiyle lokal güncellemeler belirli eşik noktasında birleştirilir.
+Gerçek ve sentetik veri setlerinde hem konverjans hızı hem modelleme hatası bakımından klasik EM’den üstün performans gösterir.
+GPU-OPTICS
+METIS tabanlı grafik temsiliyle komşuluk sorgularını paralel oluşturur.
+Dört aşamalı iş akışı (derece, indeks, liste oluşturma, sıralama) GPU’da eşzamanlı yürütülür.
+Seri OPTICS’e göre belirgin hız kazanımı sağlar.
+Tra-POPTICS 
+STR-tree temelli spatio-temporal mesafe ölçümü ve MST tabanlı kümeleme
+Hyper-Q destekli Kepler GPU ile G-Tra-POPTICS versiyonunda binlerce iş parçacığı kullanır
+Kalite ve hız açısından T-OPTICS’e eşdeğer veya üstün sonuçlar sunar.
+G-DBSCAN 
+Grafik tabanlı indeksleme ve BFS kullanarak DBSCAN’i paraleleştirir.
+Seri sürüme kıyasla 100× hızlanma elde eder.
+CUDA-MCL 
+Markov matrisi genişletme ve sıkıştırma adımlarını üç ayrı CUDA kernel’ıyla paralel yürütür.
+Sparse matris veri yapıları ve GPU bellek optimizasyonuyla büyük graf kümelerinde yüksek verimlilik sağlar.
+COD-CAST-GPU 
+CAST algoritmasında benzerlik hesaplamalarını “talep üzerine” yaparak bellek yükünü azaltır.
+ADD/REMOVE adımlarını GPU’da paralel güncelleyerek klasik CAST’i önemli ölçüde hızlandırır.GPU Tabanlı Paralel Kümeleme Algortmaları       Genşletlmş Komşuluk DBSCAN
+Tam yapılandırılabilir FPGA IP çekirdeği kullanılarak “komşuluk sorgusu” adımı paralelleştirilir.
+Girdi boyutu, hassasiyet, pipeline derinliği ve paralellik seviyesi ayarlanabilir.
+Gerçek veri setlerinde 31×, sentetiklerde 202× hızlanma.
+       Boru Hattı Tabanlı DBSCAN
+Görev ve veri düzeyinde paralellik, veri yeniden kullanımı için boru hattı yapısı ve çakışma denetimi entegre edilir.
+Sentetik veri üzerindeki denemeler: CPU’ya göre 86×, GPU’ya göre 2.9× hız kazancı.
+       Tle-Teknğ le K-Means (SAKMA)
+Veriyi “tile” tekniğiyle küçük bloklara ayırıp on-chip tamponlarla işler.
+Boru hattı, çoğaltma paralelliği ve donanım toplama ağaçları kullanılır.
+Gerçek ve sentetik veride 20.5× hızlanma.
+       KD-Tree Destekl K-Means
+Filtreleme + kd-tree yapısı, on-chip çoklu bellek bankaları ve pipelining ile merkez güncellemeleri hızlandırılır.
+Aynı throughput için FPGA kaynak kullanımı 5× azaltılır.
+       Prototp-Tabanlı K-Means + 1-NN
+K-Means ile stabil prototipler oluşturulur; 1-NN sınıflandırıcı, prototipler üzerinde en yakın komşu araması yapar.
+El yazısı rakamlar veri setinde %97.9 sınıflandırma doğruluğu elde edilir.
+       Mcro-Array Kümeleme
+Mesafe hesaplama, nokta atama ve merkez güncelleme blokları ardışık ama paralel çalışır.
+Gerçek veri örneğinde 51.7× hız, 206.8× enerji tasarrufu.
+       2D Gerçek Zamanlı Görüntü Kümeleme
+Sıfır-bastırılmış veri için Üç modüllü pipeline (hit decoder, grid clustering, centroid hesaplama).
+Birden çok grid modülü paralel çalışır; 16 motorlu versiyon 64× daha az lojik kaynak.Alan Programlanablr Kapı Dzler (FPGA) Kullanılarak Gerçekleştrlen Kümeleme Algortmaları 
+   Deneysel Kurulum
+ Deneyler, hem yatay ölçekleme (MapReduce, Apache Spark, P2P/MPI) hem de dikey ölçekleme (çok çekirdekli CPU, GPU, FPGA) ortamlarında gerçekleştirilmiştir. Gerçek 
+dünya ve sentetik büyük veri kümeleri kullanılarak, k-ortalama algoritmasında k değeri; DBSCAN’de ise ε  (yarıçap) ve MinPts (yoğunluk eşiği) parametreleri sabitlenmiştir. 
+Değerlendirme ölçütleri olarak:
+Kalite Metriği: Normalized Mutual Information (NMI), Sum of Squared Errors (SSE), UAMI gibi iç tutarlılık ve benzerlik göstergeleri
+Çalışma Süresi: Paralel ve seri sürümlerin mutlak işlem süreleri
+Hızlandırma Oranı: Paralel sürenin seri süreye oranı
+Ölçeklenebilirlik: Veri hacmi, işleme hızı ve veri çeşitliliği arttıkça performansın korunma derecesi
+   
+   Paralel k-Means Algortmaları
+ Paralel k-Means yaklaşımları, altyapıya göre kategorize edilmiştir: MapReduce tabanlı dağıtık iş akışları, bellek içi Spark uygulamaları, GPU hızlandırmaları ve FPGA/çok çekirdekli 
+CPU çözümleri. Her model için başlangıç parametreleri ve çıktı kalite göstergeleri raporlanmış; ayrıca veri hacminin ve düğüm sayısının artmasının doğruluk ve süre üzerindeki etkisi 
+sunulmuştur.
+Büyük veri koşullarında sonuç kalitesi, veri setinin yapısı ve işlenen özelliklerin sayısına bağlı olarak değişkenlik göstermektedir.
+Spark ve GPU çözümleri, düşük latans ve yüksek paralellik sunarken, FPGA ve CPU odaklı uygulamalar belirli boyutların ötesinde sabit hızlandırma avantajı sağlar.
+Dağıtık platformlar, yatay olarak eklenen düğümlerle ölçeklenebilirliği artırırken, bellek içi işleme mimarileri veri aktarım yükünü minimize eder.
+   
+   Paralel DBSCAN Algortmaları
+ DBSCAN’in temel parametreleri ( ε , MinPts) üzerinden yoğunluk tabanlı kümelerin oluşturulması, farklı paralel platformlarda kıyaslanmıştır. İşleyiş şu adımlarla gerçekleştirilir:
+Rastgele seçilen bir çekirdek noktadan başlayarak, yoğunlukça erişilebilir komşular keşfedilir.
+Yeni bulunan tüm yoğunluk bağlantılı noktalar mevcut kümeye dahil edilir ve süreç, küme genişlemesi tamamlanana dek tekrarlanır.
+Parametre ayarının sonuç kalitesi ve kümelendirme yapısı üzerindeki etkisi kritik olup, paralel ortamlarda optimizasyon gerektirir.
+MapReduce versiyonları, I/O ağırlıklı işlerde ölçeklenebilirlik avantajı sunarken; GPU/FPGA hızlandırmaları, hesaplama yoğunluğu yüksek alt işlemleri önemli ölçüde hızlandırır.
+DBSCAN, küme sayısının önceden bilinmediği durumlarda esneklik sağlasa da, parametre optimizasyonu ve bellek yönetimi zorlukları barındırır. Paralel Kümeleme Algortmalarının KarşılaştırılmasıDinlediğiniz için teşekkür ederim.

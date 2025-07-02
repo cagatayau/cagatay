@@ -1,0 +1,27 @@
+
+Fog Computing(Sis Bilisim) Nedir?
+Sis Bilisimin Avantajları
+Sis Bilisime Genel Bakıs
+Sis Bilisimin Özellikleri
+Fog Computing Mimarisi Nedir?
+
+Düsük Gecikme:
+       Verilerin işlenmesi kullanıcıya yakın noktalarda  gerçekleştirilerek, yanıt süreleri önemli ölçüde azaltılır.
+Esnek Veri Paylasımı:
+Uygulamalar, bulut sunucuları ve veri kaynakları arasında sorunsuz bir şekilde paylaşılabilir. 
+Kesintisiz Baglantı ve Yedekleme:
+Cihazlar arasında güvenilir bağlantılar kurarak süreklilik sağlar. Aynı zamanda verilerin otomatik olarak yedeklenmesiyle bilgi kaybı riski en aza indirilir.
+
+Sis Bilisimin Avantajları
+
+Entegre Yazılım-Donanım Uyumu:
+Otomotiv sektörü başta olmak üzere birçok alanda, yazılımların donanım aygıtlarıyla uyumlu çalışmasını sağlayarak sistem performansını artırır.
+Veri Optimizasyonu:
+Buluta gönderilen veri miktarını akıllı filtreleme teknikleriyle azaltır. Bu sayede bant genişliği kullanımı verimli hale gelir ve maliyetler düşer.
+
+
+Sis Bilisimin Avantajları
+
+
+Sis Bilisime Genel Bakıs
+Sis Bilisimin Özellikleri

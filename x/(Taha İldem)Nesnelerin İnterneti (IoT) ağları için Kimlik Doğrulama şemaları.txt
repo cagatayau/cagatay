@@ -1,0 +1,80 @@
+Nesnelerin İnterneti (IoT) ağları için Kimlik Doğrulama şemalarıdevamı
+Talha İldem
+213255055
+Kimlik doğrulama ve yetkilendirme sentezi
+Kimlik doğrulama, IoT güvenliği için kritiktir ve düğümlerin kimliği doğrulanmadan verilere erişim sağlanamaz. IoT ağlarında veriler doğrudan iletilmez, paylaşıldığı için hem cihazların hem de mesajların kimliği doğrulanmalıdır. Doğrulanmış veriler, IoT uygulamalarının karar süreçlerinde önemlidir. Erişim kontrolü ve yetkilendirme, sistem kaynaklarına kimin eriştiğini yönetir. Büyük ağlarda mevcut kimlik doğrulama yöntemleri yetersiz olabilir. Bulut sağlayıcılar arasında kimlik doğrulama ve veri bütünlüğünü korumak için yeni yaklaşımlar geliştirilmiştir.
+Herhangi bir AA programında mevcut olan temel zorluklar aşağıdaki gibi sıralanmaktadır:
+Ölçeklenebilirlik ve Verimlilik : AA şemaları, IoT ekosistemlerinde artan cihaz ve işlem sayısını karşılayacak şekilde ölçeklendirilmelidir. 
+Birlikte Çalışabilirlik : Çeşitli kimlik doğrulama sistemleri ve erişim kontrol mekanizmaları arasında zor olup, standart protokoller ve arayüzler gerektirir.
+Güvenlik endişeleri : AA süreçleri, kaba kuvvet saldırıları, kredi kartı hırsızlığı, orta yaş saldırıları ve oturum kaçırma gibi tehditlere karşı savunmasızdır. Zorluk, işlevselliği ve performansı korurken bu tehditlere karşı güçlü koruma sağlamaktır.
+Gizlilik endişeleri : AA prosedürü, hassas kullanıcı ve cihaz bilgilerini içerdiği için gizlilik endişelerini artırır. IoT'nin benimsenmesindeki zorluk, kimlik doğrulama, kullanıcı gizliliği ve mevzuata uygunluk arasında denge kurmaktır.
+Kaynak kısıtlamaları : IoT cihazlarının sınırlı kapasitesi, karmaşık AA prosedürlerini zorlaştırır. Güvenliği korurken kaynak sınırlarına uygun verimli kriptografi algoritmaları ve hafif protokoller geliştirmek kritik bir sorundur.
+Dinamik dağıtım : IoT ekosistemi, dinamik ve heterojen yapısıyla öne çıkar. AA mekanizmalarının bu değişken ortamlara ve artan gereksinimlere uyarlanması önemli bir zorluktur.
+Kullanıcı Deneyimi : AA sistemleri, güvenlik ve kullanılabilirlik arasında denge kurmalıdır. Karmaşık kimlik doğrulama süreçleri ve zaman alan yetkilendirme iş akışları, kullanıcı memnuniyetini azaltabilir ve benimsenmeyi engelleyebilir.
+Kimlik doğrulama saldırıları
+Çoğu şema tekrar saldırılarına karşı dirençli ve sağlamdır ve aynı zamanda karşılıklı kimlik doğrulama sağlayabilmektedir. Bunun nedeni, tüm şemaların gerekli kimlik doğrulama düzeltmelerini sağlamak için başlangıçta bazı belirli güvenlik özellikleriyle tasarlanması nedeniyle düğümlerin kimlik doğrulamasının tasarım aşamasında başlangıçta dikkate alınmasıdır. 
+Yine birçok şemanın gizli dinleme, DoS, GWN ve kullanıcı kimliğine bürünme saldırıları, şifre değiştirme saldırıları ve etiket klonlama gibi birkaç saldırıdan muzdarip olduğu görülmektedir. Bunun nedenlerinden biri, algoritmaların kimlik doğrulamaya daha fazla odaklanacak şekilde tasarlanması ve diğer parametrelere daha az dikkat edilmesi olabilir. 
+Yetenekli bir saldırgan hem pasif hem de aktif durumda ağa girmenin yolunu bulabileceğinden, birçok saldırının izinsiz girişini tamamen önlemek zor hale gelmiştir.
+IoT kimlik doğrulama şemalarının biçimsel güvenlik analizi
+Resmi güvenlik değerlendirmesi için aşağıdaki bileşenlere ihtiyaç vardır:
+Biçimsel Analiz : Protokol modellerini farklı senaryolar ve saldırgan modelleri altında sistematik olarak inceler.
+Modelleme : Önerilen model, kimlik doğrulama protokolünün resmi modelini ele alır, davranışını, varsayımlarını ve güvenlik özelliklerini açıklar.
+Doğrulama : Bu teknoloji, her senaryonun güvenlik gereksinimlerine uygunluğunu matematiksel kanıtlar veya otomatik araçlarla gösterir.
+Biçimsel Özellikler : Kimlik doğrulama protokollerinin tasarım aşamasında, mesajlar, kriptografik ilkeler ve güvenlik kriterleri gibi kesin biçimsel özelliklerin tanımlanması gereklidir.
+Güvenlik Özellikleri : Her kimlik doğrulama modeli, protokollerin sunması gereken gizlilik, kimlik doğrulama, yetkilendirme, bütünlük, kullanılabilirlik ve erişim kontrolü gibi güvenlik bileşenlerini tanımlamalıdır.
+ Saldırı Analizi : Önerilen model, kimlik doğrulama mekanizmalarını, güvenlik tehditlerini ve saldırgan yeteneklerini inceleyerek, durdurmalar, taklitler, orta yaşlı saldırılar ve tekrarlar gibi senaryolarla protokolün saldırganlara karşı direncini belirler.
+Biçimsel Doğrulama Araçları: Model, kriptografik protokolleri ve güvenlik özelliklerini analiz etmek için ProVerif, Tamarin, CryptoVerif, BAN mantığı, AVISPA, Scyther gibi biçimsel doğrulama araçları kullanır. Ayrıca, RoR gibi araçlar da kimlik doğrulama protokollerinin analizini destekler.
+IoT kimlik doğrulama şemalarının gayri resmi güvenlik analizi
+IoT kimlik doğrulamasının gayri resmi güvenlik değerlendirmesi, resmi matematiksel yaklaşımlar kullanmayan kimlik doğrulama tekniklerinin güvenlik özelliklerinin ve güvenlik açıklarının niteliksel bir değerlendirmesini içerir. 
+
+IoT kimlik doğrulamasının gayri resmi bir güvenlik değerlendirmesinin ana bileşenleri aşağıda listelenmiştir :
+Güvenlik Gereksinimleri : Kimlik doğrulama mekanizmalarının karşılaması gereken gereksinimleri ve hedefleri tanımlar.
+Değerlendirme Kriterleri : Başarılı bir model, kimlik doğrulama mekanizmalarının güvenliğini değerlendirmek için kriterler ve göstergelere ihtiyaç duyar.
+Protokol Analizi : İyi bir model, güvenlik kusurlarını keşfeder ve kimlik doğrulama protokollerini ile mesaj formatlarını inceler.
+Test ve Doğrulama : Model, gerçekçi IoT dağıtımlarında kimlik doğrulama sistemlerinin test edilmesini ve doğrulanmasını bekler.
+Güvenlik Kontrolleri : Kimlik doğrulama sırasında kullanılan şifreleme, dijital imzalar, karşılıklı kimlik doğrulama, erişim kontrol listeleri ve oturum yönetimi gibi güvenlik önlemlerinin verimliliğini değerlendirmelidir.
+Kriptografik Güç : Her model, kimlik doğrulama yönteminin kriptografik gücünü, kullanılan algoritmalar, anahtar uzunlukları ve kriptografik ilkelleri incelemelidir.
+Tehdit Modellemesi : İyi bir model, IoT ağlarındaki kimlik doğrulama sürecine yönelik güvenlik tehditlerini tespit edebilir. 
+Performans değerlendirmesi
+Ortalama Yanıt Süresi : sunucu düğümünün veya ağ geçidi düğümünün (GWN) bir istemci isteğine yanıt vermek için harcadığı süredir. 
+   ART= TRT/NR 
+Burada: ART, toplam yanıt süresinin (TRT) istek sayısına (NR) bölünmesiyle hesaplanan ortalama yanıt süresini temsil eder.
+El Sıkışma Süresi : El sıkışma, bir IoT ağındaki iki taraf (müşteri, aktüatör, sensör, sunucu vb.) arasındaki bir müzakere mekanizmasıdır.
+   HT= TimeACK_received− TimeSYN_sent  
+Burada HT el sıkışma süresini temsil eder. TimeACK_received onay (ACK) alındığı zaman ve Time(SYN_sent) senkronizasyon (SYN) sinyalinin gönderildiği zamandır.
+
+Ortalama Bellek Tüketimi : IoT, sınırlı bellek ve operasyonel yeteneklere sahip, kablosuz iletişimle çalışan sensörlerden oluşan bir ağdır. Bu nedenle, otonom sensör ağlarında bellek optimizasyonu önemlidir.
+Uçtan Uca Gecikme : Bir paketi gönderen düğümden alıcı düğüme ulaştırmak için harcanan ortalama süredir.
+   𝐷E2E =𝐷 trans +𝐷 prop +𝐷 queue +𝐷 proc  
+Burada: 𝐷(E2E), dört temel bileşenden oluşan Uçtan Uca Gecikmeyi temsil eder: 𝐷trans, paketin tüm bitlerini iletim ortamına aktarmak için gereken süre olan iletim gecikmesi;𝐷 prop, yayılma gecikmesi veya bir sinyalin iletim ortamı üzerinden göndericiden alıcıya ulaşması için geçen süre; 𝐷queue, kuyruk gecikmesi, paketin iletilmeden önce kuyrukta beklediği süre; ve𝐷 proc, işlem gecikmesi, paket başlığının işlenmesi ve paketi iletmeden önce bit düzeyindeki hataların kontrol edilmesi için geçen süre.
+Verim Üzerindeki Etki : Bu, birim zamanda bir düğümden geçen veri miktarı olarak tanımlanır.
+   Verim =𝐷 amt/𝑇𝑇
+𝐷amt iletilen veri ve 𝑇𝑇alınan süredir.
+Paket teslim oranı : Paketleri gönderen düğüm tarafından paketleri başarıyla alan düğüme gönderilen paketlerin sayısını ifade eder.
+   PDR= (Ndel/Nsen) × %100
+Burada PDR teslim edilen paketlerin oranı, Ndel başarıyla teslim edilen paketlerin sayısı ve N(sent) gönderilen toplam paket sayısıdır. Sonuç daha sonra oranı yüzde olarak ifade etmek için %100 ile çarpılır.
+
+
+
+Performans ölçümleri
+Hesaplama maliyeti : IoT ağına kullanılan protokoller, sınırlı işlem gücüne sahip cihazlar nedeniyle hesaplamayı etkiler. Bu nedenle, protokol mimarları hafif kimlik doğrulama algoritmaları geliştirmeye çalışır.
+İletişim maliyeti : Kimlik doğrulama sırasında iletişim sayısı, kullanılan protokole bağlı olarak değişir ve birkaç aşama ile mesaj gerektirir. İletişim maliyetleri, çeşitli standartların farklı eşik değerlerine sahip olması nedeniyle dikkate alınmalıdır.
+Depolama/Bellek Maliyetleri : Birçok protokol, verimliliği artırmak için çeşitli işlevler kullanarak kimlik doğrulamayı tamamlarken, bellek alanı da performans göstergeleri arasında yer alır.
+Özet
+Bu çalışma, önerilen hiçbir planın mevcut tüm saldırı türlerine karşı dayanıklı olmadığını; bunun yerine, her planın yalnızca birkaç saldırıya karşı dayanıklı olduğunu ve diğer saldırılara karşı savunmasız hale geldiğini ortaya koymaktadır.
+IoT güvenlik sorunu, başarısının anahtarıdır; tamamen çözüldüğünde, benimsenmesi ve kabul edilmesi, diğerlerinin yanı sıra akıllı uygulamaları, yaşam biçimini, etkileşim tarzını ve yaşam kolaylığını artıracaktır.
+Şemaların çoğu, düğümlerin kimliğini doğrulamak için kriptografik anahtarların gizliliğine ve değişimine dayanmaktadır. Aynı zamanda, düğümlerin kimliklerini çok daha düşük hesaplama ve iletişim maliyetleriyle doğrulamak için yeni teknolojiler (blok zinciri, makine öğrenimi vb.) şu anda mevcuttur.
+IoT ağlarında açık araştırma fırsatları
+IoT tek bir teknoloji değil, kesintisiz ara bağlantı ve hizmetler sağlamak için entegre edilmiş gömülü bir teknolojidir.
+IoT ilerledikçe, yeni ve yenilikçi uygulamalar ortaya çıkmaya devam edecektir. İleriye dönük gelişmeler aşağıda listelenmiştir.
+IoT Mimarisi: IoT ağlarının güvenliği, mimarisine bağlıdır, bu nedenle her katmandaki sorunlar ele alınmalıdır. Kriptografi ve diğer teknikler, bu gereksinimlerin karşılanması için kullanılmalıdır.
+Gelişmiş Şifrelemeler: Güvenli veri iletimi ve güvenilir bir kullanıcı-cihaz iletişim kanalı geliştirmek, IoT geliştiricileri için zorlu bir görevdir. 
+5G ve 6G Güvenliği: IoT, özellikle 5G ve 6G teknolojilerinden faydalanacak gibi görünüyor. Geleneksel güvenlik teknolojileri, artan IoT ağları, veri hacmi ve cihaz karmaşıklığıyla başa çıkmak için yetersiz kalmaktadır.
+IoT ile Blok Zinciri Entegrasyonu: Mevcut araştırma, şifreleme teknolojilerini geliştirmeye, sağlam kimlik doğrulama sistemleri oluşturmaya ve anormal davranışları tespit etmek için makine öğrenimi modelleri geliştirmeye odaklanmaktadır. 
+Makine Öğrenimi Saldırı Tespit Modelleri: Çoğu makine öğrenimi modeli, IoT ağlarındaki saldırıları tespit etmek için tasarlanmıştır. Araştırmacılar, daha yaygın saldırılara odaklanırken, yaygın olmayan saldırılar da IoT ağlarını bozmuştur.
+IoT'nin Benimsenmeye Devam Etmesi: IoT, birçok alanda potansiyel gösterse de, güvenlik sorunları çözümlenmeden toplumsal güven kazanması zordur. Güvenlik sağlanmadığında, kullanıcı gizliliği tehlikeye girer ve hassas bilgiler sızdırılabilir. 
+IoT ile saldırı algılama: IoT, çevre izleme ve iklim değişikliği gibi alanlarda faydalıdır, ancak aynı zamanda savaş riskleriyle de ilişkilidir
+IoT ile enerji verimliliği: IoT, enerji tüketimini optimize ederek faturaları ve çevresel etkileri azaltır. Ancak, pil gücüyle çalışan cihazların kısa ömürleri nedeniyle sürekli izleme gerektirir.
+Giyilebilir Teknoloji Güvenliği: IoT, giyilebilir cihazlar aracılığıyla kullanıcı bilgilerini toplar ve raporlar, bu veriler kullanıcı ve doktorlar için rehberlik sağlar.
+IoT Cihazlarında Heterojenlik: Akıllı IoT ortamlarında, farklı özellikler ve işlevlerle tasarlanmış heterojen araçlar kullanılır. Bu nedenle, çeşitli IoT cihazlarında yeterli güvenlik sağlamak için standartlaştırılmış güvenlik modellerine ihtiyaç vardır.
+Dinlediğiniz için teşekkürler

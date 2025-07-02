@@ -1,0 +1,66 @@
+Endüstri 4.0'da EdgeCloudSim Tabanlı Simülasyon Ortamı
+Hazırlayan : Serhat ÇAVDAR
+EdgecloudSim ve Industry 4.0
+EdgecloudSim, kenar bilişim (edge computing) senaryoları için güçlü bir simülasyon aracıdır.
+Industry 4.0 uygulamaları için düşük gecikme, yüksek güvenilirlik ve ölçeklenebilirlik gereklidir.
+Bu ihtiyaçları karşılayacak şekilde EdgecloudSim ile çeşitli performans testleri yapılabilir.
+
+EdgecloudSim’in Önemi
+IoT cihazlarından gelen büyük verilerin gerçek zamanlı işlenmesi önemlidir.
+EdgecloudSim, farklı ağ topolojilerini ve edge yapılandırmalarını simüle edebilir.
+Bu yapı, altyapı dağıtımını optimize etmek için kullanılabilir.
+
+
+
+
+
+IoT, CPS ve veri analitiği ile akıllı ulaşım sistemleri geliştirilebilir.
+Gerçek zamanlı veri ile trafik yönetimi ve taşıma verimliliği artırılabilir.
+Dijital ikiz (Digital Twin) teknolojisi ile sistemler izlenebilir ve optimize edilebilir.
+
+Kullanım Senaryosu: Akıllı Ulaşım Sistemleri
+
+SUMO trafik simülatörü ile araç hareket verileri oluşturulur.
+Bu veriler EdgecloudSim içinde FCD Reader aracılığıyla işlenir.
+Harita verisi OSMWebWizard.py ile alınır.
+
+Simülasyon Kurulumu: SUMO ve EdgecloudSim Entegrasyonu
+Simülasyon ortamında:
+Araçlar ve üzerlerindeki uygulamalar
+Edge veri merkezleri
+Bir adet bulut veri merkezi bulunur.
+Vodafone 5G baz istasyonu kullanılarak gerçekçi senaryo oluşturulur.
+
+Simülasyon Bileşenleri
+Ağ Yapısı ve Görev Yönetimi
+5G, WLAN, WAN ve MAN gibi ağ türleri simüle edilir.
+Görevler araçlardan oluşturulur (görev türü, uzunluğu, veri boyutu vb.).
+Görevlerin edge veya buluta offload edilmesi "vehicular edge orchestrator" tarafından yapılır.
+
+Simülasyon Yapılandırması
+Kullanılan dosyalar: edge_devices.xml, applications.xml, yapılandırma dosyaları.
+Ağ parametreleri:
+WLAN: IEEE 802.11p, 10 Mbps
+WAN: Fiber (RSU → Cloud) ve LTE (V2I), 20 Mbps
+Kısa (navigasyon), orta ve uzun (tehlike analizi) görev türleri tanımlanır.
+
+Hesaplama Kaynakları ve Konumlandırma
+Görevler için kaynaklar RSU’lardaki edge sunucular tarafından sağlanır.
+28 edge veri merkezi seçilir ve konum bilgileri ITEITALY sitesinden alınır.
+SUMO ile gerçekçi araç hareket verisi oluşturulur.
+
+
+Veri Kümesi Özellikleri
+TaskId: Görevin benzersiz kimliği
+DeviceId: Görevi oluşturan cihaz (araç/sensör)
+DatacenterId / HostId / VMId: Görevin işlendiği kaynak bilgileri
+VMType: VM türü (küçük, orta, büyük)
+TaskType: Görev amacı (navigasyon, eğlence, tehlike analizi)
+TaskLength / InputSize / OutputSize: Hesaplama yükü ve veri büyüklüğü
+TaskStartTime / TaskEndTime: Başlama ve bitiş zamanları
+TASK_STATUS: Görev başarı durumu (1: başarılı, 2: başarısız)
+
+SUMO ve EdgeCloudSim simülatörlerinin entegrasyonuyla, görev başarısızlıklarını ölçmek üzere kullanılabilecek bir veri seti elde edilmiştir. Görev başarısızlık oranı, en kritik performans kriterlerinden biridir. Görevler; sanal makinenin (VM) kullanımı çok yüksek olduğunda ya da ağ bant genişliği, görev giriş veya çıkış verisinin aktarımı için yetersiz olduğunda başarısız olabilir. Yani, hesaplama veya ağ kaynaklarının yetersizliği görev başarısızlığına yol açabilir. Simülasyon senaryomuzda, yetersiz bant genişliği nedeniyle başarısız olan görevlere ait detaylı simülasyon kayıtları elde edilmiştir.
+Dinlediğiniz İçin 
+Teşekkürler !
+Hazırlayan : Serhat ÇAVDAR

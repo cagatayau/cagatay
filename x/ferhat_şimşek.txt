@@ -1,0 +1,48 @@
+Fog Computing Genel Bakış Ve Cloud Computing Karşılaştırması
+Hazırlayan : Ferhat Şimşek - 213205029
+ BULUT BİLİŞİMİN SINIRLAMALARI 
+Önceki geleneksel bilgi işlem yöntemleri karşılaştırıldığında bulut, çok sayıda avantaj sunar, ancak aynı zamanda bazı dezavantajları ve zorlu durumları da vardır 
+A. Güvenlik ve Gizlilik Sorunları :
+Veri güvenliği, şirketlerin gizli ve özel kayıtları için en önemli konulardan biridir. Müşteriler, bilgilerine erişebilmek için bulut hizmet sağlayıcısına güvenmek zorundadır.
+
+
+
+
+
+
+
+FOG COMPUTİNGİN BULUT BİLİŞİM ÜZERİNE AVANTAJLARI 
+B- Taşınabilirlik İçin Yüksek Destek
+Kayıtlar ve cihazların sayısında ciddi bir artış yaşanmaktadır. Sis bilişim altyapısı, büyük veri ve kayıtların yönetilmesine yardımcı olurken, bilgilere daha hızlı ve verimli bir şekilde erişim ve analiz imkânı sağlar.
+A- Katı Dağıtık Platform
+Sis bilişim, çok sayıda konumda bulunan platformlara merkezi bir görünürlük kazandırır ve bulut hizmetlerinin doğrudan genişletilmesine olanak tanır. Bu sağlam ve dağıtılmış altyapı, büyük miktarda verinin hızlı bir şekilde işlenmesini ve analiz edilmesini kolaylaştırır. Denetleyiciler, çevresel talepleri merkezi olarak yönetebildiğinden, geniş alan ağı genelinde veri trafiği en aza indirilebilir.
+
+D- Nesnelerin İnternetine Destek
+Sis bilişim farklı alanlarda uygulanabilir; Nesnelerin İnterneti (IoT) bu teknolojinin önemli kullanım alanlarından biridir. Sis bilişim, IoT uygulamalarında otonom araçlar, akıllı trafik sinyali planlaması gibi kritik görevlerde önemli rol oynar.
+C- Depolama Alanını Azaltma
+Sis bilişim, toplam platform üzerinde taşınması gereken gereksiz veya alakasız verileri önleyerek depolama alanını azaltmada etkili bir çözüm sunar. Bu sayede hem depolama gereksinimleri azalır hem de gecikme (ertelemeler) minimize edilir.
+ZORLUKLAR
+
+
+
+
+
+
+
+Akıllı Evler
+IoT teknolojisiyle evdeki akıllı cihaz sayısı arttı. Ancak, farklı markalardaki cihazların uyumlu çalışması zor olabilir. Fog computing, tüm cihazları tek bir ağda birleştirir ve akıllı ev uygulamalarını çalıştırır. Bu sayede güvenlik sensörleri gibi cihazlar daha verimli çalışır ve yüksek güvenlik sağlar.
+
+
+Otonom Araçlar
+Fog computing, otonom araçlar için veri iletişimi sağlar. Araçlar arasında veri paylaşımı yapılabilir ve trafik sinyalleri gibi akıllı uygulamalar oluşturulabilir.
+
+Sağlık verileri, kişisel ve değerli bilgiler içerir. Fog computing ile kullanıcı, sağlık verilerini güvenli bir şekilde saklayabilir ve sadece yetkili kişilerle paylaşabilir.
+Güvenli Tıbbi Durum Takibi
+FOG COMPUTING UYGULAMALARI
+
+Yüz Tanıma
+Yüz tanıma uygulamaları, fog computing sayesinde daha hızlı çalışır. Kullanıcı fotoğrafını çekip uzak bir sunucuda sakladıktan sonra, cihazına giriş yapmak için bu fotoğrafla karşılaştırma yapılır. Eğer fotoğraflar eşleşirse, cihaz açılır.
+ Artırılmış Gerçeklik
+Artırılmış gerçeklik uygulamaları, düşük gecikme süresi gerektirir çünkü küçük gecikmeler kullanıcı deneyimini olumsuz etkileyebilir. Bu noktada, sis bilişimi önemli bir rol oynar. Sis bilişimi, artırılmış gerçeklikte yüksek performans sağlayabilir. 
+Dinlediğiniz İçin 
+Teşekkürler 

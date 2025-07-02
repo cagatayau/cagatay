@@ -1,0 +1,124 @@
+Tarım-Gıda Sektöründe Blockchain Kullanımı
+Bulgular, Tartışma ve Sonuçlar 
+Akademik ve İş Dünyası Perspektifi
+Fatma ULAŞ
+
+
+Bulgular
+  
+Belge Türleri ve Konu Alanı
+Araştırma Tarihi: Tarım-gıda sektöründe blokzincir uygulamaları üzerine ilk patentler 2012'de alınmış; akademik ve gazetecilik yayınları 2018'den itibaren hızla artmıştır.
+Konu Alanları: Mühendislik (63 belge), çevre bilimleri (30 belge) ve fizik (51 belge) önde gelmektedir. Sosyal bilimler ve iş yönetimi gibi alanlarda daha az belge bulunmaktadır.
+Yoğunluk: Belgelerin çoğu 2020-2021 yıllarında yayımlanmıştır.
+Konular
+1.Blokzincir Sisteminin Özellikleri ve Etkileri:
+Örnekler: Song et al. (2021) - iki katmanlı yapı; Qian et al. (2020) - hibrit veri depolama.
+Anahtar Kelimeler: İzlenebilirlik, sürdürülebilirlik, risk azaltma.
+2.Tarım-Gıda Sektöründeki Özellikler ve Etkiler:
+Örnekler: Klerkx ve Rose (2020) - Tarım 4.0 ve sorumlu inovasyon.
+Anahtar Kelimeler: Dijital tarım, çevresel sürdürülebilirlik, gıda atık yönetimi.
+3.Ürünler ve Üretim Süreçleri Üzerindeki Etkiler:
+Örnekler: Nezhadfard ve Kemp (2021) - izlenebilirlik, Vialon et al. (2019) - tüketici tercihleri.
+Anahtar Kelimeler: Gıda güvenliği, sezonluk etkin blokzincir, güvenilir sertifikasyon.
+Konular
+4.Blokzincirin İş Uygulamaları:
+Örnekler: Spadon et al. (2019) - start-up girişimleri, Newswire Association - küçük çiftçiler için hassas tarım.
+Anahtar Kelimeler: Yeni iş modelleri, sertifikasyon, dijital pazarlar.
+5.Maliyet-Fayda Analizi:
+Örnekler: Spenser (2019) - lojistik maliyet azaltımı; Osunsan et al. (2021) - sosyal ve ekonomik faydalar.
+Anahtar Kelimeler: Enerji tüketimi, veri güvenliği, tedarik zinciri şeffaflığı.
+6.Büyüme:
+Örnekler: Garet (2018) - gıda güvenliği; Leder et al. (2021) - küçük çiftçiler için blockchain pazar yerleri.
+Anahtar Kelimeler: Artan nüfus, şeffaflık ihtiyacı, girişimcilik.
+Tema Evrimi
+Zamanla Değişim: İlk aşamalarda daha çok temel blokzincir özelliklerine (Blockchain 1.0 ve 2.0) odaklanılmışken; zamanla uygulamalı çalışmalar (Blockchain 3.0 ve 4.0) artmıştır.
+Yeni Eğilimler: Ürünlerin izlenebilirliği, küçük çiftçilerin güçlendirilmesi, sosyal etkiler ve bilinçli teknoloji kullanımı son yıllarda daha fazla önem kazanmıştır
+Blockchain 1.0: Kripto paralar
+Blockchain 2.0: Akıllı sözleşmeler
+Blockchain 3.0: İş modelleri uygulamaları
+Blockchain 4.0: Blockchain + IoT + Büyük Veri
+Tarım-gıda sektörü şu an 3.0-4.0 arasında
+
+Bulguların Değerlendİrİlmesİ
+  
+Çıkarım 1: Hedefin Ötesine Geçmek
+Blockchain çözümlerinin tarımda teknoloji kabulü çağrısı
+Blockchain uygulamaları tarım-gıda sektöründe sürdürülebilirliğe odaklanmaktadır.
+Sosyal bilimlerin katkısı sınırlı, daha çok gazetelere dayalı.Blockchain’in sosyal etkileri ve tedarik zinciri etkileşimleri yeterince araştırılmamış.
+Paydaşlar arasında güven ve iş birliği ağları oluşturulmalı.
+Teknoloji kabulü (perceived benefits, transparency, trust) üzerine daha fazla araştırma yapılmalı.
+Blockchain’in sosyal kabulünü artıracak stratejiler geliştirilmelidir.
+Çıkarım 2: Değer Yaratımının ve Yayılımının Ölçülmesi
+Blockchain'in sosyal etkileri ve sürdürülebilir kalkınmaya katkısıSadece teknik faydalar değil, sosyal ve çevresel etkiler de ölçülmeli.
+Gıda israfını azaltma, adil ticaret, ürün güvenliği ve etik tedarik zincirleri gibi katkılar önemli.
+Blockchain çözümleri Birleşmiş Milletler Sürdürülebilir Kalkınma Hedefleri (SDG'ler) ile ilişkilendirilmelidir.
+Sosyal etki değerlendirme araçları kullanılmalı.
+Çıkarım 3: Uygulama Boşluğu
+Blockchain uygulamalarının iş modellerine entegrasyonu eksik
+Diyalog daha çok fırsatlar ve avantajlar üzerine; dönüşümsel etkiler az tartışılmış.
+Tarım-gıda tedarik zincirinde aktörlerin blockchain kullanımı kavrayışı düşük.
+Büyük firmaların blockchain adaptasyonu üzerine çalışmalar yetersiz.
+Teknoloji kabulünü inovasyon teorisi (Rogers) çerçevesinde inceleyen araştırmalara ihtiyaç var.
+Çıkarım 4: Teknik Çözümler ve Sürdürülebilirlik İhtiyacı
+Sürdürülebilirlik için pratik blockchain çözümlerine ihtiyaç var
+Akademik çalışmalar daha çok teorik; uygulamaya dönük somut adımlar eksik.
+Teknik inovasyonlar sürdürülebilir iş modelleriyle entegre edilmeli.
+Dijital dönüşüm henüz erken aşamada; küçük çiftçiler ve işletmeler desteklenmeli.
+Patentler ve buluşlar, sürdürülebilir dijital platformlar geliştirmeye odaklanmalıdır.
+Örnek: Blockchain ile karbon ayak izi kaydı ve sürdürülebilir tarım doğrulama sistemleri.
+
+ 
+ Sonuçlar
+Ana Bulgular
+Blockchain teknolojisi, tarım-gıda tedarik zincirlerinde dijital dönüşümü hızlandırmada kritik rol oynamaktadır.
+İzlenebilirlik, güvenlik, kalite ve şeffaflık unsurlarını geliştirerek sürdürülebilir iş modellerine katkı sağlamaktadır.
+Akademik literatür ve pratik uygulamalar arasındaki boşluk hâlâ devam etmektedir; daha fazla saha çalışmasına ihtiyaç vardır.
+Araştırmaya Katkılar ve Gelecek Araştırma Alanları
+Çalışmanın Katkıları
+Blockchain'in tarım-gıda sektöründeki uygulamaları ve etkilerini sistematik karşılaştırmalı analiz eden ilk çalışma.
+Patentler ve buluşlar üzerinden güncel analiz sunarak sektöre dair geniş bir bakış açısı sağlar.
+
+
+
+
+Gelecek Araştırma Alanları
+Teknoloji kabulünü etkileyen faktörler (TAM Modeli: Davis, Venkatesh ve Davis)
+Tarım-gıda zincirinin farklı aşamalarında benimseme faktörleri.
+Paydaşlar arası işbirliğinin geliştirilmesi.
+Çevresel sürdürülebilirliğe odaklanan çözümler geliştirilmesi.
+
+
+Belirlenen Zorluklar
+Yetkinlik ve teknik eksiklikler
+Finansal ve yönetsel engeller
+Uygulama direnci ve strateji eksiklikleri
+
+
+
+
+
+
+Pratik Etkiler ve Politika İpuçları
+İş Dünyası İçin
+Tedarik zincirlerinde güvenilirlik ve şeffaflık
+Sürdürülebilir iş modellerinin teşviki
+Politika Yapıcılar İçin
+Küçük çiftçiler için destek stratejileri
+Blockchain tabanlı işbirlikçi platformlar kurulması
+Bölgesel farklılıklara duyarlı politikalar
+Blockchain farkındalığının artırılması
+Sınırlamalar
+Anahtar kelimelere ve literatüre bağımlılık: Daha geniş arama stratejilerine ihtiyaç var.
+
+Patent verileri sınırlı: Yeni buluşların zaman alması araştırmaları etkileyebilir.
+
+Alternatif bilgi kaynakları (basın bültenleri, bloglar vs.) hızlı bilgi sağlar fakat akademik titizlik eksik olabilir.
+ 
+Blockchain Tarım-Gıda Tedarik Zincirinde
+Güven ve şeffaflık sağlar
+Sürdürülebilirlik hedeflerini destekler
+Pratik uygulamalarda hâlâ zorluklar mevcut
+Akademik ve pratik alanlar arasında daha fazla köprü kurulmalı
+ 
+ 
+Beni dinlediğiniz için teşekkür ederim.

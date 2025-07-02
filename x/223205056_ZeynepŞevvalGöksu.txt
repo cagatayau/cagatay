@@ -1,0 +1,85 @@
+BLOCKCHAİN , IOTAND AI 
+İN LOGİSTİCS AND
+TRANSPORTATİON : A 
+SYSTEMATİC REVİEW
+ZEYNEP ŞEVVAL GÖKSU
+223205056
+4)SONUÇLAR
+4.1)TANIMLAYICI ANALİZ
+Blockchain, IoT veAIuygulamaları
+üzerine çeşitli araştırmalar yapılmış ve
+buaraştırmalar üzerine
+çalışmalar sunulmuştur . Bu çalışmaların
+uygunluk dereceleri yandaki grafikte
+belirtilmektedir .BU ÇALIŞMALARDAKİ ETKİLİ 
+KAYNAKLAR1.Sustainability  (Switzerland ) 
+2.Procedia  CIRP
+3.IEEE Access  
+4.Computer  
+5.Sensors  
+6.Ayrıca IT Professional , Mobile Information Systems  ve 
+Indonesian  Journal  of Electrical  Engineering  and 
+Computer  Sciencedır . Bu kaynaklarda blockchain  
+üzerine atıfta bulunulmuştur.ARAŞTIRMA BÖLGELERİ
+•Çin
+•Amerika Birleşik Devletleri
+•Hong Kong bu ülkeler araştırmalar üzerinde oldukça etkili olmuştur.
+   YAPILAN ARAŞTIRMALARIN İÇERİĞİNE BAKILDIĞINDA ALTI ADET BAŞLIK ALTINDA İNCELENDİĞİ 
+GÖRÜLÜYOR:
+1)Lojistikte Endüstri 4.0 Teknolojilerinin Uygulanması
+2)Lojistikte Blockchain  Uygulaması
+3)IoT Sistemlerinin Blockchain  ile Birleştirilmesi
+4)Yapay Zeka ve Blockchain'in  Paralel Kullanımı
+5)Blockchain , IoT ve Yapay Zeka'nın  Lojistikte Birleştirilmesi
+6)Blockchain , IoT ve AI’nin  lojistik operasyonları, yönetim ve politika üzerindeki dönüştürücü etkileri1. LOJİSTİKTE ENDÜSTRİ 4.0 TEKNOLOJİLERİNİN UYGULANMASI
+•IBM'in "akıllı lojistik sistemi" kavramının arkasındaki fikir, genellikle "lojistik 4.0" olarak adlandırılan "akıllı lojistik " 
+teriminin temelini oluşturur. Kavramın evrensel olarak kabul görmüş bir tanımı olmasa da, genellikle lojistik 
+operasyonlarını planlamak, koordine etmek ve kontrol etmek için akıllı teknolojiyi kullanmanın daha 
+yaratıcı ve başarılı bir tekniği olarak kabul edilir. Endüstri 4.0 ve akıllı lojistik sıklıkla bağlantılıdır
+•Endüstri 4.0 teknolojilerinin lojistikte uygulanması, daha fazla özelleştirme ve müşteri taleplerine yanıt 
+verme olanağı sağlayarak rekabet avantajını artırır.
+•Bu teknolojiler daha verimli lojistik operasyonları kolaylaştırarak maliyet düşüşlerine, iyileştirilmiş hizmet 
+seviyelerine ve yeni iş modellerine yönelik potansiyele yol açıyor ve böylece hem ekonomik hem de 
+stratejik faydalar sunuyor.
+2. LOJİSTİKTE BLOCKCHAİN UYGULAMASI
+•Blockchain  teknolojisi; sipariş gecikmeleri, hasarlı ürünler ve veri giriş hataları gibi lojistik sorunları 
+azaltmak için kull anılıyor.
+•Ayrıca özel blockchain'ler  tedarik zinciri yönetimi için genel blockchain'lere  göre daha hızlı, daha ucuz 
+ve daha güvenlidir.3.IOT SİSTEMLERİNİN BLOCKCHAİN İLE BİRLEŞTİRİLMESİ
+•IoT sensörleri sayesinde tedarik zincirleri daha akıllı hale geliyor. Ancak merkezi veri saklama sistemleri 
+gizlilik risklerini de beraberinde getiriyor.
+•Bu sebepten ötürü blockchain  tabanlı güvenli veri depolama sistemleri öneriliyor ve kullanıma 
+sunuluyor.
+4.YAPAY ZEKA VE BLOCKCHAİN'İN PARALEL KULLANIMI
+•  AI, verilerin gerçek zamanlı işlenmesini ve analiz edilmesini mümkün kılarak blockchain  verimliliğini 
+artırıyor.
+•  Bu entegrasyon operasyonel verimliliği artırıp, küresel ölçekte lojistik maliyetlerini azaltabiliyor.
+5.BLOCKCHAİN , IOT VE AI'NİN LOJİSTİK YÖNETİMİ VE POLİTİKALARA ETKİSİ
+•AI destekli tahmin modelleri kesin ve zamanında tahminler sağlamakla kalmayıp aynı zamanda doğal 
+afetler veya pandemiler gibi kriz senaryolarında kritik öneme sahip olan hızla değişen koşullara dinamik 
+bir yanıt sağladığını vurgulamaktadır.
+•Ayrıca karbon emisyonlarının izlenmesi için Blockchain  ve AI entegrasyonu gündemdedir.5)ZORLUKLAR VE GELECEK YÖNELİMLER 
+ Blockchain , IoT ve AI teknolojileri sadece tedarik zincirlerinde yeni roller yaratmakla kalmamış, aynı zamanda tedarik 
+zinciri yönetiminin evriminde köklü değişiklikler de yapmıştır. Bu değişiklikler beraberinde bazı zorluklar getirmiştir.
+5.1)İnsani Zorluklar : Tedarik zincirindeki paydaşları bir araya getirmek oldukça zor.
+•Güvensizlik ve iş birliği eksikliği önemli bir engel oluşturuyor.
+5.2)Teknolojik Olgunluk Sorunu:  Bazı teknolojiler henüz büyük ölçekli işlemleri verimli yönetebilecek kadar olgun değil.
+•Örneğin: Blockchain , işlem hacmi büyüdükçe gecikmelere neden olabiliyor.
+5.3)Güvenlik ve Gizlilik Riskleri: Erişim  kontrolü, veri koruma, şifreleme eksiklikleri gibi güvenlik tehditleri mevcut.
+•Özellikle hassas lojistik verilerinin korunması büyük bir endişe.
+5.4)Enerji Tüketimi Problemi: Blockchain’in  "proof -of-work " mekanizması çok fazla elektrik tüketiyor.
+•Bu durum hem çevresel hem de ekonomik maliyetleri artırıyor.
+5.5)Ekonomik Zorluklar: Takip  ve izlenebilirlik sistemlerinin maliyeti yüksek.
+•Şirketler uygulamaların finansal faydalarını ölçmekte zorlanıyor.6)ÇÖZÜM ÖNERİLERİ VE GELECEK ARAŞTIRMALARI
+•Daha verimli ve ölçeklenebilir teknolojiler geliştirmek: ( Örn: Proof -of-stake  gibi enerji dostu konsensüs 
+mekanizmaları)
+•Evrensel standartlar ve güçlü güvenlik protokolleri oluşturmak.
+•Uzun vadeli maliyet -fayda analizleri yaparak şirketleri bilinçlendirmek.6)SONUÇ OLARAK
+Blockchain , IoT ve AI teknolojileri lojistik süreçlerinde devrim yaratabilir.Özellikle :
+•Şeffaflık artışı
+•Maliyet düşüşü
+•Operasyonel verimlilik
+•Gerçek zamanlı izleme gibi alanlarda büyük avantajlar sağlar.
+Güncel Durum:
+•Çoğu uygulama hâlâ kavramsal aşamada veya pilot çalışmalarla sınırlı.
+•Ancak birçok büyük firma (IBM, Maersk , DHL gibi) başarılı uygulamalar gerçekleştirmiştir.BENİ DİNLEDİĞİNİZ İÇİN TEŞEKKÜRLER...

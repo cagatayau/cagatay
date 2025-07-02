@@ -1,0 +1,165 @@
+
+
+Mobil Bilişim ve Bulut Bilişim Araştırmaları
+Ahmet Eren Kaplan-213255062
+
+
+
+
+   Temel Araştırma Yönleri ve Zorluklar
+MCC Paradigması: Mobil cihazlardaki sınırlı işlem gücü, bellek, enerji gibi kaynaklara karşın, bulutun sunduğu yüksek işlem kapasitesinden yararlanma fikri.
+Zorluklar: Hesaplama aktarımının (offloading) her zaman avantajlı olmaması, bağlam farkındalığı ihtiyacı, ağ gecikmeleri, güvenlik ve gizlilik riskleri.
+
+
+
+
+
+Aktarmanın Riskleri
+Hesaplama boşaltımı, mobil kaynakları korumayı amaçlasa da:
+Ağ trafiği ve gecikme artabilir
+Enerji tüketimi tahmin edilemeyebilir
+Her senaryoda fayda sağlamayabilir
+
+
+
+Bölümleme Algoritmaları
+
+Hangi kod parçalarının yerel çalışacağına ve hangilerinin buluta gönderileceğine karar verir.
+Uygulamanın davranışı ve ihtiyaçlarına göre karar verilir.
+Örneğin: Gecikmeye duyarlı uygulamalarda, klasik bulut yerine bulutcuklar (cloudlets) ya da mobil bulutlar tercih edilebilir.
+
+
+
+MCC Uygulama Alanları
+
+Bulut Tabanlı Mobil Sağlık (m-sağlık): Hasta verilerinin bulutta analiz edilmesi, tele-tıp uygulamaları.
+Mobil Öğrenme (m-öğrenme): Her yerden eğitim içeriğine erişim ve etkileşimli öğrenme deneyimi.
+Bağlam Farkında Mobil Turizm (m-turizm): Konuma dayalı rehberlik ve öneriler.
+Çok Kullanıcılı İşbirliği: Bulut aracılığıyla eş zamanlı işbirliği (örneğin Google Docs benzeri sistemler).
+
+
+
+Mobil Sağlık Uygulamaları
+
+Bulut tabanlı mobil sağlık uygulamaları:
+Gerçek zamanlı erişim,
+Kişiselleştirme,
+Kaynak tasarrufu ve
+Uzaktan sağlık hizmeti sunumu gibi birçok avantaj sağlar.
+
+
+
+Mobil Öğrenme Sistemleri
+
+Bulut tabanlı mobil öğrenme uygulamaları:
+Her yerden erişilebilir öğrenme imkanı sunar,
+Esneklik sağlar (kendi hızında öğrenme),
+Sonsuz depolama ile daha geniş içerik ve veri yönetimi yapılabilir.
+Bu sistemler özellikle mobil cihazlar ile eğitimde erişilebilirliği artırır.
+
+
+
+Mobil Turizm Uygulamaları
+
+Bulut tabanlı mobil turizm uygulamaları, özellikle büyük insan gruplarını yönetme ve turistlere konum tabanlı bilgi sağlama konusunda önemli avantajlar sunar. Bu tür uygulamalar, verimliliği artırmak, etkinlik yönetimini kolaylaştırmak ve katılımcıların deneyimlerini kişiselleştirmek amacıyla kullanılabilir. 
+
+
+Çok Kullanıcılı İşbirliği Uygulamaları 
+
+Bulut tabanlı çok kullanıcılı işbirliği uygulamaları, coğrafi olarak dağılmış kullanıcılar arasında etkin bir şekilde işbirliği yapmayı mümkün kılar. Bu tür uygulamalar, iş süreçlerinin yönetimi, etkileşimli konferanslar ve sosyal ağlar aracılığıyla işbirliği gibi alanlarda verimlilik sağlar. 
+
+
+Mobil Bilişim ve Nesnelerin İnterneti (IoT) Araştırması
+
+Mobil cihazlar, harici akıllı cihazlardan veri toplar.
+Mobil cihazlar, akıllı cihazları kontrol eder.
+Mobil cihazlar, hem veri toplar hem de kontrol işlevi görür.
+
+
+
+
+Mobil-IoT Senaryosu
+Bu senaryoda, mobil cihazlar harici cihazları kontrol etmek amacıyla kullanılır.
+
+
+
+
+Arduino Tabanlı Akıllı Ev İzleme ve Kontrol Sistemleri
+
+
+
+Akıllı telefonlar, Arduino platformlarıyla entegre edilerek evdeki çeşitli cihazların ve sensörlerin izlenmesi ve kontrol edilmesini sağlar. 
+Avantajlar
+Düşük maliyetli ve kolay kurulum.
+Mobil cihazlarla doğrudan kontrol ve izleme.
+Uzaktan erişim imkânı (Ethernet veya Wi-Fi üzerinden).
+Tarım, enerji yönetimi ve güvenlik gibi farklı alanlara genişletilebilir.
+
+
+
+
+
+IoT Ağ Geçitleri
+
+
+Protokoller ve Standardizasyon
+
+
+M2M ve Bulut Tabanlı Protokoller:
+
+
+Sanallaştırma ve Hizmet Olarak Algılama
+
+
+
+Nesnelerin Ağı Teknolojileri
+
+
+
+
+WoT 
+SWoT (Semantic Web of Things
+W2T
+
+
+
+
+WoT Mimarisi
+
+
+Erişim Katmanı:
+Fiziksel IoT cihazlarını web tabanlı sanal cihazlara dönüştürür.
+Bul Katmanı:
+Cihazların WoT uygulamaları tarafından keşfedilmesini sağlar.
+Paylaşma Katmanı:
+Cihazların ürettiği verilerin nasıl paylaşılacağını yönetir.
+Oluşturma Katmanı:
+WoT’u kullanan uygulamaları ve etkileşimlerini ele alır.
+
+
+
+
+SWoT Geliştirme Araçları ve Çerçeveler:
+M3 Framework: Farklı alanlardan gelen sensör verilerini anlamlandırmak için geliştirildi.
+SWoT Creator: M3’ün genişletilmiş halidir.
+Güvenli SWoT: SWoT uygulamalarında güvenlik odaklı bir uzantıdır.
+SWoTSuite:Eksiksiz bir prototipleme araç seti sunar.
+SWoT’un Katkıları
+Sensör verilerinin daha anlamlı, yapılandırılmış ve ilişkilendirilebilir hale gelmesini sağlar.
+SWoT teknolojileri, veri paylaşımı, otomatik işleme, karar verme ve sistemler arası etkileşim açısından güçlü bir temel sunar.
+
+
+
+Şeylerin Bilgelik Ağı (W2T)
+
+
+Wisdom Web of Things (W2T), IoT’den toplanan verilerin, bilgiye, ardından bilgeliğe ve hizmetlere dönüşüm sürecine odaklanır.
+Sensör verisi olarak başlar,
+Bilgiye işlenir,
+Bilgeliğe ulaşarak anlamlı kararlar üretir,
+İnsanlara veya tekrar IoT cihazlarına aktarılır.
+Kullanılan Temel Teknolojiler
+Yapay zeka (AI)
+Makine öğrenimi (ML)
+Beyin bilişimi (cognitive neuroscience)
+

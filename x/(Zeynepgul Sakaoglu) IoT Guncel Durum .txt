@@ -1,0 +1,92 @@
+IoT Programlamada Güncel Durum (State of the Art)
+
+Zeynepgül SAKAOĞLU - 213255018 
+İncelediğimiz makale, araştırmalar doğrultusunda IoT programlamasının çoğunlukla üç araştırma makro alanı tarafından ele alındığını söylüyor. Önce bu alanlara kısaca bakalım sonrasında detaylı inceleyelim:
+ 
+
+1) AKIŞ İŞLEME (SP): Akış işleme, veri akışlarının alınmasından itibaren kısa bir zaman diliminde toplanmasına, işlenmesine ve analiz edilmesine olanak tanıyan bir bilgi işlem paradigmasıdır. Akış işlemenin IoT alanında popülerlik kazanmasının nedeni IoT dağıtımlarının çoğu zaman öncelikle Endüstri 4.0, akıllı tedarik zinciri ve lojistik, akıllı ulaşım ve tele tıp gibi izleme altındaki bir sistemden gelen büyük miktarda veriyi sürekli olarak toplama ve işleme zorluğuyla karşı karşıya kalmasıdır.
+
+  
+ 2) Karmaşık Olay İşleme (CEP) :  Düşük seviyeli olayları zamansal, mekânsal veya nedensel ilişkiler temelinde daha yüksek seviyeli anlamlı olaylara dönüştüren bir yaklaşımdır. Karmaşık olay işleme , Akış İşleme ile yakından ilişkilidir, çünkü her ikisi de büyük ve sürekli akan veri akışlarını işler. Ancak, Akış işleme genellikle basit izleme ve analiz görevleri için yeterli olurken, karmaşık olay işleme daha karmaşık analizler ve içgörüler sağlamak için geliştirilmiştir. Karmaşık olay işlemenin en büyük avantajı, gelen olay verileri üzerinde karmaşık örüntüleri tespit edebilmesi ve iş süreçlerini otomatik olarak tetikleyebilmesidir. Bu sayede, yalnızca verileri analiz etmekle kalmaz, aynı zamanda sistemin otomatik olarak uygun aksiyonlar almasını da sağlar. Bu özelliklerinden dolayı karmaşık olay işleme, IoT programlamasının "işleme (processing) bileşeni" içerisinde değerlendirilmektedir.
+ 3) MİKRO VE MAKRO PROGRAMLAMA (MMP) : belirli bir araştırma alanına tam olarak dahil olmayan programlama yaklaşımlarını kapsar. Mikro programlama, tek bir cihazı hedef alarak geliştirilen geleneksel programlama yöntemlerini ifade eder. Bu, bilgisayarlar, mobil cihazlar veya gömülü sistemler gibi belirli donanımlara yönelik yazılım geliştirmeyi içerir. Makro programlama ise birden fazla cihazı aynı anda hedef alan ve tüm sistemin genel davranışını belirleyen daha yüksek seviyeli programlama paradigmalarını ifade eder. Bu yaklaşımda, geliştirilen küresel bir program, daha düşük seviyeli cihazlara uygun olacak şekilde çevrilerek dağıtılır. Mikro ve makro programlama, temel olarak cihazları kontrol etmeye odaklandığından, IoT programlamasının "uygulama (actuation) bileşeni" içinde değerlendirilir.
+SP (Akış İşleme) çoğunlukla algılama (sensing) sürecine odaklanırken, kısmen veri işleme ile ilgilidir.
+CEP (Karmaşık Olay İşleme) işleme (processing) sürecinin merkezinde yer alır, ancak kısmen algılama ve uygulama ile de ilişkilidir.
+MMP (Mikro/Makro Programlama) ise esas olarak uygulama (actuation) sürecine odaklanırken, kısmen veri işleme ile de ilgilenir.
+
+IoT Programlama Üzerine Yapılan Çalışmaların Sınıflandırılması
+ GEN (Genel Kapsamlı Çalışmalar) → Programlama dilleri ve platformlarını genel kriterlere göre karşılaştıran araştırmalar.
+DOM (Alan Bazlı Çalışmalar) → IoT programlama yaklaşımlarının Akıllı Şehirler ve Endüstri 4.0 gibi spesifik uygulamalardaki kullanımları.
+SPEC (Özel Teknik Çalışmalar) → Programlama dillerinin ana soyutlama yöntemleri, zamanlama teknikleri ve paralelleştirme yetenekleri gibi belirli özelliklerine odaklanan araştırmalar.
+
+Şimdi bahsettiğimiz bu 3 araştırma alanını biraz daha detaylandıralım.
+ 1) Akış İşleme (Stream Processing - SP) 
+  Sürekli akan veri akışlarını gerçek zamanlı olarak işleyen bir programlama paradigmasıdır.  Olay Akışı İşleme (ESP), zaman damgalı verilerle çalışır ve büyük veri akışlarını hızlıca analiz eder. Anahtar özellikler:
+Gerçek zamanlı veri işleme (depolamadan doğrudan analiz)
+Yüksek hız ve düşük gecikme
+Otomatik ölçeklendirme ve işlem yükü dağıtımı
+ Kullanım Alanları:
+Borsa analizleri (alım-satım kararları)
+Gerçek zamanlı sensör verisi işleme
+IoT sistemlerinde anlık karar mekanizmaları
+Popüler Akış İşleme Platformları:
+Flink, Heron, Kafka Streams, Samza, Spark Streaming, Storm
+
+Akış işleme ve Olay akışı işleme üzerine yapılan birçok araştırma, bu alanın büyük ilgi gördüğünü göstermektedir.
+
+    Akış İşleme Platformlarının IoT Programlamaya Etkisi
+ Ölçeklenebilirlik (Scale Independence): Bulut elastikliği sayesinde yük dengeleme ve otomatik ölçeklendirme sağlar.
+ Bağlamsallık (Situatedness): Zamansal bağlamı destekler ancak mekânsal farkındalık eksiktir.
+ Uyarlanabilirlik (Adaptiveness): Yanıt süresi ve kaynak kullanımı ayarlamaları yapılabilir ancak uygulama bazlı adaptasyon eksiktir.
+ Fırsatçı Dağıtım (Opportunistic Deployment): Akış İşleme'nin Edge cihazlarda çalıştırılması için bazı girişimler olsa da gerçek zamanlı dinamik geçiş mekanizmaları eksiktir.
+Sonuç: Akış işleme platformları IoT için güçlü bir temel sağlar, ancak daha iyi bağlamsal farkındalık, adaptasyon ve Edge-to-Cloud geçişleri gereklidir
+
+
+
+2) Karmaşık Olay İşleme (Complex Event Processing - CEP)
+Olay akışlarını işleyerek düşük seviyeli olayları daha yüksek seviyeli anlamlı olaylara dönüştüren bir sistemdir.
+Olay Akışı İşleme'nin gelişmiş bir versiyonudur → Olay Akışı İşleme yüksek hızda çalışır ancak işlem kapasitesi daha düşüktür.
+Karmaşık Olay İşleme, zamansal, mekânsal ve nedensel örüntüleri algılayarak olayları anlamlandırır.
+ Karmaşık Olay İşleme Sistemlerinin Temel Özellikleri
+Filtreleme: Gereksiz olayları eleyerek işlem yükünü azaltır.
+Önceliklendirme: Kritik olayların daha hızlı işlenmesini sağlar.
+Örüntü Tanıma: Olaylar arasındaki ilişkileri belirler ve analiz eder.
+İş Süreci Tetikleme: Tespit edilen olaylar, belirli iş süreçlerini otomatik olarak başlatabilir.
+Olay Hiyerarşileri: Olayları farklı soyutlama seviyelerinde organize eder. 
+Dağıtım: Merkezi, dağıtık, bulut veya uç (Edge) bilişim ortamlarında çalışabilir.
+
+Karmaşık Olay İşleme'nin IoT Programlamaya Etkisi
+  Ölçeklenebilirlik: Bulut tabanlı sistemlerde yüksek ölçeklenebilirlik sunar.
+Bağlamsallık: Zamansal ve mekânsal ilişkileri kullanarak olayları anlamlandırır.
+Uyarlanabilirlik: Makine öğrenmesi destekli kurallar ile otomatik optimizasyon sağlar.
+Fırsatçı Dağıtım: Fog ve Edge bilişim için çalışmalar sürmekte, ancak dinamik geçiş mekanizmaları yetersiz.
+Sonuç: Karmaşık Olay İşleme, IoT sistemlerinde gelişmiş olay analizi ve otomatik tepki mekanizmaları sunar, ancak gerçek zamanlı adaptasyon ve Edge-to-Cloud geçişlerinde hâlâ bazı eksiklikler bulunmaktadır.
+
+Mikro ve Makro Programlama (MMP)
+ Mikro Programlama → Tek bir cihaz için geliştirilen geleneksel programlama yöntemleridir (Java, C, Python vb.).
+  Makro Programlama → Bütün bir IoT sisteminin genel davranışını belirlemeye odaklanır.
+  Makro programlama, kablosuz sensör ağları (WSN) ile birlikte gelişmiş ve cihazlar arası iletişimi daha soyut hale getirmiştir.
+  Öne çıkan platformlar: FRASAD, COMPOSE, NODE-RED, DDFlow, PyoT, EdgeProg.
+
+Mikro Makro Programalma Sistemlerinin Temel Özellikleri
+ Kapsam:
+  Mikro → Her cihaz için ayrı program tanımlanır.
+  Makro → Tüm cihazlar tek bir sistem olarak yönetilir.
+  Soyutlama:
+ Mikro → Veri akışlarına odaklıdır.
+ Makro → Cihaz grupları arasında ortak görevleri yönetir.
+Programlama Modeli:
+  Emirsel (imperative), kural tabanlı (rule-based) veya görsel programlama (ECA kuralları) kullanılabilir.
+Mimari ve Dağıtım:
+  Çoğu sistem bulut tabanlıdır, ancak bazıları uç (Edge) bilişim desteği sunar.
+Çalışma Modeli:
+   Zaman odaklı, olay odaklı veya reaktif sistemler olarak tasarlanabilir.
+
+MMP'nin IoT Programlamaya Etkisi
+Ölçeklenebilirlik: Makro programlama sistemleri ölçek bağımsızdır.
+Bağlamsallık: Sensör yönetimi sayesinde zamansal ve mekânsal farkındalık sağlar.
+ Uyarlanabilirlik: Kural tabanlı motorlar ile sistemin olaylara göre tepki vermesini sağlar.
+Fırsatçı Dağıtım: Node-Red ve JAMScript gibi bazı sistemler Edge-to-Cloud geçişlerini destekler.
+
+  Sonuç: Mikro ve Makro programlama, IoT sistemlerini daha etkin yönetmek için farklı seviyelerde çözümler sunar. Makro programlama ölçeklenebilirlik açısından avantajlı olsa da, gerçek zamanlı adaptasyon ve Edge bilişim desteği hâlâ geliştirilmeye açıktır.
+
+ DİNLEDİĞİNİZ İÇİN TEŞEKKÜRLER

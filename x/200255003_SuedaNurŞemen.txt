@@ -1,0 +1,137 @@
+ENDÜSTRİ 5.0'DA IOT 
+UYGULAMALARI İÇİN 
+BLOCKCHAİN 
+PLATFORMLARININ 
+DEĞERLENDİRİLMESİ
+SUEDA NUR ŞEMENBlockchain tabanlı IoT sistemleri, artırmış güvenlik, veri
+bütünlüğü ve dağıtık güven sağlar.
+Ancak, başarılı ve ölçeklenebilir uygulamalar için çözüm
+bekleyen önemli zorluklar bulunmaktadır.
+Bu zorluklar, ölçeklenebilirlik, yüksek hesaplama ve enerji
+ihtiyacı, veri gizliliği, birlikte çalışabilirlik ve değişen cihaz
+yönetimi gibi başlıklarda toplanabilir.
+Makale, bu sorunları ve potansiyel çözümlerini ayrıntılı
+şekilde incelemektedir.8. BLOCKCHAIN
+TABANLI IOT
+SİSTEMLERİNDE
+GENEL ZORLUKLARYaygın blokzincir ağları, örneğin Ethereum, işlem hacmi ve
+gecikme süresi sınırları sebebiyle IoT verilerini etkin
+şekilde entegre etmekte zorlanır.
+IoT cihazlarının çoğalması, işlenecek veri hacmini daha da
+artırır.
+Sharding, blockchain'i daha küçük parçalara bölerek
+paralel işlemeyi iyileştirir.
+Ayrıca, off-chain işlemler ve katman iki çözümleri (state
+channel, sidechain) yükü azaltmayı hedefler.8.1
+ÖLÇEKLENEBİLİRLİK
+SORUNUProof of Work (PoW) gibi algoritmalar büyük enerji ve
+işlem gücü talep eder.
+Çoğu IoT cihazı, sınırlı işlem kapasitesine ve pil tabanlı
+enerjiye sahiptir.
+Bu nedenle PoW tabanlı blokzincirlerde aktif rol almaları
+zor olur.
+IOTA'nın Tangle yapısı gibi hafif alternatifler, IoT için
+daha uygundur.8.2 YÜKSEK
+HESAPLAMA VE
+ENERJİ
+GEREKSİNİMLERİBlockchain üzerinde veri gizliliği sağlamak halen önemli
+bir sorundur.
+IoT cihazları çoğu zaman kişisel ve hassas veri toplar.
+Bu verilerin güvenli aktarılması ve saklanması gerekir.
+Şifreleme teknikleri ve Sıfır Bilgi Kanıtları (ZKP'ler) veri
+gizliliği için çözümler sunar.8.3 VERİ GİZLİLİĞİ
+VE GÜVENLİKIoT cihazları farklı platformlar ve iletişim standartları
+üzerinden çalışır.
+Bu farklılıklar, blockchain entegrasyonunda darboğaza
+sebep olur.
+Evrensel iletişim protokollerinin geliştirilmesi gerekir.
+IEEE ve ISO gibi kurumlar bu standartlar için çalışmalar
+yapmaktadır.8.4 BİRLİKTE
+ÇALIŞABİLİRLİK
+(INTEROPERABILITY)
+Blockchain'in değiştirilemez yapısı, IoT cihazlarının
+güncellenmesi ve kaldırılması süreçlerinde sorun
+yaratabilir.
+IoT cihazları sık sık güncelleme ve yeniden konfigürasyon
+ihtiyacı duyar.
+Yönetim çerçeveleri ve akıllı sözleşme güncellenebilirliği
+bu soruna çözüm sunabilir.8.5 DEĞİŞKEN CİHAZ
+YÖNETİMİ VE
+DEĞİŞİMLERE UYUM
+Genel BakışBlockchain tabanlı IoT sistemlerinin
+karşılaştığı zorlukların aşılması için gelecekteki araştırma
+ve geliştirme alanları büyük önem taşımaktadır.
+Bu bölüm, sistemlerin daha verimli, güvenli ve
+ölçeklenebilir hale gelmesini sağlayacak çeşitli önerileri
+kapsamaktadır.
+Özellikle ileri düzeyde ölçeklenebilirlik, enerji verimliliği,
+gizlilik teknolojileri ve platformlar arası standartların
+geliştirilmesi ön plandadır.
+Araştırmalar, blockchain’in IoT ile bütünleşmesini
+kolaylaştıracak çözümleri ortaya koymaktadır.
+Bu kapsamda yeni nesil teknolojilerin, kaynak kısıtlı
+cihazlar için de optimize edilmesi hedeflenmektedir.9. GELECEK
+ÇALIŞMALARLayer-3 çözümleri ile temel blockchain yükünden
+arındırılmış yeni işlem yapıları geliştirilmektedir.
+Blockchain pruning ile daha az önemli veriler sistemden
+çıkarılarak depolama yükü azaltılabilir.
+Uyarlanabilir konsensüs algoritmaları sayesinde
+cihazların kaynak durumuna göre esnek katılım
+sağlanabilir.
+Bu yaklaşımlar, IoT cihazlarının sistemde daha verimli yer
+almasına imkân tanımaktadır.
+Bu doğrultuda, hem işlem kapasitesi hem de ağ
+performansı artırılabilir.9.1 GELİŞMİŞ
+ÖLÇEKLENEBİLİRLİK
+ÇÖZÜMLERİProof of Stake (PoS) ve Proof of Authority (PoA) gibi
+mekanizmalar, enerji tüketimini azaltırken güvenliği
+koruma potansiyeline sahiptir.
+Bu mekanizmalar, kaynakları sınırlı olan IoT cihazları için
+daha uygundur.
+Blockchain ile DAG yapılarının hibrit kullanımı, daha hızlı
+ve verimli sistemler için umut vaat etmektedir.
+Araştırmalar, bu hibrit modellerin daha düşük enerji
+tüketimiyle yüksek performans sağlayabileceğini
+göstermektedir.
+Bu sayede hem çevre dostu hem de güçlü ağlar
+oluşturulabilir.9.2 ENERJİ VERİMLİ
+KONSENSÜS
+MEKANİZMALARIVeri gizliliğini sağlamak için homomorfik şifreleme ve çok
+taraflı hesaplama (MPC) gibi yeni teknolojiler
+geliştirilmelidir.
+Bu teknolojiler, verilerin kullanıcı gizliliğini koruyarak
+işlenmesini sağlar.
+Aynı zamanda IoT cihazlarının sınırlı kaynaklarıyla
+uyumlu hâle getirilmelidirler.
+Zero-Knowledge Proof gibi yaklaşımlar, verinin
+doğruluğunu açığa çıkarmadan ispatlama imkânı sunar.
+Gizlilik, sistem güvenliği kadar önemli hale gelmiştir ve
+araştırmalar bu yönde yoğunlaşmaktadır.9.3 GİZLİLİĞİ
+ARTIRAN
+TEKNOLOJİLERFarklı IoT platformları ve blockchain ağları arasındaki
+uyumsuzlukları gidermek amacıyla evrensel protokol
+standartları geliştirilmektedir.
+IEEE ve ISO gibi kuruluşların önerdiği çerçeveler, birlikte
+çalışabilirliği artırmayı hedeflemektedir.
+Endüstriler arası iş birliği ile bu standartların
+oluşturulması, küresel ölçekte veri paylaşımını
+kolaylaştıracaktır.
+Ortak protokol yapıları sayesinde ağlar arasında güvenli
+veri alışverişi mümkün hâle gelecektir.
+Bu çalışmalar, bütünleşik ve sorunsuz IoT-blockchain
+sistemleri için temel teşkil etmektedir.9.4 PLATFORMLAR
+ARASI
+STANDARTLAŞTIRMABu inceleme makalesi, Nesnelerin İnterneti (IoT) ile
+blokzincir teknolojisinin birleşimini ele alarak, bu modern
+teknolojilerin birlikte nasıl önemli bir potansiyel
+sunduğunu ortaya koydu. 
+IoT ve blokzincir, karşılaşılan birçok zorluğu aşmak ve bu
+teknolojilerin birleşiminin tüm potansiyelini ortaya
+çıkarmak adına kritik bir rol oynuyor. 
+Makale, IoT cihazlarının güvenli veri iletimi ve
+saklanmasını sağlayarak, hasta gizliliğini koruyarak
+blokzincir teknolojisiyle nasıl faydalı uygulamalar
+geliştirdiğini inceledi. 
+Gelecek araştırmalar için yenilik ve işbirliği oldukça
+önemli olup, güvenilir bağlantı ve veri gizliliği gibi
+zorlukların üstesinden gelinmesi gerektiği vurgulandı.10. SONUÇTeşekkürler!

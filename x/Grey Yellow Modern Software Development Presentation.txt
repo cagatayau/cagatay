@@ -1,0 +1,174 @@
+Yavuz Selim Canpolat
+190255037-Gerçek Zamanlı Görsel Zekayı Açığa Çıkarma-
+BILGISAYAR GÖRÜŞÜ NEDIR?
+Gerçek Zamanlı Görsel Zekayı Açığa Çıkarma
+Bilgisayar görüşü (CV), makinelerin kameralardan gelen
+görsel verileri yorumlayarak ve anlayarak insan görme
+yeteneğini taklit etmesini sağlar.
+Örnek Verecek Olursak ;
+ Hareketli nesne algılama, HD videolarda kare başına 1
+saniyeden fazla işlem süresi gerektirir.UYGULAMALAR
+Gözetim (trafik izleme)
+Otonom araçlar
+Askeri sistemlerRobotik (otonom navigasyon)Tıbbi teşhis (Bilgisayar destekli teşhis)BILGISAYAR GORUSU NEDEN ONEMLI ?
+Tesla’nın otonom sürüş sistemi, bilgisayar görüşüne dayalı olarak
+yayaları, bisikletlileri, trafik işaretlerini ve diğer araçları tanır.
+Örneğin, 2023’te bir Tesla aracı, gece koşullarında yaya geçidinde
+duran bir yayayı tespit ederek kazayı önledi. Sistem, düşük ışıkta
+bile nesneleri %99 doğrulukla sınıflandırabiliyor.
+İlgili bir bilgi verecek olursak ;
+Waymo’nun otonom araçları, bilgisayar görüşü
+sayesinde 360 derece çevresel algılama sağlar ve
+saniyede 2.5 milyon veri noktası işler. Bu, insan
+sürücülerin tepki süresinden 10 kat daha hızlı karar
+almayı mümkün kılar.
+-Dipnot : Bilgisayar görüşü, kazaların %90’ının insan hatasından kaynaklandığı bir dünyada, otonom araçların kaza
+oranlarını %80’e kadar azaltma potansiyeline sahip.AKILLI SEHIRLERDE TRAFIK
+YONETIMI
+Akıllı şehirler, bilgisayar görüşünü kullanarak
+trafik akışını optimize ediyor, tıkanıklığı
+azaltıyor ve güvenliği artırıyor. Trafik
+kameraları ve sensörler, gerçek zamanlı veri
+toplayarak şehir planlamacılarına ve
+sürücülere yardımcı oluyor.
+Singapur’un Akıllı Trafik Sistemi Singapur, bilgisayar
+görüşüne dayalı bir sistemle trafik ışıklarını dinamik
+olarak kontrol ediyor. Yoğun saatlerde, sistem araç
+yoğunluğunu analiz ederek trafik ışığı sürelerini %15
+daha verimli ayarlıyor. Bu, şehirde trafik sıkışıklığını
+%25 azalttı ve karbon emisyonlarını yıllık 50.000 ton
+düşürdü.
+Bilgisayar görüşü, akıllı şehirlerde enerji verimliliğini artırırken, trafik kazalarını
+azaltarak yılda binlerce hayat kurtarabilir.
+Bunun başka ne gibi bir faydası olabilir ;DIGER GUNLUK HAYAT
+UYGULAMALARI
+Sağlık
+Perakende
+Bilgisayar görüşü, tıbbi görüntüleme cihazlarında (MRI,
+X-ray) kullanılarak kanser gibi hastalıkları erken teşhis
+ediyor. Örneğin, Google Health’in algoritması, meme
+kanserini radyologlardan %11 daha yüksek doğrulukla
+tespit edebiliyor.
+Amazon Go mağazaları, bilgisayar görüşüyle
+müşterilerin aldıkları ürünleri takip ederek kasiyersiz
+alışveriş sağlıyor.
+Güvenlik
+Havaalanlarında yüz tanıma sistemleri, yolcu kimlik
+doğrulamasını saniyeler içinde gerçekleştiriyor.GELENEKSEL VS. DERIN ÖĞRENME
+TABANLI CV
+Konvolüsyon, SIFT, SURF gibi özellik çıkarımı ve
+matematiksel modellemeye dayanır. Daha
+açıklanabilir, ancak hesaplama açısından yoğun.
+Geleneksel CV
+CNN’ler gibi modeller kullanır, yüksek doğruluk
+sağlar, ancak eğitim verisine bağlıdır ve
+açıklanabilirlik sınırlıdır.
+Derin Öğrenme
+Karmaşık problemlerde geleneksel ve derin
+öğrenme yöntemleri birleştirilebilirHibrit Yaklaşımlar
+Geleneksel CV, özellikle hızlı eğitim gereken mobil
+robotik gibi alanlarda hâlâ değerlidir
+AvantajlarGERÇEK ZAMANLI CV’NIN
+ZORLUKLARI
+Zorluk   : 
+CV uygulamaları, özellikle HD video akışlarında gerçek zamanlı işlem gerektirir (20-30 fps).
+Hesaplama yoğun algoritmalar (örneğin, hareketli nesne algılama) sıralı CPU’larda
+yavaştır (HD kare başına >1 saniye).
+Çözüm :
+Paralel hesaplama teknikleri, işlem süresini azaltmak için birden fazla işlem birimini kullanır.
+Örnek   : 
+Gözetim sistemlerinde hareketli nesne algılama, paralel GPU’larla gerçek zamanlı hale gelir.PARALEL HESAPLAMA NEDIR?
+Tanım:
+Paralel hesaplama, birden fazla işlem birimini
+kullanarak performansı optimize etme yöntemidir
+Sıralı işlem süresinin paralel işlem süresine oranı.
+Algoritma yürütme süresini azaltmak, özellikle
+gerçek zamanlı CV için. Amaç:
+Anahtar Metrikler :
+Hız Artışı :
+Kare Hızı (fps) :
+Veri aktarım yükleri, bellek erişim optimizasyonu, iş parçacığı senkronizasyonu.
+Gerçek zamanlı CV için 20-30 fps hedeflenir.
+Zorluklar  :PARALEL HESAPLAMA NEDIR?
+Çok Çekirdekli CPU’lar: 
+Görev paralelliği için uygun, OpenMP veya OpenCL ile programlanabilir 
+GPU’lar:
+Ayrık GPU’lar (dGPU): Yüksek çekirdek sayısı, yüksek güç tüketimi, masaüstü
+sistemler için.
+Entegre GPU’lar (iGPU): SoC’larda bulunur, düşük güç, mobil cihazlar için.
+FPGA’lar: Hızlı, güç verimli, ancak programlaması karmaşık ve maliyetli.
+Kümeler: Büyük veri işleme için, MPI veya Hadoop kullanır.
+DSP ve ASIC’ler: Düşük güç, özel uygulamalar için.Pthread: Düşük seviyeli iş parçacığı yönetimi, yüksek kontrol
+sağlar.
+OpenMP: Basit direktif tabanlı paralel programlama, CPU ve
+GPU’lar için.
+OpenCL: Heterojen platformlar için (CPU, GPU, FPGA), açık
+standart.
+CUDA: NVIDIA GPU’lar için, genel amaçlı hesaplama için
+optimize edilmiş.
+OpenACC: Direktif tabanlı, farklı satıcıların donanımlarına
+uygun.
+MPI ve Hadoop: Kümeler için veri dağıtımı ve büyük veri işlemeYAZILIM ÇERÇEVELERITemel Görüntü İşlemleri: Görüntü iyileştirme, filtreleme,
+sıkıştırma.
+Segmentasyon: Eşikleme, bölge büyütme, kenar tabanlı
+yöntemler.
+Hareketli Nesne Algılama: Arka plan çıkarma, optik akış tabanlı
+yöntemler.
+Nesne Takibi: Lucas-Kanade, Kalman filtresi, korelasyon filtresi.
+Özellik Çıkarımı: SIFT, SURF, HOG, ORB.
+Nesne Algılama ve Sınıflandırma: Viola-Jones, SVM, rastgele or
+використанняGELENEKSEL CV TEKNIKLERIKayan Nokta İşlemleri (FLOPs):
+Görüntü iyileştirme, filtreleme,
+sıkıştırma.
+Bellek Ayak İzi: Eşikleme, bölge
+büyütme, kenar tabanlı
+yöntemler.
+Paralelleştirme Potansiyeli: Arka
+plan çıkarma, optik akış tabanlı
+yöntemler.
+Yükler: Lucas-Kanade, Kalman
+filtresi, korelasyon filtresi.
+Merkezi Hesaplama: Veriler
+merkezi sunuculara aktarılır,
+yüksek bant genişliği ve güçlü
+sunucular gerekir.
+Zorluklar: Ağ gecikmesi, bant
+genişliği tıkanıklığı,
+ölçeklenebilirlik sorunları.
+Kenar Hesaplama: Veriler,
+üretildikleri yerde (örneğin, akıllı
+kameralar) işlenir.
+Avantajlar: Düşük gecikme, ağ
+yükünü azaltma, maliyet etkinliği.
+Akıllı Kameralar: Kamera, işlem
+birimi ve iletişim arabirimlerini
+içerir; düşük güç tüketimi kritikOPTIMIZASYON HUSUSLARI MERKEZI VS. KENAR HESAPLAMAFPGA VS. DÜŞÜK GÜÇLÜ
+GPU’LAR
+FPGA’lar:
+Yüksek performans, düşük güç, ancak karmaşık programlama ve yüksek maliyet
+Düşük Güçlü GPU’lar:
+NVIDIA Jetson, Qualcomm Adreno gibi platformlar, kolay programlama ve
+maliyet etkinliği sunar.
+Karşılaştırma:
+Gözetim sistemlerinde hareketli nesne algılama, paralel GPU’larla
+gerçek zamanlı hale gelir.DIGER GUNLUK HAYAT
+UYGULAMALARI
+Merkezi Hesaplama Devrimi:
+GPU kümeleri, devasa veri yığınlarını ışık hızında işleyecek!
+CUDA+MPI ile Hadoop’un kapışmasını izleyin—örneğin, akıllı
+şehirlerde milyonlarca kameradan gelen verileri anında analiz
+etme gücü
+Bizi Bekleyen Dünya:
+Akıllı şehirlerde trafik sıfır gecikmeyle yönetilecek, otonom
+araçlar kazaları tarihe gömecek, dronlar güvenliği yeniden
+tanımlayacak. Geleneksel CV, bu geleceğin temel taşlarından
+biri olacak!Kenar Hesaplama Patlaması:
+Düşük güç GPU’lar (Qualcomm Adreno, AMD APU’lar) kenar
+cihazlarını süper kahramanlara dönüştürecek. Cebinizdeki
+telefon, bir trafik kazasını önceden tahmin edebilir mi? Yakında
+evet!
+Çığır Açan Fikirler:
+Qualcomm SoC’lardaki DSP’ler, genel amaçlı hesaplama için
+gizli bir hazine olabilir. Yeni nesil SoC’larla prototipler,
+dronlardan otonom araçlara her şeyi yeniden şekillendirecek.DINLEDIGINIZ ICIN TESEKKUR
+EDERIM

@@ -1,0 +1,477 @@
+
+
+Mustafa Eren DEMİRCİ
+A Survey of Software Techniques to Emulate Heterogeneous Memory Systems in
+High-Performance Computing
+-Clément Foyer, Brice Goglin, Andrés Rubio Proaño
+
+İşlemcilerin artan hesaplama gücü, bellek sistemlerinde önemli değişiklikler yapılması ihtiyacı oluşturmaktadır. 
+
+Bu anlamda atılan ilk adım işlemci ile bellek arasına işlemci hızına daha yakın olan önbelleklerin eklenmesidir.
+
+Bu konuda yeni bir adım için ise heterojen bellek sistemleri üzerinde çalışılmaktadır.
+Bölüm 1
+
+
+
+Heterojen Bellek Sistemi
+Farklı türde belleklerin bir arada kullanıldığı sistem yapısıdır. 
+
+Örneğin DRAM (Dynamic RAM),
+HBM (High Bandwidth Memory), NVM (Non-Volatile Memory) gibi bellek yapılarının bir arada kullanıldığı sistemlerdir.
+
+Bu noktada temel amaç farklı mimariye sahip bellek türlerinin avantajlı yönlerinden faydalanarak daha verimli bir sistem oluşturmaktır.
+
+
+Örnek Bellek Türleri
+
+
+
+
+Heterojen bellek kullanımına ilk örnek, 2016 yılında piyasaya sürülen Intel Knights Landing Xeon Phi(KNL) ‘dir.  KNL, büyük kapasiteli NVM’ler ve DRAM desteği sunmaktadır.
+
+Bu çok çekirdekli işlemci, 400 GB/s bant genişliği sunan 16 GB’lık gömülü DRAM ile birlikte gelmekteydi.
+Bu tablo, heterojen bellek mimarilerinin neden önemli olduğunu açıkça göstermekte.
+
+Sistemin tasarımına göre uygun bellek seçilmelidir.
+Tek bir merkezi bellek havuzu bulunur.
+
+Tüm işlemciler belleğe eşit sürede erişir.
+
+Tek soketli sistemler, kişisel bilgisayarlar, düşük seviye gömülü sistemler gibi yerlerde kullanılır.
+
+UMA (Uniform Memory Access) 
+NUMA (Non-Uniform Memory Access) 
+vs.
+Her işlemcinin yerel bellek alanı bulunur.
+
+Bellek erişim süresi işlemciye göre değişir. 
+
+Çok soketli sunucular, HPC, büyük veri işleme, Render gibi işlemlerde kullanılır
+İşlemcilerin ortak bellek kullanımı, yüksek hızda iletim sağlayabilen ara bağlantı ihtiyacı da doğurmuştur. Bu ihtiyaca yanıt verebilen CXL teknolojisini inceleyelim.
+
+CXL (Compute Express Link)
+CXL, PCI Express (PCIe) altyapısını kullanan ama daha düşük gecikme ve daha esnek bellek paylaşımı sunan bir ara bağlantı teknolojisidir.
+
+CXL sayesinde CPU ile GPU, FPGA gibi diğer işlem birimleri aynı belleği düşük gecikme ile paylaşabilir.
+
+CXL, Intel öncülüğünde geliştirilse de şu anda CXL Consortium adıyla AMD, NVIDIA, Microsoft, Google, Samsung, Meta, Alibaba gibi devler tarafından destekleniyor.
+
+Yakında çıkacak çoğu CPU, farklı türde bellek ve cihazların önbellek uyumlu bir şekilde bağlanmasına olanak tanıyan yeni bellek ara bağlantı teknolojisi CXL’i destekleyecektir.
+
+
+Heterojen Bellek Sistemi’nin Yazılım Üzerindeki Etkisi
+Bölüm 2
+
+
+
+Bant genişliğiyle sınırlı işlem çekirdekleri, tampon belleklerini mümkünse HBM üzerinde konumlandırmalıdır.
+
+Gecikmeyle sınırlı çekirdekler ise NVM’lerden kaçınmalıdır. Ayrıca DRAM gecikmesi HBM’e benzediği için DRAM tercih edilmeli ve HBM kapasitesini boşa harcamamaya dikkat edilmelidir.
+
+Günümüzdeki heterojen bellek platformları, iyi bilinen performans özelliklerine sahiptir. 
+
+Aşağıdaki şemada gösterildiği gibi, kapasite genellikle HBM’den DRAM’e, oradan da NVM’lere doğru artar.
+9
+
+
+Ancak, farklı donanım yapılarının çeşitliliği nedeniyle bu stratejileri gelecekteki platformlara genellemek zordur.
+
+Bu yüzden, HPC(High Performance Computing) sistemlerinin donanım yapılandırmasını taşınabilir bir şekilde tanımlayabilmesi gerekmektedir.
+KNL’in piyasaya sürülmesiyle birlikte memkind kütüphanesi tanıtılmış ve DRAM ile HBM arasındaki NUMA düğümlerini yazılımsal olarak ayırt ederek bellek tahsislerini kolaylaştırmak amaçlanmıştır.
+Daha sonra, bu kütüphane NVM desteği ile de genişletilmiştir.
+
+memkind_hbw_malloc() gibi fonksiyonlarla spesifik türde bellek tahsisi yapabilir.
+
+Sistemde hangi tür belleklerin bulunduğu yazılım düzeyinde anlaşılır hâle geldikten sonra, yazılımcıların bir sonraki adım olarak uygulamanın hangi veri kümelerinin hangi bellek türüne elverişli olduğunu belirlemesi gerekmektedir.
+
+Sürekli ardışık veri okuyan işlemlerdeki veriler yüksek bant genişliği isterken, belleğe düzensiz erişen algoritmalardaki veriler düşük gecikmeye ihtiyaç duyarlar.
+Bu noktada veri kümesi ile bellek türü arasındaki eşleştirmenin yazılımsal olarak yapılmasını sağlayan 2 yöntem bulunmaktadır.
+
+
+Elde edilen veriler analiz edilerek hangi bellek düğümüne hangi verilerin yerleştirilmesinin performans açısından uygun olacağı belirlenir.
+
+
+Bu araçlar geliştiricilere kodlarında heterojen belleği yönetme konusunda yardımcı olsa da hâlâ yalnızca KNL ve XEON gibi birkaç platformda test ve uygulama imkanı sunmakta.
+
+Bu nedenle, farklı bellek teknolojileri ve farklı performanslara sahip platformları taklit (emulate) edebilecek yöntemlere ihtiyaç vardır.
+Uygulamaların farklı donanım bant genişliği ve gecikme seviyeleriyle test edilebileceği Performans Testi (Performance Emulation) ve uygulamaların gerçekte öyle olmasa bile sanki heterojen bir bellek ortamındaymış gibi düşünülmesini sağlayarak test edilebileceği Ortam Testi (Environment Emulation) bulunmaktadır.
+
+
+
+
+
+Performance Emulation
+Yusuf Uzun
+
+  Heterojen belleğe uygun yazılım geliştirmek için, hangi veri tamponlarının gecikmeye ya da bant genişliğine duyarlı olduğunu belirlemek gerekir.
+
+Nedir?
+Bu tespit; statik analiz, profil oluşturma (profiling) ve kıyaslama (benchmarking) 
+yöntemleriyle yapılabilir.
+Kıyaslama, en kolay yöntemdir; ancak uygulamanın farklı bellek yapılarına sahip donanımlarda çalıştırılmasını gerektirir.
+
+Veri tamponlarının hangi tür performansa daha duyarlı olduğunu anlayabilmek için çeşitli heterojen bellek yapılarının simüle edilmesine ihtiyaç duyulur.
+Bu da farklı bant genişliği ve gecikme koşullarını yazılımsal olarak taklit etmeyi gerektirir.
+
+Uygulamaları farklı donanım yapılarına göre test etmek için kullanılan donanım simülatörleri, özelleştirilebilir sanal platformlar sunar. 
+
+Bu simülatörlerde, CPU komutları döngü düzeyinde çalıştırılır ve bellek erişimleri önbellekler üzerinden gerçekleştirilir. 
+
+Böylece uygulamanın performansı gerçekçi biçimde tahmin edilebilir.
+Simülatörler
+    Simülatörler oldukça esnektir. Farklı CPU sayıları, bellek türleri, önbellek yapıları ve gecikme/bant genişliği değerleri tanımlanabilir. 
+
+Öte yandan, CPU döngüleri yavaşlatılarak daha hızlı bellek erişimleri simüle edilebilir. Ancak bu yöntemin ciddi bir çalışma zamanı yükü vardır. 
+
+Örneğin, SESC(SuperESCalar Simulator) simülatörü gerçek sistemden yüzlerce kat yavaş olabilir. Bu yavaşlığın çoğu bellek alt sisteminin detaylı simülasyonundan kaynaklanır.
+
+
+Örneğin:
+Erişimi yavaşlatmak, erişim öncesine gereksiz komutlar eklemek anlamına gelebilir.
+Erişimi hızlandırmak ise, önceden getirme (prefetching) eklemek, erişimi tamamen kaldırmak ya da sabit bir adrese yönlendirerek önbelleğe denk gelmesini sağlamaktır.
+
+
+2. Derleyici (Compiler) Teknikleri
+Donanımı simüle etmek yerine, uygulamanın bellek erişimlerini derleme ya da çalıştırma aşamasında değiştirmek de mümkündür. 
+
+Bu teknikle, erişimler yapay olarak yavaşlatılıp hızlandırılarak farklı bellek koşulları taklit edilebilir.
+
+
+
+3. NUMA Mesafesi
+ NUMA (Non-Uniform Memory Access), heterojen bellek sistemlerini yazılımsal olarak taklit etmekte kullanılan bir yöntemdir. 
+
+Çünkü yerel bellek, sistemde fiziksel olarak daha uzakta yer alan belleklere göre daha hızlıdır.
+
+
+NUMA Hiyerarşisi
+Modern çok soketli sistemlerde iki ana seviyede NUMA yapısı bulunur:
+Soketler arası: Bir CPU, başka bir soketin belleğine daha yavaş erişir.
+ Soket içi: Bellek genellikle çekirdek gruplarına bölünür. (ör. Intel SubNUMA, AMD Nodes per Socket).
+Bu yüzden genellikle:
+Yerel bellek, hızlı bellek (HBM gibi)
+Uzak bellek, yavaş bellek (NVDIMM gibi) olarak kabul edilir.
+
+
+Gelişmiş Kullanım: SGI Altix Örneği
+Büyük HPC sistemlerinde çok sayıda CPU tek bir platformda birleştirilmiştir.
+
+Blade'ler halka veya hiperküp şeklinde ağlarla (SGI NUMALink) birbirine bağlanır.  Bu sayede çok farklı NUMA mesafeleri oluşturularak bant genişliği ve gecikme üzerinde büyük farklar elde edilebilir.
+
+İkili CPU grupları "blade" olarak gruplanır.
+ CPU ile bellek arasındaki mesafe arttıkça;
+Bant genişliği düşer,
+Gecikme artar.
+Bu yapı örnek bir heterojen bellek simülasyonu olarak kullanılabilir:
+Yerel bellek: HBM (27 GB/s, 100 ns)
+Aynı blade’deki diğer CPU’nun belleği: DRAM (10 GB/s, 450 ns)
+Uzak bellek: NVDIMM (7 GB/s, 800 ns)
+
+
+ Korsan uygulama, gerçek bir uygulamayı yavaşlatmak için sistem kaynaklarını bilinçli olarak tüketen ayrı bir programdır. 
+
+Özellikle bellek bant genişliği veya önbellek kapasitesi gibi kaynaklar hedef alınır. 
+
+Bu yöntem, daha yavaş bellek altyapısını taklit etmek amacıyla kullanılır.
+4. Korsan Uygulamalar (Resource Pirating)
+
+
+🔧 Nasıl Çalışır?
+
+Örneğin bazı çekirdeklerde STREAM döngüsü çalıştırılır (bellek bant genişliğini tüketmek için).
+Aynı CPU üzerindeki diğer çekirdeklerde çalışan uygulamanın performansı ciddi şekilde düşer.
+Kullanılan korsan çekirdek sayısı arttıkça performans düşüşü de artar.
+
+Yandaki şekil bazı çekirdeklerde STREAM döngüleri 
+(bant genişliği odaklı) çalıştırıldığında, aynı CPU paketi üzerindeki
+ diğer çekirdeklerde çalışan uygulamaların performansının 
+önemli ölçüde düştüğünü göstermektedir. 
+
+⚠️ Dezavantajları
+Sadece bant genişliğini değil, aynı zamanda gecikmeye duyarlı uygulamaları da etkiler.
+Bu da “sadece gecikme” ya da “sadece bant genişliği” üzerinde etkili bir senaryo oluşturmayı zorlaştırır.
+
+Korsanın etkisi uygulamaya bağlıdır.
+Uygulama belleği yoğun kullanmıyorsa korsan daha fazla kaynak çalabilir.
+Sabit bir etki yaratmak zordur.
+
+Gözle görülür bir etki yaratmak için çok sayıda çekirdek gerekir.
+Örneğin, 20 çekirdekli bir sistemde 4 korsan çekirdek yalnızca %20’lik bant genişliğini çalabilir.
+
+5. Bant Genişliği Kısıtlama (Bandwidth Throttling)
+      Bazı işlemciler, bellek bant genişliğini sınırlandırarak farklı performans seviyeleri oluşturabilir. Bu yöntem, heterojen bellek sistemlerini simüle etmek ve uygulamaların bellek duyarlılığını test etmek için kullanılabilir.
+🟢 Avantajları
+Öngörülebilir ve sabit etki sağlar.
+Korsan iş parçacığına gerek yoktur → çekirdek kaybı olmaz.
+Kullanıcı seviyesi yapılandırma mümkündür; root erişimi yalnızca ilk kurulumda gerekir.
+Çalışma zamanında değiştirilebilir.
+⚠️ Dezavantajları
+Çoğunlukla bant genişliği yerine frekans üzerinde çalışır → Gecikme de artabilir.
+Genellikle root erişimi veya BIOS’tan yeniden başlatma gerektirir.
+
+6. Önbellek Devre Dışı Bırakma, Bölme ya da Kilitleme
+Bellek performansını değiştirmek için kullanılan yöntemler, önbellek davranışını manipüle etmeye dayanır. 
+Üç temel yöntem vardır:
+Önbellek Devre Dışı Bırakma (Cache Disabling)
+2.Önbellek Kilitleme (Cache Locking / Pseudo-locking)
+3.Önbellek Bölme (Cache Partitioning)
+
+Önbellek Devre Dışı Bırakma 
+Önbellek Kilitleme 
+Önbellek Bölme 
+Bazı bellek bölgeleri önbelleğe alınamaz (uncachable) olarak işaretlenebilir.
+Bu durum gecikmeyi artırır, bant genişliğini azaltır → bellek daha yavaş çalışır.
+Page Attribute Table (PAT) kullanılarak sayfa bazında uygulanır.
+Bazı veri tamponları her zaman önbellekte tutulur.
+Böylece, sürekli önbellek isabeti (cache hit) sağlanır.
+Sonuç: Gecikme azalır, bant genişliği artar.
+Paylaşılan L3 önbelleği birden fazla dilime bölünerek, her işlem grubuna belli bir önbellek payı ayrılır.
+Daha az önbellek → önbellek kaçırma (miss) artar, bant genişliği düşer, gecikme artar.
+
+
+Performans Benzetiminin Özeti
+Performans benzetimi, bir uygulamanın farklı bellek teknolojileri ve heterojen platformlarda nasıl çalıştığını incelemek için bellek erişimlerinin performansını yapay olarak değiştirme yöntemidir.
+Simülatör, en esnek yaklaşım olsa da yavaşlığı, büyük uygulamaların çalışmasını incelemek açısından onu neredeyse kullanılamaz kılar.
+Çoğu teknik, bellek erişimini hem gecikme (latency) hem de bant genişliği (bandwidth) açısından yavaşlatabilir; ancak bu iki özellik ayrı ayrı kontrol edilemez.
+ → Tablo’daki “Bant Genişliğini Takip Eder” ifadesi, gecikme ve bant genişliğinin birbirinden bağımsız etkilenemediğini belirtir.
+
+Bellek Teknolojilerine Göre Özet
+HBM
+GPU Belleği
+Non-Volatile Memory (NVM)
+CXL Belleği
+Derleyici teknikleri ve önbellek kilitleme ile kısmen benzetilebilir. Simülatörler tam benzetim sağlar ama ağırdır. Çok çekirdekli erişim simülatörü zorlaştırır.
+Yüksek bant genişliği sağlar, ancak CPU erişimi gecikmeli ve sınırlıdır. En gerçekçi yöntem simülatördür.
+Daha düşük bant genişliği ve daha yüksek gecikme, çeşitli tekniklerle kolayca benzetilebilir.
+Yerel bellekten daha yavaş erişim sunar ve performansı; cihaz, bağlantı ve topolojiye bağlıdır. Esnek benzetim teknikleri gerektirir.
+Özetle, performans benzetimi teknikleri farklı avantaj ve kısıtlamalara sahiptir. Seçim, uygulamanın hedefi ve platform karmaşıklığına bağlıdır.
+
+
+
+
+Dinlediğiniz İçin Teşekkürler
+
+
+Bilal Öztürk
+Environment Emulation
+Environment Emulation (Ortam Taklidi) Nedir?
+Environment Emulation, uygulama ya da çalışma zamanının, gerçekte öyle olmasa bile sanki heterojen bir bellek ortamındaymış gibi düşünmesini sağlamaktır.
+Fiziksel sistemde sadece DRAM olsa bile, uygulamaya HBM veya NVDIMM varmış gibi gösterilebilir.
+Böylece:
+Uygulamanın bu kaynakları doğru şekilde algılayıp algılamadığı test edilebilir.
+Uygulama davranışı bu sahte ortamda analiz edilebilir.
+
+
+
+
+Environment Emulation Nasıl Gerçekleştirilir?
+
+
+
+Environment Emulation Yöntemleri
+
+Virtual Machines (Sanal Makineler)
+
+
+
+
+
+Neden Sanal Makine?
+Sanal makineler (örneğin QEMU/KVM) sadece birden çok sunucuyu tek bir fiziksel makinede çalıştırmak için değil, mevcut olmayan donanımı taklit etmek için de kullanılır.
+Bu sayede:
+Geliştiriciler gerçek donanım ellerine geçmeden önce yazılım geliştirebilir.
+Örneğin, daha piyasaya sürülmemiş olan CXL gibi yeni mimarileri test edebilirler.
+İşletim sistemi geliştiricileri, donanım henüz piyasada olmasa bile sürücüleri test edebilir.
+
+
+
+
+
+
+Örnek QEMU komut satırı
+
+
+Performans Açısından Sanal Makineler
+
+Sanal makineler genellikle fiziksel donanımlardan daha yavaştır. Özellikle HPC uygulamaları için bu durum önemlidir çünkü hesaplama, bellek erişimi, G/Ç ve iletişim oranına bağlı olarak performans düşer.
+
+Ama burada asıl hedef performans değil, uygulamanın doğru davranıp davranmadığını test etmektir.
+
+Sanal makineler şu amaçla kullanılır:
+Uygulama gerçekten HBM’yi tanıyabiliyor mu?
+Doğru NUMA düğümünü bulup, performans hassas veri yapıları için orayı mı kullanıyor?
+
+
+QEMU gibi sanal makineler, heterojen bellek sistemlerini sahte olarak simüle etmek için çok uygun bir araçtır. Özellikle:
+Donanım daha piyasaya çıkmadan test yapılabilir,
+Geliştiriciler uygulamalarının ortama adaptasyon yeteneğini test edebilir, ancak gerçek performans ölçümü için fiziksel donanım gereklidir.
+
+
+ACPI Tabloları
+(Advanced Configuration and Power Interface)
+
+
+
+
+
+
+ACPI Tabloları Nedir?
+ACPI (Advanced Configuration and Power Interface) tabloları, işletim sistemine donanım topolojisini tanıtan veri yapılarıdır.
+Bu tablolar:
+CPU çekirdeklerinin yerleşimini,
+Bellek bölgelerini,
+NUMA düğümlerini,
+Bellek erişim mesafelerini (SLIT),
+Bellek türlerini (DRAM, NVDIMM, HBM gibi) tanımlar.
+
+
+
+
+ACPI Tabloları Üzerinden Neler Değiştirilebilir?
+Bellek boyutu,
+Yerel konumu (locality),
+Erişim mesafesi (latency),
+Performans özellikleri,
+Bellek türü gibi özellikler elle değiştirilebilir.
+Bir CPU’yu bir NUMA düğümünden diğerine taşımak,
+NUMA mesafe değerlerini (SLIT) değiştirmek,
+Var olan bir NUMA düğümünü ikiye bölmek:
+
+
+Performans Açısından ACPI Tabloları 
+
+Avantajlar
+Gerçek fiziksel makinada test imkanı
+Donanım davranışı uygulamalara sahte olarak sunulabilir
+Tüm NUMA, HBM, NVDIMM gibi senaryolar taklit edilebilir
+
+
+
+Sınırlamalar
+Toplam bellek miktarı fiziksel sınıra bağlı
+Karmaşık yapılandırma işlemleri gerekebilir
+Firmware bilgisi ve araçları gerekir
+
+
+
+
+İşletim Sistemi Tarafından Görünen Fiziksel Bellek Aralıklarını Değiştirmek
+
+
+
+
+
+
+Amaç Nedir?
+Linux işletim sistemi tarafından görülen fiziksel bellek bölgelerinin türünü ve kullanım şeklini değiştirmek, böylece farklı bellek türleri (DRAM, NVDIMM, HBM gibi) varmış gibi davranmasını sağlamak.
+
+Sistemdeki fiziksel bellek, sistem açılışında iki kaynaktan işletim sistemine bildirilir:
+E820 tablosu (eski BIOS sistemleri için)
+UEFI memory map (modern sistemler için)
+Bu tablolar belleğin:
+Nerede başladığını,
+Ne kadar olduğunu,
+Ve ne türde olduğunu belirtir.
+
+
+
+Performans Açısından Fiziksel Bellek Aralıklarını Değiştirmek 
+
+Avantajlar
+Kolay ve hızlı şekilde uygulanabilir
+Gerçek donanım gerekmeden DAX/NVDIMM testleri yapılabilir
+Uygulamanın belleğe erişim davranışı test edilebilir
+Sınırlamalar
+NUMA düğümü sayısı değiştirilemez
+Gelişmiş topoloji esnekliği yok
+Gerçek performans simülasyonu mümkün değil
+
+Çalışma Zamanında (Runtime) Donanım Görünümünü Değiştirme
+
+
+
+
+
+Nasıl Yapılır?
+Çoğu HPC (High Performance Computing) uygulaması bellek yönetimi ve donanım topolojisi için doğrudan işletim sistemi ile etkileşime girmez. Bunun yerine ara katman yazılımlarına güvenir:
+Basit kütüphaneler: libnuma
+Gelişmiş runtime kütüphaneler: memkind, hwloc
+Bu kütüphaneler, işletim sisteminin sunduğu donanım bilgilerini okuyarak (genellikle sysfs altındaki yüzlerce dosyayı tarayarak) NUMA düğümlerini, çekirdekleri, bellek yapılarını vs. tanımlar.
+
+Bu yüzden, eğer bu kütüphaneler kandırılırsa, uygulama da gerçekte var olmayan bir donanım yapısını gerçekmiş gibi görür.
+
+
+
+
+Kullanılan Araçlar
+1. memkind
+DRAM üzerindeki bazı NUMA düğümlerini HBM gibi gösterebilir.
+Gerçekte HBM olmayan sistemlerde, HBM-uyumlu uygulamaların test edilmesine olanak sağlar.
+Uygulamanın bant genişliği duyarlı (bandwidth-sensitive) tamponları bu sözde-HBM alanlarında oluşturup oluşturmadığı test edilebilir.
+
+2. hwloc
+Çok daha güçlü bir kütüphane.
+XML dosyası kullanarak, tamamen farklı bir platform topolojisini simüle edebilir.
+Bu XML topolojisi:
+CPU’ları, önbellek hiyerarşisini, NUMA düğümlerini ve I/O birimlerini içerebilir.
+hwloc kullanan her HPC uygulamasında kullanılabilir.
+Böylece geliştiriciler donanıma fiziksel olarak sahip olmasalar da, uygulamalarını farklı donanım topolojileri üzerinde test edebilirler.
+
+
+Environment Emulation Bölüm Özeti
+ve Yöntemlerin Karşılaştırılması
+
+
+
+
+
+
+
+Yöntemler ve Amaçları
+
+
+
+
+Sonuç
+Environment emulation = Donanımı değiştirmeden uygulamayı kandırmak
+
+Bu yöntemlerle geliştirici:
+“Uygulama bu sahte HBM alanını doğru tanıyıp kullanıyor mu?” sorusuna yanıt alır,
+Ama “HBM kullandığında ne kadar hızlandı?” sorusuna yanıt alamaz.
+
+
+Bölüm 5 
+Sonuç
+
+Software Techniques to Emulate Heterogeneous Memory Systems in
+High-Performance Computing
+
+
+
+
+İki Emülasyon Arasındaki Fark
+
+
+Genel Mesaj
+Heterojen bellek sistemleri (örneğin HBM, DRAM, NVDIMM, CXL) exascale sistemlere giden yolda kaçınılmaz hale geliyor.
+Farklı uygulamaların ihtiyaçları farklıdır:
+Bazı uygulamalar düşük gecikme süresi (latency) ister,
+Bazıları yüksek bant genişliği (bandwidth),
+Diğerleri ise büyük kapasite (capacity) arar.
+Bu yüzden bellek sistemlerinin tek tip olmaktan çıkması gerekiyor.
+Uygulama geliştiriciler, bu mimarilere uyum sağlayacak şekilde kodlarını şimdiden hazırlamaya başlamalıdır.
+
+Performance Emulation (Performans Emülasyonu)
+
+Amaç:
+Gerçek bir heterojen sistem olmadan, uygulamanın "performans davranışını" simüle etmek.
+Environment Emulation (Ortam Emülasyonu)
+
+Amaç:
+Uygulamaya heterojen bir bellek ortamı varmış gibi bir görünüm vermek (gerçekten olmasa bile).
+
+
+Dinlediğiniz İçin Teşekkürler
+Bilal ÖZTÜRK
+

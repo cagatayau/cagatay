@@ -1,0 +1,105 @@
+IoT Sistemlerinde DoS ve DDoS Saldırılarına Karşı Güvenlik
+Nesnelerin İnterneti (IoT), geçtiğimiz on yıl içinde, endüstrinin ve akademinin her sektöründen araştırmacıları ve geliştiricileri cezbeden en yeni teknoloji trendi olarak ortaya çıkmıştır. Bununla birlikte IoT, hızlı gelişimini engelleyen bir dizi güvenlik sorunu yaşamaktadır, özellikle de aşılması gereken önemli bir engel haline gelen hizmet kullanılabilirliği ile ilgili olanlar. Hizmet reddi (DoS) ve Dağıtık Hizmet Reddi (DDoS) saldırıları, IoT ağlarının veri toplama, işleme ve aktarma gibi işlevlerini bozabilecek ve hatta etkisiz hale getirebilecek tehditler arasındadır. Bugüne kadar, IoT alanındaki bu tür saldırıları tanımlamak, tespit etmek ve azaltmak için birçok yöntem önerilmiş ve bu çözümleri incelemek ve sınıflandırmak için birçok araştırma yapılmıştır. 
+IoT Teknolojisinin Hızlı Yükselişi
+
+Akıllı Ev Teknolojileri
+Mikro denetleyicilerin küçülmesi ve maliyetlerinin düşmesi sayesinde akıllı ev aletleri daha erişilebilir hale gelmiştir. Bu cihazlar günlük yaşamı otomatikleştirerek konfor ve verimlilik sağlamaktadır.
+
+Endüstriyel Otomasyon
+Şirketler, insan emeğine verimli ve uygun maliyetli bir alternatif olarak robotlara olan bağımlılıklarını artırmaktadır. Endüstriyel IoT, üretim süreçlerini optimize etmektedir.
+
+Enerji Tasarrufu
+Akıllı nesneler yalnızca gerektiğinde aktif kalarak enerji tüketimini önemli ölçüde azaltabilmektedir. Bu durum sürdürülebilir gelişim hedeflerine katkı sağlamaktadır.
+
+Küresel IoT Pazar Büyüklüğü Projeksiyonları
+$1.5T
+2030 Pazar Hedefi
+Küresel IoT pazar büyüklüğünün 2030 yılına kadar ulaşacağı değer
+25B
+Bağlı Cihaz Sayısı
+2030 yılında kullanımda olması beklenen IoT cihazı adedi
+$110.6B
+Endüstriyel IoT
+2025 yılında IIoT pazarının ulaşacağı değer
+
+Sektörel IoT Yatırım Dağılımı
+IoT yatırımları sağlık ve akıllı şehirlerde yoğunlaşmaktadır. Endüstriyel ve tüketici IoT pazarları da hızla büyümektedir.
+
+IoT Güvenlik Tehditleri Manzarası
+Yaygınlık Sorunu
+IoT cihazlarının hızla yaygınlaşması, güvenlik açıklarının da çoğalmasına neden olmaktadır. Her yeni bağlı cihaz potansiyel bir saldırı vektörü oluşturmaktadır.
+Merkeziyetsizlik
+IoT sistemlerinin dağıtık yapısı, merkezi güvenlik kontrollerinin uygulanmasını zorlaştırmaktadır. Bu durum koordineli saldırılara karşı savunmasızlığı artırmaktadır.
+Hizmet Kullanılabilirliği
+IoT cihazlarının temel amacı sürekli hizmet sunmaktır. Bu nedenle hizmet kesintilerine yönelik saldırılar özellikle kritik sistemlerde büyük hasarlara neden olabilmektedir.
+
+DoS ve DDoS Saldırılarının IoT'ye Etkisi
+Hedef Belirleme
+Saldırganlar IoT ağlarındaki kritik düğümleri ve hizmetleri hedef alarak maksimum hasar vermeyi amaçlar
+Trafik Bombardımanı
+Yoğun veri trafiği ile IoT cihazlarının işlem kapasitesi aşılarak normal işlevleri engellenir
+Hizmet Kesintisi
+Veri toplama, işleme ve aktarma gibi temel IoT işlevleri bozulur veya tamamen durur
+Sistem Çöküşü
+Kritik gerçek zamanlı IoT sistemlerinde hizmet kesintisi ciddi güvenlik ve operasyonel sorunlara yol açar
+
+IoT Güvenlik Açıklarının Temel Nedenleri
+
+Kaynak Kısıtlamaları
+IoT cihazlarının sınırlı işlem gücü ve bellek kapasitesi, gelişmiş güvenlik protokollerinin uygulanmasını zorlaştırmaktadır. Bu durum cihazları saldırılara karşı savunmasız bırakmaktadır.
+
+Güncelleme Sorunları
+Birçok IoT cihazı düzenli güvenlik güncellemeleri almamaktadır. Eski yazılım versiyonları bilinen güvenlik açıklarını barındırmaya devam etmektedir.
+
+Zayıf Kimlik Doğrulama
+Varsayılan parolalar ve zayıf kimlik doğrulama mekanizmaları, saldırganların cihazlara kolayca erişim sağlamasına olanak tanımaktadır.
+Mevcut Güvenlik Çözümlerinin Sınıflandırılması
+Gelişmiş Tespit Sistemleri
+Makine öğrenmesi tabanlı anomali tespit algoritmaları
+
+Ağ Düzeyinde Koruma
+Trafik filtreleme ve yük dengeleme mekanizmaları
+
+Cihaz Düzeyinde Güvenlik
+Güvenli önyükleme ve donanım tabanlı güvenlik modülleri
+
+Temel Güvenlik Protokolleri
+Şifreleme, kimlik doğrulama ve erişim kontrolü
+
+Güvenlik Çözümlerinin Gelişim Süreci
+
+
+
+1
+Teorik Araştırma
+Güvenlik tehditlerinin analizi ve matematiksel modellerin geliştirilmesi aşaması
+
+
+2
+Algoritma Geliştirme
+Tespit ve önleme algoritmalarının tasarlanması ve optimize edilmesi süreci
+
+
+3
+Simülasyon Testleri
+Kontrollü ortamlarda çözümlerin etkinliğinin değerlendirilmesi
+
+
+4
+Gerçek Dünya Uygulaması
+Pratik IoT ortamlarında çözümlerin test edilmesi ve iyileştirilmesi
+
+Gelecek Araştırma Yönleri ve Sonuç
+
+Bütünsel Yaklaşım Geliştirme
+Teorik ve pratik yönleri birleştiren kapsamlı güvenlik çerçevelerinin oluşturulması gerekmektedir. Mevcut çözümlerin sistematik olarak sınıflandırılması ve ilişkilendirilmesi kritik önem taşımaktadır.
+
+Gerçek Zamanlı Koruma Sistemleri
+Kritik IoT uygulamaları için anlık tehdit tespit ve müdahale kapasitesine sahip güvenlik sistemlerinin geliştirilmesi öncelikli hedef olmalıdır.
+
+Endüstri-Akademi İşbirliği
+Güvenlik çözümlerinin pratik uygulanabilirliğini artırmak için araştırmacılar ve geliştiriciler arasında daha güçlü işbirliği mekanizmalarının kurulması gereklidir.
+
+
+Beni dinlediğiniz için
+Teşekkürler…

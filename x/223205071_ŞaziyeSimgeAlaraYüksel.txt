@@ -1,0 +1,88 @@
+Blockchain, AI, IoT, and Big Data for 
+Smart Transportation and Smart 
+Logistics: A Systematic Review
+Şaziye Simge Alara Yüksel
+223205071 Çalışmanın T emel Amacı
+•Blockchain , IoT, Yapay Zeka (AI) ve Büyük Veri 
+(Big Data) teknolojilerinin akıllı lojistik ve 
+taşımacılıkta nasıl uygulandığını sistematik 
+literatür taraması ile analiz etmek.
+•Bu teknolojilerin şeffaflık, verimlilik, 
+sürdürülebilirlik ve izlenebilirlik gibi hedeflere 
+katkı potansiyelini ortaya koymak.
+•Akıllı lojistik üzerine literatürdeki boşluğu 
+doldurmak ve gelecekteki araştırma yönlerini 
+belirlemek.Blockchain
+•Tanım : Bloklardan oluşan, merkeziyetsiz , değiştirilemez kayıt 
+sistemleri.
+•İşleyiş : Her blok, bir veri kaydı, bir önceki bloğun hash’i  ve 
+kendi hash  değerini içerir.
+•Avantajları : Güvenlik, şeffaflık, dolandırıcılık önleme, merkezi 
+otorite ihtiyacı olmadan güvenli işlem yapabilme .:Public  Blockchain : Açık ve herkes katılabilir (örneğin Bitcoin).
+Private  Blockchain : Kısıtlı, sadece yetkilendirilmiş katılımcılar (örneğin 
+bir şirket içi kullanım).
+Consortium  Blockchain : Birden fazla kurum tarafından yönetilen yarı 
+merkezi yapılar.
+Hybrid  Blockchain : Hem açık hem özel özelliklerin kombinasyonu.Türleri:
+1
+2
+3
+4Blockchain
+IoT (Internet of Things )
+•Tanım:  Fiziksel nesnelerin internet üzerinden bağlantı kurarak veri 
+paylaşması.
+•Özellikler:  
+•Gerçek zamanlı veri toplama.
+•Otomatik izleme ve raporlama.
+•Sensör teknolojileri, RFID gibi donanımların entegrasyonu.Araç takip sistemleri.
+Stok ve depo yönetimi.
+Nakliye sırasında ürün durumu izleme (sıcaklık, nem gibi).Lojistikte Uygulamalar:
+1
+2
+3Big Data
+•Tanım:  Hacmi, hızı ve çeşitliliği bakımından geleneksel 
+yöntemlerle işlenemeyen veri setleri.
+•Temel Özellikler:  5V (Volume, Variety , Velocity , 
+Veracity , Value).Talep tahmini.
+Rotanın optimizasyonu.
+Risk analizi ve önleyici bakım.Lojistikte ki Rolü :
+1
+2
+3Big Data
+V Açıklaması
+Volume  (Hacim)Büyük miktarda veri üretimi (örneğin: sensör verileri, 
+müşteri işlemleri).
+Variety  (Çeşitlilik)Farklı türde veri kaynakları (metin, resim, video, sensör 
+verisi).
+Velocity  (Hız) Verinin çok hızlı bir şekilde üretilmesi ve işlenmesi ihtiyacı.
+Veracity  (Doğruluk)Verinin güvenilirlik seviyesi (gürültülü veya hatalı verilerle 
+mücadele).
+Value  (Değer)Verinin işlenerek anlamlı bilgilere ve faydalı sonuçlara 
+dönüştürülmesi.Y apay Zeka (AI)
+•Tanım : İnsan zekâsına benzer şekilde karar 
+verebilen sistemler geliştirmek.
+Rota planlama.
+Tedarik zinciri optimizasyonu.
+Müşteri talebi tahmini.Lojistikte ki Rolü :
+Risk ve anormallik tespiti.1
+2
+3
+4T eknolojilerin Entegrasyonu (Integration)
+1 Blockchain  + IoT:
+•IoT cihazlarından gelen veriler Blockchain  üzerine güvenli bir 
+şekilde yazılarak sahtekarlık riski azaltılır.
+Blockchain  + AI:
+•AI tarafından yapılan öngörülerin ve kararların doğruluğu 
+Blockchain  ile kayıt altına alınır.
+IoT + AI:
+•IoT verileri, AI tarafından analiz edilerek daha akıllı ve otonom 
+sistemler oluşturulur.
+Üçlü Entegrasyon :
+•IoT cihazları → veri üretir,
+•Blockchain  → veriyi güvenli bir şekilde saklar,
+•AI → bu veriyi analiz eder ve karar verir.2
+3
+4Lojistikte Kullanım Örneği
+Lojistikte Kullanım Örneği
+Lojistikte Kullanım Örneği
+T eşekkürler

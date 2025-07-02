@@ -1,0 +1,104 @@
+
+MAKİNE ÖĞRENMESİ
+DOĞACAN ÖZDEMİR 
+190205097
+
+SİBER SALDIRILARIN
+TESPİTİNDE
+
+Giriş
+İnternet kullanımının artan önemi ve küresel etkileri nelerdir ? 
+Sosyoekonomik ve altyapısal büyümenin internetle olan ilişkisinin incelenmesi.
+Siber tehditlerin artan karmaşıklığı ve çeşitliliği.
+Siber güvenliğin artan önemi ve gerekliliği.
+01
+
+
+Problemin Tanımı
+Ağ teknolojilerindeki hızlı ve sürekli gelişmelerin incelenmesi.
+Ağ trafiğindeki yoğunluk artışının nedenleri ve etkileri.
+Siber saldırıların sıklık ve karmaşıklığındaki belirgin artışın incelenmesi.
+Siber tehditlere karşı önlemlerin güçleşmesi.
+
+
+02
+
+Siber Güvenlik Kavramı
+Siber güvenlik nedir ve neden önemlidir?
+Siber güvenliğin temel amaçları
+Fiziksel yapıların, yazılımların ve dijital verilerin korunmasının detaylarının incelenmesi
+Ağ güvenliğinin iki temel bileşeni ve işlevleri:
+Ağ güvenlik sistemi
+Sunucu koruma sistemi
+03
+
+
+Siber Güvenlik Araçları
+04
+
+Güvenlik duvarlarının işlevleri ve türleri nelerdir ? 
+Antivirüs yazılımlarının çalışma prensipleri ve etkinliği nelerdir ?
+Saldırı tespit sistemlerinin (IDS) genel tanımı ve kullanım alanları nelerdir ? 
+Siber güvenlik araçlarının karşılaştırmalı alanlarının incelenmesi.
+
+
+Saldırı Tespit Sistemleri (IDS)
+05
+IDS nedir, neden gereklidir ve hangi alanlarda kullanılır?
+IDS türleri ve temel farklılıkları nelerdir ? 
+Üç temel IDS yaklaşımı:
+Kötüye kullanım tespiti
+Anomali tespiti
+Hibrit sistemler
+Her bir yaklaşımın genel özellikleri ve kullanım durumları nelerdir ?
+
+Kötüye Kullanım Tespit Sistemleri
+06
+Ağdaki saldırıların, bilinen saldırı imzaları üzerinden tanınmasına ve engellenmesine dayanır.
+Avantajları: Bilinen saldırı türlerinin hızlı ve etkili şekilde tespitidir.
+Dezavantajları: Daha önce bilinmeyen saldırılar karşısında yetersiz kalmasıdır.
+Bu sistemlere ilişkin kullanım senaryoları ve örnekler nelerdir ?
+
+Anomali Tespit Sistemleri
+Ağ trafiğindeki olağan aktivitelerden saplamaları analiz etmeye dayanır.
+Avantajları: Daha önce karşılaşılmamış saldırıları tanımlama yeteneği
+Dezavantajları: Yanlış alarm oranının artması riski
+Anomali tespit sistemlerinin etkinliğini artırma yöntemleri
+
+
+
+07
+Kötüye kullanım ve anomali tespitinin güçlü yönlerinin birleşmesinden oluşur. 
+Avantajları:
+Bilinen saldırılarda yüksek doğruluk oranı
+Yeni ve bilinmeyen saldırı türlerinin daha iyi tespiti
+Hibrit sistemlerin uygulamadaki örnekleri ve başarı oranları nelerdir ? 
+
+
+Hibrit Sistemler
+08
+Makine öğreniminin siber saldırı tespitindeki önemi ve rolü nelerdir ? 
+Kullanılan temel makine öğrenimi yöntemleri:
+Sınıflandırma teknikleri
+Kümeleme yöntemleri
+Özellik seçimi ve boyut azaltma yöntemleri
+Yapılan çalışmaların sonuçlarının karşılaştırmalı analizlerinin incelenmesi. 
+
+
+Makine Öğrenmesi Yöntemleri
+09
+10
+Zorluklar ve Çözüm Önerileri
+SİBER SALDIRI TESPİTİNDE KARŞILAŞILAN TEMEL ZORLUKLAR
+ÇÖZÜM ÖNERİLERİ
+Yüksek boyutlu ve karmaşık veri yapısı
+Veri kümelerinin doğru özelliklerinin belirlenmesi
+Veri kümelerinin etkin kullanımı ve optimize edilmesi
+Özellik seçimi, boyut azaltma teknikleri ve hibrit sistemlerin birlikte kullanımı
+Geleceğe yönelik araştırma alanları ve öneriler
+
+
+
+
+Dinlediğiniz için
+teşekkürler!

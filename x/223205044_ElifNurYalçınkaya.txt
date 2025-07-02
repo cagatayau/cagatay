@@ -1,0 +1,108 @@
+TARIMSAL GIDA SEKTÖRÜNDE SÜRDÜRÜLEBİLİRLİK VE BLOCKCHAİN
+ELİF NUR YALÇINKAYA
+223205044
+
+GİRİŞ
+ İleri teknolojilerin hızlı gelişimi tüm sektörlerde iş modellerini ve yönetim uygulamalarını köklü şekilde değiştirmiştir.
+ Ortaya çıkan dijital dönüşüm olgusu işletmeleri, kuruluşları ve bunların tedarik zincirlerini etkilemiştir.
+ İşletmeler yeni rekabet ortamında değer yaratmak ve iş performanslarını iyileştirmek için ileri teknolojileri entegre etmeye çalışmaktadır.
+
+Blockchain Teknolojisinin Rolü
+  Blockchain, tedarik zinciri modellerini, paydaşlar arasındaki ilişkileri ve tüketici davranışlarını yeniden şekillendiriyor.
+Tarım-gıda sektöründe gıda izlenebilirliği, güvenliği, şeffaflık ve sahtekarlık önleme açısından büyük potansiyel sunuyor.
+Blockchain, tedarik zincirlerinin dijitalleşme sürecini hızlandırıyor.
+Blockchain teknolojisi, tarım-gıda sektöründe sürdürülebilir üretim ve tüketim hedeflerine katkı sağlıyor.
+Gıda kalitesini ve sürdürülebilirliği doğrulamada etkili bir teknoloji olduğu kanıtlanmıştır.
+
+   Karşılaşılan Zorluklar
+      •Organizasyonel değişim ihtiyacı.
+      •Gizlilik, ölçeklenebilirlik ve yüksek maliyet sorunları.
+      •Yeni beceri ve yetkinlik geliştirme gereksinimi.
+
+Araştırma Boşlukları
+      •Tarım-gıda sektöründe uygulamalar hâlâ sınırlı.
+      •Patentler ve iş dünyasındaki somut uygulamalar yeterince incelenmemiş.
+
+Çalışmanın Amacı
+     •Blockchain, tarım-gıda ve sürdürülebilirlik arasındaki bağı hem akademik hem de profesyonel açıdan analiz etmek.
+     •Literatür, patentler, iş vakaları ve basın belgeleri temel alınmıştır.
+
+Tarım-Gıda Sektörü ve Dijital Dönüşüm: Zorluklar ve Fırsatlar
+   Dijital dönüşüm, işletmelerin gelişmiş dijital teknolojileri süreçlerine entegre etmesiyle iş modellerinde, değer yaratımında ve inovasyon süreçlerinde büyük değişimlere yol açıyor.
+Tarım-gıda tedarik zinciri, dijital teknolojiler sayesinde:
+      •Sürdürülebilirlik, kalite ve gıda güvenliğini daha iyi yönetebiliyor.
+      •Yeni iş modelleri ve pazarlama fırsatları geliştirebiliyor.
+Nesnelerin İnterneti(IoT), yapay zeka (AI), blockchain, artırılmış ve sanal gerçeklik ve akıllı platformlar gibi farklı ileri teknolojiler, tarım ve gıda sektöründe ‘dijitalleşmiş’ katma değerli hizmetlerin sağlanmasında uygulanmaktadır.
+Dijital dönüşümün tarım ve gıda işletmeleri için getirebileceği fırsatlar:                           sektörün izlenebilirliğini, güvenliğini ve emniyetini güçlendirme, tüketici güvenini sağlama, şeffaflık ve hesap verebilirlik oluşturma ve dolandırıcılık önleme.
+Zorluklar:
+      •Dijital teknolojilerin olası olumsuz etkileri.
+      •Büyük şirketlerin tarım verilerine hâkim olması ve veri sahipliği problemleri.
+
+Tarım-Gıda Sektöründe Blockchain Teknolojisi
+ Blockchain, tarım-gıda sektöründeki veri sahipliği ve küçük çiftçiler için oluşan bariyerler  gibi sorunlara çözüm sunuyor:
+      •Merkeziyetsiz yapı.
+      •Aracıların ortadan kaldırılması.
+      •Şeffaf ve güvenilir veri paylaşımı.
+Blockchain’in Sağladığı Faydalar:
+      •Tedarik zincirinin uçtan uca izlenmesi.
+      •Akıllı sözleşmelerle daha hızlı ve güvenli işlemler.
+      •Veri kopyalama ve işlem maliyetlerinde azalma.
+      •Ürün geri çağırmada hız artışı ve gıda güvenliğinin iyileştirilmesi.
+Uygulama Örnekleri: Nestlé'nin OpenSC ile blockchain üzerinden gıda takibi.
+
+Tarım-Gıda Sektöründe Blockchain ve Sürdürülebilirlik
+Blockchain uygulamaları, çevresel ve sosyal sürdürülebilirliği destekliyor:
+     •Su tasarrufu gibi doğal kaynakların korunması.
+     •Dezavantajlı gruplar için (kadınlar, küçük çiftçiler vb.) mikro girişimciliğin desteklenmesi.
+     •COVID-19 gibi krizlerde gıda erişiminin sağlanması.
+
+Blockchain’in Sürdürülebilirlik Üzerindeki Etkileri:
+     •Tedarik zincirlerinde karbon ayak izinin azaltılması.
+     •Ürünlerin etik kaynaklardan geldiğinin kanıtlanması.
+     •Sahte ürünlerin önlenmesi ve insan haklarının korunması.
+
+Araştırma Sorusunun Geliştirilmesi
+ Blockchain hâlâ erken aşamada bir teknoloji; etkilerinin tam olarak anlaşılması için daha fazla araştırmaya ihtiyaç var.
+Uygulamada blockchain’e dair beklentiler ve şüpheler devam ediyor.
+Literatürde, araştırma ve uygulama arasında önemli bir iletişim boşluğu bulunuyor.
+Bu çalışmanın araştırma sorusu: Blockchain teknolojisi tarım-gıda sektöründe daha sürdürülebilir bir endüstri oluşturmak amacıyla nasıl çalışılmakta, daha geniş kitlelere nasıl aktarılmakta ve patentli çözümlerle nasıl uygulanmaktadır?
+
+Metodoloji
+   Araştırma sorusunu cevaplamak için içerik analizi kullanıldı.
+ İçerik analizi: Metinlerin sistematik incelenmesi ve anlamlı bilgi çıkarımı.
+
+ 3 farklı kaynaktan veri toplandı:
+     Bilimsel Makaleler (Scopus)
+     Patentler (EPO)
+     Uygulayıcı Kaynaklar (Nexis Uni - haberler, bloglar)
+Veri analizi için:
+      Manuel kodlama
+      Otomatik konu modelleme (Leximancer) kullanıldı.
+
+Veri Toplama
+Akademik Makaleler (Scopus):
+      •Anahtar kelimeler: "Blockchain", "Smart Contract", "Agribusiness", "Sustainability"
+      •Sadece hakemli dergi makaleleri dahil edildi.
+      •85 makale elde edildi.
+Patentler (EPO):
+     •Aynı anahtar kelimelerle arama yapıldı.
+     •Başvurular ve onaylı patentler dahil edildi.
+     •81 patent bulundu.
+Uygulayıcı Kaynaklar (Nexis Uni):
+     •Haber, finans basını, sektör dergileri tarandı.
+     •Sonuçlar manuel olarak kontrol edildi.
+     •90 haber kaynağı seçildi.
+
+Veri Analizi
+  1.Betimleyici Analiz:
+      •Excel dosyalarına veri aktarıldı.
+      •RStudio ile ağ analizi yapıldı (yazar işbirlikleri incelendi).
+      •Konu alanı analizi gerçekleştirildi.
+2. Konu ve Tema Çıkarımı:
+     •Leximancer yazılımı kullanıldı.
+     •Kavramlar otomatik çıkarıldı ve benzer olanlar gruplanarak temalar oluşturuldu.
+3. Zaman İçinde Değişim ve Karşılaştırmalar:
+      •Konuların yıllara göre evrimi incelendi.
+      •3 kaynak arasında konuların farkı için Kruskal–Wallis testi uygulandı.
+
+Dinlediğiniz için teşekkürler....

@@ -1,0 +1,74 @@
+Bilgi Güvenliğinin Kurumlardaki Önemi
+HAZIRLAYAN
+Alper Dokuyucu
+180255088
+1.BİLGİ GÜVENLİĞİ VE ÖNEMİ
+
+
+Kurumların sahip olduğu en değerli şey ellerindeki bilgileridir.
+Bilgi güvenliği (Information Security - IS), organizasyonların sahip olduğu verilerin yetkisiz erişime, değiştirilmesine veya imha edilmesine karşı korunması sürecidir. Bu güvenlik süreci, bilgilerin korunmasında üç temel ilkeye dayanır: gizlilik (confidentiality), bütünlük (integrity) ve erişilebilirlik (availability). Bu üç bileşen, korunması gereken her bilginin temel özelliklerini oluşturur.
+
+
+
+
+Kurumlarda bilgi güvenliği farkındalığı oluşturmak son derece kritik bir adımdır ve bilgi güvenliği, yalnızca bilgi teknolojileri veya güvenlik birimlerinin sorumluluğunda değildir.
+
+ Kurumun tüm çalışanları, paydaşları, tedarikçileri ve bilgi güvenliği politikasında yer alan tüm bireyler bu konuda sorumluluk taşır. Bilginin güvenliğini sağlamak, kurumun sürdürülebilirliği, itibarı ve iş sürekliliği açısından hayati bir gerekliliktir.
+2.BİLGİ GÜVENLİĞİNİ TEHDİT EDEN UNSURLAR
+İnternet kullanımının artmasıyla birlikte, sosyal mühendislik ve kimlik hırsızlığı gibi insan odaklı tehditler yaygınlaşmıştır. Ayrıca bilgisayar korsanları, kötü amaçlı yazılımlar ve veri sızıntıları, kurumlar için ciddi riskler oluşturmaktadır. Bu tür tehditler hem veri kaybına hem de kurumsal itibarın zedelenmesine yol açabilir.
+Bilgi güvenliği sadece teknik ekiplerin değil, tüm çalışanların sorumluluğundadır. Farkındalık oluşturmak, güvenliğin en önemli adımlarından biridir.
+
+BİLGİ GÜVENLİĞİNİ TEHDİT EDEN 3 TÜR UNSUR VARDIR:
+
+1.İç tehditler
+2.Dış tehditler
+3.İnsan faktörü
+2.1 İÇ TEHDİTLER
+Kurum içinde çalışan kişilerden kaynaklanan, genellikle dikkatsizlik, ihmal veya kötü niyetli eylemler sonucu oluşan tehditlerdir.
+İnsan hatası: Yanlış dosya paylaşımı, hatalı e-posta gönderimi, güvenli olmayan şifre kullanımı.
+Yetkisiz erişim: Görev alanı dışındaki sistem veya verilere ulaşma çabası.
+Şifre paylaşımı: Kişisel kullanıcı bilgilerinin başkalarıyla paylaşılması.
+Kötü niyetli çalışanlar: Bilerek veri sızdırma veya sistemleri sabote etme.
+Farkındalık eksikliği: Güvenlik politikalarını bilmemek veya dikkate almamak.
+Eğitim yetersizliği: Bilgi güvenliğiyle ilgili yeterli eğitimin verilmemesi.
+İşten ayrılan çalışanlar: Kurumdan ayrıldıktan sonra erişim yetkilerinin kaldırılmaması.
+
+2.2 DIŞ TEHDİTLER
+ Kurum dışındaki saldırganlar tarafından gerçekleştirilen ve bilgi sistemlerine zarar verme veya izinsiz erişim sağlama amacı taşıyan tehditlerdir.
+Siber saldırılar (Hacking): Sistemlere yetkisiz erişim sağlama girişimleri.
+Kötü amaçlı yazılımlar (Malware): Bilgisayarlara bulaşarak veri çalan veya zarar veren yazılımlar.
+Fidye yazılımları (Ransomware): Verileri şifreleyip açmak için para talep eden yazılımlar.
+Oltalama (Phishing): Sahte e-postalarla kullanıcıların kişisel bilgilerini ele geçirme.
+DDoS saldırıları: Hizmetleri erişilmez hale getirmek için sistemleri aşırı yükleme.
+2.3 İNSAN FAKTÖRÜ
+Birçok siber saldırı ve veri sızıntısı, teknik bir açık yerine kullanıcı hatası nedeniyle gerçekleşmektedir ve veri sızıntılarının yüksek çoğunluğu insan kaynaklıdır. İnsan hatası, teknik önlemlerle tamamen ortadan kaldırılamaz. Bu nedenle etkili bir bilgi güvenliği stratejisi, sadece teknolojik çözümlerle değil, kapsamlı kullanıcı eğitimi, farkındalık programları ve açık iletişim ile desteklenmelidir. Şifrelerin paylaşımı,
+
+
+3. BİLGİ GÜVENLİĞİ POLİTİKASI(ISP)
+Bilgi güvenliği politikası, bir kurumun bilgi varlıklarını korumak amacıyla belirlediği kurallar, prosedürler ve yönergeler bütünüdür. Bu politika, çalışanların, yöneticilerin ve diğer paydaşların bilgi sistemlerini nasıl kullanmaları gerektiğini tanımlar ve kurumun bilgi güvenliği hedeflerini ortaya koyar.
+Bilgi güvenliği politikası, sadece teknik bir belge değil; kurumsal kültürün bir parçasıdır. Bu politikanın etkinliği, onun sadece var olmasına değil, tüm çalışanlar tarafından anlaşılmasına, benimsenmesine ve uygulanmasına bağlıdır.
+
+Neden Bilgi Güvenliği Politikası Gereklidir?
+Yasal uyumluluk: KVKK (Türkiye), GDPR (Avrupa), HIPAA (ABD) gibi düzenlemelere uyum sağlamak.
+İtibarın korunması: Veri ihlalleri, kurumların itibarına ciddi zararlar verebilir.
+İş sürekliliği: Kritik bilgilere yönelik tehditler, operasyonların durmasına yol açabilir.
+Çalışan davranışlarını yönlendirme: Açık kurallar, çalışanların güvenlik sorumluluklarını anlamasına yardımcı olur.
+
+Politikanın Amaçları
+Gizlilik (Confidentiality): Bilgilerin sadece yetkili kişilerce erişilebilir olmasını sağlamak.
+Bütünlük (Integrity): Bilgilerin doğruluğunu, eksiksizliğini ve güvenilirliğini korumak.
+Erişilebilirlik (Availability): Yetkili kullanıcıların ihtiyaç duyduğu bilgilere zamanında ve kesintisiz erişebilmesini sağlamak.
+
+4.BİLGİ GÜVELİĞİ POLİTİKASI GEREKSİNİMLERİ
+Bilgi güvenliği politikaları (Information Security Policies – ISP), sadece hazırlanmakla kalmamalı, aynı zamanda kurumsal yapıya uygun olarak tasarlanmalı, sürekli gözden geçirilmeli ve uygulanabilir olmalıdır. Başarılı bir ISP, kurumun bilgi varlıklarını koruma görevini yerine getirirken, çalışanlar tarafından da anlaşılabilir ve takip edilebilir olmalıdır.
+
+İhtiyaç Analizi: Kurumun bilgi güvenliği ihtiyaçları belirlenir.
+Risk Değerlendirmesi: Potansiyel tehditler ve zayıf noktalar analiz edilir.
+Politika Hedeflerinin Belirlenmesi: Politikadan beklenen koruma seviyesi tanımlanır.
+Odak Alanların Belirlenmesi: Hangi konuların politika kapsamında yer alacağı belirlenir.
+Politika Metninin Yazımı: Açık, anlaşılır, ölçülebilir ve uygulanabilir kurallar yazılır.
+Gözden Geçirme ve Onay Süreci: Yetkili kişi veya komiteler tarafından incelenip onaylanır.
+Uygulama ve İzleme: Politika hayata geçirilir ve düzenli olarak uygulanması denetlenir.
+
+
+                DİNLEDİĞİNİZ İÇİN TEŞEKKÜRLER  

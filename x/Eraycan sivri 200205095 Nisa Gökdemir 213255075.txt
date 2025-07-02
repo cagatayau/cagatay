@@ -1,0 +1,184 @@
+Akıllı Enerji Yönetiminde Yeşil Bilişim
+Eraycan sivri
+Nisa gökdemir
+3.06.2025
+Yeşil Bilişim Nedir?
+Yeşil bilişim, enerji taleplerini daha verimli ve çevre dostu karşılamak amacıyla bilgi teknolojilerini sürdürülebilir şekilde kullanan, iletişim protokolleriyle entegre çalışan sistemlerin bütünüdür.
+Neden Önemli?
+Artan enerji tüketimi, maliyet, kaynak kullanımı ve çevresel etkiler açısından ciddi riskler taşır.
+Veri merkezlerinin ve yüksek performanslı bilgi işlem sistemlerinin enerji ihtiyaçları giderek artmaktadır.
+Bu durum, karbon ayak izini azaltmak ve çevresel sürdürülebilirliği sağlamak adına yeni yaklaşımlar gerektirir.
+Ana Hedefler:
+Enerji verimliliğini artırmak
+Zararlı madde kullanımını azaltmak
+Bilgi işlem süreçlerini daha çevreci hale getirmek
+Akıllı Enerji Yönetimi:Yeşil bilişim, özellikle enerji sistemlerinin izlenmesi, yönetilmesi ve optimize edilmesinde akıllı çözümler sunarak hem çevresel hem de ekonomik sürdürülebilirliğe katkı sağlar.
+
+3.06.2025
+Enerji ve Güvenlik için Sezgisel Yaklaşım
+Bu çalışmanın amacı, ağlarda hem enerji verimliliğini sağlamak hem de veri iletiminin güvenliğini artırmaktır. Özellikle enerji kısıtı olan akıllı cihaz ağlarında, yeşil bilişim yaklaşımıyla hem çevreye duyarlı hem de güvenli bir sistem tasarlanmak isteniyor.
+⚙️ Yöntem – Kullanılan Teknikler:
+💡 Sezgisel (Heuristic) Algoritma: Sezgisel algoritmalar, en kısa sürede "yeterince iyi" çözümleri bulmaya çalışır. Her zaman en mükemmeli değil ama pratik, hızlı ve kullanılabilir çözümler üretirler. Gerçek hayatta sıkça kullanılır (örnek: Google Maps'in hızlı rota bulması).
+🔐 Hy_GSOpRP Protokolü (Hibrit Aç Gözlü Güvenli Optimal Yönlendirme Protokolü): Ağ içinde verinin en güvenli ve en kısa yoldan gönderilmesini sağlar. Hem enerji tüketimi düşük hem de saldırılara karşı güvenli yönlendirme yapar. Protokol, iki farklı yöntem bir arada kullanır:
+Açgözlü (Greedy): Her adımda en iyi görünen (en kısa ve güvenli) yolu seçiyor.
+Optimal (En İyi): Aynı zamanda ağdaki enerji ve güvenlik durumlarını dikkate alarak genel olarak en iyi rotayı bulmaya çalışıyor.
+3.06.2025
+Heuristic Green Computing Based Energy Management with Security Enhancement Using Hybrid Greedy Secure Optimal Routing Protocol
+Genel Değerlendirme: Bu yöntem, akıllı şehirler, sensör ağları gibi enerji tasarrufunun önemli olduğu yerlerde kullanılabilir. Hem enerji tasarrufu sağlıyor hem de güvenliği artırıyor.
+3.06.2025
+Application of Data Mining Combined with Power Data in Assessment and Prevention of Regional Atmospheric Pollution
+Bu çalışmanın amacı, bölgesel hava kirliliğinin tespitini daha etkili yapmak ve kirliliği önceden tahmin ederek gerekli önlemleri almak. Daha temiz ve yaşanabilir çevre için teknolojik destek sağlamak.
+⚙️ Yöntem – Kullanılan Teknikler:
+🧠 Veri Madenciliği: Büyük miktardaki veriyi analiz ederek anlamlı bilgi elde etme sürecidir. Bu çalışmada, hava kirliliğiyle ilgili veriler elektrik kullanımıyla ilişkilendirilerek analiz edilmiştir.
+📈 Gerçek Zamanlı İzleme: Elektrik tüketimi verileri ile hava kirliliği verileri birleştirilerek, bölgedeki atmosferik durum anlık olarak takip edilmiştir.
+3.06.2025
+Veri Madenciliği İle Hava Kirliliği Önleme
+3.06.2025
+Genel Değerlendirme: Bölgesel hava kirliliğinin hem takibi hem de önlenmesi için veri madenciliği oldukça etkili bir yöntemdir. Özellikle sanayi bölgelerinde veya trafik yoğun şehirlerde hava kalitesini korumak için uygulanabilir.
+Yeni Enerji & Ekonomik Sürdürülebilirlik
+Bu çalışmanın temel amacı, güneş, rüzgar, hidroelektrik gibi çevreci enerji teknolojilerinin yaygınlaştırılmasının ekonomik sürdürülebilirlik üzerindeki etkisini analiz etmektir. Çevre dostu enerji yatırımlarının, sadece çevresel fayda değil, ekonomik kalkınma ve kaynak verimliliği açısından da olumlu etkiler üretip üretmediği sorgulanmaktadır.
+⚙️ Yöntem – Kullanılan Teknikler:
+🔋 Yeni Enerji Teknolojisi (New Energy / NE):Fosil yakıtlar yerine kullanılan; çevreye duyarlı, yenilenebilir ve düşük karbon salınımına sahip enerji sistemlerini kapsar (örneğin: güneş panelleri, rüzgar türbinleri, hidroelektrik santraller, biyokütle sistemleri).
+🔍 Araştırmada, bu teknolojilerin kullanımı artırıldığında kaynaklar nasıl daha verimli kullanılıyor, enerji sistemleri ne kadar gelişiyor ve ekonomik çıktılar nasıl etkileniyor diye analiz yapılmıştır.
+New Energy Technology Innovation and Sustainable Economic Development in the Complex Scientific Environment
+3.06.2025
+3.06.2025
+Genel Değerlendirme: Yeni enerji teknolojilerine yapılan yatırımlar sadece çevresel değil, ekonomik fayda da sağlamaktadır. Bu nedenle gelişmekte olan ülkelerde sürdürülebilir kalkınmanın anahtarı olabilir.
+Yenilenebilir Enerji ve Matematiksel Model
+Bu çalışmanın amacı, yenilenebilir enerji kaynaklarının gelecekte nasıl büyüyeceğini matematiksel modelleme ile daha doğru tahmin etmektir.
+⚙️ Yöntem – Kullanılan Teknikler:
+➗ Matematiksel Modelleme Nedir? 
+Gerçek dünyadaki bir süreci matematiksel formüllerle temsil edip simülasyon yapmaktır. Enerji üretimi, tüketimi ve gelişimi gibi alanlarda yaygın olarak kullanılır.
+Model, geçmiş verilerle eğitilerek gelecekteki enerji üretim potansiyelini tahmin etti.
+📊 Sonuçlar:
+Model kullanımı sayesinde %24.8 daha iyi büyüme tahmini yapıldı.
+Enerji planlaması ve yatırım kararları daha isabetli hale getirildi.
+Genel Değerlendirme: Yatırımcılar, hükümetler ve enerji şirketleri için çok değerli bir araçtır. Gelecekte hangi enerji kaynaklarına ne kadar yatırım yapılacağını planlamak açısından önemlidir.
+Evaluation of Dynamic Growth Trend of Renewable Energy Based on Mathematical Model
+3.06.2025
+Dijital İkiz ve Yeni Enerji Araçları
+Bu çalışmanın amacı, elektrikli araçlar gibi yeni enerji teknolojilerinin geliştirilmesinde dijital ikiz teknolojisinin nasıl kullanıldığını incelemektir. Hedef; bu teknolojinin ürün geliştirme süreçlerine, üretim verimliliğine ve ekonomik çıktılara katkısını ortaya koymaktır.
+⚙️ Yöntem – Kullanılan Teknikler:
+🧍‍♂️ Dijital İkiz (Digital Twin) Nedir?
+Dijital ikiz, bir fiziksel nesnenin (örneğin bir araba motorunun) dijital ortamda dinamik ve gerçek zamanlı bir kopyasının oluşturulmasıdır. Bu sayede:
+Performans testleri,
+Bakım senaryoları,
+Enerji tüketimi simülasyonları dijital ortamda düşük maliyetle ve hızlı şekilde yapılabilir.
+🔍 Araştırma Kapsamı: Elektrikli araçların üretim süreçleri dijital ikiz ile modellenmiş, bu model üzerinden üretim miktarları, satış verileri ve teknolojik patent gelişimi analiz edilmiştir. Sonuçlar, dijital ikiz teknolojisinin enerji verimliliğini ve ekonomik sürdürülebilirliği artırmada etkili olduğunu göstermiştir.
+3.06.2025
+Research on Collaborative Innovation of Key Common Technologies in New Energy Vehicle Industry Based on Digital Twin Technology
+3.06.2025
+Genel Değerlendirme: Dijital ikiz, otomotiv gibi karmaşık üretim süreçlerine sahip sektörlerde çok büyük zaman ve maliyet avantajı sağlar. Aynı zamanda hataları dijital ortamda tespit ederek riski azaltır.
+Yeni Güç Sistemlerinde DG ve EV Entegrasyonu
+Bu çalışmanın amacı, geleceğin enerji altyapılarında daha sürdürülebilir, esnek ve verimli bir yapı kurabilmek için dağıtık üretim (Distributed Generation – DG) sistemleri ile elektrikli araçların (Electric Vehicles – EV) akıllı şebekelere (Smart Grids) entegrasyonunun nasıl yapılabileceğini araştırmaktır.
+⚙️ Yöntem – Kullanılan Yaklaşım:
+Senaryo tabanlı modelleme yöntemi kullanılmıştır.
+Farklı senaryolarda DG (örneğin güneş panelleri, rüzgar türbinleri) ve EV’lerin şebekeye bağlanması simüle edilmiştir.Özellikle aşağıdaki başlıklar test edilmiştir:
+⚡ Yük paylaşımı (yükün üretim noktaları arasında dengelenmesi)
+🔋 Enerji depolama sistemleriyle (örneğin EV bataryaları) etkileşim⏱️ Pik saatlerde (yüksek tüketim zamanlarında) şebekeye destek sağlanması
+Integration of Distributed Generation and Electric Vehicles in Modern Power Systems
+3.06.2025
+📊 Elde Edilen Sonuçlar:
+Şebeke kararlılığı belirgin şekilde artmıştır (voltaj ve frekans dengesi).
+Yenilenebilir enerji kaynaklarının entegrasyonu daha verimli gerçekleşmiştir.
+Enerji talebi ile üretim zamanlaması arasında uyum sağlanarak enerji israfı azaltılmıştır.
+Elektrikli araçlar, sadece tüketici değil, gerektiğinde şebekeye enerji sağlayan mobil enerji birimi olarak değerlendirilmiştir (V2G – Vehicle to Grid yaklaşımı).
+Genel Değerlendirme: DG ve EV entegrasyonu, yeni nesil akıllı şebekelerde:
+- Çevresel sürdürülebilirliği artırmakta,
+- Enerji arz güvenliğini sağlamlaştırmakta,
+- Şebeke esnekliğini ve kriz anı tepkilerini güçlendirmektedir.
+3.06.2025
+2. KISIM
+3.06.2025
+Bayesyen Ağ ile Finansal Risk Uyarısı
+  Bu çalışmanın amacı, finansal sistemlerde krizleri ve ani riskleri önceden öngörebilmek için erken uyarı mekanizmaları geliştirmek.
+⚙️ Yöntem:
+  Bayesyen Ağ (Bayesian Network): Olasılık temelli bir modelleme yöntemidir; değişkenler arasındaki nedensel ilişkileri gösterir ve belirsizlik altında karar verme imkânı sunar.
+  Geri Yayılım (Backpropagation – BP):Yapay sinir ağlarında, hata oranını azaltmak için ağı geri besleme yoluyla eğiten klasik bir öğrenme algoritmasıdır.
+  Bu çalışmada, finansal göstergeler arasındaki ilişkiler Bayesyen ağlarla modellenmiş, sonuçlar da geri yayılım algoritması ile karşılaştırılmıştır.
+Sonuç: Bayesyen ağ yaklaşımı %80 doğruluk oranıyla BP ağına göre daha başarılı bulunmuş; özellikle karmaşık veri ilişkilerinde daha tutarlı sonuçlar vermiştir.
+Genel Değerlendirme: Bayesyen ağlar, finansal karar destek sistemleri için daha güvenilir ve açıklanabilir risk analizleri sunabilmektedir.
+
+Financial Risk Early Warning Based on Bayesian Network
+3.06.2025
+Hidro-Sediment Modellerinin Karşılaştırılması
+  Bu çalışmanın amacı, farklı hidro-sediment modellerinin taşkın tahmini ve erozyon kontrolü gibi çevresel konulardaki doğruluğunu değerlendirmek.
+⚙️ Yöntem:
+  Hidro-Sediment Modeli Nedir?
+  Yağmur, yüzey akışı ve toprak taşınımı (sediment) süreçlerini birlikte simüle eden modellerdir.Bu sayede hem su hareketi hem de erozyon analiz edilebilir.
+  Uygulama:İki farklı model olan CASC2D-SED ve GSSHA, çeşitli yağış-akış ve sediment taşınım senaryolarında test edildi.Çıktılar karşılaştırılarak modellerin doğruluğu ölçüldü.
+Sonuç: GSSHA modeli, özellikle akış hızı ve sediment dağılımı açısından daha yüksek doğruluk sunmuş ve doğal afet risklerinin tahmininde daha etkili bulunmuştur.
+Genel Değerlendirme: GSSHA, arazi yönetimi ve çevresel planlamada daha güvenilir sonuçlar sunarak tercih edilebilir bir model haline gelmiştir.
+
+Comparison of CASC2D-SED and GSSHA in Hydrologic and Sediment Transport Modeling
+3.06.2025
+Sulak Alanlar için Dijital Ekolojik Tasarım
+  Bu çalışmanın amacı,  sulak alanların biyolojik çeşitliliğini korurken, çevresel sürdürülebilirlik hedeflerine uygun şekilde dijital ekolojik planlamaların yapılmasını sağlamak.
+⚙️ Yöntem:Uzaktan algılama verileri, coğrafi bilgi sistemleri (GIS) ve simülasyon teknikleri kullanılarak ekolojik tasarım senaryoları oluşturulmuştur.
+  Sonuç: Ekosistem dengesini koruyan, doğal yapıya uygun peyzaj tasarımları geliştirildi ve insan etkisinin azaltılması sağlandı.
+Genel Değerlendirme: Bu yaklaşım, doğal alanların korunması ile dijital teknolojilerin entegrasyonunun başarılı bir örneğidir.
+
+Digital Ecological Design of Wetlands
+3.06.2025
+IoT ile Yeraltı Suyu Yönetimi
+  Bu çalışmanın amacı, yeraltı su kaynaklarının hem kalitesini hem de miktarını etkili şekilde izlemek ve sürdürülebilir kullanımını sağlamak.
+⚙️ Yöntem:IoT tabanlı sensörlerle su seviyesi, sıcaklık ve kirlilik değerleri sürekli olarak izlenmiş, bu veriler merkezi sisteme aktarılmıştır.
+  Sonuç: Gerçek zamanlı kontrol sayesinde su israfı azalmış, su kalitesi artmış ve kullanıcı memnuniyeti %96 gibi yüksek bir orana ulaşmıştır.
+Genel Değerlendirme: IoT uygulamaları, doğal kaynakların sürdürülebilir yönetimi için kritik avantajlar sunmaktadır.
+
+Smart Groundwater Management Using Internet of Things (IoT)
+
+3.06.2025
+AI ile Enerji Sektöründe Dirençlilik
+  Bu çalışmanın amacı, enerji altyapılarında meydana gelen arızaları önceden tespit ederek kesintilere karşı dayanıklı sistemler geliştirmek.
+⚙️ Yöntem:Makine öğrenmesi algoritmaları kullanılarak arıza tahmin modelleri oluşturulmuş ve enerji ağlarında uygulanmıştır.
+ Sonuç: Arıza oranı %0.0028’e kadar düşürülmüş; sistem daha kararlı ve güvenilir hale gelmiştir.
+Genel Değerlendirme: Yapay zekâ, enerji sektöründe verimlilik artışı ve arıza risklerinin en aza indirilmesi açısından büyük potansiyele sahiptir.
+
+Resilient Energy Systems Using Artificial Intelligence
+
+3.06.2025
+Terk Edilmiş Madenlerde Yeraltı Suyu Risk Değerlendirmesi
+  Bu çalışmanın amacı, terk edilmiş maden alanlarında yeraltı suyu kaynaklarının çevresel riskini değerlendirmek ve özellikle bölgesel farklılıkları analiz ederek risk haritaları oluşturmaktır.
+⚙️ Yöntem – Kullanılan Teknikler:Asit Maden Drenajı (AMD) ile taşınan ağır metallerin ve toksik maddelerin etkileri analiz edilmiştir.Coğrafi Bilgi Sistemleri (GIS) ve çevresel modelleme ile farklı bölgelerdeki yeraltı suyu riskleri karşılaştırılmıştır.
+📈 Sonuçlar:
+Güneydoğu bölgelerinde yeraltı suyu çevresel risk indeksi, kuzeybatıya kıyasla daha yüksektir.
+AMD kaynaklı kirleticiler, çevre sularına karışarak özellikle aşağı akıntı bölgelerinde yaşayanların sağlığını tehdit etmektedir.
+Bu bulgular, maden sahalarının rehabilitasyonu için rehber niteliğindedir.
+Genel Değerlendirme: Bu çalışma, çevresel veri analizinin maden kaynaklı su kirliliği risklerini ortaya koymada ne kadar etkili olduğunu göstermektedir.Aynı zamanda, çevre dostu planlamaların dijital sistemlerle desteklenmesi gerektiğini vurgulayarak yeşil bilişimin pratikteki önemine dikkat çekmektedir.
+Groundwater risk assessment of abandoned mines based on pressure-state-response- the example of an abandoned mine in southwest China
+3.06.2025
+3D Yazıcı ile Bakır Alaşım Üretimi
+  Bu çalışmanın amacı, enerji ve malzeme kullanımını azaltarak çevre dostu, yenilikçi üretim süreçleri geliştirmek ve ileri üretim teknolojilerinin uygulanabilirliğini artırmak.
+⚙️ Yöntem :Katmanlı imalat (3D baskı) teknolojisi ile bakır alaşımlar çeşitli parametrelerde üretilmiş, mekanik ve çevresel etkileri analiz edilmiştir.
+Sonuçlar:Malzeme kaybı %30’dan fazla azaltıldı.Enerji verimliliği yüksek üretim sağlandı.Karbon ayak izi geleneksel üretime kıyasla belirgin şekilde düşürüldü.
+Genel Değerlendirme: Bu yaklaşım, hem çevre koruma hedeflerine katkı sağlamakta hem de yeni nesil üretim teknolojilerinin sürdürülebilirliğe entegrasyonunu örneklemektedir.
+
+
+3.06.2025
+Düşük Karbonlu Peyzaj Planlaması
+ Bu çalışmanın amacı, kentsel alanlarda peyzaj tasarımlarıyla karbon emisyonlarını azaltmak ve çevre dostu yaşam alanları oluşturmak.
+⚙️ Yöntem :Bitki türü seçimi, toprak düzenlemesi, malzeme kullanımı ve su yönetimi gibi faktörler dikkate alınarak karbon salınımına etkisi modellenmiş; doğaya uyumlu tasarım kriterleri geliştirilmiştir.
+Sonuçlar:Peyzaj alanlarının karbon tutma kapasitesi artırıldı.Sürdürülebilir su yönetimi çözümleri önerildi.Doğayla entegre kentsel planlama anlayışı geliştirildi.
+Genel Değerlendirme: Yeşil kentleşme için somut bir adım olan bu model, kentsel tasarım süreçlerinde çevresel sorumluluk bilincini ön plana çıkarmaktadır.
+
+
+3.06.2025
+Güvenlik, Enerji ve Tedarik Zinciri Uygulamaları (Yapay Zekâ Destekli)
+  Bu çalışmanın amacı, endüstriyel sistemlerde güvenlik açıklarını azaltmak, enerji verimliliğini artırmak ve tedarik zinciri süreçlerini daha akıllı hale getirmek.
+⚙️ Yöntem :Yapay zekâ ve veri analitiği ile tahminleme, anomali tespiti ve otomasyon süreçleri geliştirilmiştir. Büyük veri işleme sistemleriyle gerçek zamanlı analizler yapılmıştır.
+Sonuçlar:Siber güvenlik tehditleri %85 oranında önceden tespit edilebildi.Lojistik süreçlerde %10–20 arası zaman tasarrufu sağlandı.Enerji yönetiminde %12’ye kadar verimlilik artışı elde edildi.
+Genel Değerlendirme: Bu sistemler, dijital dönüşüm çağında çevreye duyarlı ve güvenli altyapıların kurulmasına katkı sağlayarak sürdürülebilir sanayi uygulamalarını desteklemektedir.
+
+
+3.06.2025
+Sonuç – Genel Değerlendirme
+Yeşil Bilişim Nedir?Yeşil bilişim, yalnızca enerji tasarrufu sağlamakla kalmaz; çevresel sürdürülebilirlik, sistem güvenliği ve ekonomik verimlilik gibi birçok alanı kapsayan kapsamlı bir teknolojik yaklaşımdır. Amaç; çevreye duyarlı, kaynakları verimli kullanan ve uzun vadede sürdürülebilir çözümler sunmaktır.
+İncelenen Çalışmaların Ortak Vurguları:
+⚡ Enerji Sistemleri: Yapay zekâ ve yenilenebilir kaynak entegrasyonları ile daha verimli, düşük maliyetli enerji çözümleri geliştirilmiştir.
+🚘 Elektrikli Araçlar ve Ulaşım: Dağıtık üretim ve şarj altyapılarıyla karbon salımı azaltılmıştır.
+💧 Çevre ve Su Yönetimi: IoT ve sensörlerle su kalitesi artırılmış, hidro-sediment modellerle daha doğru tahminler yapılmıştır.
+🧠 Yapay Zekâ Uygulamaları: Finansal risk, üretim verimliliği ve güvenlik gibi kritik alanlarda başarı oranları yükseltilmiştir.
+🏙️ Şehir ve Endüstri: 3D yazıcılarla düşük atıklı üretim sağlanmış, dijital peyzaj ve maden risk yönetimi ile doğaya daha uyumlu çözümler üretilmiştir.
+Sonuç Olarak: Bu örnek çalışmalar, yeşil teknolojilerin birçok sektörde uygulanabilirliğini ve faydasını net bir şekilde göstermiştir. Yapay zekâdan IoT’ye, dijital tasarımdan enerji altyapılarına kadar çok sayıda alan, daha çevreci ve verimli bir gelecek için dönüşmektedir.
+3.06.2025

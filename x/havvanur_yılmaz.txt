@@ -1,0 +1,99 @@
+Yeni Bilişim Paradigmalarının Belirsizliği: Bulut, Mobil ve IoT Kesişimleri
+Havvanur Yılmaz
+223205060
+  Bulut Bilişim, Mobil Bilişim, Nesnelerin İnterneti (IoT) araştırma alanlarıyla veya kesişimleriyle ilgili çok sayıda yeni bilişim paradigması devreye girmiştir. bu makale bu paradigmaları belirsizleştirmeye ve bunların üç araştırma alanına veya kesişim noktalarına ciddi bir sorun haline gelmeden önce nasıl ve nerede uyduğunu açıklamaya çalışmaktadır.
+Temel Sorun: Tanım Belirsizliği
+Standart Tanım Eksikliği
+  Birçok bilişim paradigmasının net ve kabul görmüş bir tanımı yoktur, bu da karmaşaya yol açmaktadır.
+Bulut Bilişim Örneği
+  Buyya, NIST ve Senyo gibi farklı tanımların birleştirilmesi güçtür.
+Terminoloji Karmaşası
+   Tek bir terim farklı paradigmaları, birkaç terim ise aynı paradigmayı ifade edebilmektedir.
+
+
+
+
+Ana Araştırma Alanları ve Kesişimleri 
+Üç Ana Alan:
+Bulut Bilişim
+Mobil Bilişim
+Nesnelerin İnterneti (IoT)
+Kesişim Alanları:
+Mobil Bilişim & Bulut Bilişim (MCC)
+Mobil Bilişim & IoT (Mobil IoT Bilişim)
+IoT & Bulut Bilişim (IoT Bulut Bilişim)
+Mobil Bilişim & IoT & Bulut Bilişim (Mobil IoT Bulut Bilişim / Edge/Fog)
+
+Bulut Bilişim (Cloud Computing)
+
+Hizmetlerin sanallaştırıldığı, paylaşıldığı ve ağ üzerinden her yerden erişilebilen dinamik bir bilişim paradigmasıdır.
+Tanım
+
+Hizmet Olarak Yazılım (SaaS), Hizmet Olarak Platform (PaaS) , Hizmet Olarak Altyapı (Iaas) ve Her Şey Hizmeti (XaaS ).
+Hizmet Modelleri ve Araştırma
+
+Özellikler
+Talep Üzerine Hizmet
+Ağ Erişimi
+Kaynak Havuzu ve Esneklik
+Ölçülebilirlik ve Sanallaştırma
+Mobil Bilişim (Mobile Computing)
+ Mobil bilişim, temel olarak, kullanıcıların hareket halindeyken bilgiye erişimini ve bilgi işlemesini sağlayan bir insan-bilgisayar etkileşimi paradigmaları bütünüdür. Programlanabilir, taşınabilir ve kablosuz cihazların (akıllı telefonlar, tabletler, dizüstü bilgisayarlar, giyilebilir cihazlar, IoT cihazları vb.) yaygınlaşmasıyla mümkün hale gelmiştir. Her Yerde, Her Zaman Kullanılabilirlik sağlar.
+
+Nesnelerin İnterneti (Internet of Things - IoT)
+ İnternet özellikli cihazlardan oluşan, akıllı bir ortamı teşvik eden bir ağ.
+Yaygın bilgi işlemden farklı olarak odak noktasını insan etkileşimi yerine otomatik veri toplama ve kontrol üzerine kurmuştur.
+Kesişim: Mobil Bulut Bilişim (MCC)
+Mobil Bilişim ve Bulut Bilişimin birleşimi; mobil cihazların sınırlı kaynaklarını bulut avantajlarıyla destekler.
+Araştırma Yönleri:
+Hesaplama Yükünün Buluta Aktarılması:Mobil cihazlardaki işlem yükü, enerji tasarrufu gibi nedenlerle buluta taşınır.
+Bulut Tabanlı Mobil Uygulamalar:Mobil istemci, bulut ise sunucu olarak çalışır. Veri depolama ve yönetimi gibi işlemler bulutta gerçekleşir.
+
+Bulutçuk (Cloudlet) Kavramı:
+Bulutçuklar, mobil cihazların sınırlı işlem gücü ve pil ömrü gibi kısıtlamalarını aşmak için geliştirilen, küçük ölçekli ve yerel veri merkezleridir. "kutudaki veri merkezi" olarak adlandırılan bulutçuklar; kafeler, mağazalar veya benzin istasyonları gibi yerlere konumlandırılarak mobil cihazlara yakın bir noktadan hizmet sunar. Bu yerel yapı, yüksek hızlı kablosuz bağlantı sayesinde gecikmeyi minimuma indirir ve mobil kullanıcı deneyimini artırır. Bulutçuklar yalnızca geçici ve önbelleğe alınmış veri barındırdığı için, sistemin çökmesi durumunda büyük veri kaybı riski de azaltılmış olur. 
+Mobil Bulut (Mobile Cloud) Fikri:
+Mobil bulut, yalnızca sabit veri merkezlerine dayalı bir yapı yerine, çevredeki mobil cihazların kullanılmayan kaynaklarını bir araya getirerek sanal bir bulut ortamı oluşturmayı hedefleyen yenilikçi bir yaklaşımdır. Bu sistemde, yakındaki mobil cihazlar ortak işlem gücü ve depolama sağlayarak geçici ve esnek bir bulut altyapısı oluşturur. Bu geçici yapılar, sabit (statik) bulutçuklardan ve geleneksel elastik bulutlardan farklıdır ve “geçici bulutçuk” olarak da adlandırılır. 
+Kesişim: Mobil IoT Bilişim
+ Mobil Bilişim ve Nesnelerin İnterneti (IoT) dünyalarının bir araya geldiği noktayı temsil eder. Temel olarak, güçlü ve her yerde bulunan mobil cihazlarımızı – özellikle akıllı telefonlarımızı – çevremizdeki harici akıllı IoT cihazlarıyla nasıl etkileşime sokabileceğimizi ve bağlayabileceğimizi inceler. 
+ Bu kesişim noktasındaki bilişimin odak noktası, mobil cihazların yalnızca kendi içindeki yeteneklerle sınırlı kalmayıp, fiziksel dünyadaki diğer "şeylerden" de bilgi alabilmesi ve bu şeyleri kontrol edebilmesidir.
+
+Senaryolar:
+
+
+Mobil cihazın harici sensörlere erişimi (daha bilgili kararlar için).
+Mobil cihazın harici aktüatörleri kontrol etmesi.
+Sensing (algılama) ve Control (kontrol) entegrasyonu (mobil cihaz veri alır, işler, aktüatörleri kontrol eder).
+
+ 
+Kesişim: IoT Bulut Bilişim
+IoT'nin bulut avantajlarından yararlanması için bulutla entegrasyonu.
+Nesnelerin Ağı (Web of Things - WoT): IoT cihazlarını web teknolojileri kullanarak web'e entegre etme (uygulama katmanında). Genellikle bulut tabanlı ağ geçitleri/sunucular aracılığıyla uygulanır (IoT Bulut Bilişim örneği).
+WoT(Nesnelerin Ağı) Teknolojileri:
+Semantik WoT (SWoT): IoT cihazlarından gelen ham veriyi daha anlamlı ve yorumlanabilir bilgiye dönüştürme yöntemidir. ontolojiler (kavramları tanımlayan yapılar), Linked Data (veriler arası bağlantılar) ve LOD Cloud gibi teknolojiler kullanılır.
+Bilgelik Nesnelerin Ağı (W2T):IoT verisinin sadece bilgi olarak değil, bilgelik ve hizmet düzeyine taşınması fikridir. Veriden başlayıp insanlara ve şeylere hizmet edecek akıllı sistemler kurmayı hedefler.
+Nesnelerin Sosyal Ağı (SoT): IoT cihazlarının insanlar gibi sosyal ilişkiler kurabildiği bir modeldir. Yani cihazlar, birbirleriyle ya da insanlarla veri paylaşabilir, iş birliği yapabilir.
+Kesişim: Mobil IoT Bulut Bilişim (Üçlü Kesişim)
+Bu kesişim alanı, mobil ve IoT cihazlarının kaynak sınırlamalarını aşmak ve aynı zamanda geleneksel Bulutun uzaklığından kaynaklanan gecikme sorunlarını çözmek için Bulut benzeri yetenekleri cihazlara veya onlara daha yakın noktalara taşımayı hedefler. 
+MCC (Mobil Bulut Bilişim )örneğine benzer şekilde, geleneksel bulut gecikme, titreme ve ağ tıkanıklığı gibi sınırlamalar nedeniyle gerçek zamanlı uygulamaların aktarılması için yetersizdir. Bu , bulut bilişim hizmetlerinin mobil cihazlardan ve diğer IoT akıllı cihazlarından ideal olarak bir sıçrama içinde İnternet'in kenarına kaydırıldığı uç bilişimin ortaya çıkmasına yol açar.
+Uç Teknolojileri:
+Bulutçuklar, Mobil Bulutlar (IoT cihazları için de önerildi).
+Mini Bulutlar, Mikro Bulutlar (LAN içi bilgisayar kümeleri, taşınabilir).
+Nano Veri Merkezleri (NDC) (Ağın kenarında, İSS tarafından yönetilen).
+Sis Bilişim (Fog Computing)
+Mobil Kenar Bilişim (MEC)
+
+
+İlgili IoT Teknolojileri
+Yaygın ve Nüfuz Eden Bilişim (Ubiquitous and Pervasive Computing): bilgisayarların ve bilişim teknolojilerinin hayatımızın her alanına, her nesneye kusursuzca entegre olduğu bir geleceği tanımlar. 
+Nano Nesnelerin İnterneti (IoNT):  IoT'nin nano ölçeğe uygulanmasıdır. Yani, nano boyutlardaki cihazların (nanosensörler, nanoaktüatörler, nanomotorlar) birbirleriyle ve daha büyük ağlarla iletişim kurduğu bir ağdır.
+Sualtı Nesnelerin İnterneti (IoUT):  su altında konuşlandırılan sensörlerin, araçların ve diğer cihazların birbirleriyle ve yüzeydeki sistemlerle iletişim kurduğu bir ağdır.
+Beşinci Nesil (5G) Hücresel Şebeke: Daha yüksek hız, sadece daha yüksek hız (Gbps seviyeleri) sunmakla kalmaz, aynı zamanda çok daha düşük gecikme süresi (milisaneler düzeyinde), yüksek ağ kapasitesi (aynı anda milyarlarca cihazı destekleme) ve "ağ dilimleme" gibi özellikler sunar.  
+Dokunsal İnternet (Tactile Internet): 5G'nin ultra düşük gecikme ve yüksek güvenilirlik yeteneklerini kullanarak, kullanıcıların fiziksel sistemleri uzaktan neredeyse gerçek zamanlı olarak kontrol etmelerini ve "hissetmelerini" sağlayan bir kavramdır. 
+Mobil Nesnelerin İnterneti (IoMT): IoT ekosistemi içinde, doğası gereği mobil olan veya kullanıcı tarafından taşınan cihazlara odaklanan bir alt kümedir.
+                                Özet ve Çıkarımlar
+Bulut, Mobil ve IoT Hızla Gelişiyor ve Birleşiyor.
+Bu Yakınsama Birçok Yeni Bilişim Paradigmasını Doğuruyor.
+Temel Sorun: Bu Yeni Paradigmalar Arasında Tanım Belirsizliği ve Terminoloji Karmaşası Var.
+Makale, Bu Paradigmaları Açıklığa Kavuşturarak ve İlişkilerini Belirleyerek Alanın Anlaşılmasına Katkıda Bulunuyor.
+Bu Belirsizliğin Giderilmesi Gelecekteki Araştırma ve Geliştirme İçin Kritik Önem Taşıyor.
+TEŞEKKÜRLER

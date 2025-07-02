@@ -1,0 +1,318 @@
+Fatih Tarık Tunçkaya
+190255060
+
+Akıllı Şehirlerin Ortaya Çıkışı: Sorunlar ve Felaketler
+
+Günümüzde hızla artan nüfus, kentleşme ve çevresel sorunlar, şehirlerin daha sürdürülebilir ve yaşanabilir hale gelmesini zorunlu kılmıştır. Geleneksel şehir yönetimi yöntemleri, artan enerji tüketimi, trafik yoğunluğu ve çevre kirliliği gibi sorunlarla başa çıkmakta yetersiz kalmaktadır. Bu durum, şehirlerin daha akıllı hale getirilmesini sağlayan teknolojilerin geliştirilmesine öncülük etmiştir. Özellikle büyük metropollerde yaşanan altyapı eksiklikleri, ulaşım problemleri ve doğal afetler, akıllı şehir konseptinin önemini artırmıştır.
+
+
+Doğal felaketler ve çevresel krizler de akıllı şehirlerin ortaya çıkışını hızlandıran faktörler arasında yer almaktadır. Depremler, seller ve yangınlar gibi afetler, şehirlerde daha dayanıklı yapıların ve akıllı erken uyarı sistemlerinin geliştirilmesini gerektirmiştir. Örneğin, akıllı sensörler ve büyük veri analizleri sayesinde afetler önceden tahmin edilerek can ve mal kayıpları en aza indirilebilmektedir. Bunun yanı sıra, küresel ısınma ve çevre kirliliği gibi sorunlar, enerji verimliliği sağlayan akıllı şebekeler ve sürdürülebilir ulaşım sistemlerinin geliştirilmesini teşvik etmiştir.
+
+
+
+Güvenlik ve sağlık alanındaki zorluklar da akıllı şehirlerin önemini artıran unsurlardan biridir. Pandemi gibi küresel sağlık krizleri, şehirlerin sağlık hizmetlerini dijitalleştirmeye ve uzaktan sağlık çözümleri geliştirmeye yönlendirmiştir. Aynı zamanda, şehirlerde artan suç oranları ve siber güvenlik tehditleri, akıllı güvenlik sistemleri ve yapay zeka destekli izleme mekanizmalarının önemini ortaya koymuştur.
+
+Tüm bu sorunlar, şehirlerin akıllı teknolojilerle donatılmasını kaçınılmaz hale getirmiştir. Yapay zeka, büyük veri, nesnelerin interneti (IoT) ve bulut bilişim gibi yenilikçi teknolojiler, şehir yönetimlerini daha verimli ve sürdürülebilir hale getirmektedir. Akıllı şehirler, yalnızca bugünün değil, geleceğin de yaşam alanlarını şekillendirecek kritik bir çözüm olarak karşımıza çıkmaktadır.
+
+
+Şehirlerin karşılaştığı nüfus artışı, çevresel sorunlar ve altyapı yetersizlikleri gibi problemlere yönelik geliştirilen bazı çözümler şunlardır: 
+
+Akıllı Şebeke
+Akıllı Ulaşım
+Akıllı Sağlık 
+Akıllı Binalar
+
+
+
+Akıllı Şebeke Nedir?
+
+Günümüz şebekelerine çağımızın bilgisayar ve ağ teknolojisi entegre ederek elde edilen şebeke sistemine “Akıllı Şebeke” (Smart Grid) denilmektedir.  Akıllı şebeke, temel olarak operasyon, bilgi ve haberleşme sistemlerinin entegrasyonu ile şekillenmiş elektrik dağıtım şebekesidir. Akıllı şebekeler, enerjinin üretiminden, tüketimine kadar her aşamada gerçek zamanlı iki yönlü bilgi transferi sağlayarak, sürdürülebilir, güvenli  enerji verimliliği yüksek bir enerji ağı sunmaktadır. 
+
+Akıllı şebekelerin ana hedefi ; kayıp ve kaçak oranını azaltarak enerjiyi verimli kullanmak olmakla birlikte; rüzgâr ve güneş gibi yenilenebilir enerji kaynaklarından üretilen enerjiyi sistemle bütünleştirmek te hedefler arasındadır.
+
+
+Mevcut Şebekelerin Süregelen Yetersizlikleri
+
+
+ Genel olarak bugünkü şebeke sistemine baktığımızda büyük ve çeşitli elektrik santrallerinin uzun iletim hatlarının birbirine bağlanması ile oluşmaktadır bu şebeke alternatif akım ile işletilmektedir bu hatların herhangi bir noktasında meydana gelebilecek bir arıza durumunda şebekenin tamamı çökme tehlikesi ile karşı karşıya kalmaktadır. Bu sorunları gidermek için çözümler geliştirilmiştir. Bir akıllı şebekenin temel bileşenleri ve teknolojileri şunlardır;
+
+
+Akıllı Üretim
+ Şebekenin birçok noktasından alınan geri beslemeler ile enerji üretiminin optimize edilmesi; gerilimin, frekansın ve güç faktörünün otomatik olarak ayarlanabilmesi özelliklerine sahip güç üretimini sağlamak amacındadır.
+
+Akıllı İstasyonlar
+ Güç faktörü performansı, kesici, trafo ve akü durumunun izlenmesi, kritik ve kritik olmayan işlem kontrolünü sağlar.
+
+Akıllı Dağıtım
+ Kendi kendini iyileştiren, dengeleyici ve optimize edici yapıdadır. Otomatik izleme ve analiz etme özelliği ile hava durumu ve enerjisiz kalma geçmişine bağlı olarak arızaları tahmin edebilecek yapıya sahip sistemlerdir.
+
+
+
+
+
+
+
+
+
+ Akıllı Sayaçlar
+ Akıllı sayaçlar, tüketici ve gücü sağlayan kuruluş arasında GPRS, PLC, RF gibi haberleşme altyapısını kullanarak iki yönlü iletişimi sağlar. Ödeme verilerinin toplanmasını, gerçek zamanlı bilgi sağlayarak güç kalitesi ölçümü, elektrik kesintisi, sayaç aldatma bilgilerini ve tüketim bilgilerini iletebilmektedir. Bu sayede tamircilerin hızlı bir şekilde doğru lokasyona yönlendirilmesine imkan verir.
+
+Bütünleştirilmiş Haberleşme
+ Veri toplama (SCADA-Supervisory Control and Data Acquisition), koruma ve kontrol sistemleri bütünleştirilmiş bir sistemde kullanıcının akıllı elektronik cihazlar ile etkileşimini sağlar. Gelecek nesil güç şebekesi üretici-abone tabanlı bir yazılımla haberleşme ağının yararlarından faydalanılacaktır. Akıllı Şebeke uygulamaları için IP QoS tabanlı uygulamalar tercih edilmektedir.
+
+İleri Kontrol Metotları
+ Şebekenin durumunu analiz ederek tanımlayan ve tahmin eden cihazlar ve algoritmalar topluluğunu ifade etmektedir. Otomatik olarak düzeltici önlemler alarak enerji kesintilerini ve güç kalitesi problemlerini engeller ya da etkilerini azaltır.
+
+
+Akıllı Şebekelerin Sağlayacağı Avantajlar
+
+
+Akıllı şebekeler, enerji tüketiminin uzaktan ve anlık olarak izlenebilmesine ve kontrol edilebilmesine olanak sağlayacaktır. Bu sayede, klasik şebekelerde kullanıcı verilerinin temini için söz konusu olan insan kaynağı ihtiyacı ortadan kalkmış olacaktır.
+
+Elektrik tüketim oranları belirli noktalarda gerçek zamanlı olarak karşılaştırılarak elektrik kayıp-kaçak oranı azaltılabilecektir. 
+
+ Elektrikli araçlar için sağlam bir altyapı oluşturacaktır.
+
+Sistemin ihtiyaç duyacağı enerji yatırımları, elde edilen ölçümler ve analizler sayesinde daha iyi planlanabilecektir.
+
+Yenilenebilir enerji kaynaklarının daha kolay ve hızlı bir şekilde enterkonnekte sisteme entegre edilebilmesi sağlanacaktır.
+
+Kullanılacak elektrik enerjisi kadar elektrik üretimi yapılacağından Kyoto Protokolü’nde kabul edilen karbon salınımı azaltma hedefi  için önemli bir adım olacaktır.
+
+
+
+
+Akıllı Ulaşım Nedir?
+
+Tüm ulaşım modlarına entegre, güncel teknolojileri kullanan, verimli, güvenli, etkin, yenilikçi, dinamik, çevreci, katma değer sağlayan ve sürdürülebilir akıllı bir ulaşım ağı oluşturmaktır.
+
+
+Akıllı Ulaşım Sistemleri (AUS)
+
+
+      Seyahat sürelerinin azaltılması, trafik güvenliğinin artırılması, mevcut yol kapasitelerinin verimli kullanılması, hareketliliğin artırılması, enerjinin verimli kullanılması ve çevreye verilen zararın azaltılması gibi amaçlar doğrultusunda geliştirilen kullanıcı, araç, altyapı ve merkez arasında çok yönlü veri alışverişi ile izleme, ölçme, analiz ve kontrol mekanizmalarını içeren bilgi iletişim temelli sistemlerdir. Bu sistemler kullanılarak pek çok uygulama geliştirilmiştir. 
+
+
+
+
+
+
+
+
+
+Tarihsel Gelişim
+
+İlk AUS çalışmaları 1960’ların sonu 1970’lerin başında Japonya’da CACS (Kapsamlı Otomobil Trafik Kontrol Sistemleri), ABD’de ve Almanya’da ERGS (Elektronik Rota Kılavuzluk Sistemi) ile başlamıştır. 1980'lerin ortasından itibaren haberleşme teknolojilerinde yaşanan gelişmeler AUS uygulamalarına ivme kazandırmıştır. Devlet ve sanayi ortaklığı ile büyük projeler başlatılmış, bu projelerle 90’lı yıllarda elektronik ücret toplama sistemleri, akıllı kavşak kontrol sistemleri, yolcu ve sürücü bilgilendirme sistemleri ve trafik kontrol merkezleri gibi uygulamalarla genişleyen AUS, ayrı bir disiplin olarak kabul görmeye başlamıştır. 
+Tarihsel Gelişim
+
+Uluslararası ölçekte ilk AUS kongresi 1994 yılında Paris’te düzenlenmiş ve bu tarihten itibaren her yıl düzenli olarak farklı bir ülkede gerçekleşmeye devam etmiştir. Bu etkinlikler ve bununla birlikte AUS alanında yapılan akademik çalışmalar sonucu kazanılan bilgi birikimi ile ortaya çıkan teknolojik gelişmeler ve ihtiyaçlar doğrultusunda ülkeler kendi AUS organizasyonlarını kurmuşlardır. Ulusal ölçekte kurulan organizasyonların yanı sıra ERTICO, ITS Amerika, ITS Asya Pasifik gibi bölgesel yapılanmalar da bulunmaktadır.
+
+
+AUS’a Duyulan İhtiyaç ve Faydaları
+
+
+Dünya genelinde nüfusun dağılımına bakıldığında, 2012-2019  yılları arasında gelişmiş ülkelerin yanı sıra gelişmekte olan ülkelerde de kentleşme artmaktadır. Nüfus artışı ile ortaya çıkan kentsel büyümeye bağlı olarak çevresel, ekonomik, sosyal ve ulaşım alanlarında günlük yaşamı etkileyen bazı değişimler meydana gelmektedir. 
+
+Kentlerdeki iş olanaklarının kırsal bölgelere oranla daha fazla olması, nüfus artışının en temel sebeplerinden birisi olmaktadır. Bu durum trafik sorunlarını da beraberinde getirmektedir. Kentlerde yaşam alanları ile iş yerleri arasındaki mesafelerin uzun olması ve ulaşım için toplu taşımanın yanı sıra özel araç kullanımının artması trafikte yaşanan sıkışıklıkları da artırmaktadır. Kentleşme ile birlikte araç ve yaya trafiği yoğunlaşmaktadır.
+
+
+Trafik yoğunluğunun artması ve buna bağlı olarak yakıt tüketiminin ve karbondioksit salım miktarının artışı, bilgi ve iletişim teknolojilerinin ulaşım alanında kullanımını zorunlu hale getirmektedir. Bu durum ise kullanılacak en iyi yöntemlerden biri olarak karşımıza AUS’u çıkarmaktadır.
+
+Akıllı ulaşım sistemleri sayesinde insan kaynaklı hatalar minimize edilmektedir. Bununla birlikte trafik kaynaklı zaman kaybı, ölümlü ve yaralanmalı kazalar, maddi kayıplar, hava kirliliği ve benzeri pek çok negatif durumun önüne geçilebilmektedir.
+
+Yukarıda bahsedilen tüm bu gerekçeler akıllı ulaşım sistemlerinin önemini bir defa daha ortaya koymuştur.  AUS’ un yaygınlaşması sayesinde söz konusu gereksinimlere çözümler üretilebilecektir. Bu çözümler aşağıdaki faydaları da beraberinde getirecektir:
+
+
+• Hareketliliğin artması,
+• Trafik sıkışıklığındaki azalma ve toplu ulaşıma olan katkılar,
+• Trafik kazaları ile buna bağlı ölümlerin, yaralı sayılarının ve maddi kayıpların azalması,
+• Ulaşımda geçen zamanın azalmasıyla yakıt tasarrufunun sağlanması,
+• Karbon salımı ve çevre kirliliğinin azalması,
+• Araçların yıpranma süresinin gecikmesiyle bakım maliyetlerinde tasarruf sağlanması,
+• Acil yönetim sistemlerinin verimliliğinin ve etkinliğinin artması,
+• Araç-araç, araç-altyapı, araç-merkez haberleşme sistemleri ile seyahat süresini azaltıp ulaşım kolaylığı sunması,
+• Trafik güvenliğine ve toplu ulaşıma katkı sağlayan web-mobil uygulamalarının ortaya çıkmasının sağlanması,
+• Kameralar, algılayıcılar ve benzeri uygulamalar yardımıyla araç, çevre ve altyapıdan elde edilen büyük verinin analizi ile ulaşım kolaylığının sağlanması,
+• Elektrikli ve hibrit araçların artışına bağlı olarak akıllı enerji sistemlerine geçişle enerji tasarrufunun sağlanması,
+• Kameralardan ve benzeri uygulamalardan elde edilen verilerle kamu güvenliğinin sağlanması, 
+• Gerçek zamanlı verilere dayanan mobil uygulamalar ve hizmetler sayesinde elde edilecek doğru ve anlık bilgiler ile yolcu ve yük hareketliliğinin optimize edilmesi.
+
+Sayılan bu etkilerinin tüm sektörlere olan katkıları nedeniyle AUS dünyada son yılların en gözde odak alanlarından biri haline gelmiştir. 
+Küresel Seyrüsefer Uydu Sistemi (GNSS)
+GNSS (Global Navigation Satellite System), AUS alanında seyahat planlamada konum bilgisine ulaşma, rota belirleme uygulamaları, araç takip sistemleri ve benzeri uygulamalarda kullanılmaktadır.
+
+Radyo Frekansıyla Tanımlama (RFID)
+RFID sistemleri, özellikle ücret toplama sistemlerinde kullanılmaktadır. Kendine özgü standartları olan bu yapılar gerek aktif gerekse pasif sistemler olarak AUS alanında kullanım imkanı sunmaktadır. Ülkemizde ücret toplamak için kullanılan HGS etiketleri RFID teknolojisi için verilebilecek en iyi örneklerden biridir.
+
+Haberleşme Teknolojileri
+Tahsis Edilmiş Kısa Mesafeli Haberleşme (DSRC)
+
+   DSRC (Dedicated Short Range Communications), araçtan her şeye (V2X) haberleşmesi için özel olarak tasarlanmış 5.9 GHz frekans bandını kullanan bir kablosuz haberleşme teknolojisidir. AUS alanında RFID sistemlerinde olduğu gibi ücret toplama uygulamalarında kullanılan bir teknolojidir. Ülkemizde 1999 yılından itibaren kullanılmaya başlanmış olan OGS, DSRC ile ücret toplamaya ilişkin verilebilecek en iyi örneklerden biridir. İleriye dönük AUS çalışmalarında ise araç-araç (V2V) ve araç -altyapı (V2I) haberleşmesinde önemli bir rol oynayacaktır.
+Radyo Veri Sistemi (RDS) ve Sayısal Radyo Yayını (DAB)
+
+      FM radyo tabanlı Radyo Veri Sistemi (RDS) ve Sayısal Radyo Yayını (DAB) geniş alanlara trafik, seyahat ve acil durum anonslarının yapılması için kullanılmaktadır. 
+ Günümüzde radyo dinleme esnasında o an dinlenmekte olan şarkı, şarkıcı, şarkı süresi gibi bilgilerin radyo ekranı üzerinden görüntülenebilmesi RDS ile sağlanmaktadır. Bunun yanında yolda meydana gelen olaylara dair sürücülere yapılacak bilgilendirmeler yine RDS üzerinden sağlanabilmektedir. 
+
+Yakın Alan Haberleşmesi (NFC)
+     NFC (Near Field Communication) teknolojisi, ilk olarak 8 Aralık 2003 tarihinde ISO/IEC tarafından standart olarak kabul edilmiş yeni nesil yakın mesafe kablosuz haberleşme teknolojisidir. NFC teknolojisinin AUS’ta kullanım alanları; bilgi paylaşımı, veri alış-verişi, toplu taşıma, ödeme ve benzeri şekilde sıralanabilir. Son yıllarda temassız kart ile ödeme yapma, toplu taşımada cep telefonu ve akıllı saat ile bilet ücretini ödeme işlemleri NFC teknolojisi için verilebilecek iyi örneklerden bazılarıdır.
+
+Hücresel Haberleşme Ağları
+     3G, 4G, 4.5G ve yakın gelecekte devreye girecek 5G mobil haberleşme teknolojileri güvenlik, navigasyon, araç içi bilgilendirme sistemleri ve eğlence hizmetleri gibi birçok AUS uygulamasında kullanılabilmektedir. Ülkemizde özellikle mobil uygulamaların geliştirilmesinde mobil haberleşme teknolojilerinin sağlamış olduğu imkanlardan faydalanılmaktadır.
+
+Düşük Güç Geniş Alan Ağı (LPWAN) Teknolojileri
+
+       LPWAN, çok geniş alanlara dağıtılmış, düşük güçlü M2M ve IoT cihazları için kablosuz haberleşme imkanı sunmaktadır.  LPWAN teknolojilerinden bazıları NarrowBand-IoT, LoRa ve Sigfox’tur.
+
+• Dar Bant-Nesnelerin İnterneti (NarrowBand-IoT) Teknolojileri: 
+       NB-IoT lisanslı frekanslarda çalışmakta olup mevcut LTE ağını, yani GSM şebekesini kullanmaktadır. Bu teknolojide sensörler, kameralar vb. tüm uç cihazlar farklı haberleşme teknolojileri ile (İnternet, DSL, M2M, data hattı vs.) verilerini merkezi bir yerde toplayabilmektedir. AUS alanında kameralar ve sensörlerden elde edilen veriler kablolamanın mümkün olmadığı alanlarda bu teknoloji sayesinde trafik kontrol merkezlerine iletilebilmektedir. Bu teknoloji akıllı otopark, ücret toplama sistemleri, araç içi bilgilendirme sistemleri ve benzeri AUS uygulamalarında kullanılmaktadır. 
+
+
+
+• LoRa (Long Range):
+   Ticarileştirilmiş, patentli bir dijital kablosuz veri haberleşme teknolojisidir. LoRa,  geniş alanlara dağıtılmış olarak bulunan IoT cihazları için pahalı olmayan, uzun-mesafeli bağlantıyı mümkün kılmaktadır. Bu teknoloji genel olarak madencilik, doğal kaynak yönetimi, yenilenebilir enerji, lojistik ve tedarik zinciri yönetimi için kullanılmaktadır. 
+
+• Sigfox:
+   Bu teknoloji sayesinde en fazla 100 bps veri hızı ile şehir alanlarında 10 km’ye kadar ve kırsal alanlarda 50 km’ye kadar veri iletimi yapılabilmektedir. AUS alanında akıllı otopark, anlık yol çalışması bilgilendirmesi ve bisiklet paylaşımı  gibi uygulamalarda bu teknolojiden faydalanılmaktadır. 
+
+
+
+
+
+
+
+
+Algılama Teknolojileri
+   Algılama teknolojileri, AUS’un ihtiyaç duyduğu yol, çevre, hava ve araç bilgilerinin ölçülmesine imkan sağlamaktadır. Algılama teknolojileri sensörlere dayalı bir sistemdir. AUS alanında araç sayımı, trafik yoğunluğu, yol, hava ve emisyon durumu hakkında veri sağlamak amacıyla kullanılır. Özellikle seyahat planlama yazılımları yüklü oldukları mobil cihazlardan elde ettikleri verilerin yanı sıra yol kenarında konumlandırılmış olan sensörlerden gelen verilerin işlenip kullanılması sayesinde sürücülere gidecekleri rota üzerinde alternatif güzergah önerilerinde bulunabilmektedirler. Bunlar endüktif, ultra sonik, lidar, video kamera, radar ve benzeri sensör teknolojileridir.
+
+
+
+Kooperatif Akıllı Ulaşım Sistemleri          (K-AUS) 
+
+K-AUS, karayolu taşımacılığının verimliliğini, güvenliğini ve çevresel performansını artırmayı amaçlayan, araçların birbirleriyle ve çevresindeki yol altyapısıyla doğrudan etkileşime girmesini sağlayan yenilikçi teknolojilerden biridir. K-AUS, araç-araç (V2V), araç-altyapı (V2I) ve / veya altyapı-altyapı (I2I) iletişimi ve araçlar ile yayalar veya bisikletliler (araç-herşey, V2X) arasındaki iletişimi içerir. K-AUS ile araç içinde ve yol kenarında yerleştirilmiş olan haberleşme cihazları ile araç-araç ve araç-altyapı iletişimi sağlanarak yolda meydana gelen tüm olaylar hakkında sürücüler bilgilendirilerek güvenli ve konforlu bir seyahat sağlanacaktır. 
+
+
+
+Bunun yanında gelişen haberleşme teknolojileri sayesinde özellikle geçiş önceliği bulunan ambulans, polis ve benzeri araçlar hakkında sürücülere gerekli bilgilendirme yapılarak karayolu üzerinde meydana gelen olaylara müdahalenin daha hızlı olması sağlanacaktır. Ülkemizde henüz test çalışmaları yürütülen K-AUS özellikle Avrupa Birliği ülkelerinde test koridorlarının oluşturulması ve sürücüsüz/bağlantılı araç uygulamalarının geliştirilmesiyle gündemde olan bir çalışmadır. Klasik AUS uygulamalarının topluma yansıyan bölümünü saha ekipmanları oluşturmaktadır.
+
+
+
+
+
+
+
+
+AUS Uygulamaları
+
+
+Bir Servis Olarak Hareketlilik (MaaS):
+
+MaaS (Mobility as a Service), talep doğrultusunda farklı türlerdeki ulaşım servislerinin entegre edilmesi ile ulaşılabilir tek bir hareketlilik servisi oluşturulmasıdır. MaaS ilk olarak, Finlandiya'da uygulanmış ve ulusal ulaştırma politikasında önemli rol oynamıştır. Müşterinin isteğini karşılamak için MaaS operatörü toplu ulaşım, araç, bisiklet paylaşımı, araç kiralama ve benzeri ulaşım opsiyonlarını ya da bunların bir kombinasyonunu sunmaktadır. MaaS, kullanıcıların birden çok bilet ve ödeme işlemi yapması yerine bir uygulama üzerinden tek bir ödeme kanalı kullanarak uçtan uca seyahat erişimini sağlamaktadır. MaaS’ın temel amacı; kullanıcılara, kendi aracını kullanmak yerine çok daha ucuz, sürdürülebilir ve verimli ulaşım imkanları sunmaktır. 
+
+
+
+
+
+
+
+
+Araç Paylaşımı (Car Sharing)
+
+Araçların kısa süreler için (genellikle saatlik) kiralandığı ve kentsel alanlarda kısa mesafeli yolculuklar için kullanıldığı bir araç kiralama modelini ifade etmektedir. Araç paylaşımı ile yol ve park alanlarının verimli kullanılması sağlanmaktadır. Araç paylaşımının temel ilkesi kullanıcılara, araç sahipliğinden kaynaklanan maliyetler ve sorumluluklar olmadan fayda sağlamaktır. Araç paylaşımı, toplu taşımadan daha esnek olduğu için kalabalık şehirlerde alternatif bir ulaşım yöntemi olarak görülmektedir. 
+
+
+Yolculuk Paylaşımı (Ride Sharing)
+
+Aracında boş koltukları bulunan sürücüleri aynı yöne giden farkı yolcular ile buluşturarak birlikte yolculuk yapmalarını ve yol masraflarından tasarruf etmelerini sağlayan anlık ya da planlı bir ulaşım yöntemidir. Bu yöntem ile kişisel araçların paylaşılması sayesinde yolculara kişisel rahatlık ve çevresel fayda sağlanırken yollarda trafik sıkışıklığı azaltmış olmaktadır. 
+
+
+Araç Havuzu (Car Pooling)
+Bir veya daha fazla özel aracın diğer kullanıcılarla organize bir şekilde paylaşılmasıdır. Kişinin sahibi olduğu özel aracını sürekli ve düzenli bir şekilde (örneğin; iş yerindeki arkadaşlarıyla) ücreti karşılığı paylaşmasıdır.
+
+İndir Devam Et (Kiss And Ride)
+Özel araç yolcusunun seyahatin bir bölümüne toplu taşıma ile devam etmesidir. Örneğin; kişinin tanıdığının aracıyla toplu taşıma durağına kadar gelip inmesi ve seyahatine toplu taşıma ile devam etmesidir.
+
+Sıkışıklık Ücretlendirme (Congestion Charging)
+Tanımlanmış bir alanda sürüş için yol kullanımının ücretlendirilmesidir. Günümüzde özellikle trafiğin yoğun olduğu Londra, Amsterdam gibi kentlerde uygulama örnekleri mevcuttur. 
+
+
+
+
+
+
+
+
+
+Park Et Devam Et (Park And Ride)
+Bilgi sisteminden yararlanarak yolcuların özel araçlarını toplu taşıma sisteminin yakınında yer alan bir otoparka park etmelerini ve yolculuklarına toplu taşıma ile devam etmelerini teşvik eden yolculuk şeklidir.
+
+
+Alan Trafik Kontrolü (Area Traffic Control)
+Tüm yol ağının performansının iyileştirilmesi için yol ağı üzerindeki kavşaklar ve bağlantılarda, sinyal kontrolü ve alternatif güzergah önerisi gibi koordine trafik önlemlerinin alınmasıdır. Yolculuk sürelerinin, kazaların, yakıt tüketiminin ve trafik sıkışıklığının azaltılmasında faydaları vardır. Ancak alan trafik kontrol sistemleri oldukça karmaşık ve pahalıdır. Hong Kong, Finlandiya, İngiltere’nin bazı bölgelerinde bu sistemlerden yararlanılmaktadır.
+
+
+Gelişmiş Taksi Uygulamaları
+
+Akıllı telefonların yaygınlaşması ile birlikte insanların ulaşım ihtiyaçlarının karşılanması amacıyla birçok mobil uygulama geliştirilmiştir. Bu uygulamalar kullanıcılara ulaşım aracını tespit etme, bulma, çağırma, ücretini ve güzergahını belirleme hizmetlerini vermektedir. Ayrıca yeni çıkan bazı uygulamalar aynı güzergah üzerinde seyahat edecek yolcular için taksi paylaşımına da müsaade etmektedir. Bu kapsamda hizmet kalitesini artıran, zaman, para ve enerji tasarrufu sağlayan pek çok yerli ve yabancı kaynaklı uygulamalar bulunmaktadır.
+Akıllı Binalar
+Akıllı Bina Nedir?
+
+Genel tabirle akıllı binalar, enerji verimliliğini en yüksek seviyeye çıkarmak için tüm bina adına enerji kullanımlarını yine bina içerisinde bulunan sistemler kapsamında, kontrollü şekilde gerçekleştirilerek yapılan bir işlem olarak ön plana çıkmaktadır. Burada önemli olan gerçekleştiren herhangi bir işlem adına her şeyin tam olarak yüksek performans dahilinde yapılırken, enerji harcanmasının mümkün olduğu kadar minimum seviyede tutulması durumudur.
+Akıllı binalar sayesinde: 
+• Binanın kullanıcılara sunduğu hizmet optimize edilebilir
+• Kirlilik ve atık miktarı en az düzeye indirilebilir 
+• Kullanıcı rahatlığı ve güvenliği iyileştirilebilir 
+• Binanın kullandığı enerjiden tasarruf edilebilir 
+• Hava kalitesi geliştirilebilir 
+• Binanın yaşam döngüsü uzatılabilir
+AKILLI ŞEHİRLERDE AKILLI BİNALARIN ÖNEMİ
+ 
+Akıllı şehirler, kentsel ortamı daha akıllı hale getirmek için tasarlanmış çeşitli sistemlerin karmaşık ve katmanlı bir bağlantısı olarak düşünülmektedir. Akıllı şehirleri oluşturan en önemli bileşenler akıllı binalardır. Akıllı binalar, akıllı şehirlerin diğer bileşenleri olan akıllı su ve sıhhi tesisat, akıllı enerji, akıllı güvenlik gibi bileşenlerle doğrudan ilişkilidir. 
+Pasif Sistemler Kullanılarak Yapılan Bina Yönetiminde Amaçlanan İlkeler
+
+ • Enerji etkin pasif tasarım kapsamında; net-sıfır enerjili binalar yaygınlaştırılmalı, bina ısı yalıtım sistemleri ile iklimlendirmeye destek verilmeli 
+• Su yönetimi için; akıllı su sayaçları ile su tüketimi azaltılmalı 
+• Atık yönetimi için; bina katı atıkları en aza indirilmeli, atıklar çıktığı noktadan sınıflandırılmalı, atıklar altyapıya iletilmeden geri kazanılmalı, atıkların binalarda güvenli depolaması sağlanmalı, bina atık maliyetleri azaltılmalı ve entegre bina atık yönetimi ile tek noktadan koordinasyonu sağlanmalı
+
+Aktif Sistemler Kullanılarak Yapılan Bina Yönetiminde Amaçlanan İlkeler
+
+• Enerji etkin aktif tasarım kapsamında; akıllı bina iklimlendirmesine bağlı olarak enerji tasarrufu sağlanmalı, 
+• İç hava kalitesi arttırılmalı ve bina enerji tasarrufu sağlanmalı 
+• Aydınlatma için; doğal kaynaklardan (güneş) maksimum fayda sağlanmalı ve kullanıcılara gerçek zamanlı olarak tüketim bilgisi iletilmeli
+
+
+AKILLI BİNALAR VE SÜRDÜRÜLEBİLİRLİK
+ 
+Çevreye verilen zararın minimum düzeyde olması ve enerjinin verimli kullanılması sürdürülebilirliğin amaçlarındandır. Akıllı binalar ise bu amaçları temel alır ve akıllı sistemlerle birleştirerek hem sürdürülebilir hem de konforlu bir mekan sunar. Akıllı binalarda sürdürülebilirlik kavramının etkisi, enerji yönetiminin uygulanmasıyla anlaşılabilir.
+
+Akıllı Sağlık
+
+Akıllı Sağlık Nedir?
+
+Akıllı sağlık (Smart Healthcare), sağlık hizmetlerinin dijitalleşmesi ve ileri teknolojiler kullanılarak daha verimli, erişilebilir ve etkili hale getirilmesini sağlayan sistemler bütünüdür. Yapay zeka (AI), büyük veri, nesnelerin interneti (IoT), bulut bilişim ve mobil sağlık teknolojileri gibi yenilikçi çözümler sayesinde sağlık hizmetleri hem hastalar hem de sağlık çalışanları için daha güvenilir ve optimize edilmiş bir hale gelmektedir.
+
+Akıllı Sağlığın Belirleyicileri
+
+ Yapay zeka tabanlı giyilebilir teknoloji destekli uzaktan izleme ve teletıp yardımlı akıllı sağlık olanaklarının risk yönetimi, erken tanı ve tedavi alanlarında, hem kişisel hem de toplumsal sağlık yönetimine uyarlanması söz konusudur. Akıllı sağlığın toplum içinde kullanılması ve yayılması, farkındalık, bilgilendirme ve bilinçlendirme yoluyla bireylerde davranış değişikliği yaratılabilmesine bağlıdır. Bireysel ve toplumsal yaşam tarzının, alışkanlıkların ve ihtiyaçların değişimi bağlamında sağlık ihtiyaç ve alışkanlıklarında da değişim söz konusudur. Günümüzde toplumsal yaşam tarzı değişimi, dijitalleşme ve mobil toplum örneği ile karşılık bulmaktadır
+ Akıllı Sağlığın Kazanımları 
+
+Bilişim ve iletişim teknolojilerinin ilerlemesi, özünde biyoteknoloji olan kanıta dayalı tıbbı dijitalleşmeye zorlamaktadır. Eşzamanlı görsel ve işitsel uyaranlarla geri bildirimin sayısal verilere dönüştürülebilmesi, sağlıkta birçok yeniliğe öncülük etmektedir. Bilişim teknolojileri, dijital davranış modelleri geliştirerek, insanla yapay zekanın hibrit ve sinerji yaratacak şekilde kullanımına olanak tanımaktadır. Sağlığın dijitalleşmesi, performans ve kapasite artışının yanında genel sağlık hizmetleri yönetiminde de özgün modeller oluşturulmaktadır. Sağlık alanında dijital teknolojiler, başlangıçta yüksek yatırım maliyeti dezavatajına karşılık sağlık hizmeti üretimi ve sağlık eğitimi etkinliklerine büyük katkı sağlamaktadır
+
+
+ Akıllı Sağlığın Toplumsal Kazanımları
+
+ Sağlık alanında giderek artan sağlık verisinin incelenmesi, çıktılarının denetlenmesi, olası hastalık risklerinin öngörülmesi gibi yüksek işlem kapasitesi gerektiren görevlere çözüm arayışı sürmektedir. Akıllı sağlık uygulamaları genel sağlık yönetiminde, kitlesel önleyici ve tamamlayıcı sağlık hizmeti sunmada, tıbbi araştırma ve geliştirmede, sağlık hizmeti kalite ve maliyet yönetiminde, verimli kapasite kullanımı etkinliklerinde zeki makinelerle, zeki bilgisayar programları yapılmasına olanak sağlamaktadır. Mobil sağlık olanakları ve akıllı yanıt sistemleriyle sağlık hizmetlerinin dijitalleşmesi bütünleşik sağlık sistemine geçişi desteklemesidir
+
+
+
+
+
+
+
+Gelecekte Akıllı Sağlık ve Sonuçları
+
+            Sağlıklı ve gelişmiş toplum hedefine ulaşabilmek, ancak iyi örgütlenmiş bir sağlık sistemiyle mümkündür. İyi örgütlenmiş bir sağlık sisteminin oluşturulmasında sağlık bilişim sistemlerinin önemi büyüktür. Sağlık sektöründe yer alan kurumlar, sundukları sağlık hizmetlerine yönelik karar verme aşamasında  bilgi teknolojileri ve sağlık bilişim sistemlerinden faydalanmak durumundadır. Sağlık hizmeti endüstrisi, değer bazlı sağlık hizmetine dönüşürken yenilikçi e-sağlık uygulamalarının kurumsallaştırılması, akıllı sağlık uygulamaları ile güvenli veri paylaşımı, veri paylaşımında kişisel gizlilik ve kişisel veri güvenliği konularında farkındalık yaratılması gerekmektedir. Akıllı sağlık uygulamaları geleneksel sağlık hizmetlerinin yetişemediği birçok alanda tamamlayıcı olacaktır. 
+
+
+
+
+Dinlediğiniz İçin Teşekkürler

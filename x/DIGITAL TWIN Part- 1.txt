@@ -1,0 +1,190 @@
+
+DIGITAL TWIN
+Umut Yağız Yerli
+213205065
+1
+İlk olarak 30 yıl önce "Mirrored Worlds" adlı kitapta ortaya atıldı.
+ Zamanla bu kavramın anlamı gelişti ve statik modellerden dinamik simülasyonlara, gerçek zamanlı veri entegrasyonuna ve otonom karar verme sistemlerine kadar geniş bir yelpazede tanımlanmaya başladı
+2
+Dijital İkiz Nedir
+Kullanım Alanları
+ Özellikle Endüstri 4.0 kapsamında imalat sanayisinde ve sonrasında yapılı çevre (binalar, şehirler, coğrafi alanlar) gibi alanlarda yaygınlaştı.
+Yapı Bilgi Modelleme
+Nesnelerin İnterneti
+Coğrafi Bilgi Sistemleri
+3
+Bileşenleri
+Araştırmacılar, DT'yi farklı perspektiflerden tanımlamış, bu da kavramın netleşmesini engellemiştir.
+Fiziksel Varlık
+Sanal Varlık
+Veri Bağlantısı
+Ek Bileşenler
+Gerçek Zamanlı Veriler
+Karar Destek Sistemleri
+Etkileşimli Sistemler
+Ana Bileşenler
+
+4
+Olgunluk Seviyeleri
+DT'lerin teknolojik ve işlevsel olarak ne kadar gelişmiş olduğunu değerlendirmek için olgunluk seviyeleri tanımlanmıştır.
+Gerçeklik Yakalama
+2D/3D modeller
+Gerçek Zamanlı Veri Ekleme
+5 Aşamalı Model
+İki Yönlü Entegrasyon
+Otonom Operasyonlar
+5
+Dijital İkiz Tanımları
+6
+ISO 23247-1:2021 : DT, "gözlemlenebilir bir imalat öğesinin amaca uygun dijital temsili ve bu öğe ile dijital temsili arasında uygun bir senkronizasyon oranında yakınsama sağlayan araç" olarak tanımlamıştır
+NASA :  DT, "fiziksel modeller, sensör güncellemeleri gibi en iyi mevcut verileri kullanarak, bir sistemin veya aracın yaşamını yansıtan entegre bir çok-ölçekli, olasılıksal simülasyon" olarak tanımlamaktadır
+7
+Digital Twin Bileşenleri ve Modelleri
+Üç Parçalı Model:
+Fiziksel ürünler
+Sanal ürünler
+Gerçek ve sanalı birbirine bağlayan bağlantılar
+
+Beş Boyutlu Model:
+Fiziksel varlıklar
+Sanal modeller
+Dijital ikiz verileri
+Hizmetler (XaaS)
+Bağlantılar
+
+8
+Kentsel Uygulamalarda Digital Twin
+Sunum Katmanı: Kullanıcı arayüzleri ve görselleştirme
+Erişim Kontrol Katmanı: Veri akışını kontrol eder
+Hizmet Katmanı: Temel bileşen işlevselliklerini sunar
+İş Katmanı: Kullanıcı ihtiyaçlarını ele alır
+Veri Katmanı: Heterojen veri depoları
+Altyapı Katmanı: Fiziksel ve sanal sunucular
+Güvenlik Katmanı: Güvenlik önlemleri
+Dijital ikizler, akıllı şehirler ve kentsel süreçlerin modellenmesi için kullanılır.
+DUET (The Digital Urban European Twins)Projesi: Kentsel dijital ikizlerin benimsenmesini teşvik eden bir girişimdir. Bu proje, dijital ikizler için yedi ana katman içerir:
+9
+Standartlar
+Hedef varlık (fiziksel veya fiziksel olmayan),
+Dijital varlık (veri ve prosedürel unsurlar),
+Veri bağlantısı (API'ler ve modeller),
+Hizmetler (analiz, simülasyon, optimizasyon),
+Altyapı (sensörler, ağ, GIS),
+Sistem yönleri (entegrasyon, güvenlik, veri etiği).
+DT'lerin oluşturulmasında, farklı kaynaklardan gelen verilerin entegrasyonu için standartlar kritik bir rol oynar.
+
+ISO/IEC 30173:2023: DT kavramları, terminolojisi ve uygulamalarına ilişkin genel tanımları içeren bir standart yayınlanmıştır. Bu standart, DT sistemlerini şu bileşenlerle tanımlar:
+10
+Metodoloji
+ Dijital İkiz (DT) kavramının sınırları belirsiz olabilir.
+ Bu nedenle, farklı kaynaklardaki DT tanımlarını analiz ederek, bir DT’nin ne olup olmadığı belirlenmeye çalışılmıştır
+Mevcut literatüre dayalı analiz:  Hakem değerlendirmesinden geçmiş çalışmaları referans aldındı
+ Uzman anketi: 52 uzman ile anket yapılarak DT kavramına yönelik görüşleri toplandı
+  Makine Öğrenmesi (ML) ve Doğal Dil İşleme (NLP) kullanımı
+11
+Örneklem Geliştirme
+Bu çalışma iki ana veri kaynağına dayanıyor:
+  Tam metin makaleler (Bilimsel yayınlardan toplanan veriler)
+  Uzman anketi (Dijital İkiz konusunda uzmanlardan alınan görüşler)
+12
+Tam Metin Makaleler Veri Seti
+Elsevier API kullanılarak Scopus ve ScienceDirect gibi veri tabanlarından 2000-2024 yılları arasında yayınlanmış 15.353 makale toplandı.
+Kaynaklar:
+İmalat alanından dergiler (örneğin, IFAC Journal of Systems and Control, Journal of Manufacturing Systems).
+Yapılı Çevre alanından dergiler (örneğin, Automation in Construction, Journal of Building Engineering).
+Uzman Anketi Veri Seti
+52 uluslararası uzman ile anket yapıldı
+ Katılımcılar:
+14 kişi özel sektörden (şirketler, danışmanlık firmaları)
+12 kişi kamu sektöründen
+23 kişi akademik kurumlardan
+ 🔹 Katılımcıların %44’ü 20 yıldan fazla deneyime sahip.
+ 🔹 Anket sorusu: “Dijital İkiz nedir?”
+ 🔹 Amaç: Literatür taramasıyla elde edilen verileri uzman görüşleriyle doğrulamak.
+
+14
+ Dijital İkiz tanımlarını daha sistematik ve güvenilir hale getirmek için yapılan geliştirmeler
+Regex (Düzenli İfadeler) kullanılarak DT tanımları metinlerden çıkarıldı.
+Büyük Dil Modelleri ile bazı elemeler yapıldı
+
+Eksik Tanımlar
+Benzer Tanımlar
+Tanımlar arasındaki benzerlik kosinüs benzerliği ile ölçüldü
+Fuzzy Matching(Bulanık Eşleme) Algoritması ile %90’dan fazla benzer tanımlar tespit edilerek temizlendi.
+📌 Sonuçlar GitHub’da açık kaynak olarak paylaşılmıştır.
+15
+Dijital İkiz Bileşenlerinin Belirlenmesi
+Analiz Sonuçları:
+      Literatür Veri Seti: En sık kullanılan terimler: "fiziksel", "model", "veri", "simülasyon".
+      Uzman Anketi: En sık kullanılan terimler: "3D", "güncelleme", "temsil","fiziksel", “model", "veri".
+ISO 30173 Dijital İkiz sistemi ve DUET mimarisi ile uyumlu bileşenler belirlendi.
+ Beş genel kategori oluşturuldu:
+Gerçek zamanlı veri yönetimi
+Simülasyon ve modelleme
+Sanallaştırma ve temsil
+Optimizasyon ve karar destek sistemleri
+Entegrasyon ve bağlantılı sistemler
+Bu çalışma, DT bileşenlerinin sistematik şekilde sınıflandırılmasını sağlayarak gelecekteki analizlere zemin hazırlamaktadır.
+16
+Dijital İkiz Bileşenleri
+DT'ler çok ölçekli ve çok kaynaklı verilerle çalışır. Bu veriler sensörlerden veya simülasyonlardan gelebilir ve çift yönlü (bi-directional) akış sağlayabilir.
+
+1️⃣ Veri (Data)
+Ana bileşenler:
+ 2D ve 3D veri: Dijital veya fiziksel varlıkların geometrik ve davranışsal bilgileri.
+ Gerçek zamanlı veri: Sensörler ve IoT ile toplanan ya da simülasyonlarla üretilen anlık veriler.
+  Veri modelleme: Veri standartları, şemalar, ontolojiler ve sayısallaştırma yöntemleri
+
+17
+2️⃣ Analiz ve Hizmetler (Analysis and Services)
+DT sistemleri entegrasyon, analiz, simülasyon, görselleştirme ve optimizasyon gibi hizmetler sunar.
+📌 Ana bileşenler:
+  Simülasyon modelleri: Hedef varlığı veya sistemi temsil eden süreç modellemeleri.
+  Veri analitiği ve AI/ML modelleri: Veri analizi, yapay zeka ve makine öğrenimi algoritmalarının kullanımı.
+  Veri kataloğu: Veri keşfi ve erişimi için bilgi ve bağlam grafikleri.
+
+3️⃣ Altyapı (Infrastructure)
+DT’nin verimli çalışmasını sağlayan teknolojik altyapıdır.
+📌 Ana bileşenler:
+  Bulut platformları: DT hizmetleri için bulut bilişim altyapıları.
+  Yüksek performanslı bilişim (HPC): Büyük veri ve karmaşık modelleri işleyebilme kapasitesi.
+  IoT ve sensör ağları: Fiziksel cihazların veri toplama ve paylaşım için birbirine bağlanması.
+
+18
+4️⃣ Arayüz (Interface)
+DT sistemleri kullanıcılarla ve fiziksel sistemlerle etkileşimi sağlar.
+📌 Ana bileşenler:
+ API’ler: Veri akışını kontrol eden yazılım arabirimleri.
+ Görselleştirme: Verilerin anlaşılır şekilde sunulması.
+ Panolar (Dashboards): Kullanıcıların DT verilerine erişim ve etkileşim sağlamasını kolaylaştıran arayüzler.
+
+5️⃣ Sistem Yönetişimi (System Governance)
+DT sistemleri için güvenlik, etik, veri doğruluğu ve kullanıcı yönetimi gereklidir.
+📌 Ana bileşenler:
+  Veri doğrulama: Veri kalitesini ve doğruluğunu kontrol eden mekanizmalar.
+  Güvenlik protokolleri: Veri sızıntılarına ve siber saldırılara karşı koruma önlemleri.
+  Politikalar: Dijital ikiz verilerinin etik ve yasal çerçevede yönetilmesi.
+  Kullanıcı yönetimi: Yetkilendirme ve erişim kontrolleri.
+
+19
+Bileşenlerin Tanımlanması ve Analiz
+Bileşen Frekans ve Ki-Kare Analizi
+Amaç: Dijital İkiz (DT) bileşenlerinin farklı alanlardaki (kentsel, bina, imalat, mimari) dağılımını ve önemini incelemek.
+Yöntem: Ki-Kare testi kullanılarak bileşenlerin alanlara göre anlamlılığı test edildi.
+Sonuçlar:
+Ki-Kare İstatistiği: 109.76.
+𝑝-değeri: 2.48e−07 (anlamlı ilişki).
+Standartlaştırılmış Artıklar: Bileşenlerin alanlara göre fazla veya az temsil edildiği durumlar belirlendi.
+Kentsel Alan: "IoT sensörleri" ve "Politika" bileşenleri daha sık kullanılmaktadır.
+Bina ve Mimari Alanları: "2D/3D veri" bileşenleri daha yaygındır.
+İmalat Alanı: "2D/3D veri" bileşenleri daha az kullanılmaktadır.
+
+20
+Korelasyon ve Kümeleme Analizi
+Amaç: Bileşenlerin anlamlılık ve anlamsızlık açısından nasıl gruplandığını incelemek.
+Yöntem: Tüm bileşenlerin artıkları üzerinde korelasyon ve dendrogram kümeleme analizi yapıldı.
+Sonuçlar:
+Bileşenler, iki büyük kümeye ayrıldı:
+Anlamlı Bileşenler: Belirli alanlarda önemli ölçüde temsil edilen bileşenler.
+Anlamsız Bileşenler: Alanlara göre önemsiz veya az temsil edilen bileşenler.
+

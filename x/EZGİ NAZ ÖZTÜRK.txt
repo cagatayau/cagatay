@@ -1,0 +1,111 @@
+Blockchain Teknolojisi ve Yeşil Enerji Yönetimi: Zorluklar,
+Literatür Analizi ve Araştırma Katkıları
+Naz Öztürk
+223255006
+İçindekilerBlockchain Teknolojisinin
+Karşılaştığı Sorunlar1
+Literatür Analizi ve Mevcut
+Araştırmaların Özeti2
+Bu Araştırmanın Amacı ve
+Katkıları3
+Öneriler ve Sonuçlar 4Blockchain Teknolojisinin
+Karşılaştığı SorunlarUygulamalarda Öne Çıkan Temel
+Problemler
+Yüksek enerji tüketimi ve
+depolama maliyetleri
+Ölçeklenebilirlik ve işlem
+hızında yetersizlik
+Güvenlik ve merkeziyetsizlik
+arasındaki denge sorunuEnerji Tüketimi ve Depolama
+Maliyeti
+Blockchain ağlarında özellikle Proof of Work (PoW)
+algoritmasının kullanımı yüksek enerji tüketimine neden
+oluyor.Verilerin bloklara sürekli ve uzun süreli olarak
+depolanması, depolama maliyetlerinin artmasına yol
+açıyor.Bu durum, sürdürülebilirlik hedefleri olan enerji
+sektöründe blockchain teknolojisinin dezavantajlarından
+biri olarak öne çıkıyor.
+Özellikle sürdürülebilirlik odaklı bir sektörde, blockchain’in fazla enerji tüketmesi önemli bir dezavantaj olarak
+değerlendirilmektedir.Ölçeklenebilirlik ve İşlem Hızı
+Sorunu
+Kullanıcı sayısındaki ve işlem hacmindeki artış, sistem
+performansında düşüşe sebep oluyor.
+Blokların doğrulanması için gereken süre uzadıkça işlem
+gecikmeleri meydana geliyor, bu da gerçek zamanlı
+uygulamalarda verimsizliğe yol açıyor.Committee Size (Komite Büyüklüğü)
+Probability of Malicious Actors to Control the
+Blockchain (Blokzinciri Kötü Niyetli Aktörlerin Ele
+Geçirme Olasılığı)
+→ Komite (veya node) sayısı arttıkça, bir grubun (kötü
+niyetli aktörlerin) blockchain'i ele geçirme ihtimali hızla
+azalıyor.
+→ Küçük ağlarda saldırı riski yüksekken, ağ büyüdükçe bu
+risk neredeyse sıfıra yaklaşıyor.
+Güvenlik ve Merkeziyetsizlik
+İkilemi
+Merkeziyetsiz yapı blockchain’in temel özelliklerinden olsa
+da, merkezi çözümler işlem hızını artırırken güvenlikten
+ödün verebiliyor.
+Merkezi yapılar → Daha hızlı ama daha az güvenli
+Merkeziyetsiz yapılar → Daha güvenli ama daha yavaş ve
+maliyetli
+“Blockchain Trilemma” kavramı (Vitalik Buterin’in ortaya
+attığı) bu ikilemi özetliyor: Bir blockchain sistemi aynı anda
+üç özelliği (yüksek güvenlik, yüksek hız/ölçeklenebilirlik ve
+tam merkeziyetsizlik) sağlamakta zorlanıyor. Genellikle iki
+özellik güçlü, biri zayıf kalabiliyor.
+Ayrıca, ağdaki komite (node) sayısının artması, kötü niyetli
+aktörlerin sisteme zarar verebilme olasılığını düşürüyor;
+küçük ağlarda bu risk daha yüksek olabiliyor.The Blockchain Trilemma
+Nedir?
+Blockchain Trilemma → Vitalik Buterin (Ethereum
+Kurucusu) tarafından ortaya atılan bir kavramdır.
+→ Blockchain sistemleri 3 temel özelliğe aynı anda tam
+olarak sahip olamaz demektir.
+Bir Blockchain sistemi aynı anda:
+Çok güvenli,
+Çok hızlı (ölçeklenebilir),
+Ve tam merkeziyetsiz
+olmak isterse, bunu başarmak teknik olarak çok zor
+hatta imkansıza yakındır.
+Genelde 2 tanesi güçlü olur, 1 tanesi zayıf kalır.Literatür Analizi ve Mevcut
+Araştırmaların Özeti
+Blockchain ve Yeşil Enerji Üzerine Yapılan Çalışmalar
+Mevcut çalışmaların çoğu teknik odaklı olup,
+ekonomi, politika ve iş modeli gibi alanlarda
+yeterince derinlemesine analizler yapılmamış.
+Uygulama örnekleri ve pilot projeler baskın şekilde
+yer alırken, geniş ölçekli, global çalışmaların
+eksikliği dikkat çekiliyor.Literatürdeki Eksik Yönler
+Global ve kapsamlı çalışmalar yetersiz
+Ekonomik fizibilite ve sürdürülebilir iş modellerine dair yeterli araştırma mevcut
+değil.
+Çevresel etki, uzun vadeli başarı kriterleri ve stratejik yönetim analizleri sınırlı kalmış.
+Mevcut literatürde stratejik ve yönetimsel bakış açısıyla yapılan analizler sınırlı kalmıştır.Bibliyometrik Analiz Yöntemi
+CiteSpace ile Görsel ve Ağ Tabanlı İnceleme
+Bu yöntem, hangi konuların (hotspot) araştırıldığını, en etkili yazarların ve ülkelerin kimler olduğunu,
+ayrıca işbirliği ağlarının nasıl şekillendiğini görsel ve ağ tabanlı haritalarla sunuyor.
+Böylece hem geçmişteki araştırma eğilimleri hem de gelecekte hangi trendlerin ortaya
+çıkabileceği üzerine öngörülerde bulunuluyor.
+Bu çalışmada literatür analizi için CiteSpace yazılımı kullanılarak görsel haritalar ve bağlantılar
+oluşturulmuştur.Bu Araştırmanın Amacı
+Temel Hedefler
+Blockchain teknolojisinin yeşil enerji yönetimindeki rolünü derinlemesine analiz etmek.
+Enerji sektörü bağlamında uygulanan politikalar, işbirlikleri ve teknolojik gelişmelerin etkilerini
+ortaya koymak.
+Disiplinler arası bir yaklaşım benimseyerek, hem teknik hem de ekonomik ve yönetimsel boyutları
+incelemek.
+Enerji yönetiminde ekonomik uygulanabilirliği geliştiren yöntemler sunmak
+Araştırmanın Kapsamı ve Yöntemi
+Kullanılan Kaynaklar ve Yöntem
+Araştırmada, 2017-2024 yılları arasında yayımlanmış kaynaklar Scopus veri tabanından seçilmiş.
+Bibliyometrik analiz yöntemleri ve CiteSpace aracının kullanılması, araştırmanın görsel ve analitik
+olarak desteklenmesini sağlamış.
+Bu metodoloji, araştırmanın kapsamını belirginleştirirken, elde edilen sonuçların güvenilirliğini
+artırıyor.Öneriler ve
+SonuçlarEnerji verimli Blockchain
+algoritmaları geliştirilmeliYeşil enerji alanında
+daha fazla pilot proje
+yapılmalı
+Politika yapıcılar ve teknoloji
+geliştiriciler birlikte çalışmalıT e ş e k k ü r l e r !

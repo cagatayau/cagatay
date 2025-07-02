@@ -1,0 +1,179 @@
+Yüksek Başarımlı Hesaplamada Güç Verimliliği
+Fatma ÖZMEN
+223255010
+Güç Verimliliği Ölçüm Metrikleri Üzerine İlgili Çalışmalar
+2
+
+Son 10 yılda, performans ölçüm metrikleri (örneğin SPEC FP, NAS Parallel Benchmarks, Top500 gibi) 
+çok fazla ilgi görmüştür.
+Ancak aynı ölçüde sağlam ve yaygın olarak benimsenmiş güç verimliliği metrikleri geliştirilememiştir.
+HPC alanında güç tüketiminin kontrol altında tutulmasına yönelik sektörel farkındalığın artması için uygun ve karşılaştırılabilir güç verimliliği metriklerine ihtiyaç duyulmaktadır
+🔑 Amaç: Performans karşılaştırmalarında LINPACK nasıl yaygınsa, güç verimliliği konusunda da benzer 
+Ölçekte standartlaştırılmış metrikler oluşturulmalıdır
+Var Olan Girişimler
+03.09.20XX
+Sunu Başlığı
+3
+Örnek: Ticari veri merkezleri bu konuda öncülük etmiştir.
+EPA Energy Star programı, Sunucu Metrikleri 
+ve test metodolojileri tanımlamıştır.
+Ancak bunlar transaksiyonel iş yükleri (veritabanı, web sunucusu gibi) 
+içindir ve HPC veya bilimsel iş yüklerine uygun değildir.
+SpecPower metriği:
+Çalışma istasyonu sınıfı uygulamalarda (örneğin sunucularda) işe yarayabilir.
+Fakat büyük ölçekli HPC sistemlerinde kapsamı ve geçerliliği sınırlıdır.
+
+
+Yazarların Vurgusu:
+4
+ 2.1 Performans Ölçümleri İçin İş Yükü Tanımı
+Temel Sorun:
+Büyük ölçekli bilimsel uygulamaların ihtiyaçlarını gerçekçi şekilde yansıtan iş yükleri oluşturmak oldukça zordur.
+Bu sorun hala çözülememiştir ve düşündüğümüzden daha karmaşıktır.
+
+
+
+03.09.20XX
+Sunu Başlığı
+5
+Alternatif Mimari Girişimler:
+Güç verimliliğini artırmak amacıyla bazı yeni işlemci mimarileri önerilmiştir:
+General Purpose GPUs (Genel Amaçlı GPU’lar)→ Yüksek paralellik sayesinde potansiyel enerji verimliliği sağlar.
+STI Cell Broadband Engine→ PlayStation 3'te kullanılan bu yonga yüksek hesaplama kapasitesine sahiptir.
+IBM BlueGene/L (BG/L)→ Gömülü işlemciler kullanarak düşük güçte yüksek performans hedefler.
+❗ Ancak bu sistemlerin gerçekten güç verimli olup olmadığını karşılaştırmak zordur çünkü:
+Farklı mimarilerle karşılaştırma yapacak ortak bir temel yoktur.
+Bu da gerçekçi, bilimsel iş yükleri için uygunluklarının değerlendirilmesini engeller.
+
+03.09.20XX
+Sunu Başlığı
+6
+2.2Güç Tüketimi İçin İş Yükü Tanımı
+Güç Tüketimi Davranışı:
+
+Tam yükte çalışan bir sistemin tükettiği güç, boşta çalışan bir sistemden çok daha yüksektir.
+Ancak iş yükü bileşiminin (yani uygulama çeşitliliğinin) güç tüketimi üzerindeki etkisi tam olarak anlaşılmamıştır
+Bu Çalışmanın Katkısı:
+
+Çalışmada, farklı uygulamalarla çalışan sistemlerin güç tüketimi karşılaştırılmıştır.
+Sonuç: Tam yükte LINPACK (HPL) çalıştırıldığında tüketilen güç, çeşitli bilimsel iş yükleriyle çalışan sistemlerin tükettiği güçle neredeyse aynıdır.
+. 
+Önemli Çıkarım:
+Güç tüketimi ölçümü için her farklı iş yükünü ayrı ayrı test etmek gerekmez. 
+HPL testi sırasında tüketilen güç, geniş bir uygulama yelpazesi için temsil edici kabul edilebilir.
+Yani, HPL çalıştırarak yapılan güç ölçümü, diğer benchmark’lar (örneğin NAS, HPCC gibi) için de geçerli olabilir.
+2.3 Güç Tüketiminin Ölçüm Yöntemleri
+ Güç Tüketiminin Ölçüm Yöntemleri:
+Güncel sistemlerde güç tüketimini ölçmek için birçok farklı yöntem önerilmiştir.
+Bu yöntemler, hem kullanılan ölçüm araçları hem de ölçümün yapıldığı noktalar açısından farklılık gösterir.
+Bu çalışmada araştırmacılar, farklı fiziksel altyapı kısıtlamalarına uygun olacak şekilde çeşitli ölçüm tekniklerini incelemiş ve karşılaştırmıştır.
+Tesis Altyapısının Kısıtları:
+Gerçek sistemlerde bazen birden fazla sistem aynı PDU'yu (güç dağıtım ünitesi) paylaşır.
+Bu da belirli bir sistemin güç tüketimini izole şekilde ölçmeyi zorlaştırır.
+Literatürdeki Örnekler:
+1. Warren ve ark. (Transmeta işlemciler):
+Düşük güçlü bir sistemde, basit duvar prizine bağlanan sistemlerde UPS (güç yedekleme) ile ölçüm yapılmıştır.
+Fakat bu yöntem HPC sistemleri için geçerli değildir çünkü:
+Modern kümeler (clusters) standart prizle değil özel güç sistemleriyle çalışır.
+Çoğu HPC sistemi tüm rack için tek bir AC→DC dönüşümü yapar.
+
+Feng ve ark. (2005):
+Ticari bileşenlerden oluşan sistemlere güç kaynağından uzatılmış teller takıp, bunları direnç ve multimetre ile ölçmüşlerdir.
+Her tel, ilgili bileşenle eşleştirilerek güç tüketimi ayrı ayrı izlenmiştir.
+Bu yöntem birçok sistem için pratik değildir, ancak deneysel olarak önemli ve çalışmanın bulgularıyla uyumlu sonuçlar vermiştir.
+
+r.
+
+.
+
+.
+
+Büyük Ölçekli Sistemlerde Zorluklar:
+03.09.20XX
+Sunu Başlığı
+10
+LINPACK benchmark sırasında tüm HPC sisteminde güç ölçmek zordur.
+ Çünkü sistemler zaten aktif olarak çalışmaktadır.
+ ve sadece güç ölçümü için devre dışı bırakılmaları uygun değildir. 
+Bu nedenle, çalışmada yalnızca sistemin küçük bir bölümünde (örneğin bir rack) yapılan güç ölçümünün,
+ tüm sistemin güç tüketimini tahmin etmekte yeterli doğruluk sağladığı gösterilmiştir. Top500’de önerilen yöntemler, 
+uygulanması kolay, doğru ve sistemin çalışmasını fazla etkilemeden güç verisi toplayabilen yöntemlerdir.
+2.4 Sistemleri Sıralamak İçin Güç Verimliliği Metrikleri ve Prosedürleri
+03.09.20XX
+Sunu Başlığı
+11
+Performans ve güç tüketimi ölçümlerini birleştirmek için yaygın metrik "watt başına performans" oranıdır.
+Bu oran, sistemlerin güç verimliliğini değerlendirmede kullanılır ve Green500 listesinde de temel alınır.
+Ancak yalnızca performansa veya yalnızca güç tüketimine odaklanan sıralamalar eksiktir.
+Watt başına performans metriği yaygın olsa da, dikkatli kullanılmazsa yanıltıcı olabilir.
+
+Güç Verimliliği Metriklerinin Sınırları:
+03.09.20XX
+Sunu Başlığı
+12
+Ölçeklenme Sorunu: Performans ve güç tüketimi sistem boyutuyla birlikte artar .
+Ancak bu iki değerin oranı olan güç verimliliği (intensive) sistem boyutundan bağımsız gibi görünse 
+de, büyük sistemlerde bu geçerliliğini yitirebilir.
+b)Green500’deki Sıralama Yanılgısı: LINPACK skoru sistem büyüdükçe lineer değil, sub-lineer artar; 
+güç tüketimi ise lineer artar. Bu durum büyük sistemlerin verimlilik oranını düşürerek, gerçekte daha 
+verimli olsalar bile küçük sistemlerin daha verimliymiş gibi görünmesine neden olur. 
+Örneğin, BlueGene/L sistemleri Green500 listesinde sistem boyutuna ters şekilde sıralanmıştır.
+
+Çözüm Önerisi:
+13
+Tekil Düğüm Yapılandırmaları
+14
+03.09.20XX
+03.09.20XX
+Sunu Başlığı
+3.2Tüm Sistem Yapılandırması (NERSC Cray XT4 – Franklin
+15
+03.09.20XX
+Sunu Başlığı
+3.3Güç Ölçüm Yöntemleri
+Genel Durum:
+Güç ölçümü hâlâ kesin olmayan ve sistem büyüklüğüne göre değişen bir süreçtir.
+Bu çalışmada, çeşitli yöntemler incelenmiş ve uygulama pratikliği test edilmiştir.
+
+16
+3.3.1Hat Üzeri (Satır İçi) Ölçüm Cihazları
+17
+03.09.20XX
+Sunu Başlığı
+3.3.2 Akım Pensleri (Kelepçe Tipi Ölçüm Cihazları)
+18
+3.3.3Entegre Güç Ölçüm Cihazları
+03.09.20XX
+Sunu Başlığı
+19
+Güç kaynağı üreticileri artık cihazlara güç tüketimini izleyebilen sistemler entegre etmeye başlamıştır.
+ ancak bu teknolojiler henüz yaygın değildir ve ölçüm doğrulukları sınırlıdır. 
+Cray XT4 sisteminde güç kaynakları, her bir hesaplama rafına giden 3 DC hattın akım ve voltajını
+ölçebilmektedir. 
+Ancak bu ölçümler kabadır, sadece manuel komut satırıyla yapılabilir ve aynı anda yalnızca 
+bir rack izlenebilir.
+ Mevcut sistem altyapısı, tüm sistemi gerçek zamanlı izlemeye uygun değildir.
+Cray XT4 sisteminde güç tüketiminin nasıl ölçüldüğü ve test edildiği
+Güç Ölçüm Yöntemleri:
+Güç kaynakları, ethernet arayüzü ile akım ve voltaj ölçümleri sağlayabilmektedir, ancak bu ölçümler kaba ve manuel yapılmaktadır.
+PDU (Power Distribution Unit) panelleri, tüm sistemin güç tüketimini genel olarak ölçebilir, ancak ayrıntılı değil ve genellikle manuel kayıt gerektirir.
+Bu yöntemler, sistemin tamamının ya da büyük parçalarının enerji kullanımını gözlemlemek için kullanılmaktadır.
+
+20
+Benchmark Testleri:
+Tekil node testlerinde CPU, bellek ve I/O performansı sırasıyla LINPACK, STREAM ve IOZone ile ölçülmüş;
+ayrıca NAS Benchmarks ile CPU ve bellek birlikte değerlendirilmiştir
+Testler hem tek hem çok çekirdekli olarak yapılmıştır. 
+Çoklu node testlerinde ise HPL, MPI-STREAM ve SSP uygulamaları kullanılarak sistemin üretim yükü altındaki performansı ve güç tüketimi incelenmiştir.
+
+
+
+21
+Amaç, sistem bileşenlerinin enerji tüketimini ve gerçek kullanım senaryolarındaki performansını anlamaktır.
+
+03.09.20XX
+22
+Sunu Başlığı
+Teşekkürler
+Fatma Özmen
+223255010

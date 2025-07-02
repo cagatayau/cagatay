@@ -1,0 +1,101 @@
+ENDÜSTRİ 5.0'DA IOT 
+UYGULAMALARI İÇİN 
+BLOCKCHAİN 
+PLATFORMLARININ 
+DEĞERLENDİRİLMESİBUSEGÜL
+TOKA 223205034GIRIŞ
+Blockchain , aracılar olmadan güvenli, 
+şeffaf dijital işlemlere olanak tanıyan 
+çığır açan bir merkezi olmayan 
+teknolojidir. Birden fazla düğüme 
+dağıtılmış, kurcalanmaya karşı 
+dayanıklı, değiştirilemez bir işlem 
+defteri sağlar ve çeşitli sektörlerde 
+veri yönetimi ve güven 
+mekanizmalarında devrim yaratır.BLOCKCHAIN MODELS
+1. Genel Blockchain  
+•Açık, merkezi olmayan ağlar .
+•Herkes katılabilir.
+•Örnekler: Ethereum , Bitcoin.
+ 2. Özel Blockchain
+• Kısıtlı erişim ve katılım.
+ •Belirli kuruluşlar tarafından kontrol edilir.           
+•Gizlilik ve ölçeklenebilirliği vurgular.
+3. Konsorsiyum Blockchain  
+•Hibrit yaklaşım. 
+•Birden fazla güvenilir katılımcıya sahip izinli ağ. 
+•Şeffaflık ve kontrolü dengeler.TEMEL BLOCKCHAIN ÖZELLIKLER
+1.Dağıtılmış Defter
+•Birden fazla bilgisayar/düğüm 
+genelindeki işlemleri kaydeder.
+•Her düğüm, blok zincirinin tam 
+bir kopyasını tutar.
+•Şeffaflık ve değişmezlik sağlar.2.Değiştirilemez Kayıtlar
+•İşlemlerin değiştirilmesi veya 
+kaldırılması son derece zordur.
+•Kriptografik olarak güvence 
+altına alınır ve önceki işlemlere 
+bağlanır.3.Uzlaşma Mekanizması
+• İşlem yasasını doğrulayan 
+algoritmalar.
+•Örnekler:
+•İş Kanıtı (PoW)
+•Yetki Kanıtı (PoA)TEMEL BLOCKCHAIN ÖZELLIKLER
+4. Kriptografi
+•İşlemleri korur ve veri bütünlüğünü garanti eder.
+•Kullanımlar:
+•Dijital imzalar
+• Karma işlevler
+5. Akıllı Sözleşmeler
+•Önceden tanımlanmış koşullara sahip kendi kendini yürüten 
+sözleşmeler.
+•Aracı olmadan işlemleri otomatikleştirir.
+6. Merkezi olmayan yapı
+•Merkezi otoriteleri ortadan kaldırır.
+•Birden fazla tarafın ağı doğrulamasına olanak tanır.
+•Şeffaflığı ve güvenliği artırır.ÖNEMLI 
+BLOCKCHAIN 
+PLATFORMLARI1. Ethereum
+•Akıllı sözleşmeler için merkezi olmayan 
+platform.
+•Karmaşık merkezi olmayan uygulamaları 
+(DApp'ler) destekler
+2. IOTA
+•IoT cihazları için tasarlanmıştır.
+•Tangle teknolojisini (Yönlendirilmiş 
+Döngüsüz Grafik) kullanır.
+•Ücretsiz mikro işlemleri etkinleştirir.
+3. Hyperledger Fabric
+•Kurumsal odaklı blok zinciri.
+•Gizlilik ve ölçeklenebilirliğe vurgu yapar.
+4. Corda
+•Kurumsal blok zinciri platformu.
+•Güvenli , doğrudan işlemlere odaklanır .BLOCKCHAIN PLATFORMU SEÇIM KRITERLERI
+IoT uygulamaları için bir blok zinciri platformu seçerken 
+şunları göz önünde bulundurmalıyız:
+•Ölçeklenebilirlik
+•Performans
+•Güvenlik
+•Veri Gizliliği
+•İşler Arası Uyumluluk
+•Mutabakat Mekanizması
+•Geliştirici Araçları
+•Maliyet
+•Topluluk Desteği
+•EsneklikALANLAR ARASI UYGULAMALAR
+Blockchain çeşitli alanlarda önemli bir potansiyel göstermektedir:
+•Tarım
+•Akıllı Şehirler
+•Kenar Bilişim
+•Kimlik Doğrulama
+•Tedarik Zinciri Yönetimi
+•SağlıkSONUÇ
+•BLOCKCHAIN TEKNOLOJISI , 
+PLATFORMLARDA , FIKIR BIRLIĞI
+MEKANIZMALARINDA VEUYGULAMA
+ALANLARINDA SÜREKLI EVRIMLE
+BIRLIKTE BIRÇOK SEKTÖRDE GÜVENLI , 
+ŞEFFAF VEMERKEZI OLMA YAN
+ÇÖZÜMLER SUNARAK DÖNÜŞTÜRÜCÜ
+BIRPOTANSIYEL SUNUYOR .DİNLEDİĞİNİZ İÇİN 
+TEŞEKKÜRLER <3

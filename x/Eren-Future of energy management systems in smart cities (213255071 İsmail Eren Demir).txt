@@ -1,0 +1,87 @@
+Future of energy management systems in smart cities: A systematic literature revie
+İsmail Eren Demir
+213255071
+Neden mevcut akıllı enerji sistemlerindeki ilerlemeler, akıllı şehirlerde büyük ölçekli EMS dağılımını kısıtlayan ana engelleri ortadan kaldırmakta yetersiz kalmaktadır?
+1)Teknolojik Uyumsuzluklar
+-Akıllı enerji sistemlerinin bileşenleri arasında uyumsuzluklar bulunmaktadır. Bu uyumsuzluklar, farklı sistemlerin ve cihazların bir arada çalışmasını zorlaştırır.
+-Bu, enerji yönetim sistemlerinin (EMS) etkili bir şekilde entegre edilmesini ve veri paylaşımını engeller, dolayısıyla büyük ölçekli uygulamalar için zorluk yaratır.
+2)Veri Yönetimi Zorlukları
+-Akıllı şehirlerde kullanılan sistemlerin büyük miktarda veri toplaması gerekmektedir. Ancak, bu verilerin depolanması, işlenmesi ve analiz edilmesi konusunda altyapı yetersizliği vardır.
+-Verilerin etkin bir şekilde yönetilememesi, EMS uygulamalarının verimliliğini düşürür.
+3)Güvenlik ve Gizlilik Endişeleri
+-Akıllı enerji yönetim sistemleri, kullanıcı verilerini toplar ve bu verilerin güvenliği kritik bir konu haline gelir.
+-Veri güvenliği ve kullanıcı gizliliği endişeleri, sistemin benimsenmesini engeller. Kullanıcılar, veri ihlali riskinden dolayı bu sistemleri tercih etmeyebilir.
+4)Yüksek Maliyetler
+-Akıllı enerji sistemleri genellikle yüksek başlangıç maliyetleri gerektirir. Bu durum, özellikle gelişmekte olan bölgelerde sistemlerin yaygınlaşmasını engeller.
+-Bu yüksek maliyetler, yatırımların geri dönüşünü zorlaştırır ve ekonomik sürdürülebilirlik açısından engel oluşturur.
+5)Standart Eksiklikleri
+-Akıllı enerji sistemlerinde çeşitli standart eksiklikleri mevcuttur. Farklı üreticilerin geliştirdiği sistemler ve cihazlar arasında uyumsuzluklar yaşanabilir.
+-Bu eksiklikler, sistem entegrasyonunu zorlaştırır ve büyük ölçekli dağılımı engeller.
+Önceki çalışmalarda önerilen yenilenebilir enerji entegrasyonu ile ilgili çözümler, sürdürülebilir şehirlerin büyük ölçekli uygulanmasını kolaylaştırmakta mıdır?
+1)Teknolojik Uygulama
+-Yenilenebilir enerji kaynaklarının entegrasyonu, mevcut enerji altyapısı ile uyumlu teknolojilerin kullanılmasını gerektirir.
+-Ancak, bu uyumun sağlanamaması, sürdürülebilir şehirlerin büyük ölçekli entegrasyonunu engelleyebilir.
+2)Politik ve Düzenleyici Destek
+-Yenilenebilir enerji projelerinin uygulanabilirliğini artırmak için güçlü bir düzenleyici çerçeve gereklidir.
+-Politikaların ve düzenlemelerin, yenilenebilir enerjiyi destekleyen ve teşvik eden bir yapıya sahip olması, sürdürülebilir şehirlerin gelişmesini kolaylaştırır.
+
+3)Ekonomik Teşvikler
+-Yenilenebilir enerji projeleri, genellikle yüksek başlangıç maliyetlerine sahiptir. Bu nedenle, finansal teşvikler, vergi indirimleri ve sübvansiyonlar büyük önem taşır.
+-Bu tür ekonomik teşvikler, yatırımcıların ve kullanıcıların yenilenebilir enerji çözümlerini benimsemelerini kolaylaştırır.
+4)Toplum Katılımı
+-Toplumun yenilenebilir enerjiye olan ilgisi, bu projelerin başarısını etkileyen önemli bir faktördür.
+-Toplum katılımını artırarak, yenilenebilir enerji sistemlerinin kabulü kolaylaştırılabilir ve büyük ölçekli uygulanabilirlik sağlanabilir.
+5)Zorluklar ve Engeller
+-Yenilenebilir enerji entegrasyonu, bazı teknik ve ekonomik engellerle karşılaşmaktadır.
+-Bu engeller, büyük ölçekli uygulamalar için önemli zorluklar yaratabilir. Bu nedenle, uygun çözümler geliştirilmesi önemlidir.
+
+Akıllı enerji yönetim sistemlerinin büyük ölçekli dağılımını kısıtlayan ana engelleri ortadan kaldırmak için hangi teknolojik çözümler önerilmektedir?
+1)Entegre Platformlar
+-Akıllı enerji yönetim sistemlerinin entegrasyonunu sağlamak için entegre platformların geliştirilmesi önemlidir.
+-Bu platformlar, farklı sistemlerin uyumlu çalışmasını sağlar ve veri paylaşımını kolaylaştırır, böylece büyük ölçekli dağılımda karşılaşılan engelleri ortadan kaldırır.
+2)Gelişmiş Veri Analitiği
+-Büyük veri analitiği ve yapay zeka kullanılarak, enerji tüketim desenleri analiz edilebilir ve daha verimli yönetim stratejileri geliştirilebilir.
+-Bu çözümler, enerji yönetim sistemlerini daha dinamik ve esnek hale getirir.
+3)Bulut Bilişim
+-Bulut tabanlı çözümler, veri depolama ve işleme kapasitelerini artırarak enerji yönetim sistemlerinin daha verimli çalışmasını sağlar.
+-Bulut bilişim, esnek ve ölçeklenebilir çözümler sunarak akıllı enerji sistemlerinin büyük ölçekli dağılımını kolaylaştırır.
+
+
+4)Nesnelerin İnterneti (IoT)
+-IoT cihazları, enerji tüketimini izlemek için kullanılabilir. Bu cihazlar, gerçek zamanlı veri toplayarak enerji yönetim sistemlerini daha reaktif hale getirebilir.
+-Bu, enerji verimliliğini artırmak için kritik bir teknolojik çözüm sunmaktadır.
+5)Siber Güvenlik Önlemleri
+-Akıllı enerji sistemleri, veri güvenliği ve kullanıcı gizliliği sağlamak için gelişmiş güvenlik protokollerine ihtiyaç duyar.
+-Bu güvenlik önlemleri, sistemlerin güvenliğini artırır ve kullanıcıların sisteme olan güvenini sağlamlaştırır.
+6)Standartların Oluşturulması
+-Ortak iletişim ve operasyonel standartların belirlenmesi, farklı sistemlerin ve cihazların uyumlu bir şekilde çalışmasını sağlar.
+-Bu, büyük ölçekli entegrasyon için önemli bir adımdır.
+
+
+Akıllı şehirlerde büyük ölçekli EMS dağılımını kısıtlayan engelleri aşmak için hangi stratejik yaklaşımlar ve politika önerileri önerilmektedir?
+1)Politik ve Düzenleyici Reformlar
+-Akıllı enerji sistemlerinin büyük ölçekli dağılımını destekleyecek esnek ve destekleyici politikaların oluşturulması gereklidir.
+-Bu politikalar, yenilenebilir enerji kullanımını teşvik etmeli ve enerji verimliliği sağlamak için gereken altyapı yatırımını desteklemelidir.
+2)Finansal Teşvikler
+-Yatırımcıları ve tüketicileri akıllı enerji çözümlerini benimsemeye teşvik etmek için finansal teşvikler büyük önem taşır.
+-Vergi indirimleri, sübvansiyonlar ve diğer finansal araçlar, bu tür projelerin daha geniş bir ölçekte uygulanmasına olanak tanır.
+
+3)Kamu-Özel Sektör İş Birlikleri
+-Kamu ve özel sektör iş birliği, büyük ölçekli EMS projelerinin başarılı bir şekilde uygulanmasını sağlamak için önemlidir.
+-Bu tür iş birlikleri, finansal kaynakları ve bilgi birikimini birleştirerek daha sürdürülebilir çözümler sunar.
+4)Eğitim ve Bilinçlendirme
+-Toplumun ve paydaşların akıllı enerji sistemlerine olan ilgisini artırmak için eğitim ve bilinçlendirme programları gereklidir.
+-Bu tür programlar, sistemlerin kabulünü artırır ve toplumun bu teknolojilere olan ilgisini pekiştirir.
+
+Sonuç ve Çıkarımlar
+	-Sunum, akıllı şehirlerdeki enerji yönetim sistemlerinin (EMS) büyük ölçekli dağılımını sınırlayan ağ düzenlemelerinim sınırlamalarını incelemiştir. Ana sorunlar arasında karşılıklılık eksikliği, dağıtılmış üretim ve dayanıklılık bulunmaktadır.
+Sunum, bu sorunları aşmak için şu önerileri sunmaktadır:
+-Yeni IoT ve ICT entegrasyonlu akıllı sayaç sistemlerinin geliştirilmesi.
+-Yenilikçi Talep Tarafı Yönetimi (DSM) teknikleri kullanarak iki yönlü enerji ticaretinin sağlanması.
+-Yenilenebilir kaynaklarla enerji üretiminin artırılması.
+-Şehir ölçeğinde Yedek Güç Sistemleri (ESS) kurarak şebekenin hizmet kalitesinin ve dayanıklılığının artırılması.
+-Tüketici konforunu sağlamak için yapay zeka tabanlı kullanıcı davranış izleme tekniklerinin kullanılması.
+-Akıllı şehir enerji düzenleme sistemleri için dağıtık yönetimi mümkün kılacak tabandan yukarıya düzenleme yöntemlerinin tanımlanması.
+
+Kaynakça
+https://www.sciencedirect.com/science/article/pii/S2210670723003311?via%3Dihub#sec0016

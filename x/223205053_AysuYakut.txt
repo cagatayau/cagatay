@@ -1,0 +1,91 @@
+Endüstri 5.0'daki IoT Uygulamaları İçin Blockchaın Platformlarının Değerlendirilmesi
+HAZIRLAYAN:  AYSU YAKUT 223205053
+1-GENEL AMAÇ
+Bu makale, IoT uygulamaları için en uygun blockchain platformlarının nasıl seçileceğini araştırmayı hedeflemektedir.
+Ayrıca, mevcut literatürü analiz ederek IoT ve blockchain entegrasyonunun sunduğu avantajları, karşılaşılan zorlukları ve gelecekteki araştırma yönlerini ortaya koymaktadır.
+Sonuçta, Endüstri 5.0’ın gerektirdiği güvenli, dayanıklı ve insan odaklı IoT ekosistemlerini destekleyecek bir seçim çerçevesi geliştirmeyi amaçlamaktadır.
+
+2-problemin tanımı 
+Bağlantılı cihazların ve sistemlerin hızlı genişlemesi, verimlilik, üretkenlik ve veri odaklı içgörüler açısından büyük potansiyel taşımaktadır. Ancak Endüstri 5.0’ın tüm faydalarını gerçekleştirmek için şu temel zorlukların aşılması gerekmektedir:
+a. Veri Güvenliği ve Güven
+b. Parçalı Veri Siloları
+c. Blockchain Entegrasyonu
+a. Veri Güvenliği ve Güven
+IoT’nin merkeziyetsiz doğası, sağlam veri güvenliği ve güven mekanizmaları gerektirir.
+Geniş bir bağlantılı cihaz ağı üzerinde verinin gizliliğini, bütünlüğünü ve doğruluğunu sağlamak çok önemlidir.
+Özellikle Endüstri 5.0'da veriler birçok paydaş arasında üretildiği ve paylaşıldığı için güvenlik ve güven ihtiyacı daha da artmaktadır.
+
+b. Parçalı Veri Siloları
+IoT’nin mevcut bulut merkezli mimarisi, veri parçalanmasına ve siloların oluşmasına yol açmıştır.
+Bu durum, veri analizi ve karar verme süreçlerinde kapsamlı veri kullanımını engellemektedir.
+Endüstri 5.0 için, farklı sektörler arasında kesintisiz entegrasyon ve iş birliği sağlanabilmesi adına veri parçalanmasının önlenmesi kritik önemdedir.
+c. Blockchain Entegrasyonu
+Blockchain teknolojisi, veri güvenliğini ve güveni artırmak için umut verici bir çözüm sunmaktadır.
+Ancak blockchain’in IoT ekosistemine sorunsuz entegrasyonu kendine özgü zorluklar içermektedir.
+Blockchain; veri güvenliğini ve yönetimini geliştirirken, parçalı veri silolarını da ortadan kaldırabilir.
+Bu entegrasyonun etkili olabilmesi için, uygun blockchain platformlarının seçimi, ölçeklenebilirlik ve konsensüs mekanizmaları dikkatle değerlendirilmelidir.
+3-Endüstri 4.0 ve endüstri 5.0 arasındaki farklar
+Endüstri 4.0, üretimde otomasyon, veri analitiği ve akıllı sistemlerle verimliliği artırmayı hedeflerken; Endüstri 5.0, insan-makine iş birliğini ön plana çıkararak kişiselleştirilmiş ve sürdürülebilir üretim modellerine odaklanır. Endüstri 4.0 teknoloji merkezliyken, Endüstri 5.0 insan merkezlidir ve çevresel sürdürülebilirliği temel bir öncelik olarak benimser.
+4. Nesnelerin İnterneti (IoT)
+Nesnelerin İnterneti (IoT), sensörler, yazılımlar ve ağ bağlantısıyla donatılmış fiziksel nesnelerin veri toplaması ve paylaşmasıdır.IoT teknolojisinin üretim, sağlık, ulaşım ve perakende gibi birçok sektörde büyük dönüşümlere yol açması beklenmektedir.
+
+IoT’nin Önemi ve Uygulamaları
+Varlık Takibi ve Operasyon İzleme: Üretimde sıcaklık, nem gibi ortam koşulları izlenerek ürün güvenliği sağlanır. Lojistikte araçların ve varlıkların konumları izlenir.
+Gerçek Zamanlı Veri ve Analitik: İşletmeler, IoT verilerini kullanarak süreçlerini optimize eder, karar verme süreçlerini iyileştirir ve müşteri deneyimlerini geliştirir.
+Otomasyon ve Verimlilik: Gerçek zamanlı analiz ve makine öğrenimi ile operasyonel verimlilik artırılır.
+Güvenlik ve Mahremiyet: İzleme ve tehlike tespiti yapılırken veri güvenliği ve gizliliği önemli bir endişe kaynağıdır.
+4.0.1. IoT Destekli Tedarik Zinciri Yönetimi
+Tedarik Zinciri Yönetimi (Supply Chain Management), IoT teknolojisinin sunduğu gerçek zamanlı görünürlük, artırılmış verimlilik ve geliştirilmiş karar alma mekanizmaları sayesinde büyük bir dönüşüm geçirmiştir.
+Günümüzde işletmeler; sensörler, RFID etiketleri ve bağlantılı araçlar gibi IoT tabanlı cihazları kullanarak envanterleri, sevkiyatları ve lojistik operasyonları tedarik zincirinin her aşamasında izleyip yönetebilmektedir.
+4.0.2. Akıllı Şehirler ve IoT Altyapısı
+Akıllı şehirler; sensörler, kameralar ve akıllı sayaçlar kullanarak ulaşımdan enerjiye kadar birçok alanı optimize eder.
+Akıllı trafik sistemleri trafiği azaltır, akıllı şebekeler yenilenebilir enerji kaynakları ile verimliliği artırır.
+ IoT Cihazları Nerelerde Kullanılır?
+Sensörler,
+Kameralar,
+Akıllı sayaçlar gibi IoT destekli cihazlar, ulaşım, enerji dağıtımı, atık yönetimi ve kamu güvenliği gibi alanları yönetmek üzere birbirine entegre şekilde çalışır.
+
+Akıllı Şehir Kavramı
+Akıllı Evler (Smart Homes)
+Üretim Sistemleri (Smart Manufacturing)
+Devlet Hizmetleri (e-Government)
+Sağlık (e-Health)
+Akıllı Binalar (Smart Buildings)
+Ulaşım Sistemleri (Smart Transportation)
+Enerji Dağıtımı (Smart Energy)
+Kamu Güvenliği (Public Safety)
+4.0.3. IoT’de Edge Computing
+Uç bilişim (Edge Computing), Nesnelerin İnterneti (IoT) kapsamında kullanılan bir mimari yaklaşımdır. Bu yaklaşımda verilerin işlenmesi ve depolanması, veriyi üreten cihazlara yakın bir noktada gerçekleştirilir. Böylece, geleneksel olarak kullanılan merkezi bulut sunucularına olan bağımlılık azalır.
+Edge Computing’in Avantajları:
+Düşük Gecikme (Latency):Veriler buluta gitmeden yerel olarak işlendiği için gecikme süreleri büyük ölçüde azalır.
+Daha Hızlı Tepki Süresi:Gerçek zamanlı analiz gereken uygulamalarda (örneğin otonom araçlar) cihazlar anında tepki verebilir.
+Bant Genişliği Tasarrufu:Büyük veri yığınlarının sürekli olarak buluta gönderilmesine gerek kalmaz, bu da ağ trafiğini ve veri maliyetini azaltır.
+
+4.0.4. IoT ile Kimlik Doğrulama
+Kimlik doğrulama sistemlerine IoT entegrasyonu, birbirine bağlı cihazlar arasında kesintisiz ve otomatik doğrulama süreçlerini mümkün kılarak güvenliği artırır. IoT tabanlı kimlik doğrulama sistemleri, kullanıcı kimliklerini gerçek zamanlı olarak doğrulamak için sensörler, biyometrik sistemler ve akıllı cihazlar kullanır ve bu sayede ek bir güvenlik katmanı sağlar. 
+Akıllı evlerden finansal sistemlere kadar geniş bir uygulama alanı vardır.
+Ortadaki kilit simgesi doğrulama sürecini temsil ederken, çevredeki simgeler ise ağa bağlanmadan ve etkileşim kurmadan önce kimlik doğrulaması yapılması gereken çeşitli cihazları göstermektedir. Bu, yalnızca yetkili cihazların hassas verilere erişebilmesini ve IoT ekosistemi içinde işlem gerçekleştirebilmesini sağlar.
+4.0.5. Enerji Şebekesi Yönetimi ve IoT
+IoT, enerji şebekesi yönetiminde sürdürülebilirliği, güvenilirliği ve verimliliği artırır. IoT, gerçek zamanlı veri toplama, önleyici bakım ve yenilenebilir enerji kaynaklarının entegrasyonunu mümkün kılar. Talep tepkisi (demand response), akıllı sayaçlardan alınan gerçek zamanlı kullanım verilerini kullanır. IoT, şebeke otomasyonunu ve kendi kendini onarma yeteneklerini geliştirmenin yanı sıra, talep tarafı yönetimi ve dinamik fiyatlandırma yoluyla enerji kullanımını optimize eder. 
+Şekil 8: Merkezdeki "SMART GRID" merkezi, çeşitli bileşenleri birbirine bağlamaktadır. Rüzgar türbinleri ve güneş panelleri, şebekeye temiz enerji sağlayan yenilenebilir enerji kaynaklarını temsil ederken, elektrik santralleri geleneksel enerji üretim kaynaklarını ifade eder. İletim hatları, ticari ve konut binaları gibi tüketicilere elektrik iletim altyapısını gösterir. Akıllı sayaçlar, gerçek zamanlı elektrik tüketimini izler ve dizüstü bilgisayar ise şebeke operasyonlarını yöneten kontrol merkezini temsil eder.
+4.0.6. Sağlıkta IoT Kullanımı
+IoT, hastaların hayati belirtilerini, aktivitelerini ve ilaç uyumlarını izleyen cihazlardan gerçek zamanlı veri toplayarak sağlık hizmetlerini dönüştürmektedir. Bu veriler, bulut tabanlı teknolojiler aracılığıyla güvenli bir şekilde depolanır ve erişilir; bu da hızlı karar almayı ve uzaktan hasta takibini destekler.
+ 
+IoT'nin saglık hizmetlerindeki temel faydaları
+Kişiselleştirilmiş çözümler için tasarım esnekliği sağlar.
+Güvenilir bileşenler ile tedarik zinciri riskini azaltır.
+Farklı cihaz boyutlarına uyumlu modüller sunar.
+Tedarik süreçlerini sadeleştirir ve kolaylaştırır.
+Veri güvenliği ve hasta gizliliğini iyileştirerek kullanıcı güvenini artırır.
+Sürekli bakım için operasyonel dayanıklılık sağlar.
+4.0.7. Tarım ve Akıllı Çiftçilik
+IoT teknolojisi, tarımı dönüştürerek toprak nemi, sıcaklık ve bitki sağlığı gibi verilerin sensörler, dronlar ve akıllı sulama sistemleri aracılığıyla gerçek zamanlı izlenmesini mümkün kılar. Bu veriler sayesinde çiftçiler; sulama, zararlı kontrolü ve gübre kullanımı gibi süreçleri optimize edebilir, böylece kaynak yönetimini geliştirir ve çevresel etkiyi azaltır.
+tarımda IoT'nin temel uygulamaları
+İnsansız hava aracı (UAV) ile tarım: 
+Hassas sulama 
+Gıda ürünlerinin izlenmesi ve takibi:
+Toprak ve mahsul sağlığının IoT sensörleri ile izlenmesi,
+Ormancılığın izlenmesi:,
+Tarım uygulamalarının optimizasyonu için veri analitiği
+4.0.8. Çevresel İzleme ve IoT
+IoT, çevresel izleme alanında önemli bir rol oynar. Hava ve su kalitesi, sıcaklık, nem ve kirlilik seviyeleri gibi parametrelerin gerçek zamanlı olarak toplanması ve analiz edilmesini sağlar. Sensörler, hava durumu istasyonları ve uydu görüntüleme sistemleri kullanılarak IoT, doğal afetler, su kirliliği ve hava kirliliği gibi çevresel tehditlerin erken tespit edilmesini mümkün kılar ve zamanında müdahale edilmesine yardımcı olur.

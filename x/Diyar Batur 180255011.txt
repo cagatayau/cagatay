@@ -1,0 +1,74 @@
+
+ YEŞIL NESNELERIN İNTERNETI (G-IOT) VE  ETKINLEŞTIRICI TEKNOLOJILER
+
+Diyar Batur 180255011
+
+
+
+🔍G-IoT'nin Amacı ve Önemi
+G-IoT, 5G ile desteklenen bağlam farkındalıklı, enerji verimli ve otonom sistemlerin geliştirilmesini hedefler.
+"Yeşil ortam zekâsı" yaklaşımı, hem insan hem makine etkileşimlerinde enerji tasarrufunu öncelikler.
+IoT'nin hızlı yaygınlaşması, karbon salımı, e-atık ve yüksek enerji tüketimi gibi çevresel sorunlara yol açmıştır.
+G-IoT bu sorunlara çözüm olarak çevre dostu, sürdürülebilir ve düşük enerji tüketimli IoT sistemleri sunar.
+
+⚙️G-IoT’nin Teknolojik Temeli
+G-IoT, geleneksel IoT ile aynı altyapı, protokol ve cihaz prensiplerine dayanır.
+Amaç, bu yapıları daha enerji verimli ve çevreye duyarlı hâle getirmektir.
+Zorlu alanlardaki cihazlar için enerji depolama ve verimli güç yönetimi büyük önem taşır.
+
+♻️ Yeşil Yaşam Döngüsü İlkeleri
+G-IoT dört temel adım üzerine inşa edilir:
+1-) Yeşil Tasarım:
+Enerji verimli, çevre dostu bileşenler.
+3R ve 10R ilkeleri (Azalt, Yeniden Kullan, Geri Dönüştür vb.).
+2-) Yeşil Üretim:
+Biyolojik olarak parçalanabilir malzeme kullanımı.
+Küçük, düşük enerji tüketimli cihaz tasarımı.
+3) Yeşil Kullanım:
+Optimum kullanım için stratejik yönetim.
+Yapay zekâ destekli çevreci otomasyon.
+4-) Yeşil Bertaraf / Geri Dönüşüm:
+Elektronik atıkların çevreye zarar vermeyecek şekilde bertarafı.
+Sosyal sorumluluk bilinci ve düzenleyici politikalar.
+
+✅ Uygulanabilir Yeşil BT Yöntemleri (Green ICT)
+Cihazların çevresel etkilerini analiz etmek için çevresel değerlendirme araçları kullanmak (örn. Energy Star).
+Sunucu altyapısını sanallaştırarak donanım kullanımını azaltmak.
+Yeniden kullanım ve düşük güç modları ile ömrü uzatmak, enerji tüketimini düşürmek.
+Geri dönüşüm sistemleri kurmak.
+Karbon ayak izi raporlarını kamuya açıklamak ve şeffaflık sağlamak.
+
+G-IoT Etkinleştirici Teknolojiler
+Yeşil IoT, geleneksel IoT sistemleriyle aynı bilgi işlem cihazları, iletişim protokolleri ve ağ mimarisi temeline dayanır. Ancak farkı, çevre dostu ve enerji verimli bir yapıya sahip olmasıdır.
+
+1. Yeşil Radyo Frekansı Tanımlama (G-RFID)
+RFID’ler, IoT cihazlarını tanımlamak ve bilgi alışverişi sağlamak için elektromanyetik sinyaller kullanır. Yeşil yaklaşım, bu cihazların daha küçük ve biyolojik olarak parçalanabilir malzemelerle üretilmesi ve e-atıkların azaltılmasıdır.
+
+2. Yeşil Makineden Makinaya (G-M2M)
+M2M iletişim, makinelerin insan müdahalesi olmadan enerji verimli şekilde veri alışverişi yapmasını sağlar. Yeşil M2M, enerji tasarrufu sağlayan görev döngüsü ve tıkanıklık önleme mekanizmaları ile gecikme ve veri kaybını azaltmayı amaçlar.
+
+3. Yeşil Kablosuz Sensör Ağları (G-WSN)
+Bu ağlar, sensör ve aktüatörlerle çevredeki verileri toplar ve analiz eder. Yeşil WSN, enerji verimliliği, hizmet kalitesi, hata toleransı ve performans gibi konularda optimize çözümler sunar. Kullanılan teknolojilere örnek olarak LoRa, ZigBee, Wi-Fi verilebilir.
+
+4. Yeşil Mikrodenetleyici Üniteleri (G-MCU)
+MCU’lar düşük maliyetli ve enerji tasarruflu işlem birimleridir. Derin uyku modları, özel entegre devreler, çok çekirdekli mimariler gibi yöntemlerle enerji verimliliği artırılır. Bu üniteler, sensörlerle birlikte çalışarak ağ geçidi görevi de görür.
+
+5. Yeşil Altyapı
+Enerji verimli ve çevre dostu donanım, yazılım ve iletişim sistemlerinden oluşur. Ağ ömrünü uzatmak ve enerji tüketimini dengelemek amaçlanır. Mevcut internet altyapısıyla uyumlu, düşük enerjili sistemlerin geliştirilmesini kapsar.
+6. Yeşil Veri Merkezi (G-DC)
+Veri merkezleri yüksek işlem kapasitesi sunar. Yeşil veri merkezleri, enerji tüketimini azaltmak için soğutma yönetimi, sanal makinelerin taşınması ve enerji tasarrufu teknikleri kullanır. Amaç daha verimli ve çevreci hizmet sunmaktır.
+
+
+7. Yeşil Uç Bilişim (G-Edge)
+IoT verileri, buluta gönderilmeden önce uç noktada işlenir. Bu, gecikmeyi ve bant genişliği tüketimini azaltır. Güvenlik, enerji tüketimi ve işlem maliyeti açısından avantaj sağlar. Yapay zekâ destekli çözümlerle verim artırılır.
+
+8. Yeşil Sis Bilişim (G-Fog)
+Sis bilişim, bulut ve uç bilişim arasında yer alır. Verilerin daha yakın sunucularda işlenmesiyle gecikme ve enerji tüketimi azaltılır. Gelişmiş algoritmalarla görevler uygun kaynaklara yönlendirilir, böylece ağ performansı optimize edilir.
+
+9. Yeşil Bulut Bilişim (G-Cloud)
+Yüksek kapasiteli veri merkezlerinde sağlanan hizmetlerdir. Yenilenebilir enerji kullanımı, verimli soğutma yöntemleri ve sanallaştırma gibi tekniklerle karbon ayak izi azaltılır. Maliyet avantajı sağlar ve IoT uygulamaları için güçlü altyapı sunar.
+
+10. Yeşil Yapay Zekâ (G-AI)
+AI/ML algoritmaları enerji verimliliği için G-IoT sistemlerinde kullanılır. Veri akışını optimize eder, algılama görevlerinde doğruluğu artırır ve eğitim süresini kısaltır. Örnek uygulamalar: insansız hava aracı tespiti, akıllı ışık sistemleri.
+Dinlediğiniz için teşekkür ederim.
+

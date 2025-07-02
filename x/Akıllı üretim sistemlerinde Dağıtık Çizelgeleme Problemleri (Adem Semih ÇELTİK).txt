@@ -1,0 +1,102 @@
+Akıllı Üretim Sistemlerinde
+Çizelgeleme ProblemleriGİRİŞ VE ARKA PLAN
+Ekonomik küreselleşme ve artan müşteri talepleri
+nedeniyle piyasa rekabeti giderek daha da
+şiddetlenmiştir. Bu nedenle, üretim işletmeleri üretim
+modellerini dağıtık ortamlara genişletmekte ve çeşitli
+coğrafi konumlarda birden fazla fabrika kurmak zorunda
+kalmaktadır.
+Son yıllarda, dağıtık çizelgeleme problemlerinin
+modellenmesi ve optimize edilmesine dair çok sayıda
+çalışma yapılmıştır. Bu çalışma, akıllı üretim
+sistemlerindeki dağıtık çizelgeleme problemleri üzerine
+yapılmış literatürü gözden geçirmektedir. Mevcut
+çalışmalar özetlenip değerlendirildikten sonra, bu
+alandaki mevcut başarılar ve araştırma durumu analiz
+edilmekte ve süregelen çalışmalar tartışılmaktadır.
+Özellikle sürü zekâsı (Swarm Intelligence) ve evrimsel
+algoritmalar (Evolutionary Algorithms) gibi dağıtık
+çizelgeleme problemlerinin çözümünde kullanılan
+yöntemlere dair gelecekteki araştırma yönleri
+tartışılmıştır.01DAĞITIK ÜRETİM
+SİSTEMLERİ NELERDİR? 
+02Sanayi sistemlerinde, çizelgeleme, üretim maliyetlerini
+düşürmek ve müşteri memnuniyetini artırmak adına hayati
+bir rol oynamaktadır. Geçmiş yıllarda, üretim ve hizmet
+sistemlerinde birçok çizelgeleme problemi üzerine
+çalışmalar yapılmıştır. Bu problemler genellikle aşağıdaki
+kategorilere ayrılır:
+1Tek makineli çizelgeleme2Paralel makineli çizelgeleme
+3Akış tipi çizelgeleme 4İş tipi çizelgeleme
+5Ve bu türlerin çeşitli türevleriÇİZELGELEME 
+03Son yıllarda, dağıtık çizelgeleme adı verilen yeni bir çizelgeleme yaklaşımı
+önerilmiştir. Bu yaklaşım, dağıtık üretim sistemlerinin çizelgelenmesini
+amaçlamaktadır. 
+Dağıtık çizelgeleme yöntemleri; ameliyathane çizelgelemesi, dağıtık bilgi işlem
+sistemleri ve coğrafi olarak dağılmış konfigürasyon sistemleri gibi çeşitli
+alanlarda uygulanmaktadır.
+Üretim alanında ise, dağıtık çizelgeleme, tüm fabrikaların aynı anda
+çizelgelenmesini hedefler. Bu problemler, tek bir fabrikanın çizelgelenmesine
+göre daha karmaşıktır. Bu karmaşıklık şu şekilde özetlenebilir:
+Geleneksel çizelgelemeden farklı olarak, yalnızca makineler arasındaki iş
+dağılımı değil, fabrikalar arasındaki iş dağılımı da belirlenmelidir.
+Zamanla ilgili kriterlerin yanı sıra, fabrikalar arasında iş yükü dengesi ve toplam
+üretim maliyeti gibi ek faktörler göz önüne alınmalıdır.
+Fabrikalar coğrafi olarak uzak olduğu için, sipariş girişi, makine arızaları,
+teslimat süresi değişiklikleri gibi üretim bilgileri net şekilde belirlenemeyebilir.
+Bu da belirsizlikleri artırır ve çizelgeleme sürecini zorlaştırır.ÇALIŞMANIN AMACI
+I.
+04Dağıtık üretim
+sistemlerini
+sınıflandırmakDağıtık çizelgeleme
+problemlerinin
+modellerini
+değerlendirmek
+II.III.
+Kullanılan hedef
+fonksiyonları (ör.
+makespan, gecikme,
+enerji tüketimi)
+sınıflandırmakOptimizasyon
+yöntemlerini (özellikle
+SI ve EA) analiz etmek
+IV.V.
+Dağıtık çizelgeleme
+problemlerinde
+gelecekteki araştırma
+yönlerini belirlemekLİTERATÜR ÖZETİ VE BU
+ÇALIŞMANIN KATKISI
+Dağıtık çizelgeleme problemlerine
+sistematik bir sınıflandırma sunar.
+2010-2021 yılları arasında 97 makaleyi
+kapsayan kapsamlı literatür taraması.
+Sürü Zekası (SI) ve Evrimsel
+Algoritmalar (EA) gibi modern
+optimizasyon yöntemlerinin detaylı
+analizi.
+Gelecekteki araştırma yönleri için
+rehber önerileri sunar.
+05LİTERATÜR ÖZETİ VE BU
+ÇALIŞMANIN KATKISI
+Farklı Yönler
+Çok hedefli optimizasyon : 
+Makespan, enerji tüketimi, iş yükü
+dengesi gibi.
+Akademik ve endüstriyel perspektifleri
+birleştirme.
+Önem:
+Bu çalışma akademisyenler ve
+endüstri profosyonelleri için bir
+referans kaynağı oluşturuyor.
+06SONUÇ VE ÖN BİLGİLENDİRME
+Dağıtık çizelgeleme problemleri geleneksel çizelgelemeden daha
+karmaşıktır.
+Giderek daha fazla ilgi gören bu alan, yapay zekâ temelli
+yaklaşımlarla çözülmektedir.
+Makalenin devamı, bu problemlere getirilen çözüm yöntemlerini
+ve güncel araştırma eğilimlerini incelemektedir.
+07BENİ DİNLEDİĞİNİZ İÇİN
+TEŞEKKÜRLER
+190255027
+ADEM SEMİH ÇELTİK
+08

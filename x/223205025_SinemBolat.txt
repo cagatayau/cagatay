@@ -1,0 +1,58 @@
+Enerji uygulamaları için blockchain'in sistematik bir incelemesi 
+Sinem Bolat 
+223205025
+Blockchain Teknolojisi ve Enerji Sektörü
+Blockchain, şeffaflık, güvenlik ve merkeziyetsizlik gibi avantajlarla enerji sektöründe uygulanabilir.
+Yenilenebilir enerji üretiminin arttığı ve enerji dağıtımının daha dağılmış hale geldiği bir dünyada, enerji yönetimi daha karmaşık hale geliyor.
+Blockchain, bu karmaşıklığı yönetmek için potansiyel bir çözüm sunuyor.
+
+Akıllı Şebekeler ve Blockchain
+Akıllı şebekeler, IoT ile bağlantılıdır ve yenilenebilir enerji üretimi, enerji talebine göre daha esnek yönetilmesini gerektiriyor.
+Blockchain, şebeke güvenliğini ve şeffaflığını artırmak için kullanılabilir.
+Blockchain teknolojisi, enerji ticaretini ve şebeke yönetimini daha verimli hale getirebilir.
+
+Merkeziyetsiz Sistemlerin Kullanımı
+Merkeziyetsiz sistemler, peer-to-peer (P2P) ticaretini ve yenilenebilir enerji kaynaklarını daha etkin bir şekilde yönetmeyi mümkün kılar.
+Blockchain, enerji ticaretinde taraflar arasında güvenli ve şeffaf işlem yapmayı sağlar.
+Bu, enerji varlıklarının daha iyi yönetilmesine olanak tanır.
+
+Blockchain ve Enerji Varlık Yönetimi
+Blockchain, enerji varlıklarının (örneğin güneş panelleri, rüzgar türbinleri) yönetimi ve izlenmesi için etkili bir araçtır.
+Varlıklar üzerindeki tüm işlemler blockchain üzerinden kaydedilebilir, bu da şeffaflık ve güvenliği artırır.
+Bu sayede, enerji üreticileri ve tüketicileri arasındaki ilişki daha sağlıklı hale gelir.
+
+Karbon Ticaretinde Blockchain
+Blockchain, karbon ticareti gibi çevre dostu uygulamalarda da kullanılarak, emisyon takibi ve ticaretini daha güvenli hale getirebilir.
+Enerji sektöründe, karbonsuz enerji kullanımını teşvik eden çözümler sağlanabilir.
+
+Blockchain ve Zorluklar
+Blockchain teknolojisi, enerji sektöründe büyük bir potansiyele sahip olsa da, uygulama sırasında önemli zorluklarla karşılaşılabilir.
+En büyük zorluklardan biri, blockchain ağlarının ölçeklenebilirliğidir. Özellikle PoW (Proof of Work) gibi konsensüs mekanizmaları enerji tüketimini arttırır.
+
+Düzenleyici ve Politik Engeller
+Blockchain’in enerji sektöründe benimsenmesi için uygun yasal çerçevelerin oluşturulması gereklidir.
+Hükümetlerin, blockchain'in enerji piyasalarındaki rolünü kabul etmesi ve buna göre düzenlemeler yapması önemlidir.
+
+Sistematik İnceleme Amacı
+Bu incelemenin amacı, blockchain tabanlı enerji uygulamalarının geniş kabul görmemesinin sebeplerini anlamak.
+Blockchain’in enerji sektöründeki kullanımını inceleyerek, kullanılan blockchain bileşenlerinin işlevlerini ve bu bileşenlerin neden seçildiğini analiz etmek.
+Ana hedefler:
+Blockchain’in enerji uygulamalarındaki kullanım amacını anlamak.
+Kullanılan blockchain’in özelliklerini çıkarmak.
+Blockchain bileşenlerinin seçim nedenlerini belirlemek
+
+Seçim Yöntemi
+Bu çalışmada, enerji uygulamalarının gelişiminde olumlu ve olumsuz eğilimler belirleniyor.
+Teknik zorluklar ve sınırlamalar da tartışılmaktadır.
+Seçim kriterleri:
+Ülkeler arasındaki ilgi ve kabul oranları.
+Konsensüs mekanizmalarının kullanımı.
+Uygulama platformları veya blockchain çözümlerinin analiz edilmesi.
+Blockchain uygulama alanları.
+Blockchain kullanım amacının anlaşılması.
+
+Seçim Kriterleri
+Gözden geçirme için belirlenen kriterler, veri toplama sürecinde kullanılan ortak bir temel sunmaktadır.
+Bu kriterler, blockchain’in enerji uygulamalarında nasıl kullanıldığını ve kullanılan bileşenlerin amacını anlamaya yöneliktir.
+Kriterler, ülkelerdeki blockchain benimseme politikalarını, konsensüs mekanizmalarını, kullanılan platformları ve uygulama alanlarını içerir.
+

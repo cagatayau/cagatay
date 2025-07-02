@@ -1,0 +1,60 @@
+
+
+
+Akıllı Tarımda Bulut, Sis ve Kenar Bilişim Kombinasyonlarının Rolü
+
+1
+
+Tarım, dünya genelinde milyarlarca insanın gıda ihtiyacını karşılamakta ve geçim kaynaklarını oluşturmaktadır. Ancak 2050 yılında dünya nüfusunun 9,7 milyara ulaşması beklenmekte, iklim değişikliği, sanayileşme ve doğal kaynakların azalması tarım sektörünü zorlaştırmaktadır. Akıllı tarım, IoT, yapay zeka ve dron gibi teknolojilerle daha az kaynak kullanarak daha fazla üretim yapmayı ve çevresel etkileri en aza indirmeyi hedeflemektedir. Bu bağlamda, 2050 yılına dek tarımsal üretimin %60 oranında artırılması öngörülmektedir.
+2
+Giriş
+3
+Akıllı tarım, modern teknolojilerle üretimi artırmakta, kaynakları verimli kullanmakta ve çevresel etkiyi en aza indirmektedir. Sensörler, dronlar ve IoT cihazlarıyla çiftçiler, tarla, mahsul ve hayvanlarını izlemekte, verim ve kaliteyi iyileştirmektedir. Büyük veri analizi, tarla verilerinden karar almada yardımcı olmakta; su tasarrufu, zararlı tespiti ve maliyet azaltımı gibi hedefler öne çıkmaktadır. Akıllı tarım, küçük ve büyük ölçekli paydaşlar için kârlılığı artırmakta ve sürdürülebilirlik sağlamaktadır.
+Akıllı Tarım
+4
+Bulut ve Sis Bilişim
+Bulut Bilişim: Büyük verileri merkezi olarak depolamakta ve analiz etmekte, ancak gecikme ve bant genişliği sorunları yaşanmaktadır. Tarımda veri toplama, hava tahmini ve uzaktan danışmanlık sağlamaktadır.
+
+Sis Bilişim: Verileri yerel olarak işlemekte, düşük gecikme ve enerji tüketimi sunmakta, IoT ile Bulut arasında köprü kurmaktadır. Tarımda hızlı veri analizi ve yerel işlem için kullanılmaktadır.
+
+Zorluklar: Bulut’ta güvenlik ve bağlantı, Sis’te ölçeklenebilirlik öne çıkmaktadır.
+5
+Kenar Bilişim: Veriyi cihazlarda işlemekte, düşük gecikme ve hareketlilik sunmakta, tarımda zararlı tespiti ve otonom makineler için kullanılmaktadır.
+
+Sis ile Fark: Sis, Bulut ile çalışmakta; Kenar, bağımsız ve sınırlı kaynaklarla işlemektedir.
+
+Benzerlik: Her ikisi de düşük gecikme ve yerel işlem hedeflemekte, ancak Kenar daha yakın cihazlara odaklanmaktadır.
+
+Tarımda Kombinasyon: Bulut, Sis ve Kenar birlikte maksimum verim sağlamaktadır.
+Kenar Bilişim ve Karşılaştırma
+
+6
+2017-2021 yılları arasında tarımda IoT, Bulut, Sis ve Kenar Bilişim üzerine pek çok araştırma yapılmaktadır. Örneğin, Talavera 2017’de tarımda IoT uygulamalarını incelemekte, Farooq 2019 ve 2020’de IoT sistemlerinin yapısını ve karşılaştığı zorlukları tartışmakta, Zhang ise 2020’de Kenar Bilişim’in tarımdaki rolünü değerlendirmektedir. Ne var ki, bu üç teknolojinin bir arada kullanımına odaklanan çalışmalar sınırlı kalmakta ve bu alanda bir eksiklik oluşturmaktadır.
+
+Konu üzerinde Yapılmış çalışmalar
+8
+PRISMA yöntemiyle sistematik bir inceleme gerçekleştirilmektedir.
+
+ACM, MDPI, ScienceDirect ve Springer veritabanlarında 2015-2021 yılları arasında 2788 makale taranmaktadır.
+
+55 makale ayrıntılı bir şekilde analiz edilmektedir.
+
+Araştırma, tarımda öne çıkan alanları, kullanılan yöntemleri, uygulamaları, sistem tasarımlarını ve gelecekteki fırsatları değerlendirmektedir.
+Araştırma Yöntemi
+
+9
+10
+Hangi tarım alanları öne çıkmaktadır? Araştırmacıların odaklandığı alanları belirlemek.
+Hangi araştırma yaklaşımları kullanılmaktadır? Yaklaşımları tanımlamak.
+Akıllı tarımda Bulut, Sis ve Kenar Bilişim uygulamaları nelerdir? Uygulamaları tespit etmek.
+Mimari bileşenler nelerdir? Gelecek çalışmalar için mimari oluşturmak.
+Hangi bilişim kombinasyonları kullanılmaktadır? Son yıllarda ilgi gören kombinasyonları bulmak.
+Gelecek yönelimler ve fırsatlar nelerdir? Yeni çözümler önermek.
+Makalenin Temel Araştırma Soruları ve Amaçları
+
+
+
+Dinlediğiniz İçin Teşekkürler!
+
+
+11

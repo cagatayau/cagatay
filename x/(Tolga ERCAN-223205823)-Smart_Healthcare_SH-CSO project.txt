@@ -1,0 +1,109 @@
+
+ Smart Healthcare Systems(Akıllı Sağlık Sistemleri)
+
+A new IoT-Fog based disease diagnosis framework for smart healthcare projects 
+
+(Akıllı Sağlık Projeleri İçin Yeni Bir IoT-Fog Tabanlı Hastalık Teşhis Çerçevesi)
+
+
+Hazırlayan:Tolga ERCAN
+Öğrenci Numarası:223205823
+
+Giriş
+IoT ile geleneksel sağlık sistemleri, akıllı sistemlere dönüşmüştür. Ancak bu akıllı     sistemler çeşitli sorunlarla karşılaşmaktadır. Bu sorunlar:
+ -Büyük veri yönetimi zorlukları (Big Data Management Challenges)
+ -Hatalı teşhis riski (Risk of Misdiagnosis)
+  -Veri güvenliği açıkları (Data Security Issues)
+
+Çözüm: IoT-Fog tabanlı sağlık sistemleri (IoT-Fog Based Healthcare Systems)
+    Bu sistemler, IoT sensörlerinden gelen verileri AI(Yapay Zeka)  ile  doğrudan analiz    ederek daha hızlı ve güvenli teşhis sağlar.
+
+
+Sistem Modeli
+IoT Sensörleri ve Giyilebilir Cihazlar (IoT Sensors and Wearable Devices)
+Hasta verilerini gerçek zamanlı olarak ölçer (kan şekeri, tansiyon, nabız vb.)
+Kablosuz ağlar (Wireless Networks) aracılığıyla verileri Fog katmanına iletir.
+Fog Katmanı (Fog Layer)
+Sensörlerden gelen verileri ön işleme ile analiz eder ve anormallikleri kontrol eder.
+Veri normal ise takibe devam eder, anormal ise SH-CSO modeline gönderir.
+SH-CSO Modeli ile Hastalık Teşhisi (Disease Diagnosis with SH-CSO Model)
+Makine öğrenmesi (Machine Learning) kullanarak hastalık teşhisi yapar.
+Hasta yüksek risk grubundaysa, bulut sistemine ve doktora uyarı gönderilir.
+Bulut Katmanı ve Gelecek Risk Analizi (Cloud Layer & Future Risk Analysis) 
+Hasta geçmişi analiz edilir ve gelecekteki hastalık riski tahmin edilir.
+Doktor & Hasta Bilgilendirme (Doctor & Patient Notification)
+Hasta risk taşıyorsa doktor bilgilendirilir ve öneriler sunulur.
+
+Sistem Modeli
+SH-CSO(Smart Healthcare-Crow Search Optimization) Modeli
+
+SH-CSO, Smart Healthcare-Crow Search Optimization kelimelerinin kısaltmasıdır.
+Bu algoritma, IoT-Fog tabanlı akıllı sağlık sistemlerinde hastalık teşhisi yapmak ve teşhis doğruluğunu artırmak için geliştirilmiştir.
+Bu model 4 katmandan oluşur:
+
+Örnek Senaryo
+
+45 Yaşında ailesinde diyabet geçmişi olan potansiyel bir hasta.
+Kullandığı cihazlar: akıllı saat, 
+ sürekli glikoz ölçüm cihazı, akıllı tansiyon ölçer.
+
+
+
+Günlük olarak bu cihazlar belirli periyotlarla ölçümlerini yapar.
+
+
+
+
+Fog katmanı,normal olan değerleri bulut katmanına depolanması için gönderir. Anormal değer var ise  SH-CSO katmanına gönderir.
+Kan Şekerinin 160 mg/dL olduğu SH-CSO katmanına gönderilir.
+
+
+
+
+SH-CSO modeli, verileri Crow Search Optimization (CSO) algoritması ile analiz eder.1.Geçmiş verilere bakar.2.Önceki günlerde benzer bir anormal durum var mı kontrol eder.
+3.Aynı kategorinin genel verilerinde trend takibi yapar.
+
+
+
+
+Eğer bir hastalık riski tespit edilirse;1.Hastaya bildirim gider.2.Doktora bildirim gider.
+
+
+
+Kan şekeri seviyesi (mg/dL) → 85, 120, 160
+Nabız (bpm) → 72, 78, 85
+Tansiyon (mmHg) → 120/80, 130/85, 125/83
+
+
+
+
+
+
+
+Sonuç
+
+SH-CSO modeli test edilerek sağlık teşhisindeki performansı ölçülmüştür.
+
+
+
+
+
+
+
+
+
+Bu sistemin, farklı hastalıkların teşhisinde kullanılmak üzere geliştirme çalışmaları devam etmektedir.
+
+
+ 
+ Smart Healthcare Systems(Akıllı Sağlık Sistemleri)
+
+A new IoT-Fog based disease diagnosis framework for smart healthcare projects 
+
+(Akıllı Sağlık Projeleri İçin Yeni Bir IoT-Fog Tabanlı Hastalık Teşhis Çerçevesi)
+“Beni dinlediğiniz için teşekkür ederim.”
+
+
+Hazırlayan:Tolga ERCAN
+Öğrenci Numarası:223205823
+

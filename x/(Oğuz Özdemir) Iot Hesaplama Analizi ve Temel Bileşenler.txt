@@ -1,0 +1,75 @@
+-Iot Kavramı -Hesaplama Bileşenleri-Temel Gereksinimleri 
+Hazırlayan: Oğuz Özdemir
+IoT(Internet of Things) Nedir?
+IoT, elektroniksel, yazılımsal özellikleri bulunan fiziksel cihazların çeşitli haberleşme yöntemleri aracılığıyla birbirleriyle veya başka sistemlerle veri alışverişi yaparak bağlantı kurması ve aldıkları verilere göre çeşitli komutları yerine getirebilmesini sağlayan genel yapıyı tarif eden bir kavramdır. 
+Iot Geliştirme Kartları
+
+Sensörler
+Sensörler, IoT cihazlarının çevresindeki dünyayı anlamalarına olanak tanır ve bu veriler ağ üzerinden diğer cihazlarla paylaşılır. Sensörler, IoT’nin temel bileşenlerindendir çünkü çevresel verilerin toplanması ve bu verilerden anlamlı bilgiler elde edilmesi için gereklidir.
+Sıcaklık ve Nem Sensörleri
+Hareket Sensörleri
+Işık Sensörleri
+Gaz Sensörleri vs.
+
+MQ-5 PROPAN GAZ SENSÖRÜ
+
+HC-SR501 HAREKET SENSÖRÜ
+DHT-11 SICAKLIK VE NEM SENSÖRÜ
+Haberleşme Teknolojileri
+IoT cihazlarının birbirleriyle ve ağlarla iletişim kurabilmesi için çeşitli bağlantı teknolojilerine ihtiyaç duyulur. Her bir bağlantı teknolojisi, farklı IoT uygulamalarının gereksinimlerine göre avantajlar sunar.
+Wi-Fi: Yüksek veri iletim hızları ve geniş kapsama alanı sağlar. Elektriksel güç gereksinimi daha yüksektir, bu yüzden daha kısa batarya ömrüne sahip IoT cihazlarında tercih edilmez.
+Bluetooth:Kısa mesafelerde düşük güç tüketimi ile veri iletimi sağlar.Akıllı telefonlar, giyilebilir cihazlar gibi uygulamalarda yaygın olarak kullanılır. Bluetooth Low Energy (BLE), enerji tasarrufu sağlamak için geliştirilmiş bir versiyonudur.
+Zigbee:
+ Düşük güç tüketimi ve kısa mesafelerde veri iletimi sağlar. Ev otomasyon sistemleri ve endüstriyel IoT uygulamaları için ideal bir seçenektir. Mesh (ağ) topolojisi kullanarak cihazlar arasında iletişimi genişletir. 
+LPWAN (Low Power Wide Area Network):
+Düşük güçle uzun mesafelerde veri iletimi sağlar. LoRa, Sigfox gibi teknolojiler, özellikle tarım, akıllı şehirler ve lojistik gibi alanlarda kullanılır. Batarya ömrü çok uzun olan IoT cihazlarında tercih edilir
+
+
+
+
+
+Bulut Teknolojileri: Verilerin Depolanması ve İşlenmesi
+IoT cihazları, büyük miktarda veri üretir. Bu verilerin depolanması, işlenmesi ve analiz edilmesi için bulut platformları kullanılır. Bulut, verilerin güvenli bir şekilde depolanmasını, hızlı erişilmesini ve analiz edilmesini sağlar.
+-AWS IoT Core (Amazon Web Services)
+-Azure IoT Hub(Microsoft)
+-Google Cloud IoT Core
+
+
+Geniş Ölçekte Iot Programlama
+IoT programlaması, genellikle yazılım kütüphaneleri, frameworkler ve platformların plansız bir şekilde birleştirilmesiyle yapılmaktadır. Bu durum, hangi yaklaşımın en uygun olduğu ve bunların nasıl entegre edilmesi gerektiği konusunda belirsizlikler yaratmaktadır. 
+IoT sistemleri; heterojen cihazlardan, geniş dağıtım ağlarından ve yerelden küresele bağlantı gereksinimlerinden oluştuğu için büyük ölçekli sistemlerde programlaması karmaşıktır.
+IoT Programlamada Hesaplama Bileşenleri
+3 adet temel bileşen üzerinde duracağız
+1) Algılama (Sensing): Çevrenin durumunu algılamak için sensörlerden veri toplamasıdır. Hangi sensörlerin, ne şekilde kullanılacağı önemlidir.
+2) İşleme (Processing): Toplanan verilerin analiz edilerek sistemin hangi işlemi gerçekleştireceğine karar verilmesidir. Basit kurallara dayalı karar mekanizmalarından, olay işleme (event processing) hesaplamalara kadar farklı yöntemler vardır.
+3) Etkileşim (Actuation) Verilere dayanarak alınan kararların fiziksel dünyada aktüatörler aracılığıyla uygulanmasını sağlar. Tekil cihazların düşük seviyeli programlamasından, sistem genelinde kolektif bir mühendislik yaklaşımına kadar geniş bir yelpazeyi kapsar
+Bu üç bileşen birbirinden bağımsız değildir, aksine IoT sistemlerinde iç içe geçmiş bir şekilde çalışır.
+Ayrıca, bu üç bileşen ile modern IoT sistemlerinin temel gereksinimleri (ölçek bağımsızlık, bağlamsal uyum, uyarlanabilirlik, fırsatçı dağıtım) arasındaki kesişim noktalarına yerleştirerek genel bir perspektif sunmaktadır
+
+
+Modern IoT sistemlerinde bulunması gereken  4 ana özellik-Ölçek Bağımsızlık (Scale-Independence)-Uyarlanabilirlik (Adaptiveness)-Bağlamsal Uyum (Situatedness)-Fırsatçı Dağıtım (Opportunistic Deployment)Bu dört özellik, modern IoT sistemlerinin doğru ve verimli çalışması için temel gereksinimlerdir ve her biri farklı araştırma alanlarında farklı anlamlar taşımaktadır. Ayrıca bu 4 özellik bir ‘Cooperative Driving’ örneği üzerinden anlatılacaktır.
+Cooperative Driving
+
+1) Ölçek Bağımsızlık (Scale-Independence):
+
+Bir programlama modelinin veya platformunun, cihaz sayısı veya sistemin genişliği gibi faktörlere duyarsız olmasıdır. Yani, sistemin işlevsel davranışı bu faktörlerden bağımsız olarak aynı kalmalıdır.
+Cooperative Driving Ölçek Bağımsızlık Örneği:
+Sistem tek bir araçla ya da birkaç araçla çalıştığında da, binlerce araçla çalıştığında da aynı işlevsellik ve performans sergilemelidir. Sistem, büyüklükten bağımsız olarak kullanıcıya aynı deneyimi ve sonuçları sunar.
+2) Bağlamsal Uyum (Situatedness):
+
+Sistemin, bağlam (çevre) ve uzay-zaman faktörlerine dinamik ve işlevsel olarak farklı davranmasıdır. Cihazların yerleşim yeri, hesaplamaların yapıldığı zaman veya çevresel koşullar gibi faktörler, sistemin davranışını etkiler.
+Cooperative Driving Bağlamsal Uyum Örneği:
+Kooperatif sürüşte, araçlar sadece mevcut trafik durumuna değil, aynı zamanda yol çalışmaları, hava durumu ve yolun durumu gibi bağlamsal faktörlere de tepki verebilmelidir. Örneğin, bir araç, yol çalışması olduğu bir alanda daha dikkatli hareket etmeli, trafik yoğunluğu yüksekse daha düşük hızda ilerlemelidir. Yani, araçlar sadece dış çevreden gelen verilerle değil, çevre koşullarına göre de davranışlarını değiştirebilir.
+3) Uyarlanabilirlik (Adaptiveness):
+
+ Sistem, değişen koşullara göre davranışını değiştirebilme yeteneğine sahip olmalıdır. Çevresel olaylar, sistem bileşenlerinin eylemleri veya özelliklerdeki değişikliklere göre, sistem ya mevcut işlevselliği sürdürmeli ya da yeni, iyileştirilmiş işlevler sunmalıdır.
+
+Cooperative Driving Uyarlanabilirlik Örneği:
+Kooperatif sürüşte, yol kapalıysa veya acil durum araçları trafiğe katıldığında, sistem bu değişikliklere uyum sağlar ve araçları uygun şekilde yönlendirir. Eğer yol kapanıyorsa, araçlar yeni rotalar belirler ve sürücüleri ya da diğer araçları kendi kendine uyumlu şekilde yönlendirir. Eğer yeni bir araç trafiğe katılıyorsa, sistem bu ek aracı tanır ve onu yol planlarına entegre eder.
+4) Fırsatçı Dağıtım (Opportunistic Deployment):
+
+Sistemin, bileşenlerini hedef altyapıya en uygun şekilde dağıtma. Bu, uygulama gereksinimlerine veya fonksiyonel olmayan özelliklerin iyileştirilmesine dayalı olarak yapılır.
+
+
+BENİ DİNLEDİĞİNİZ İÇİN 
+         TEŞEKKÜRLER

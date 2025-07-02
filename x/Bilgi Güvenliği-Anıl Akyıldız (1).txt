@@ -1,0 +1,36 @@
+Bilgi Güvenliği Politikası Geliştirme: Bir Durum Çalışması Yaklaşımı
+Anıl Akyıldız
+223255054
+
+Bilgi güvenliği, modern organizasyonlar için hayati öneme sahiptir. Verilerin korunması, özellikle kötü niyetli saldırılardan (aktif ve pasif) korunmasını içerir.
+Bilgi güvenliği, üç temel ilkeye dayanır: gizlilik (confidentiality), bütünlük (integrity) ve erişilebilirlik (availability). Bu ilkeler, organizasyonların verilerini güvenli bir şekilde saklamasını ve erişimini sağlamasını garanti eder.
+Bilgi Güvenliğinin Önemi
+Bilgi Güvenliği Politikalarının (ISP) Rolü
+Bilgi güvenliği politikaları (ISP), bir organizasyonun bilgi güvenliğini sağlamak için oluşturduğu kurallar ve yönergelerdir.
+Ancak, bu politikaların etkinliği, çalışanların bu politikalar konusunda farkındalık düzeylerine ve bu politikalara ne kadar uyduklarına bağlıdır.
+
+İnsan Faktörünün Etkisi
+İnsanlar, genellikle bilgi güvenliği politikalarına uymamakta veya farkındalık eksikliği yaşamaktadır. Bu durum, organizasyonların bilgi güvenliği tehditlerine karşı savunmasız hale gelmesine neden olabilir.
+Çalışanların bilgi güvenliği konusundaki eğitimleri ve farkındalıkları artırılmalıdır.
+Bilgi Güvenliği Politikalarının Uygulama Zorlukları
+Bilgi güvenliği politikalarının uygulanması, genellikle insan faktöründen kaynaklanan sorunlarla karşılaşmaktadır.
+Bu sorunlar, çalışanların politikalar hakkında yeterince bilgi sahibi olmamaları, politika ihlalleri ve güvenlik tehditlerine karşı duyarsızlık gibi etmenlerden kaynaklanabilir.
+
+Durum çalışması, sosyal bilimler araştırmalarında gerçek yaşam durumlarını incelemek için kullanılan bir yöntemdir. Bu tür çalışmalar, genellikle bir durumu keşfetmeye yönelik keşifsel (exploratory) olur.
+Araştırma Yöntemi: Durum Çalışması
+
+
+İlk Aşama: ISP Belgelerinin İncelenmesi
+
+
+Araştırma, iki ana aşamadan oluşmaktadır:
+Farklı IT birimlerinden yöneticilerle yarı yapılandırılmış görüşmeler yapılır.
+İkinci Aşama: Nitel Görüşmeler
+Bilgi güvenliği uygulamalarını anlamak
+Politikalarla uyumu değerlendirmek
+Görüşmeler, uygulamaların tutarlılığını ve doğruluğunu test etmek için kullanılır.
+Belge incelemeleriyle birlikte analiz yapılır.
+Amaç:
+
+
+Dinlediğiniz için teşekkür ederim.

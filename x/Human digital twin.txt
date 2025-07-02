@@ -1,0 +1,125 @@
+HUMAN DİJİTAL TWİNS (Devam)
+ABDUL HALİM BİLEYEN
+
+
+
+
+
+
+
+Kritzinger ve diğerleri (2018) çalışmasında, Dijital Nesne ve Fiziksel Nesne kavramları tanıtılmaktadır. Karışıklığı önlemek adına, Bu şekil DT'ler ve HDT'ler için kullanılan terminolojiyi ve Fiziksel Nesne için yaygın eşanlamlıları özetlemektedir.
+5. Analiz ve tartışma
+DT’nin ve onun eşleşmiş varlığının yüksek seviyeli modeline geri dönüyoruz. Bu model, bir fiziksel nesne (eşleşmiş varlık), bir dijital nesne (DT) ve aralarındaki veri akışlarından oluşur. Aşağıdaki bölümlerde, HDT bağlamında fiziksel nesne ve dijital nesnenin ne olduğunu açıklığa kavuşturacak ve HDT’leri veri transferinin doğasına göre sınıflandıracağız. 
+(i) İnsan Dijital Modeli (Human Digital Model); 
+(ii) İnsan Dijital Gölgesi (Human Digital Shadow); 
+(iii) İnsan Dijital İkizi (Human Digital Twin) 
+(iv) geleneksel Dijital İkiz (traditional Digital Twin) arasındaki temel farklara dair genel bir bakış sunuyoruz.
+HDT, bir insan bireyden veri toplama arayüzü aracılığıyla otomatik olarak veri alır. Ancak, ek veriler manuel olarak da girilebilir. Bu veriler işlenir ve modeller çalıştırılarak geri bildirim oluşturulur, ardından bu geri bildirim, insan-makine arayüzü aracılığıyla eşlenmiş insana iletilir. Geri bildirimin nasıl sağlandığı, geleneksel DT’lerden ayıran önemli bir farktır
+
+5.1. HDT özellikleri: İkiz varlık
+Genel olarak, DT'ler için eşlenmiş varlık herhangi bir fiziksel nesne olabilir.
+HDT'yi geleneksel bir DT’den ayıran en önemli faktör, eşlenmiş varlığın insan olması gerekliliğidir. 
+Ancak, bu şartın sınırlarını test eden özel bir durum bulunmaktadır: Eğer eşlenmiş varlık, insan birey ile güçlü bir şekilde bağlı bir teknik sistemi içeriyorsa, bu hala bir HDT midir? 
+Bir sistem, bileşenleri birbirine çok bağımlı ve ayrılması zor olduğunda güçlü bir şekilde bağlı (strongly coupled) olarak kabul edilir. Hipotetik bir örnek olarak, kalp pili veya insülin pompası gibi, insanın teknik sistemin işlevine büyük ölçüde bağımlı olduğu durumlar verilebilir. 
+Buna karşılık, zayıf bağlı (weakly coupled) sistemlerde, insan etkileşimden çıkabilir ve bağımsız olarak varlığını sürdürebilir. Zayıf bağlı bir teknik sisteme örnek olarak, sürücü destek sistemine sahip akıllı bir otomobil verilebilir (Hu ve diğerleri, 2022). Dış iskeletler (exoskeletons) de iyi bir örnektir; eğer bir işçi dış iskeleti geçici olarak kullanıyorsa bağlantı zayıftır (Constantinescu ve diğerleri, 2019
+5.1. HDT özellikleri: İkiz varlık
+Bizim yaklaşımımıza göre, insanı ve zayıf bağlı bir teknik sistemi kapsayan tek bir DT, bir HDT değildir çünkü toplanan veriler artık yalnızca insan bireye değil, aynı zamanda teknik sisteme de odaklanmaktadır. Ayrıca, insan birey bu etkileşimden çıkabildiğinde, birleşik DT etkisiz hale gelebilir. 
+Bu nedenle, Gaffinet ve diğerleri (2023) tarafından İnsan-Robot İşbirliği bağlamında önerildiği gibi, birbirleriyle veri paylaşabilen iki ayrı DT oluşturmak daha mantıklı olacaktır.
+5.1. HDT özellikleri: İkiz varlık
+Eğer bir HDT, bir insanı uzun bir süre boyunca, hatta hayatı boyunca kapsıyorsa, bunu özel bir HDT türü olarak değerlendiriyoruz. İnsanı ve onunla birlikte çalışan teknik sistemleri içeren bir DT’nin "Artırılmış İnsan Dijital İkizi" (Augmented Human Digital Twin) olarak adlandırıyoruz 
+5.2. HDT Özellikleri: Dijital Nesneye Veri Akışı
+Geleneksel Dijital İkizler (DT) düşünüldüğünde, örneğin bir makine veya otonom bir araç için, teknik sistemin entegre sensörlerle tasarlanması mümkündür. 
+Bir insan birey doğal olarak entegre sensörlerle dünyaya gelmez ve bazı duygular, içsel olaylar günümüz teknolojisiyle kolayca ölçülemez.
+ Lauer-Schmaltz ve arkadaşları (2022), özellikle İnsan iç durumuna dair bilgi toplamanın önemli bir araştırma boşluğu oluşturduğunu belirtmiştir.
+Bu zorluğun yanında verilerin HDT'ye nasıl iletileceği de dikkate alınmalıdır. Yani, veri akışının manuel mi yoksa otomatik mi olduğu ve verilerin gerçek zamanlı olarak mı alındığı önemlidir.
+5.2. HDT Özellikleri: Dijital Nesneye Veri Akışı
+Geleneksel DT'ler ve Dijital Gölge sistemleri için fiziksel nesneden dijital nesneye veri akışı otomatik olmalıdır (Kritzinger ve ark., 2018). 
+Aynı gereklilik HDT'ler için de geçerlidir ve bu, giyilebilir cihazlar veya canlı video akışları yoluyla veri toplanarak sağlanabilir. 
+Ancak, uygulama alanına bağlı olarak otomatik olarak toplanan veriler yetersiz olabilir ve manuel girişlerle tamamlanması gerekebilir. 
+Örneğin, manuel olarak girilen besin tüketimi verileri ile giyilebilir cihazlardan otomatik olarak alınan verilerin birlikte kullanıldığı fitness sonuçları tahmini çalışmaları buna iyi bir örnektir (Barricelli ve ark., 2020).
+5.2. HDT Özellikleri: Dijital Nesneye Veri Akışı
+İkinci bir tartışma noktası ise, bir DT'nin genel olarak verileri gerçek zamanlı olarak alması gerekip gerekmediğidir. 
+Semeraro ve arkadaşlarının (2021) tanımında DT'nin gerçek zamanlı veri alması gerektiği açıkça belirtilmiştir. 
+Ancak, uygulama alanına bağlı olarak HDT'nin etkili olması için gerçek zamanlı veri gerekliliği her zaman şart değildir. 
+Örneğin, insan-robot iş birliği senaryolarında çarpışmalardan kaçınmak için insan hareketlerinin gerçek zamanlı olarak takip edilmesi gerekir. Ancak, bir hastalığın ilerleyişini izleyerek tedaviyi uyarlamak için gerçek zamanlı veri akışı zorunlu değildir. Her iki senaryo da HDT kapsamında değerlendirilmelidir. Bu nedenle, veri aktarımının otomatik olması, tanımın daha anlamlı bir bileşeni olarak kabul edilmelidir.
+Sonuç olarak, HDT'nin ikizlenen insan bireyinden otomatik olarak veri alması gereklidir ancak bu verilerin mutlaka gerçek zamanlı olması gerekmez. Otomatik alınan veriler manuel girişlerle desteklenebili
+
+5.3. HDT Özellikleri: Dijital Nesne
+Dijital Nesne, HDT'nin kendisini ifade eder ve tamamen dijital bir yapıya sahiptir. 
+Temel görevi, ikizlenen bireyin dijital bir temsili olmak ve bu doğrultuda, bireyin durumunu ve muhtemelen davranışlarını taklit eden bir model gerektirmektedir. Geleneksel bir Dijital İkiz (DT) gibi, bu model gelecekteki durumları tahmin etmek veya simülasyonlar çalıştırmak için kullanılabilir.
+HDT, modelini oluşturmak için ikizlenen bireyden sensörler ve manuel girişler aracılığıyla veri alır. HDT ilgili sistemlere mesajlar göndermek amacıyla diğer DT'lerden veya teknik sistemlerden veri alabilecek iletişim arayüzleri kullanabilir.
+Burada HDT'ler için iki temel zorluk öne çıkmaktadır: insanların karmaşıklığı ve yaşadıkları dinamik bağlam.
+
+
+5.3. HDT Özellikleri: Dijital Nesne
+temel farklardan biri ise insan ve teknik sistemlerin içinde bulundukları bağlamdır. Çoğu teknik sistem, belirli ve sabit bağlamlarda çalışmak üzere tasarlanmıştır ve DT'leri de bu bağlamlara uygun şekilde yüksek derecede uzmanlaşmış modeller içerir. Örneğin, otonom araçlar yollar üzerinde, endüstriyel robotlar ise montaj hatlarında çalışır.
+ Buna karşılık, bir insan bireyi yaşamı boyunca çok geniş bir bağlam yelpazesine maruz kalır ve bu da modellerin taşınabilirliğini ve genelleştirilmesini zorlaştırır. Örneğin, görsel dikkat üzerine bir model, sürücü davranışı, yaya geçitlerinde yürüme veya fabrika işçilerinin dikkat seviyesinin ölçülmesi gibi farklı bağlamlarda uygulanabilir. 
+Sonuç olarak, bir HDT temel olarak ikizlenen insanın mevcut durumunu ve muhtemelen davranışlarını taklit eder. Bunun ötesinde, HDT simülasyon veya tahmin gibi ek işlevlere de sahip olabilir. Kişisel verilerin korunması büyük önem taşırken, bağlamsal bilgiler diğer DT'lerden veya teknik sistemlerden alınabilir.
+
+5.4. HDT Özellikleri: Fiziksel Nesneye Geri Bildirim
+Kritzinger ve arkadaşlarına (2018) göre, “Fiziksel nesnenin durumundaki bir değişiklik doğrudan dijital nesnenin durumunda bir değişikliğe yol açar ve tersi de geçerlidir.” Bu tanıma göre, 
+klasik Dijital İkizler (DT) için geri bildirim doğrudan ve otomatik olmalıdır. Ancak pratikte, geri bildirimlerin bir kısmı doğrudan ikizlenen sisteme yönlendirilirken, bir kısmı ise operasyonları optimize etmek veya bakım süreçlerini planlamak için insan operatöre iletilir. Bu nedenle geri bildirimleri iki kategoriye ayırabiliriz:
+Doğrudan geri bildirim, doğrudan ikizlenen sisteme uygulanır.
+Dolaylı geri bildirim, fiziksel nesneye bir değişiklik uygulanmadan önce bir operatör veya başka bir sistem aracılığıyla iletilir.
+
+5.4. HDT Özellikleri: Fiziksel Nesneye Geri Bildirim
+HDT'de Geri Bildirim Türleri
+HDT’ler de teknik sistemlerde olduğu gibi doğrudan veya dolaylı geri bildirim sağlayabilir:
+1. Doğrudan Geri Bildirim
+İnsan-Makine Arayüzü (HMI) üzerinden sağlanır.
+HDT’den gelen model çıktıları, insan tarafından anlaşılır bir forma çevrilmelidir.
+Görsel göstergeler (ekran bildirimleri), push bildirimler, ışık ve sesli uyarılar veya dokunsal geri bildirim (haptik) gibi çeşitli biçimlerde olabilir.
+Ancak, geri bildirimin iletilmiş olması, insanın bunu mutlaka fark edeceği veya uygulayacağı anlamına gelmez. Geri bildirim fark edilse bile bilinçli olarak göz ardı edilebilir.
+İnsanlar üzerinde kesin bir kontrol sağlayamadığı için geleneksel DT’lerden temel bir fark taşır.
+
+
+5.4. HDT Özellikleri: Fiziksel Nesneye Geri Bildirim
+2. Dolaylı Geri Bildirim
+Önce başka bir sisteme iletilir ve daha sonra bireyin durumunu değiştirmek için uygulanır.
+Örnek: Sağlık profesyonelleri bir HDT'den hasta durumu hakkında bilgi alarak tedavi sürecini güncelleyebilir. Bu, bir makine operatörünün DT’den gelen bilgilere göre makine parametrelerini ayarlamasına benzer. Ancak burada bir insanın müdahalesi gereklidir ve otomatiklik kaybolur.
+
+6.1. İletişim ve Bağlantı
+HDT'ler, aldıkları verilere dayanır ancak güvenilir veri aktarımı büyük bir zorluktur. Kullanım senaryosuna bağlı olarak, eşleştirilmiş insan birey gün boyunca farklı ortamlarda hareket edebilir. Hareketliliğin etkisini en aza indirmek temel bir teknik. Ağ kapsama alanının olmaması, veri toplamayı kesintiye uğratabilir ve bu durum HDT'nin modelleri gerçek zamanlı olarak çalıştırma ve bireye geri bildirim sağlama yetisini doğrudan etkiler.
+Gerçek zamanlı sürekli senkronizasyon için umut verici bir yaklaşım, HDT’nin tahminlerini kullanarak sürekli senkronizasyon ihtiyacını azaltan tahmin destekli bağlantı teknolojisidir. 
+Ayrıca, dağıtılmış modelleri çalıştıracak hesaplama kaynaklarının insanın fiziksel olarak yakınında olması gecikmeyi azaltmak için önemlidir. Bulut-kenar bilişim (cloud-edge computing) gibi teknikler, gecikmeyi en aza indirmek için umut verici yaklaşımlar sunar.
+
+6.2. İnsan Verisini Algılama
+Fizyolojik veriler giyilebilir cihazlar aracılığıyla toplanabilir, ancak insan durumunun yalnızca sınırlı bir resmini sunar. İnsan bilişini yakalamaya çalışırken büyük kısıtlamalar ortaya çıkar. Elektroensefalografi (EEG) veya fonksiyonel manyetik rezonans görüntüleme (fMRI) gibi görüntüleme teknikleri gerektirdiğinden, bilişsel durumların ölçülmesi zorlaşır.
+Bütün insan yönleri sensörlerle elde edilemediğinden, HDT’nin doğrudan bireyden aldığı veriler (örneğin, anketlerden elde edilen bilgiler) önemli hale gelir. Örneğin, günümüzde kişilik değerlendirmeleri, genellikle Big Five Kişilik Modeli gibi standart psikolojik testlerle elde edilir. Kişilik özelliklerini oyun içi davranışlardan çıkarmaya yönelik çalışmalar mevcut olsa da, bu yöntemler standart anketler kadar güvenilir değildir.
+
+
+6.3. Modelleştirme
+Mevcut HDT gelişmeleri, son derece uzmanlaşmıştır ve genellikle belirli bir bağlamda birkaç insan yönünü modellemeye odaklanır. Sonuç olarak, büyük çeşitlilikte modeller üretilmekte ve genellikle kavram kanıtlama (proof of concept) amaçlı geliştirilmektedir.
+özelleşmiş modeller ile ilgili mevcut zorluklar ele alınmalıdır:
+Veri eksikliklerine karşı dayanıklılık: İnsan verileri her zaman ve her koşulda elde edilemeyebilir.
+Düşük veri kalitesine karşı dayanıklılık: Manuel girişlerin kullanıldığı modellerde veri kalitesi sorun yaratabilir.
+Makine Öğrenimi Modelleri: Bu modeller büyük hacimli yüksek kaliteli verilere ihtiyaç duyar ve eksik veriler nedeniyle performans kaybı yaşarlar.
+
+6.4. Toplumsal ve Etik Zorluklar
+Önemli etik ve güvenlik sorunları şunlardır:
+Veri güvenliği ve gizliliğin korunması: Verilerin kötüye kullanılması veya veri ihlalleri, HDT'lere duyulan güveni zedeleyebilir.
+Blockchain tabanlı güvenli veri paylaşımı, yüksek gecikme sorunları nedeniyle hala büyük bir zorluk teşkil etmektedir (Okegbile ve ark., 2024).
+Merkezi olmayan öğrenme (Federated Learning), kişisel verileri paylaşmadan model eğitmeye olanak tanıyan bir çözüm olarak ortaya çıkmaktadır.
+Önyargı ve ayrımcılık riskleri: HDT çıktıları işe alım süreçleri veya tıbbi tedavi kararları gibi kritik kararları etkileyebilir.
+
+7. Sonuçlar
+Çalışma kapsamında dört temel konu ele alınmıştır:
+Fiziksel Nesne (Eşleştirilen Varlık) – HDT'nin bir insan bireyle eşleşmesi gerekliliği.
+Dijital Nesneye Veri Transferi – Verilerin otomatik veya manuel girişlerle nasıl iletildiği.
+Dijital Nesnenin Yapısı – İnsan durumunu ve dinamiklerini taklit eden modelleme süreçleri.
+Fiziksel Nesneye Geri Bildirim – HDT’nin bireye doğrudan veya dolaylı geri dönüş sağlaması.
+7. Sonuçlar
+Temel Bulgular ve Katkılar:
+HDT'lerin sınıflandırılması yapılmış ve İnsan Dijital Modeli, İnsan Dijital Gölgesi ve İnsan Dijital İkizi olmak üzere üç ana kategori önerilmiştir.
+Artırılmış İnsan Dijital İkizi (Augmented Human Digital Twin) kavramı tartışılmıştır.
+HDT’nin teknik zorlukları (veri toplama, modelleme, veri güvenliği) ve etik sorunları (gizlilik, güven, önyargı riski) ele alınmıştır.
+Endüstri 5.0 perspektifinde, HDT’lerin insan merkezli sistemlerin geliştirilmesine katkı sağlayabileceği belirtilmiştir.
+
+
+
+
+
+
+
+Beni Dinlediğiniz için Teşekkür ederim
+

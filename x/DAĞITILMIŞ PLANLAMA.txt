@@ -1,0 +1,45 @@
+DAĞITILMIŞ  PLANLAMA 
+SORUNLARI VE AKILLI ÜRETİM 
+SİSTEMLERİ
+Armağan Özkan 
+223205027Dağıtık Üretim Nedir?
+•Şirketler artık tek bir fabrikada değil, birden fazla fabrikada üretim yapıyor. Bu 
+fabrikalar farklı şehirlerde veya ülkelerde olabilir .
+•Bu üretim modeline dağıtık üretim denir.
+•Bununla amaçlanan daha hızlı, daha ucuz ve daha esnek bir üretim sağlamak .Üretim Tipleri
+•Dağıtık akış tipi atölye (Distributed Flow Shop)
+•Dağıtık paralel makineler ( Parallel Machine Scheduling )
+•Esnek iş atölyesi ( Flexible JobShop)
+•Hibrit sistemler ( Hybrid Flow Shop)
+•Genel dağıtık üretim ortamlarıProblemler
+• Dağıtım problemleri (ürünlerin müşterilere ulaşması)
+• Planlama problemleri (uzun vadeli kararlar)
+• Kaynak tahsisi problemleri
+• Araç rotalama problemleri
+Gerçekçi Kısıtlar
+•İşlem süresindeki belirsizlik
+•Kurulum ve taşıma zamanlarının varlığı
+•no-wait, no-idle, blocking gibi üretim kuralları
+•Montaj hattı aşamaları
+•Sınırlı bufferlarAmaçlar Neler?
+■Makespan (tamamlanma süresi) minimizasyonu .
+■Gecikmeleri azaltmak.
+■Enerji tüketimi  düşürmek
+■İş yükünü dengeli dağıtmak
+■Maliyeti düşürmekÇözüm Yöntemleri
+•Matematiksel modeller(MILP, MIP) kullanılarak planlama problemini ortadan 
+kaldırmayı amaçlıyorlar. Matematiksel modeller yavaş olması ve gerçek dünya 
+belirsizliklerine karşı uyumlu olmamasından dolayı yetersiz kalır.
+•Bu noktada akıllı algoritmalar icat edilmiştir. Bunlardan bazıları:
+•Genetik algoritmalar
+•Karınca kolonisi
+•Parçacık sürüsü optimizasyonu
+•Yapay arı kolonisiAkıllı Algoritmalar
+🔸Genetik Algoritma (GA):
+Farklı çözümleri birleştirip yeni çözümler üretir, iyi olanları seçerek geliştirir.
+🔸Parçacık Sürüsü Optimizasyonu (PSO):
+Çözümler bir grup olarak hareket eder, en iyi sonuca doğru birlikte yaklaşırlar.
+🔸Karınca Kolonisi (ACO):
+İyi çözümler “iz” bırakır, algoritma bu izleri takip ederek daha iyi sonuçlara ulaşır.
+🔸Yapay Arı Kolonisi (ABC):
+İyi sonuçları bulan çözümler daha fazla denenir, kötü olanlar elenir.

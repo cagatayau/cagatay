@@ -1,0 +1,223 @@
+Data Center - Enabled High Altitude Platforms
+-Yüksek İrtifa Platformu Destekli Veri Merkezleri-
+Section 3 & 4.	Berkay Aktaş - 213205015
+Section 3 : System Analysis
+HAP destekli veri merkezlerinin enerji verimliliği ve gecikme süreleri analiz edilmiştir.
+Karasal veri merkezleri ile karşılaştırmalı değerlendirme yapılmıştır.
+Analizler enerji tüketimi, gecikme ve görev dışı kalma oranlarına odaklanmaktadır.
+
+Bu bölümde aşağıdaki sorulara yanıt aranıyor:
+Güneş enerjisiyle çalışan bir HAP’ın uçuşunu ve üzerindeki sunucuların çalışmasını sürdürebilecek kadar enerji üretip üretemeyeceği,
+HAP veri merkezinin enerji tüketiminin, karasal veri merkezine göre avantajlı olup olmadığı,
+HAP ile karasal merkez arasındaki veri iletiminde kesinti olasılığı (outage),
+HAP üzerindeki işlem gecikmelerinin analizi.
+
+HAP Uçuş Koşulu (HAP Flying Condition)
+Amaç:
+HAP üzerindeki güneş panelleri tarafından toplanan enerjinin, hem uçuşu sürdürmek hem de veri işleme (payload) işlevlerini yerine getirmek için yeterli olup olmadığını hesaplamak.
+Tanımlar:
+EharvHAP: HAP tarafından toplanan güneş enerjisi.
+EpayloadHAP: HAP üzerindeki sunucuların enerji ihtiyacı.
+EpropHAP: HAP’ın uçuş (itki) için ihtiyaç duyduğu enerji.
+HAP’ın uçuş koşulu aşağıdaki eşitsizlikle tanımlanır:
+ EpropHAP + EpayloadHAP ≤ EharvHAP
+
+Sunucuların Enerji Tüketimi:
+Sunucuların Enerji Tüketimi:
+HAP üzerindeki her sunucunun enerji tüketimi, yükleme oranına (utilization) ve aktiflik durumuna göre değişir:
+
+PpayloadHAP = ∑ (P_idle + (P_peak - P_idle) * u_i(λ_i)) 
+Burada:
+P_idle: Boşta çalışan sunucunun gücü,
+P_peak: En yüksek güçte çalışan sunucunun gücü,
+u_i(λ_i): Sunucunun yüklenme oranı (gelen iş yüküne bağlı),
+λ_i: İş yükü gelişi (arrival rate).
+
+Bu formüller entegre edilerek enerji cinsinden toplam gereksinim (Epayload) elde edilir.
+
+İtki Enerjisi (EpropHAP) VE λ _max Hesaplama:
+Uçuş için gereken enerji, HAP'ın uçuş hızı ve rüzgar koşullarına bağlıdır: 
+EpropHAP = v / η * C'D * (t2 - t1)
+
+Enerjinin yeterli olabilmesi için HAP üzerindeki sunuculara yönlendirilebilecek maksimum iş yükü sınırlandırılmalıdır:
+λ_HAP ≤ λ_maxHAP
+
+Enerji Tasarrufu (Energy Saving)
+Karasal (terrestrial) veri merkezinin tükettiği enerji (EconsTDC) ile HAP destekli veri merkezinin (EconsTDC-HAP) tükettiği enerji karşılaştırılmaktadır. Burada, HAP’a yönlendirilen tüm iş yüklerinin başarıyla iletildiği ve bağlantı kopukluğu yaşanmadığı varsayılmaktadır.
+Adil bir karşılaştırma yapmak için her iki sistemde de toplamda (I + I′) sunucu bulunduğu kabul edilmiştir.
+Karasal veri merkezinde bu (I + I′) sunucuların hepsi yer almaktadır.
+HAP destekli modelde ise, I tanesi karasal veri merkezinde, I′ tanesi HAP üzerinde yer almaktadır.
+
+Karasal Veri Merkezinde Enerji Tüketimi
+Karasal bir veri merkezinin toplam enerji tüketimi EconsTDC, iki ana bileşenden oluşur:
+İşlem enerjisi (sunucuların hesaplama gücü için harcadığı enerji) → EcompTDC(λTDC)
+Soğutma enerjisi (CRAC adı verilen soğutma birimleri tarafından tüketilen enerji) → EcoolTDC(λTDC)
+Bu nedenle genel formül:
+EconsTDC(λTDC) = EcompTDC(λTDC) + EcoolTDC(λTDC)
+
+İşlem Enerjisi (EcompTDC)ve Soğutma Enerjisi (EcoolTDC)
+Toplam işlem enerjisi, tüm sunucular için ayrı ayrı hesaplanıp toplanır:	
+
+EcompTDC(λTDC) = ∑ Ecompi  (i = 1 to I + I′)
+
+EcoolTDC(λTDC) = ∑ Ecoolj  (j = 1 to J)
+
+Sonuç Formül – Toplam Enerji Tüketimi
+EconsTDC(λTDC) = 
+∑ işlem enerjisi (I + I′ sunucu) +
+∑ fan enerjisi (J adet CRAC) +
+∑ sıcaklık temelli ısı transfer enerjisi +
+∑ CPU ısı enerjisi +
+…)
+Böylece iki sistemin enerji karşılaştırması şu şekilde yapılabilir:
+Karasal Veri Merkezi Enerjisi:EconsTDC(λTDC)(Yüksek işlem + Yüksek CRAC soğutması)
+HAP Destekli Enerji:EconsTDC-HAP(λTDC) =(İşlem enerjisi [her iki merkezde] + HAP’ın pasif soğutması + uçuş/iletişim maliyeti)
+Yani HAP çözümü, eğer iletim ve uçuş enerjileri çok büyük değilse, önemli soğutma tasarrufu sağlayabilir.
+
+Gecikme Analizi (Delay Analysis)
+Bu bölümde, bir kullanıcının veri merkezine gönderdiği isteğin işlenip tekrar kullanıcıya ulaştırılması süresinde oluşan toplam gecikme incelenir. Gecikme, hem karasal hem de HAP destekli senaryolarda karşılaştırılır.
+
+Toplam Gecikme – Dtotal
+Genel olarak gecikme şu üç bileşenden oluşur:
+Dtotal = Dpropagation + Dprocessing + Dqueueing
+
+
+Dpropagation (Yayılma Gecikmesi)ve Dprocessing (İşleme Gecikmesi)
+Verinin fiziksel olarak iletildiği mesafeye ve ortamın hızına bağlıdır:Dpropagation = d / c
+Burada:
+d: toplam fiziksel mesafe (örneğin kullanıcıdan veri merkezine kadar olan yol)
+c: iletim hızı (örneğin ışık hızı, fiber optik veya hava ortamına göre değişir)
+
+Sunucunun, gelen isteği işleyip yanıt oluşturması için geçen süre.
+Bu genellikle işlem kapasitesi (CPU, bellek) ve yük (λ) ile ilgilidir. Formül tipik olarak:
+Dprocessing ≈ 1 / μ
+Burada μ, sunucunun işlem oranıdır (işlem/saniye).
+
+
+Dqueueing (Kuyruklama Gecikmesi)
+İsteğin işlenmeden önce sırada beklemesiyle oluşur. Yüksek trafik durumlarında bu gecikme artar.
+Bu gecikme, M/M/1 kuyruk modeli ile yaklaşık olarak hesaplanabilir:
+Dqueueing = λ / [μ * (μ - λ)]
+Burada:
+λ: Gelen istek oranı (istek/saniye)
+μ: Sunucunun servis oranı
+Eğer λ değeri μ’ye yaklaşırsa, kuyruk gecikmesi katlanarak artar.
+
+Karasal Veri Merkezinde Gecikme – Dtotal_TDC
+Karasal senaryoda toplam gecikme şu şekilde olur:
+
+Dtotal_TDC = Dpropagation_TDC + Dprocessing_TDC + Dqueueing_TDC
+
+Dpropagation_TDC: Kullanıcıdan yer merkezine kadar olan fiber gecikmesi
+Dprocessing_TDC: Karasal sunucunun işleme süresi
+Dqueueing_TDC: Karasal sunucudaki bekleme süresi
+
+HAP Destekli Veri Merkezinde Gecikme – Dtotal_HAP
+Bu senaryoda, ek HAP bağlantısı olduğu için gecikme farklı hesaplanır:
+Dtotal_HAP = Dpropagation_user-ground + Dpropagation_ground-HAP + Dprocessing_HAP + Dqueueing_HAP
+Yani:
+Kullanıcı → yer istasyonu
+Yer istasyonu → HAP (yaklaşık 20 km yukarıya)
+HAP üzerindeki sunucuların işlem ve kuyruk süresi
+
+KARŞILAŞTIRMA
+Sonuç:HAP destekli sistemde yayılma gecikmesi biraz artsa da, kuyruk ve işlem dengesi daha iyi olduğundan toplam gecikme genelde azalır.
+section 4: Results and Discussion
+Simülasyonlarla HAP’lerin enerji tasarrufu potansiyeli gösterilmiştir.
+Yerden yüksek konumda olmaları sayesinde veri işleme süresini azaltırlar.
+Enerji açısından %40’a kadar verimlilik mümkündür.
+Genel Tanım ve Simülasyon Senaryosu:
+Makalenin bu bölümünde, yüksek yüzey alanına sahip bir hava gemisi düşünülmekte ve güneş enerjisinden elektrik üretimi yapılabileceği varsayılmaktadır. HAP'in taşıyabileceği maksimum yük 450 kg olarak alınmış; bu da Stratobus hava gemisine benzer [26], [42]. Barındırılan veri merkezi bir rack yapısında ve ağırlığı 363 kg [43]. Her bir sunucu yaklaşık 9 kg ağırlığında ve 580 MIPS hizmet oranına sahip.
+Simülasyonlar boyunca homojen ve heterojen iş yükleri olmak üzere iki temel senaryo ele alınıyor:
+Homojen iş yükü: Tüm görevlerin benzer işlem büyüklüğüne sahip olduğu senaryo.
+Heterojen iş yükü: Küçük ve büyük görevlerin bir arada bulunduğu, karmaşık bir senaryo.
+
+HAP Uçuş Koşulu (HAP Flying Condition)
+Amaç:
+HAP’in uçuşta kalabilmesi için enerji üretiminin yeterli olduğu ve maksimum iş yükü giriş oranını (λ_max) sunucu sayısına göre nasıl etkilediğini incelemek.
+Önemli Noktalar:
+Figür 2'ye göre, az sayıda sunucu kullanıldığında HAP’in topladığı enerji tam olarak kullanılamıyor. Örneğin, Aralık ayında Kuzey Yarımküre’de 10 sunucu ile desteklenebilecek görev oranı 2600 görev/sn civarındayken, bu sunucuların gerçek kapasiteleri 1000 görev/sn’nin altında kalıyor.
+Sunucu sayısı arttıkça HAP’in topladığı enerji daha verimli kullanılıyor. Ancak taşıma kapasitesi (payload) sınır olduğu için bu sayı en fazla yaklaşık 40 sunucu ile sınırlı.
+HAP’in tamamen dolu (full payload) olduğu ve sunucuların %100 kullanıldığı varsayılmış.
+Ayrıca, yılın farklı günlerinde ve enlemlerde (latitude) güneş ışınımı değiştiği için, iş yükü işleme kapasitesi de değişiyor:
+Kuzey Yarımküre’de Haziran ayında maksimum iş yükü işlenebilir.
+Güney Yarımküre’de Aralık ayında maksimum enerji toplandığı için daha fazla görev işlenebilir.
+Ekvator bölgesinde bu değerler daha sabittir.
+
+Enerji Tasarrufu (Energy Saving)
+Amaç:
+HAP’li sistemin, kara tabanlı veri merkezlerine göre ne kadar enerji tasarrufu sağladığını analiz etmek.
+Sonuçlar:
+Figür 4: 150. günde (Haziran sonu civarı) farklı enlemlerde HAP ve kara veri merkezlerinin enerji tüketimi karşılaştırılmış.
+Daha yüksek enlemlerde daha fazla iş yükü kabul edilebildiği için tüketilen enerji azalıyor.
+%14.61 enerji tasarrufu sağlandığı gözlemlenmiş (60° enlemde tek HAP ile).
+HAP’e 10 sunucu daha eklenmesi durumunda tasarruf oranı %3 artıyor.
+Figür 5: Yılın farklı günlerinde enerji tüketimi karşılaştırılmış.
+Yılın başında ve sonunda (kış aylarında) güneş ışığı az olduğu için daha az enerji toplanıyor.
+200. gün civarında (Temmuz başı) güneş enerjisi maksimum seviyeye ulaşıyor ve en yüksek enerji tasarrufu bu günlerde gözleniyor.
+Tek HAP ile %14.38 enerji tasarrufu sağlanmış.
+2 HAP kullanıldığında bu oran %17’yi geçiyor.
+
+Görev Düşme Olasılığı ve Yeniden Gönderim (Outage Probability of Offloading)
+Amaç:
+HAP ile kara veri merkezi arasındaki bağlantının kesilmesi durumunda görevlerin düşme olasılığı ve bu görevlerin yeniden gönderilmesinin enerji tasarrufuna etkisi.
+Bulgular:
+Figür 6: Görev giriş oranına göre bağlantı kesilmesi durumundaki görev düşme olasılığı (outage probability) gösterilmiş.
+360 görev/sn: Görevlerin bir kısmının düşmeye başladığı alt sınır.
+650 görev/sn: Üst sınırda görev düşüşleri başlıyor.
+400–730 görev/sn aralığında** görevlerin tamamı düşebilir.
+Daha uzun görevler (daha fazla veri taşıyan) için düşme olasılığı artar.
+Figür 7: Düşen görevlerin yeniden gönderilmesi durumunda enerji tasarruf oranı:
+Eğer düşen görevler kara veri merkezinde işlenirse, enerji tasarrufu azalır.
+Ancak düşen görevler tekrar HAP’e gönderilip orada işlenirse, enerji tasarrufu %11.76’ya kadar çıkar. Bu oran, hiç görev düşmeyen (ideal) senaryoya oldukça yakındır.
+Gecikme Analizi (Delay Analysis)
+Bu kısımda, HAP üzerinde çalışan veri merkezinin gecikme performansı analiz edilir.
+İki tür gecikme karşılaştırılır:
+Kuyrukta bekleme gecikmesi (Queuing Delay): Görevlerin işlenmek için beklediği süre.
+İletim gecikmesi (Transmission Delay): Görevlerin HAP'e gönderilme süresi.
+Şekil 8 üzerinde kuyruk gecikmesi ile iletim gecikmesi farklı iş yükü oranları altında karşılaştırılmıştır.
+Gözlemler:
+Düşük iş yükü durumlarında iletişim gecikmesi baskın hale gelir. Bu durum, görevlerin hızlı işlendiği ama HAP’e ulaşmasının zaman aldığı bir senaryodur.
+Ancak iş yükü arttıkça, kuyrukta bekleme süresi giderek baskın hale gelir. Yani HAP’in işlem kapasitesi zorlanır ve görevler işlem sırasına girer.
+Bu analiz sonucunda şunlar anlaşılır:
+İş yükü düşükken HAP'e veri gönderme süresi belirleyici olur.
+İş yükü yüksekken HAP'in işlem kapasitesi yetersiz kalabilir ve bu da görevlerin beklemesine neden olur.
+
+Genel Değerlendirme:
+Genel sonuçlar
+HAP tabanlı veri merkezleri, uygun sayıda sunucu ile ve doğru zamanlama ile yerleştirildiğinde yüksek enerji tasarrufusağlar.
+Gecikme performansı, iş yükü yoğunluğu ve konuma göre değişmekle birlikte, birçok durumda karasal veri merkezlerine göre avantajlıdır.
+Yeniden iletim desteğiyle birlikte HAP sistemleri, yüksek güvenilirlik ve sürdürülebilirlik sunabilir.
+
+HAP'in Enerji Tasarrufu Yüzdesi (Yük Aktarımı Kopma Olasılığına Göre)
+Yüksek iş yükü altında bile görevleri yeniden HAP'e göndermek, toplam enerji tasarrufunu ciddi şekilde artırır.
+Kuyruk Gecikmesi vs. İletim Gecikmesi
+Grafik Eğrisi Özeti 
+ Gecikme Miktarı
+                ▲
+                │            /← Kuyruk Gecikmesi
+                │           /
+                │          /
+                │         /
+                │--------/-----------------------------→ İş Yükü
+                │       /
+                │      /
+                │     /
+                │    /← İletim Gecikmesi
+                │___/
+HAP’in işlem gücü sabit olduğundan iş yükü artınca kuyruklar uzar, yani iletim değil işlem süresi gecikmeye neden olur.
+Genel Tablo: HAP Tabanlı Veri Merkezi Performansı
+Avantajlar ve Dezavantajlar
+Avantajlar:
+- Düşük gecikme
+- Enerji verimliliği
+- Ulaşılması zor bölgelere hizmet
+
+Dezavantajlar:
+- Hava koşullarına duyarlılık
+- Bakım ve uçuş süresi sınırlamaları
+Kapanış ve Öneriler
+HAP tabanlı veri merkezleri, yeşil bilişim için umut verici.
+Gecikme, enerji ve bakım dengesine dikkat edilmelidir.
+Gelecekte hibrit sistemler yaygınlaşabilir (karasal + HAP).
+Beni dinlediğiniz için teşekkürler…

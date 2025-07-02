@@ -1,0 +1,159 @@
+HAZIRLAYAN: ŞEVKET UĞUREL
+BİLMÖK
+
+
+Seyahat Davranışlarının Analizinde Dijital İkiz Teknolojileri
+
+Dijital İkiz Nedir?
+Dijital İkiz Sistemlerinin Olgunluk Seviyeleri
+Geleneksel Yöntemlerin Sınırlılıkları
+Dijital İkizlerin Avantajları
+Gerçek Zamanlı Uygulama Örnekleri
+Dijital İkiz Oluşturmanın Zorlukları
+
+Kısa Vadeli Düzenlemelerde Dijital İkiz Kullanımı
+Uzun Vadeli Planlamada Dijital İkiz Kullanımı
+Veri Entegrasyonu Zorlukları
+Dijital İkizlerde Model Doğrulama ve Ölçeklenebilirlik Zorlukları
+AKIŞ
+Çözüm Önerileri ve Kolaylaştırıcı Yöntemler
+Mahremiyet ve Veri Koruma Yöntemleri
+Gelecek Çalışmalar İçin Öneriler
+Genel Sonuç ve Değerlendirme
+
+Dijital İkiz Nedir?
+
+
+Dijital İkiz Sistemlerinin Olgunluk Seviyeleri
+
+Geleneksel Yöntemlerin Sınırlılıkları
+
+
+Geleneksel Yöntemlerin Sınırlılıkları
+
+
+
+
+
+
+
+
+Dijital İkizlerin Avantajları
+
+
+
+
+
+Dijital İkizlerin Avantajları
+
+Gerçek Zamanlı Uygulama Örnekleri
+
+
+Gerçek Zamanlı Uygulama Örnekleri
+
+
+Jiangbei(Çin) Yeni Bölgesi'ndeki dijital ikiz CBD
+
+
+
+
+
+
+
+
+Uluslararası Sağlık Merkezi planlaması
+
+Park ve Trafik kontrolü
+
+Kısa Vadeli  Dijital İkiz Kullanımı
+
+Uzun Vadeli Planlamada Dijital İkiz Kullanımı
+
+
+
+Kaewunruen S, AbdelHadi M, Kongpuang M, Pansuk W, Remennikov AM. Digital Twins for Managing Railway Bridge Maintenance, Resilience, and Climate Change Adaptation. Sensors (Basel). 2022 Dec 26;23(1):252. doi: 10.3390/s23010252. PMID: 36616851; PMCID: PMC9824008.
+
+Dijital İkiz Oluşturmanın Zorlukları
+
+
+Dijital İkiz Oluşturmanın Zorlukları
+
+
+
+
+
+
+
+Veri Entegrasyonu Zorlukları
+
+
+
+
+
+
+Veri Entegrasyonu Zorlukları
+
+Dijital İkizlerde Model Doğrulama ve Ölçeklenebilirlik Zorlukları
+
+Model Doğrulama Zorlukları:
+Gerçek zamanlı doğrulama:
+Gerçek dünyadaki değişimlere sürekli ayak uydurma ihtiyacı.
+
+Verilerin farklı kaynaklardan gelmesi nedeniyle oluşan belirsizliklerin yönetilmesindeki güçlükler.
+
+Trafik koşulları, hava durumu ve etkinlikler gibi dinamik faktörlere hızlı uyum sağlama gereksinimi.
+
+Dijital İkizlerde Model Doğrulama ve Ölçeklenebilirlik Zorlukları
+
+Ölçeklenebilirlik Zorlukları:
+Dijital ikizlerin hem küçük ölçekli ayrıntılar hem de büyük ulaşım ağları düzeyinde etkili çalışabilmesi gerekliliği.
+
+Artan veri hacmi nedeniyle yüksek hesaplama gücü ve özel altyapı ihtiyacı.
+
+Mevcut sistemlerle entegrasyon ve birlikte çalışabilirlik sorunları.
+
+Karmaşık sistemlerin eş zamanlı simülasyonu için yüksek hesaplama kaynaklarına ve uzmanlığa ihtiyaç duyulması.
+
+Zorluklara Yönelik Çözüm Önerileri
+
+Mahremiyet ve Veri Koruma Zorlukları
+GPS ve mobil veriler, bireylerin konumları ve hareketlerini içerir.
+
+Hassas konumlar (ev, iş) ve kişisel hareket alışkanlıklarının açığa çıkması riski.
+
+Kişisel Verilerin Gizliliği
+Dijital ikizlerdeki yüksek veri miktarı siber saldırılara karşı daha hassastır.
+
+Veri güvenliği ve yetkisiz erişimin önlenmesi önemlidir.
+
+Siber Güvenlik Riskleri
+Avrupa Genel Veri Koruma Yönetmeliği (GDPR) gibi katı kurallara uyum gerekliliği.
+
+Veri kullanımında şeffaflık ve hesap verebilirlik ihtiyacı.
+
+Yasal Düzenlemelere Uyum
+
+Gelecek Çalışmalar İçin Öneriler
+
+Gerçek Dünya Pilot Projeleri ve Yaşayan Laboratuvarlar (Living Labs)
+Dijital ikizlerin gerçek şehir ortamlarında test edilmesi.
+
+Kullanıcıların, araştırmacıların ve yetkililerin ortak çalışmasıyla modellerin gerçekçi hale getirilmesi.
+Karar Destek Sistemleri ile Dijital İkiz Entegrasyonu
+Dijital ikiz sistemlerinin sağladığı verileri, eyleme dönüştürülebilir önerilere çevirecek sistemlerin geliştirilmesi.
+
+Yapay zekâ ve optimizasyon teknikleriyle politika önerileri üretilmesi.
+
+Gelecek Çalışmalar İçin Öneriler
+
+Etik ve Mahremiyetin Korunması
+Kişisel verilerin korunması için güçlü gizlilik önlemlerinin alınması.
+
+Açıklanabilir yapay zekâ (XAI) uygulamalarının geliştirilmesi.
+Disiplinlerarası İş Birliği ve Eğitim
+Dijital ikiz geliştirme ve uygulama süreçlerinde disiplinlerarası ekiplerin oluşturulması.
+
+Uzmanların ve şehir yetkililerinin teknik kapasitelerinin artırılması için eğitim programlarının düzenlenmesi.
+
+Teşekkürler...
+HAZIRLAYAN: ŞEVKET UĞUREL

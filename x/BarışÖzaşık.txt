@@ -1,0 +1,38 @@
+
+
+
+Edge Intelligence  ve Endüstri 4.0
+Hazırlayan:Barış Özaşık
+223205006
+Edge Intelligence (EI) Nedir?
+Edge Intelligence (Kenar Zekası) yapay zekanın kenar bilişim (edge computing) ile entegrasyonundan doğan bir kavramdır. Bu yaklaşım özellikle Nesnelerin İnterneti (IoT) gibi sistemlerde artan veri miktarını yönetmek, yüksek hızda veri işlemek ve gelişmiş servisleri kolayca hayata geçirmek için geliştirilmiştir.
+Edge Intelligence Nasıl Çalışır?
+Merkezi ve uzaktaki veri merkezlerinden ziyade uç cihazlar üzerindeki yerel işlemlere öncelik verilmesidir. Bu amaca ulaşmak için bulut bilişim, uç bilişim, dağıtık bilişim, yapay zeka ve veri bilimi gibi yöntemlerin bir araya getirilmesi ve bu yöntemlerin uç cihazlardaki sınırlı kaynaklara uygun hale getirilmesi gerekmektedir.
+
+
+ Mevcut Edge Intelligence mimarisi zaman açısından hassas olmayan ancak yoğun kaynak gerektiren işlemler için bulut düzeyini kullanır. Öte yandan uç düzeyi daha küçük, güçlü ve uygun maliyetli IoT kartları ile mikro bilgisayarlardan oluşur. 
+Özellikle otonom araçlar için gerçek zamanlı karar alma süreci büyük önem taşır. Bu nedenle Edge Intelligence güvenlik ve tepki süresini artırmada kritik bir rol üstlenir.Edge Intelligence yeteneklerinin araçlara entegre edilmesi sayesinde çeşitli sensörlerden alınan veriler araç içinde analiz edilerek nesne tanıma, trafik işareti algılama ve anlık navigasyon kararları verilebilir. Öte yandan sürüş davranışlarının çevrimdışı analizi gibi işlemler bulut üzerinden gerçekleştirilebilir.
+
+Peki Nasıl Çalışıyor?
+Araçlar, uç sunucular ve bulut sunucularından oluşan VEC (Vehicular Edge Computing) mimarisini göstermektedir. Bu mimari üç katmandan oluşur:
+Veri Katmanı: Araçların kendi içinde yer alan On-Board Unit (OBU) hesaplama kaynaklarını barındırır ve gerekirse yerel işlemleri gerçekleştirebilir.
+MEC (Edge) Katmanı: Yol kenarı birimleri (RSU - Road Side Units) üzerinden çalışan uç/MEC sunucularını kapsar.
+Bulut Katmanı: Geleneksel bulut bilişim altyapısını, veri merkezlerini ve sunucuları içerir.
+
+Endüstri 4.0'da Edge Intelligence
+Edge Intelligence’ın (EI) en temel özelliklerinden biri veri analizini yerel düzeyde gerçekleştirme yeteneğidir. Bu özellik sayesinde EI veriyi doğrudan kaynağa (yani cihazın kendisine) yakın işleyerek Endüstri 4.0’a büyük katkı sağlar. Verinin buluta gönderilmesine gerek kalmadan cihaz üzerinde analiz yapılarak hızlı kararlar verilebilir. Böylece verinin buluta gönderilmesine ve yanıt beklenmesine gerek kalmadan veri odaklı işlemler yerel olarak yürütülebilir. Günümüzde Endüstri 4.0 hem endüstriyel hem de tüketici sektörlerinde tam dijitalleşmeyi kapsar. Akıllı üretim uygulamaları ve tüm tedarik zincirlerinin dijitalleşmesi bunun bir parçasıdır.
+Bu bağlamda cihazlar ve uygulamalar birbirleriyle ve çevreyle etkileşim kurar, veri paylaşır ve otonom kararlar alır. Bu da üretim verimliliğini artırır, kaynak kullanımını optimize eder ve atıkları azaltır. Özellikle akıllı fabrikalar, IoT ve 5G gibi ileri teknolojilerle süreçleri sadeleştirerek kalite ve verimliliği artırır. Bu fabrikaların en büyük hedefi plansız üretim kesintilerini en aza indirmektir.
+
+Edge Intelligence ve Akıllı Ulaşım Sistemleri (ITS)
+Edge Intelligence (EI) verilerin yerel olarak işlenmesi ve analiz edilmesi sürecini mümkün kılarak uç bilişim cihazlarında yapay zekâ teknolojilerinin entegrasyonunu sağlar. Bu Akıllı Ulaşım Sistemleri (ITS) gibi zamanında karar almanın kritik olduğu alanlarda oldukça önemli bir rol oynar. Örneğin otonom araçlar için anlık verilerin yerel olarak işlenmesi, daha hızlı ve doğru kararlar alınmasını sağlar.
+Akıllı Ulaşım Sistemleri (ITS) trafik yönetimi, araçlar arası iletişim, güvenlik önlemleri gibi alanlarda verimli çalışmayı sağlamak için gelişmiş teknolojilerden yararlanır. Edge Intelligence'nin entegrasyonu ile araçlar ve yol üzerindeki sensörler anlık olarak çevreyi analiz edebilir, engelleri tanıyabilir ve trafik işaretlerini doğru şekilde algılayarak hızla doğru navigasyon kararları verebilirler.
+Bu bağlamda Edge Intelligence bu tür verileri yerel olarak analiz ederek, buluta veri göndermeye gerek kalmadan anlık kararlar alır. Bulut genellikle daha uzun vadeli analizler için kullanılır, örneğin sürüş alışkanlıklarını incelemek gibi. Böylece gerçek zamanlı veri işleme sayesinde sistem çok daha hızlı ve verimli çalışır.
+
+Edge Intelligence ve Hesaplama/Görev Yönlendirme
+Yapay zeka destekli uç bilişimde, hesaplama yükünün yönlendirilmesi (computation offloading) en önemli tartışma konularından biridir. Bu alan genellikle sınırlı kaynaklara sahip mobil cihazlardan uç veya buluta hesaplama açısından yoğun görevlerin aktarılmasına yönelik yöntemleri araştırır.
+Bu işlemin başarılı olabilmesi için CPU döngü sayısı ve kanal bant genişliği gibi birçok kaynağın yönetimi gerekir. Bu noktada optimizasyon yetenekleri yüksek olan yapay zeka teknikleri büyük önem kazanmıştır.
+Son zamanlarda özellikle Q-learning ve türevleri olan DQN (Deep Q-Network) büyük ilgi görmektedir.Bu algoritmalar, cihazların uzun vadeli faydayı maksimize etmek için en uygun görev yönlendirme stratejilerini öğrenmelerine yardımcı olur.
+Özetle Görev Yönlendirme sınırlı kaynaklara sahip cihazların daha güçlü sistemlere görevlerini devretmesini sağlayarak sistemin daha verimli ve hızlı çalışmasını sağlamak için kritik bir öneme sahiptir.
+
+
+DİNLEDİĞİNİZ İÇİN TEŞEKKÜRLER

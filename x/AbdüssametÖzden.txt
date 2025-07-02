@@ -1,0 +1,113 @@
+
+
+Nesnelerin İnterneti’nden Buluta: Bilişim Sürekliliği 
+Abdüssamet Özden
+223205066
+
+14.05.2025
+
+              
+1
+
+
+
+
+
+Bu makale, bilişim sürekliliğinin tanımını yapar, tarihsel bağlamını sunar . IoT, kenar ve bulut katmanlarının nasıl entegre çalıştığını açıklar. 
+İki yeni referans mimari önerir: biri bilişim kaynaklarının organizasyonu, diğeri iletişim altyapısı için. 
+Endüstri, sağlık ve bilim gibi alanlarda kullanım örnekleri sunar, 5G ve yapay zeka gibi güncel trendleri tartışır . Kuantum bilişim, 6G ve sürdürülebilir altyapılar gibi gelecek yönelimlerini ele alır
+
+
+
+Nesnelerin İnterneti (IoT), sensörlerden akıllı cihazlara kadar milyarlarca veri üreten bir ekosistemdir. Akıllı evlerden otonom araçlara kadar birçok uygulama, bu verileri gerçek zamanlı işleme gerektirir. Ancak, geleneksel bulut bilişim, merkezi veri merkezlerine dayalı yapısıyla bu ihtiyaçları karşılamada yetersiz kalır. Uzak sunucular, yüksek gecikmelere (latency), bant genişliği tıkanıklığına ve güvenlik risklerine yol açar. Örneğin, bir otonom aracın trafik verisini buluta gönderip analiz beklemesi, kazalara neden olabilir.
+Makale, bu sorunları çözmek için IoT, kenar ve bulut katmanlarını birleştiren bir sistem öneriyor: buna bilişim sürekliliği diyoruz.
+
+
+Nesnelerin İnterneti ve Zorluklar
+
+
+Bilişim Sürekliliği Nedir?
+
+Bilişim sürekliliği, Nesnelerin İnterneti (IoT), kenar bilişim ve bulut bilişimi birleştiren yenilikçi bir yaklaşımdır. 
+   IoT cihazları veri toplar: örneğin, bir tarım sensörü toprağın nemini ölçer.
+Kenar bilişim, bu verileri cihazlara yakın bir yerde hızlıca işler; mesela, sulama sistemini anında çalıştırır.
+Bulut ise büyük veri analizi yapar: tarım verilerini inceleyerek uzun vadeli verim planları sunar.
+Makale, bunu şöyle tanımlar: “Bilişim sürekliliği, uç cihazlar, kenar düğümleri ve bulut veri merkezleri arasında kaynakları birleştiren bir paradigmadır”
+Bu sistem, düşük gecikme, güvenlik ve farklı cihazların entegrasyonunu sağlar 
+
+
+
+Bilişimin Evrimi
+
+Bilişim sürekliliğinin temellerini anlamak için, makale bilişimin tarihsel gelişimini üç aşamada inceler:
+     Bulut Öncesi Dönem
+Ana Bilgisayarlar (1960’lar): Oda büyüklüğündeki bu makineler, güçlü ancak esnek olmayan sistemlerdi. Kaynakları dinamik olarak ayarlamak zordu.
+Kişisel Bilgisayarlar (1970’ler): Bilişimi bireysel kullanıcılara taşıdı. Küçük ölçekli bilgisayarlardan faydalanıldı.
+Dağıtık Bilişim ve Süper Bilgisayarlar (1990’lar): Birden fazla bilgisayarın birleşmesiyle büyük ölçekli projeler hayata geçirildi. Ancak, sistemler manuel kurulum ve sabit bağlantılar gerektiriyordu.
+
+
+
+IBM 701: IBM'in ilk elektronik bilgisayarı
+Bulut Bilişim
+
+
+2000’lerde ortaya çıkan bulut bilişim, internet üzerinden ölçeklenebilir kaynaklar sunar. Amazon Web Services (AWS) gibi platformlar, şirketlerin (ör. Netflix) kendi sunucularına ihtiyaç duymadan hizmet sunmasını sağladı. Bulut, sanal makineler ve hizmet modelleri (IaaS, PaaS, SaaS) ile esneklik sunar.
+ Ancak bulutun eksikleri var:
+Gecikme: Uzak veri merkezleri, IoT cihazlarından gelen verileri işlerken gecikmelere yol açar.
+Bağlantı: Sürekli internet bağlantısı gerektirir.
+Güvenlik: Merkezi veri saklama, siber saldırı riskini artırır
+
+Bulut Ötesi Modeller
+
+Bulutun sınırlamalarını aşmak için kenar bilişim, sis bilişim ve daha pek çok model ortaya çıktı
+Kenar bilişim, veriyi cihazların yanında işler; örneğin, bir akıllı trafik ışığı yoldaki araç yoğunluğunu  buluta gerek kalmadan analiz ederek anında sinyal süresini ayarlar.
+  Sis bilişim, kenar ve bulut arasında bir köprü gibi: verinin bir kısmını kenarda işler, geri kalanını buluta  gönderir.
+Çoklu erişim kenar bilişim (MEC) modeli, 5G ile çalışır ve artırılmış gerçeklik gibi yenilikçi uygulamaları destekler.
+Bu modeller, merkezi bulutun yükünü azaltır ve daha hızlı, güvenli hizmetler sunar.
+
+
+Bilişim sürekliliğini nasıl çalışır
+
+Üç ana katman var: IoT (sensörler, kameralar), kenar (yerel sunucular) ve bulut (dev veri merkezleri).
+IoT, çevreden veri toplar; mesela, bir fabrikadaki sensör makine sıcaklığını ölçer.
+Kenar, bu verileri hızlıca analiz eder; örneğin, sıcaklık artarsa makineyi milisaniyeler içinde durdurur.
+Bulut, uzun vadeli analiz yapar; fabrikanın bakım planını optimize eder.
+
+Kenar ve Bulut Bilişim
+Kenar Bilişim, verileri cihazlara yakın işler, hızlı tepki ve gizlilik sağlar
+Kenar, dağıtık bir sistemdir; yani birçok cihaz birbiriyle bağlantılı çalışır, merkezi bir noktaya bağımlı olmadan. Örneğin, bir akıllı şehirde sensörler ve sunucular farklı yerlerde iş birliği yapar.
+  Kenar Katmanı Bileşenleri
+
+  Uygulama: Verilerin kenarda mı, bulutta mı işleneceğine karar verir; örneğin, trafik ışığı veriyi  kenarda analiz eder.
+  Arka Uç: Sınırlı cihazlara destek verir; örneğin, TensorFlow Lite, akıllı saatte makine öğrenimi çalıştırır.
+  Kaynak Yöneticisi: Kaynakları dağıtır; örneğin, bir kenar sunucusu hem kameralara hem sensörlere hizmet verir.
+  İşletim Hizmetleri: İletişim ve senkronizasyonu sağlar; örneğin, TSN fabrikada robotları koordine eder.
+  Altyapı: Fiziksel ve sanal kaynakları içerir, servis sağlayıcıları yönetebilir.
+
+
+
+Bulut Bilişim, uzak veri merkezlerinde çalışır, büyük ölçekli analiz ve depolama sunar; örneğin, Netflix filmleri buluttan yayınlar.
+Bulut da yine dağıtık bir sistemdir; dünya çapındaki sunucular paralel çalışır, kullanıcılar kaynakları kiralayabilir.
+Kısaca Kenar hızlı karar alır, bulut derin analiz yapar; birlikte bilişim sürekliliğini oluştururlar.
+
+İletişim Teknolojileri
+
+
+  İletişim teknolojileri, bilişim sürekliliğinin damarları gibi çalışır; katmanlar arasında hızlı ve güvenli    veri akışı sağlar 
+Örneğin, 5G, düşük gecikmeyle otonom araçların kenar sunucularla anında iletişim kurmasını sağlar.
+TSN (Zaman Hassas Ağlar), cihazların tam zamanında veri paylaşmasını sağlar; örneğin, bir fabrikada robotlar TSN ile senkronize çalışarak üretimi kesintisiz sürdürür.
+Yazılım tanımlı ağlar (SDN), veri akışını dinamik olarak yönetir; örneğin, akıllı şehirlerde trafik verisini optimize eder.
+
+Tasarlanmış Referans Mimariler
+
+   Bilişim sürekliliği, iki temel planla hayata geçiyor: bilişim ve iletişim mimarileri.
+  Bilişim mimarisi, IoT, kenar ve bulut katmanlarını organize eder; tıpkı bir binanın kat planı gibi.
+Örneğin, bir sağlık uygulamasında nabız ölçer (IoT) veriyi kenara gönderir, kenar anormallikleri tespit eder, bulut ise hastanın geçmişini analiz eder.
+İletişim mimarisi, katmanlar arasında hızlı ve güvenli veri akışını sağlar.
+5G ve TSN (Zaman Hassas Ağlar) gibi teknolojiler, cihazların milisaniyeler içinde tepki vermesini mümkün kılar.
+
+Özetle
+IoT’nin ürettiği milyarlarca veri, geleneksel bulut bilişimin sınırlarını zorluyor: yüksek gecikme, bant genişliği tıkanıklığı ve güvenlik riskleri oluşturuyor.
+Bilişim sürekliliği, bu sorunları çözmek için katmanlı bir sistem öneriyor: IoT veri topluyor, kenar hızlı kararlar alıyor, bulut derin analizler sunuyor.
+
+

@@ -1,0 +1,113 @@
+İnsan Dijital İkizler
+Endüstri 5.0 için sistematik bir literatür incelemesi ve kavram belirsizliğinin giderilmesi
+Aslı Dila Çalık
+213205027
+Giriş
+Endüstri 4.0, siber-fiziksel sistemlerin birbirleriyle iletişim kurma, kontrol etme ve hesaplama yeteneklerini kullanarak üretim süreçlerini optimize etmeye çalışan sistem merkezli bir paradigmadır. 
+Endüstri 4.0’ın teknolojik ilerlemelerine dayanarak, Endüstri 5.0 paradigması insan merkezlilik, sürdürülebilirlik ve dayanıklılığa odaklanmaktadır.
+Giriş
+Üretimde insan merkezlilik, insanların yeteneklerinin makineler tarafından tamamen değiştirilmesi yerine, makineler tarafından desteklenmesi gerektiğini savunur.
+Bu insan-makine yakın ilişkisi için, makinelerin yalnızca insan hareketlerine ve eylemlerine tepki vermesi yeterli değildir. Makinelerin insanın fizyolojik, psikolojik ve hatta bilişsel durumunun farkında olması gerekir. Sonuç olarak, makinelerin empatik makineler haline gelmesi ve insan iş arkadaşlarıyla birlikte sürekli öğrenerek gelişmesi gerekmektedir.
+Operatör 4.0 Konsepti
+Operatör 4.0, operatörler ile otomatik sistemler arasında dengeli ve iş birliğine dayalı bir ilişki kurmayı hedefleyen bir kavramdır. Bu, çalışanlara gerekli becerileri ve araçları sağlayarak üretim süreçlerine daha iyi entegre olmalarını sağlar.
+
+
+
+
+
+İnsan operatör, otomasyon sistemleriyle birlikte çalışarak süreçlerin daha verimli ve güvenli hale gelmesine katkı sağlar.
+Makineler ve sistemler, insanın ihtiyaçlarına göre şekillendirilir. Teknoloji, insanın verimliliğini arttırmak için uyarlanır.
+Çalışma ortamındaki riskler en aza indirilir, iş kazalarının önüne geçmek için daha akıllı ve güvenli sistemler tasarlanır.
+Yaratıcılık, problem çözme yetenekleri ve esneklik gibi insana özgü yetenekler, makinelerin yerine geçmek yerine onları güçlendirir.
+ÖZELLİKLERİ
+Operatör 5.0 Konsepti
+Operatör 5.0, teknolojik sistemlerin insanlara uyum sağlamasını savunur. Bu uyum, insanların mevcut durumlarının farkında olunmasını ve buna göre sistemlerin adapte edilmesini gerektirir.
+
+
+
+Operatör 5.0, insanları yalnızca makineleri yöneten bir unsur olarak görmek yerine, onları iş süreçlerinin merkezine koyar.
+Teknoloji, insanlara uyum sağlayacak şekilde geliştirilir, böylece makineler insanların ihtiyaçlarını ve yeteneklerini destekler.
+Operatör 4.0’da insanlar makineleri nasıl kullanacaklarını öğrenirken, Operatör 5.0’da makineler insanlara uyum sağlamayı öğrenir.
+ÖZELLİKLERİ
+
+Endüstri 4.0 Teknolojileri ve Dijital İkizler 
+Endüstri 4.0 için temel teknolojiler, siber-fiziksel sistemler, Nesnelerin İnterneti ve Dijital İkizler olup, bu teknolojiler giderek daha fazla yapay zeka tarafından desteklenmektedir.
+Endüstri 5.0’ın insan merkezli hedeflerini destekleyebilecek bu teknolojiler arasında Dijital İkizler önemli bir role sahip olabilir.
+Üretim bağlamında bir Dijital İkiz , belirli bir üretim elemanının dijital ortamda gözlemlenebilir, senkronize bir temsili olarak tanımlanır. Bu kavram, üretim dışında da fiziksel varlıkları izlemek, analiz etmek ve durumlarını tahmin etmek amacıyla uygulanabilir.
+
+İnsan Merkezli Dijital İkiz ve İnsan Dijital İkizi (Human Digital Twin - HDT)
+Endüstri 5.0’ın ilkeleri doğrultusunda, İnsan Merkezli Dijital İkiz konsepti geliştirilmiştir. Bu model, çalışanların durumunu analiz ederek üretim sistemlerinin insan ihtiyaçlarına uyum sağlamasını amaçlamaktadır.
+Örnek kullanım alanı olarak çalışan yorgunluğunu takip eden ve görevlendirmeleri dinamik olarak yeniden tahsis eden bir Dijital İkiz modeli verilebilir.
+
+İnsan Merkezli Dijital İkiz ve İnsan Dijital İkizi (Human Digital Twin - HDT)
+Ancak İnsan Merkezli Dijital İkizler, insanları daha büyük bir sistemin bir parçası olarak ele alır ve insanın bütünsel bir modelini oluşturmaz. Bu yaklaşımda kişisel verilerin toplanması ve daha büyük bir sistem içinde kullanılması etik kaygılara yol açabilir.
+Buna karşılık, İnsan Dijital İkizi (HDT), insanları yalnızca sistemin bir unsuru olarak görmek yerine, doğrudan onların dijital temsili üzerine odaklanır. Bu yaklaşım, insan verilerini daha iyi koruyarak mahremiyet açısından avantaj sağlar.
+İnsan Dijital İkizi (HDT) Oluşturmanın Zorlukları
+Bir makinenin Dijital İkizi, entegre sensörler sayesinde sürekli veri akışı sağlayarak oluşturulabilir. Ancak insanların iç süreçlerini ve bilişsel mekanizmalarını doğru bir şekilde yakalamak çok daha karmaşıktır.
+     Örnek zorluklar:
+İnsanların çevrelerini algılamaları ve bilişsel süreçleri anlamak zordur.
+İnsanların içsel süreçleri makinelerinki kadar doğrudan ölçülebilir değildir.
+Bilişsel sinyallerin yakalanması genellikle müdaheleci yöntemler gerektirir.
+Ancak bu yöntemler halen sınırlıdır ve insanlardan veri toplamak makinelerden veri toplamaktan çok daha zordur.
+
+
+HDT'lerin Kavramsal Çerçevesi Üzerine Çalışmalar
+Miller ve Spatz Dijital İkiz Sistemleri kavramını önermektedir.
+HDT'lerin sadece bireysel insanları değil, insan sınıflarını da temsil edebileceğini öne sürmektedir.
+Dijital İkiz Sistemleri , Gerçek Dünya İkizi, Dijital İkiz ve Değişim Bileşeni olmak üzere üç bileşenden oluşmaktadır. İnsan Dijital İkiz Sistemleri ise en az bir insan ajanının modellemeye dahil olduğu sistemlerdir.
+
+HDT'lerin Kavramsal Çerçevesi Üzerine Çalışmalar
+Lin ve arkadaşları ise HDT'nin yalnızca bireysel bir insanla bağlantılı olması gerektiğini ve gerçek zamanlı veri toplamayı içermesi gerektiğini vurgulamaktadır.
+HDT'lerin karşılaştığı en büyük zorluklardan biri, heterojen verilerin toplanması, iletilmesi ve güvenliğinin sağlanmasıdır.
+Uygulama Alanına Odaklanan HDT Çalışmaları
+Hareketlilik Alanında (Mobility) HDT Çalışmaları
+Sağlık Alanında HDT Çalışmaları
+Sanayi ve Endüstri 5.0 Alanında HDT Çalışmaları
+Hareketlilik Alanında (Mobility) HDT Çalışmaları
+Hu ve arkadaşları , Sürücü Dijital İkizi oluşturmak için bir çerçeve önermektedir.
+Sürücünün dikkatini, dikkat dağınıklığını, niyetlerini ve uykusuzluk durumunu tespit etmek üzerine yoğunlaşmaktadır.
+Sağlık Alanında HDT Çalışmaları
+Sahal ve arkadaşları HDT'leri Kişisel Dijital İkizler olarak ele almakla birlikte yapay zeka ve blok zinciri kullanımına odaklanmaktadır.
+Chen ve arkadaşları kişiselleştirilmiş tıp için beş katmanlı bir ağ mimarisi sunmaktadır. Bu katmanlar;
+Veri Toplama
+Veri İletişimi
+Hesaplama
+Veri Yönetimi
+Veri Analizi ve Karar Verme
+
+Sanayi ve Endüstri 5.0 Alanında HDT Çalışmaları
+Wang ve arkadaşları, endüstri 5.0 için dört katmanlı bir sistem mimarisi önermektedir.
+HDT'nin fiziksel bir insanla birebir bağlantılı olması gerektiğini ve çift yönlü veri akışı bulunması gerektiğini vurgulamaktadır.
+Literatür İncelenmesi ve Kavram Belirsizliğinin Giderilmesi
+Araştırmacılar tarafından, HDT ile ilgili bilimsel makaleleri belirlemek için bir sorgu tanımlanmış. Bu sorgu, akademik veri tabanlarında yapılan aramalarla HDT kavramını ele alan çalışmaları içeriyor. Toplanan çalışmalar, HDT’nin farklı uygulama alanlarını ve zaman içindeki gelişimini anlamak amacıyla kategorize edilmiş.
+Toplamda 90 makale seçilmiş.
+Çalışmalar, %32.2 sanayi , %28.9 sağlık , %7.8 metaverse ve %5.5  mobilite olmak üzere dört ana uygulama alanında toplanmış.
+
+Sonuçlar
+Sonuçlar 3 ana başlık altında incelenmiş;
+Yayınların Zaman İçindeki Evrimi ve Coğrafi Dağılımı.
+HDT Kavramının Tanımı ve Çeşitli Anlayışlar.
+Dijital İkiz Kavramsallaştırması.
+Yayınların Zaman İçindeki Evrimi ve Coğrafi Dağılımı
+Sanayi HDT konseptinin ilk uygulama alanı olmuş, ancak zamanla sağlık sektörü en çok yayın yapılan alan haline gelmiş.
+2020’den itibaren HDT kavramı farklı alanlara yayılmaya başlamış.
+2021’de mobilite alanında ilk yayın yapılmış.
+ABD en çok yayın yapan ülke olmuş ve özellikle mobilite alanında tek yayın yapan ülke konumunda.
+HDT Kavramının Tanımı ve Çeşitli Anlayışlar
+Bazı çalışmalar HDT’yi senkronize olmayan bir simülasyon modeli olarak ele alırken, diğerleri tamamen senkronize bir dijital ikiz olarak tanımlamış.
+HDT’nin ikizlenen varlığı çoğunlukla bireysel bir insan olarak ele alınmış (%94.4).
+Bazı çalışmalar, HDT’yi bireysel bir insan yerine insan rollerini (örneğin bir operatörün bilişsel modeli) veya insan içeren sistemleri (örneğin bir fabrika veya hastane) modelleyen sistemler olarak ele almış.
+Sonuç olarak, HDT’nin genel kabul gören tanımı, bireysel insanları modelleyen bir dijital ikiz olarak şekillenmektedir.
+Dijital İkiz Kavramsallaştırması
+Araştırmacılar, HDT çalışmalarını üç alt kategoriye ayırmış:
+1- Dijital Model: Fiziksel nesneyle doğrudan bağlantısı olmayan statik simülasyonlar.
+2- Dijital Gölge: Fiziksel nesneden dijital nesneye tek yönlü veri akışı olan modeller.
+3- Dijital İkiz: Fiziksel ve dijital nesne arasında iki yönlü veri akışı olan tam entegre sistemler.
+Toplamda incelenen 90 çalışmadan 49’u gerçek Dijital İkiz olarak sınıflandırılmış, 11’i Dijital Gölge olarak kabul edilmiş ve 30’u Dijital Model kategorisinde yer almış.
+Önemli Sonuçlar:
+Sanayi uygulamaları, dijital ikiz kavramına en sadık kalan alan olmuş.
+Metaverse uygulamaları, genellikle sadece 3D avatarlar oluşturduğu için çoğu çalışma Dijital Model seviyesinde kalmış.
+Sağlık alanındaki çalışmalar, genellikle önce dijital modeller oluşturup zamanla geliştirmeye odaklanmış.
+Bu yöntemle araştırmacılar, HDT ile ilgili bilimsel çalışmaları zaman, coğrafi dağılım, uygulama alanları ve teorik/kavramsal yaklaşımlar açısından analiz etmişler.
+Dinlediğiniz için teşekkür ederim.
+

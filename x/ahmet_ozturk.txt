@@ -1,0 +1,108 @@
+Akıllı Tarımda Bulut, Sis ve Uç Bilişim Kombinasyonunun Rolütartışma ve sonuç
+Ahmet ÖZTÜRK
+213205036
+Uygulama alanları
+Tarımsal uygulamalar alanı, temel olarak ekilebilir tarım ve hayvancılık uygulamaları olarak kategorize edilebilir
+Ekilebilir tarım uygulamaları ürün, toprak, sulama, hava durumu ve sera yönetimini içerir.
+Hayvan Yönetimi: Hayvan yönetimi, çiftçilerin çiftlik hayvanlarını yetiştirmek için yürüttüğü hayvan sağlığı ve refahı, besleme, otlatma, yetiştirme ve hayvancılık gibi tüm faaliyetleri içerir. Örneğin bir süt çiftliği senaryosunda hayvan davranış analizi ve sağlık takibi
+Mahsul Yönetimi: Mahsul yönetimi, mahsullerin büyümesini, gelişmesini ve verimini artırmak için kullanılan tüm faaliyetleri içerir. Örneğin gerçek zamanlı haşere tespiti için bir uygulama
+Sera yönetimi: Tarımsal üretimin seralarda verimli ve sürdürülebilir şekilde yapılmasını sağlamak için gerçekleştirilen planlama, kontrol ve denetim süreçlerinin tümüdür. Örneğin sera için kablosuz bir tarımsal izleme sistemi
+Sulama yönetimi: Bitkilerin su ihtiyacını doğru zamanda, doğru miktarda ve uygun yöntemlerle karşılayarak suyun verimli kullanımını sağlamayı amaçlayan planlama ve uygulama sürecidir. Örneğin akıllı sulama izleme 
+Toprak yönetimi: Toprak performansını iyileştirmeyi amaçlayan tüm süreçleri ifade eder. Örneğin sürekli bir toprak nemi izleme sistemi 
+Hava durumu yönetimi: Meteorolojik verileri kullanarak planlama ve risk önlemeye yönelik kararlar alma sürecidir. Örneğin sıcaklık ve nemi izlemek için bir ev otomasyon sistemi
+
+Arastırma türleri
+    Akıllı tarımda Bulut, Sis ve Uç Bilişim uygulamalarıyla ilgili araştırma makalelerinde kullanılan araştırma yaklaşım türleri;
+Anket/İnceleme (Survey/Review):
+    Bilimsel literatürdeki son çalışmaları derleyip analiz ederek yeni bilgiler sunar.
+    Bulut, Sis, Uç Bilişim ve IoT tabanlı akıllı tarım üzerine kapsamlı teknik incelemeler içerir.
+   Sistem/Uygulama (System/Application):
+   Belirli tarımsal sorunlara çözüm sunan yazılım sistemleri
+   Son kullanıcı odaklı çözümler içerir.
+  Mimari (Architecture):
+Teknik gereksinimlere uygun sistem tasarımları ve bileşenler arası etkileşimleri kapsar.
+Sistemlerin genel soyut yapısını ortaya koyar.
+
+
+1. Uç (Edge) Katmanı:
+Alt katmandır. Sensörler, aktüatörler, IoT cihazlarıdır.
+Sensör türleri olarak giyilebilir, sıcaklık, nem, ışık, toprak nemi, pH, uydu sensörleri kullanılmıştır.
+Bazı sistemlerde yerel veri depoları, Edge ağ geçitleri, MEC, HEC, Wi-Fi, LoRa, ZigBee gibi teknolojiler kullanılmıştır.
+Amaç verilerin yerinde toplanması ve ön işlenmesidir.
+2. Sis (Fog) Katmanı:
+Fog mimarisi genellikle birden fazla katmandan oluşur (örneğin denetleyiciler + düğümler).
+Kullanılan bileşenler fog düğümleri, ağ geçitleri, sunucular, depolama birimleri, çiftlik denetleyicileri olarak sıralanabilir.
+Görevleri verilerin geçici depolanması, işlenmesi, ağ yönetimidir.
+3. Bulut (Cloud) Katmanı:
+Bulut sunucuları, veri merkezleri, SaaS, PaaS, IaaS, API’ler ve veri tabanları olabilir.
+ Amaç büyük veri analitiği yapmak, uzun vadeli depolama sağlamak, kullanıcı arayüzleri oluşturmak.
+
+Bulut, Sis, Uç Bilişim ve Akıllı Tarım Üzerine Mevcut UygulamalaR
+Mimari tasarım kombinasyonları olarak Edge-Cloud, Edge-Fog-Cloud, sadece Bulut tabanlı mimari tasarımlar denenmiştir. Aynı zamanda tüm uygulamalar IoT katmanlarında sensör, aktüatör veya ağ geçidi kullanmaktadır.
+ZigBee, LoRa, Bluetooth, NFC, Wi-Fi, nRF gibi kablosuz teknolojiler kullanılmıştır. Örneğin sensör verilerini nRF ile Edge’e, ardından LoRa ile Sis’e ve Wi-Fi/Ethernet/4G ile Bulut’a iletmiştir.
+
+Avantajlar
+Maliyet avantajı: Çoğu uygulama düşük maliyetli sistemlerdir.
+Performans: Düşük gecikme, bant genişliği tasarrufu, gerçek zamanlı analiz.
+Verimlilik: Fazlalığın azaltılması, hızlı karar verme.
+Enerji ve kaynak kullanımı: Düşük güç tüketimi, optimize edilmiş kaynak kullanımı.
+
+
+
+
+
+Önerilen mimari
+1. Bulut (Cloud) Katmanı:
+Geniş ölçekli veri depolama.
+Gelişmiş veri analitiği ve modelleme.
+Analitik araçlar ve algoritmaların Sis katmanına yüklenmesi.
+Yedekleme amacıyla verilerin uzun vadeli tutulması.
+2. Sis (Fog) Katmanı:
+Konum: Yerel çiftliklerde konumlandırılır.
+Gerçek zamanlı veri analizi:
+Zararlı ve hastalık tahmini.
+Verim tahmini.
+Hava durumu tahmini.
+Tarımsal izleme ve otomasyon.
+3. Uç (Edge) Katmanı:
+Bileşenler: Sensörler, aktüatörler, traktörler ve diğer uç cihazlar.
+Ortamdan ham veri toplama.
+Toplanan verilerin Sis katmanına iletilmesi.
+
+
+
+KarSılaSılan zorluklar
+Karşılaşılan Başlıca Zorluklar ve Olası Çözümler
+1. Güvenlik ve Gizlilik
+Sorun: Büyük miktarda verinin birçok cihazdan (sensör, aktüatör vb.) toplanıp Bulut’ta depolanması; veri sızıntısı riski, yetkilendirme, kimlik doğrulama sorunları doğurur.
+Çözüm: Uç ve Sis bilişimin Bulut ile entegrasyonu, yapay zekâ destekli güvenlik protokolleri, şifreleme ve kimlik doğrulama sistemleri.
+2. Mobilite Desteği
+Sorun: Sürekli hareketli veri toplama ortamlarında, sadece Bulut bağlantısı yetersiz kalır.
+Çözüm: Fog ve Edge bilişimin entegre kullanımı ile düşük gecikme ve yüksek hareketlilik sağlanabilir.
+3. Gerçek Zamanlı Veri İşleme
+Sorun: Yalnızca Bulut’a bağlı sistemler anlık analiz ve karar verme açısından yeterli değil.
+Çözüm: Edge-Fog-Bulut kombinasyonları ile anında veri analizi ve işlemeye olanak tanınmalı.
+
+4. Enerji ve Güç Yönetimi
+Sorun: Sensör, aktüatör ve mobil cihazların enerji tüketimi batarya ömrünü kısaltır.
+Çözüm: Güneş enerjisi gibi yenilenebilir kaynaklar, enerji tasarruflu iletim protokolleri ve akıllı güç yönetimi stratejileri.
+5. Yüksek Donanım Maliyeti
+Sorun: IoT cihazları, sensörler, güçlü ağ altyapısı ciddi maliyet oluşturur.
+Çözüm: Verimli maliyet yönetimi, uygun cihaz seçimi, açık kaynak yazılımlarla yazılım maliyetlerinin azaltılması.
+6. Zayıf İnternet Bağlantısı
+Sorun: Kırsal alanlarda düşük bağlantı hızı ve istikrarsız ağ, verilerin gecikmesine veya kaybolmasına neden olabilir.
+Çözüm: Sis bilişim ile yerel veri işleme ve çevrimdışı çalışma kapasitesi; yerel sunucuların kullanımı.
+
+Gelecek yönelimleri
+Çok katmanlı mimarilerin (Edge-Fog-Cloud) birlikte kullanılması yaygınlaşacaktır.
+Yapay zekâ ve büyük veri analitiği ile desteklenen sistemler; karar destek sistemlerinin gelişimini sağlayacaktır.
+Veri güvenliği, enerji verimliliği ve kapsayıcı iletişim altyapısı odak noktaları olacaktır.
+Düşük maliyetli ve yüksek performanslı sistemlerin tasarımı ön planda olacaktır.
+Yeni iletişim protokolleri ve dağıtık işlem modelleri ile performans ve güvenlik artırılacaktır.
+Sonuçlar
+Literatürdeki uygulamaların çoğu Bulut tabanlı ve genellikle sensör kullanımına odaklanmıştır.
+Bulut-Sis ve Bulut-Uç kombinasyonlarının kullanımı oldukça sınırlıdır.
+Mevcut sistemlerin büyük bir kısmı yalnızca Bulut'a bağımlıdır.
+Güvenlik, mobilite, veri işleme, güç yönetimi, donanım maliyetleri ve internet bağlantısı gibi zorluklar yaygındır.
+Bu sonuçlar, tarımda sadece Bulut bilişime odaklanmanın yeterli olmadığını, daha verimli, hızlı ve güvenli sistemler için hibrit yaklaşımlara geçilmesi gerektiğini güçlü şekilde ortaya koymaktadır.
+teşekkürler

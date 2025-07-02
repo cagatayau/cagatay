@@ -1,0 +1,187 @@
+Page 01
+# Siber Saldırıların
+Tespiti İçin Makine
+Öğrenmesi
+Yöntemleri
+ELİF SUDE ALPASLANPage 04Saldırı tespiti için makine öğrenmesi
+yaklaşımları üç ana amaçla kullanılır: tespit,
+saldırı sınıflandırması ve analiz.
+Tespit:
+Amaç: Bir
+davranışın normal
+mi yoksa anormal
+(yani saldırı) mı
+olduğunu
+belirlemek.Saldırı
+Sınıflandırma
+Amaç: Tespit
+edilen saldırının
+türünü belirlemek. Analiz
+Amaç: Saldrının
+neden olduğu, nasıl
+yapıldığı, kimden
+geldiği gibi
+detaylarını
+incelemek.Page 05
+Makine öğrenmesinde, modelin başarılı bir şekilde
+öğrenebilmesi için ham veriler (yani doğrudan toplanmış
+veriler) genellikle temizlenmeli ve dönüştürülmelidir. Bu
+sürece ön işleme  denir.Veri Ön İşleme
+Süreci1. Veri Dönüşümü (Data
+Transformation):
+Ham verileri modele uygun bir biçime
+çevirmektir.
+Örneğin: "Saldırı tipi = 'DoS' gibi yazılı
+veriler sayılara çevrilir (örneğin: DoS =
+0, Normal = 1).
+Makine öğrenmesi modelleri sadece
+sayısal verilerle çalışabilir.
+Bu yüzden metin, tarih, kategorik
+değer gibi veriler önce
+dönüştürülmelidir.Bu 
+İşlemler 
+Neleri Kapsar?Page 06
+2. Normalleştirme (Normalization):
+Veri değerlerinin belli bir aralığa
+(genellikle 0 ile 1 arasında) çekilmesidir.
+Amaç: Özellikler (özellikle sayısal
+olanlar) arasında aşırı farkların
+modelin öğrenmesini engellemesini
+önlemektir.
+Örnek: Bir özelliğin değeri 1 ile 1000
+arasında, diğeri 0 ile 1 arasında ise,
+model büyük sayılara daha fazla
+önem verir. Bu yüzden hepsi aynı
+ölçekte olmalıdır.Boyut indirgeme, veri setindeki
+gereksiz ya da önemsiz bilgileri
+çıkararak sadece önemli verileri
+bırakma sürecidir.Boyut
+indirgeme  İstatistiksel boyut
+indirgeme
+yöntemleri Page 07
+Bu yöntemler, veriler arasındaki
+ilişkileri inceleyerek bilgiyi
+kaybetmeden veri boyutunu
+azaltır.
+Örnek:PCA(Principal
+Component Analysis) – en fazla
+bilgi içeren yeni eksenler
+oluşturur.Bu süreçte istatistiksel boyut
+indirgeme yöntemleri veya
+öznitelik seçimi algoritmaları
+kullanılır.PCA (Temel Bileşenler
+Analizi)Page 07
+Diyelim ki elimizde şu özellikler var:
+Özellik 1: Öğrencinin sınav notu
+Özellik 2: Ders içi performansı
+Özellik 3: Ödev teslim sayısı
+Bu özelliklerin üçü de aslında birbirine
+benzer şeyler anlatıyor olabilir (hepsi
+başarıyla ilişkili).PCA bu özellikleri alır, aralarındaki ilişkiyi
+inceler ve
+"Bu 3 özelliği temsil eden tek bir yeni
+özellik oluşturabilirim" der. (yani bir
+ana bileşen = Principal Component)
+Bu yeni eksen, en fazla bilgiyi taşır.
+Sonuç:
+3 özellik yerine 1 veya 2 yeni özellikle
+devam edersin.
+Hem daha sade, hem de bilgi
+açısından zengin bir veri elde etmiş
+olursun.Page 08
+Makine öğrenmesinde, elimizde çok fazla sayıda özellik
+(feature) olabilir. Ancak her özellik:
+Aynı derecede önemli değildir.
+Bazıları gereksiz, bazıları fazla benzer, bazıları da gürültülü
+olabilir (yani modele zarar verebilir).
+Öznitelik seçimi algoritmaları, bu özellikler içinden:
+Modelin karar vermesini en çok etkileyenleri seçer,Öznitelik
+Seçimi
+Algoritmaları Page 09
+Öznitelik Seçimi Türleri (3 Ana
+Yaklaşım):
+1. Filtreleme
+Yöntemleri :
+Özellikleri
+istatistiksel
+olarak
+değerlendirir.
+Model
+kullanılmadan
+karar verilir.2.Sarmalayıcı
+Yöntemler :
+Özellik alt kümeleri
+oluşturur, her
+seferinde bir
+model eğitir ve
+performansa
+bakar.3. Gömülü
+Yöntemler :
+Özellik seçimi
+model eğitimi
+sırasında
+yapılır.
+Yani öğrenme
+işlemi sırasında
+hangi özelliğin
+ne kadar
+önemli olduğu
+belirlenir.Page 11
+İmza tabanlı sistem: Daha önce görülmüş saldırıların "imzasına" (yani
+karakteristik özelliklerini veya davranışlarına) göre tanıma yapar.
+ Antivirüs gibi çalışır.
+Kural tabanlı sistem: Bu sistemlerde güvenlik uzmanları tarafından belirli
+kurallar tanımlanır. Sistem, bu kuralların ihlal edilip edilmediğini kontrol eder.
+➡ Ama sadece bu sistemler yeterli değil. Çünkü:
+Yeni saldırı türlerini fark edemezler.
+Saldırganlar taktik değiştirirse sistem etkisiz kalabilir.
+Bu yüzden, makine öğrenmesi teknikleriyle desteklenmiş sistemler devreye
+giriyor.
+ ➡ Bu sistemler daha dinamik ve öğrenen yapıya sahiptir.Geleneksel Yöntem ler ve Sınırları
+ İmza ve Kural Tabanlı SistemlerPage 12
+ Makine Öğrenmesi Destekli Sistemler (ML-
+Based Systems): 
+İmza ve kural tabanlı sistemlerin sınırlamaları nedeniyle, daha esnek
+ve akıllı bir yaklaşım olan makine öğrenmesi teknikleri kullanılmaya
+başlanmıştır.
+ Bu sistemler, geçmiş verilerden öğrenerek normal ve anormal
+davranışları ayırt etmeye çalışır.
+Yeni saldırı türlerini öğrenebilir.
+Saldırganların taktik değiştirmesi durumunda bile şüpheli
+davranışları fark edebilir.
+Sürekli gelişen ve öğrenen bir yapıya sahiptir.Page 12
+Etiketli veri = Saldırı olup olmadığı, saldırı türü gibi bilgilerle birlikte
+gelen veri. Etiketli Verilerin Artışı
+Etiketli veri miktarı arttığında:
+Makine öğrenmesi algoritmaları, daha fazla örnek üzerinden kalıpları
+öğrenir.
+Sistem, saldırıların daha ince farklarını ayırt edebilir hale gelir.
+Özellikle derin öğrenme gibi daha karmaşık modeller, büyük veriyle
+çok daha verimli çalışır.Makine öğrenmesi modellerinin etkili çalışabilmesi için ne
+öğrendiklerini bilmesi gerekir.
+Bu da etiketli veri ile mümkündür:Page 13
+Makine Öğrenmesi Tabanlı Saldırı Tespit Yöntemleri
+Yüzeysel Öğrenme (Shallow Learning):
+Bunlar, klasik makine öğrenmesi algoritmalarıdır. Genellikle:
+Özellik çıkarımı önceden insanlar tarafından yapılır,
+Daha az veriyle ve daha düşük hesaplama gücüyle çalışabilirler.
+   Örnek Algoritmalar:
+Karar Ağaçları (Decision Tree): Veriyi dallara ayırarak karar verir.
+Destek Vektör Makineleri (SVM): Veriyi en iyi ayıran doğruyu bulmaya çalışır.
+K-En Yakın Komşu (KNN): Yeni verileri, en yakın benzerlerine göre sınıflandırır.
+Derin Öğrenme (Deep Learning):
+Sinir ağları tabanlı ve çok katmanlı yapılardır. Özellikle karmaşık veriler (görüntü, metin,
+zaman serisi vb.) ile etkili çalışır.
+ Örnek Yapılar:
+Yapay Sinir Ağı (ANN)
+Evrişimli Sinir Ağı (CNN) →  Görüntü ve ağ trafiği desenlerinde etkili
+Tekrarlayan Sinir Ağı (RNN) →  Zaman bağımlı veri ve olay sıralarında kullanılırPage 13
+Yeni Yaklaşım: Hibrit Sistemler (Hybrid
+Systems):
+Yüzeysel ve derin öğrenmeyi bir arada
+kullanarak her iki yöntemin avantajlarını
+birleştirir.
+Hem doğruluk hem yorumlanabilirlik
+hedeflenir
+Gerçek sistemlerde sıklıkla tercih edilirPage 15
+TEŞEKKÜRLER

@@ -1,0 +1,231 @@
+
+
+
+
+
+
+
+
+
+Performans Değerlendirmesi
+Gerçek zamanlı IoT uygulamaları için önerilen düşük enerji tüketimli düğüm seçim mekanizmalarının performansı değerlendirilmiştir. Yapılan simülasyonlar Python ortamında gerçekleştirilmiştir. Bu değerlendirme için kullanılan spesifik ağ şekilde sunulmaktadır.
+
+
+
+
+
+
+Ağ Yapısı: 23 düğümden oluşan bir ağ kullanılmıştır: 2 bulut düğümü, 5 sis (fog) düğümü ve 16 kenar (edge) düğümü.
+
+Bağlantı Durumları: Bazı düğümler aktif, bazıları pasif olarak belirlenmiştir.
+
+IoT Talepleri: 16 farklı IoT talebi için testler yapılmıştır.
+
+Bu değerlendirme için temel performans kriterleri enerji tüketimi ve çözüm süresidir.
+
+
+
+
+İlk olarak, 5 IoT talebiyle başlayan değerlendirme, 16 IoT talebini karşılayacak şekilde kademeli olarak genişletilmiştir.
+IoT talepleri farklı alanlardan gelmektedir:
+Akıllı şebekeler ve akıllı evler: Mobil cihazlar, akıllı güneş sistemleri, akıllı sayaçlar ve SCADA cihazları.
+
+e-Sağlık (eHealth): Hasta izleme cihazları, sağlık veri kayıtları, uzaktan ameliyat ve acil müdahale sistemleri.
+
+Otonom araçlar: Sensörler, haberleşme cihazları, trafik izleme sistemleri.
+IoT Taleplerinin Sınıflandırılması
+-İş numaraları (3, 5, 8, 9, 10, 11, 13, 15) akıllı şebekeler ve akıllı evlerden gelen talepleri temsil eder.
+-İş numaraları (6, 7, 12, 16) eHealth uygulamalarına aittir.
+-İş numaraları (1, 2, 4, 14) otonom araçlardan gelen talepleri kapsar.
+Bu IoT talepleri, farklı gecikme gereksinimlerine ve kaynak kullanım seviyelerine sahiptir. Gerçek zamanlı sistemlerin kritik gecikme sürelerini karşılaması gerektiğinden, bu talepler ölçeklenebilirlik, adaptasyon yeteneği ve verimlilik açısından incelenmiştir.
+
+
+
+ 1.Genetik Temelli Mekanizmanın Değerlendirilmesi
+Genetik algoritma tabanlı mekanizma, 50 nesilden oluşan bir başlangıç döngüsü ile test edilmiştir ve her nesilde 10 bireyden oluşan bir popülasyon korunmuştur. Popülasyonun en iyi %30’luk kısmı seçkin olarak sınıflandırılmıştır.
+Üç kritik parametre analiz edilmiştir:
+ 
+     Çaprazlama (Crossover) Olasılığı
+     Mutasyon (Mutation) Olasılığı
+     Nesil Sayısı (Number of Generations)
+
+Bu parametrelerin enerji tüketimi maliyetleri ve çözüm süresi üzerindeki etkileri incelenmiştir.
+1.1Çaprazlama Olasılığının (Crossover Probability) Etkisi
+
+
+
+
+
+Çaprazlama olasılığı, genetik algoritmalarda keşif (exploration) ve iyileştirme (exploitation) arasındaki dengeyi sağlar.
+Deney Aralığı: 0.6 ile 1.0 arasında test edilmiştir.
+Amaç: Ana çözümlerin (parent solutions) karışımını optimize ederek daha iyi alt çözümler üretmek.
+Çaprazlama Olasılığının Enerji Maliyetine Etkisi
+
+Şekil, çaprazlama olasılığı ile normalleştirilmiş enerji maliyetleri arasındaki ilişkiyi göstermektedir.
+Daha düşük çaprazlama olasılıklarında, 60 nesil ile çalışan algoritmanın enerji maliyetleri, 30 nesile kıyasla daha yüksektir.
+Bunun nedeni, daha az nesille algoritmanın daha hızlı yakınsaması ve başlangıçta daha düşük enerji maliyetine ulaşmasıdır. Ancak daha fazla nesil olduğunda, algoritma daha geniş bir çözüm alanını keşfeder ve optimal çözüme ulaşmak için daha fazla enerji harcayabilir.
+
+
+1.1.1 Çaprazlama Olasılığının Çözüm Süresine Etkisi
+
+Şekil, çaprazlama olasılığı ile çözüm süresi arasındaki ilişkiyi göstermektedir.
+Düşük çaprazlama olasılıklarındaki çözüm süresi daha yüksektir, çünkü algoritma çözüm alanını daha fazla araştırır.
+Çaprazlama olasılığı arttıkça, algoritma daha hızlı yakınsar ve işlem süresi azalır.
+Ancak, 1.0 gibi çok yüksek çaprazlama olasılıklarında, çözüm süresi tekrar artabilir çünkü algoritma aşırı keşif yaparak süreci uzatabilir.
+ Sonuç:
+Çaprazlama olasılığı için en iyi değer 0.8 olarak belirlenmiştir, çünkü enerji tüketimi ile işlem süresi arasında en iyi dengeyi sağlar.
+
+
+
+
+Mutasyon, algoritmanın yerel optimuma sıkışmasını önlemek için rastgele değişiklikler yapmasını sağlar.
+
+Çok düşük mutasyon oranları algoritmanın erken yakınsamasına (premature convergence) neden olabilir.
+
+Çok yüksek mutasyon oranları ise algoritmanın aşırı rastgele davranmasına neden olarak verimli yakınsama sürecini bozabilir.
+1.2 Mutasyon Olasılığının (Mutation Probability) Etkisi
+
+
+
+
+1.2.1 Mutasyon Olasılığının Enerji Maliyetine Etkisi
+
+Şekil, mutasyon olasılığının normalleştirilmiş enerji maliyetlerine etkisini göstermektedir.
+Mutasyon olasılığı arttıkça enerji maliyetlerinde dalgalanmalar gözlenmektedir.
+60 nesil boyunca çalışan algoritmada, daha fazla çözüm alanı keşfedildiği için daha fazla değişkenlik görülmektedir.
+Düşük mutasyon oranları, enerji maliyetini daha stabil tutarken, yüksek mutasyon oranları maliyet değişkenliğini artırabilir.
+
+
+
+
+
+1.2.2 Mutasyon Olasılığının Çözüm Süresine Etkisi
+
+Şekil, mutasyon olasılığının işlem süresine etkisini göstermektedir.
+Düşük mutasyon oranları, daha hızlı yakınsama sağlar.
+0.2’nin üzerine çıkıldığında, özellikle 30 nesil ile çalışan algoritmada, çözüm süresi büyük değişkenlik göstermektedir.
+0.3 mutasyon oranında işlem süresi önemli ölçüde artmıştır, çünkü fazla rastgelelik algoritmanın dengeli çalışmasını bozmuştur.
+Sonuç:
+0.08 mutasyon olasılığı, işlem süresi ve enerji tüketimi arasında en iyi dengeyi sağlamaktadır.
+
+
+
+
+
+
+Popülasyon Büyüklüğünün (Population Size) Etkisi
+ Popülasyon Büyüklüğünün Enerji Maliyetine Etkisi
+
+Şekil a, popülasyon büyüklüğünün enerji maliyetine etkisini göstermektedir.
+Popülasyon büyüklüğü arttıkça, enerji maliyeti düşmektedir.
+Bunun nedeni, daha büyük popülasyonların daha geniş çözüm alanını keşfetmesi ve daha iyi çözümler üretmesidir.
+
+Popülasyon Büyüklüğünün Çözüm Süresine Etkisi
+
+Şekil b, popülasyon büyüklüğünün işlem süresine etkisini göstermektedir.
+Daha büyük popülasyonlar, daha fazla hesaplama gerektirdiği için işlem süresi artmaktadır.
+Örneğin, IoT taleplerini 100 saniyenin altında işlemek için popülasyon büyüklüğünün 200’ü aşmaması gerekmektedir.
+
+
+
+
+
+Genetik Algoritmada Nesil Sayısının Etkisi
+Şekil, nesil sayısının enerji tüketimi üzerindeki etkisini göstermektedir.
+En az 10 nesil gereklidir çünkü algoritmanın optimal enerji maliyetine ulaşması için zaman tanınmalıdır.
+30 nesilde toplam enerji maliyeti 83 birim, 60 nesilde ise 77 birim olarak ölçülmüştür.
+Ancak, ILP yöntemiyle kıyaslandığında işlem süresi genetik algoritmada biraz daha uzundur (7-8 saniye).
+ Sonuç:
+Genetik algoritma ile enerji tüketimi optimize edilebilir, ancak nesil sayısı arttıkça işlem süresi de artmaktadır.
+
+
+
+
+Modifiye Edilmiş Genetik Algoritma Tabanlı Mekanizmanın Değerlendirilmesi
+Bu mekanizmanın performansını değerlendirmek için çaprazlama olasılığı 0.8 ve mutasyon olasılığı 0.08 olarak korunmuştur. Değerlendirme, farklı popülasyon büyüklükleri ve nesil sayıları (30 ve 60 nesil) kullanılarak yapılmıştır.
+ Popülasyon Büyüklüğünün Enerji Maliyetlerine Etkisi
+
+Şekil a, artan popülasyon büyüklüğünün enerji maliyetine etkisini göstermektedir.
+
+Popülasyon büyüklüğü arttıkça, enerji tüketimi azalmaktadır ve ILP tabanlı mekanizmanın enerji tüketim seviyesine yaklaşmaktadır.
+
+Bunun nedeni, daha büyük popülasyonların daha geniş bir çözüm alanını keşfetmesi ve daha iyi çözümler üretmesidir.
+
+
+
+Popülasyon Büyüklüğünün İşlem Süresine Etkisi
+
+Şekil b, popülasyon büyüklüğünün işlem süresine etkisini göstermektedir.
+
+Popülasyon büyüklüğü arttıkça işlem süresi uzamaktadır
+.
+Sebep: Daha fazla birey değerlendirilmesi gerektiği için hesaplama süresi artmaktadır.
+
+Sonuç:
+Modifiye Genetik Algoritma, ILP ve standart Genetik Algoritmaya göre daha hızlıdır ancak daha fazla enerji tüketmektedir. Enerji tüketimi ile işlem süresi arasında bir denge kurulması gerekmektedir.
+
+
+
+
+Gecikme Duyarlı Mekanizmanın Değerlendirilmesi
+Bu mekanizmada, 16 farklı IoT isteğinin işlenmesi, 110 birim enerji maliyetine neden olmuş, ancak yalnızca 0.0018 saniye içinde tamamlanmıştır.
+Önemli Bulgular:
+
+İşlem süresi açısından en hızlı mekanizmadır ve gerçek zamanlı IoT uygulamalarının çoğu için uygundur.
+Maliyet açısından en yüksek enerji tüketimine sahiptir.
+QoS (Hizmet Kalitesi) gereksinimlerini karşılamak için düşük gecikme süresi avantaj sağlar.
+
+
+                  📌 Sonuç:
+
+Eğer düşük gecikme kritik bir faktörse, Gecikme-Duyarlı Mekanizma tercih edilmelidir.
+
+Eğer enerji tasarrufu sağlanması gerekiyorsa, ILP veya Genetik Algoritma daha uygundur.
+
+Enerji tüketimi ve işlem süresi arasındaki en dengeli çözüm Modifiye Genetik Algoritmadır.
+
+
+
+
+
+Sensör Hassasiyeti ve Performans Karşılaştırmaları
+Şekil a, IoT isteklerinin farklı mekanizmalar üzerindeki enerji tüketimi etkisini göstermektedir.
+Şekil b, işlem süresi açısından farklı mekanizmaları karşılaştırmaktadır.
+
+
+
+
+Sonuçlar ve Bulgular
+✅ ILP Mekanizması:
+Avantaj: En düşük enerji tüketimi sağlar.
+Dezavantaj: İşlem süresi yüksektir.
+✅ Genetik Algoritma:
+Avantaj: Dengeli enerji tüketimi ve işlem süresi sunar.
+Dezavantaj: En hızlı çözüm değildir.
+✅ Modifiye Genetik Algoritma:
+Avantaj: Daha hızlı işlem süresi sağlar.
+Dezavantaj: Enerji tüketimi ILP ve genetik algoritmadan 
+yüksektir.
+✅ Gecikme-Duyarlı Mekanizma:
+Avantaj: Gerçek zamanlı uygulamalar
+için en hızlı çözümdür.
+Dezavantaj: Enerji tüketimi en yüksektir.
+Bu çalışmada, Genetik Algoritma (GA), Modifiye Genetik Algoritma ve Gecikme-Duyarlı Mekanizma kullanılarak, kenar (edge)–sis (fog)–bulut (cloud) mimarisi içindeki düğüm seçim süreci optimize edilmiştir. Gerçek zamanlı IoT uygulamalarında enerji tüketiminin minimize edilmesi hedeflenmiştir.
+
+📌 Önerilen Mekanizmaların Ana Faydaları:
+Enerji tüketimini optimize ederek verimlilik sağlar.
+Kaynak kapasitesi, gecikme süresi, bağlantı ve düğüm/sunucu kullanılabilirliği gibi QoS gereksinimlerini karşılar.
+Farklı IoT senaryolarında ve ağ yapılandırmalarında etkinliği test edilmiştir.
+
+
+📌 Sonuç:
+
+ Bu çalışma, IoT uygulamalarında kaynak yönetimi için en uygun mekanizmaları belirleyerek, zaman ve enerji tüketimi arasındaki dengeyi optimize etmeyi amaçlamaktadır.
+
+
+
+Dinlediğiniz için teşekkürler..
+
+
+
+

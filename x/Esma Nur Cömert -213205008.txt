@@ -1,0 +1,123 @@
+
+
+
+
+
+
+
+
+ YESIL ILETISIM VE YESIL BILISIM MANZARASININ HARITALANMASI
+Bibliyometrik Analize Dayalı Bir İnceleme
+Esma Nur Cömert | 213205008
+
+
+
+
+
+
+
+
+Yeşil iletişim ve bilgi işlem ağları araştırmaları genellikle telekomünikasyon hizmetlerini azaltılmış enerji tüketimi ve karbon emisyonlarıyla sunmayı hedefler.
+Bu çalışma, 2009–2021 yılları arasındaki 684 yayını analiz ederek küresel araştırma manzarasını haritalamayı hedeflemektedir.
+Bu çalışmanın temel amacı, yeşil iletişim ve yeşil bilişim üzerine yapılan bilimsel üretimi bir araya getirerek alandaki eğilimleri, boşlukları ve temel kavramları ortaya koymayı hedeflemektedir.
+BU CALISMANIN AMACI NEDIR?
+
+
+
+
+
+
+
+
+ İletişim teknolojilerinin çevre ve insan sağlığı üzerindeki olumsuz etkisi, özellikle 5G ağlarının ilerlemesinde, sürekli artan kullanıcı talebini ve dolayısıyla sıklıkla enerji tüketimini azaltmak için araştırma ve çözümler gerektirmektedir.
+Yakın zamanda yapılan bir literatür araştırmasında, yeşil iletişimler açısından spektrum paylaşımı, büyük MIMO, ultra yoğun ağlar ve cihazdan cihaza iletişim gibi çeşitli teknolojilerin geliştirildiğini göstermiştir ve genel olarak mobil terminal cihazlarının pil ömrü konusundaki temel endişeyi çözmek için bir araştırma önerisi önerilmektedir.
+NEDEN BU CALISMA?
+
+
+
+
+
+
+NEDEN BU CALISMA?
+2020’de "SMILE":  "Daha Az Enerjiyle Daha Fazla Bilgi Biti Nasıl Gönderilir? ” sorusu gündeme geldi.
+“EINSTEIN” : “ "Enerji ve Bilginin Akıllı Etkileşimi için Enerji Bilişim” yaklaşımıyla enerji ve bilginin akıllı etkileşimini araştırmaya yönelik yeni bir vizyon gelişti.
+Literatürde parça parça yapılan bu çalışmaların bütünsel bir çerçevede değerlendirilmesi hem akademi hem de sanayi açısından büyük bir analiz yapma gereksinimi ortaya çıkarmıştır.
+
+
+
+
+
+
+
+
+
+
+
+BIBLIYOMETRIK ANALIZ NEDIR?
+Kapsam telekomünikasyon ve elektrik mühendisliği olmak üzere iki disiplinle ve dil İngilizce ile sınırlı olduğundan, 22 Ağustos 2021'de SCI-E, SSCI ve A&HCI endekslerinden 684 belge toplandı.
+Daha sonra bibliyometrik özellikler, bilgi tabanının entelektüel ve kavramsal yapısını göstermek için Bibliometrix dahil olmak üzere Python ve R veri bilimi paketleri kullanılarak işlendi.
+TABLO  1. BİBLİYOGRAFİK VERİ SETİNİN TEMEL BİLGİLERİ
+
+
+
+
+
+
+ARASTIRMA BULGULARI NEDIR?
+Yıllık Trendler ve Parça Parça Doğrusal Regresyon Modelleme
+Entelektüel Yapı
+Kavramsal Yapı
+
+
+Kavramsal Evrim
+
+
+
+
+
+
+
+
+
+YILLIK TRENDLER VE PARCA PARCA DOGRUSAL REGRESYON MODELLEME
+Yayın sayıları analizinde parçalı doğrusal regresyon modeli kullanılmıştır. Yapılan modellemede grafikte görüldüğü üzere 2012'de yayın sayısında belirgin artış; 2016’da ise geçici bir düşüş yaşandığı gözlemlenmiştir.
+
+
+
+
+
+
+
+
+
+
+ENTEKTUEL YAPI
+Bu araştırma başlığında literatürün omurgasını oluşturan yazarları ve çalışmaları tanımlamıştır. 
+2011 de yapılan çalışmada “ Enerji verimli hücresel ağlar” 
+2012 de OFDMA sistemleri için enerji açısından verimli kaynak tahsisi 
+2013 de enerji açısından verimli heterojen hücresel ağlar 
+2016 da 5G Ağlarında güç optimizasyonu, enerji verimliliği, takas mekanizması
+2017 de  Spektrum paylaşımı ve 5G teknolojileri üzerine araştırmalar yapılmıştır.
+
+
+
+
+
+
+SONUC
+
+
+2012 yılı, alandaki yayın sayısında ciddi bir artış yeşil iletişim ve yeşil bilişim alanına olan akademik ilginin artmaya başladığını ve konunun küresel ölçekte daha fazla çalışıldığını göstermektedir.
+
+Yapılan 2.analiz bize, yeşil iletişim araştırmalarının kimler tarafından ve hangi temellerle yönlendirildiğini göstermektedir.
+Sonuç olarak, hem yayın trendleri hem de entelektüel yapı analizi, bu alanın zaman içinde nasıl büyüdüğünü ve hangi çalışmaların bu büyümeye yön verdiğini açıkça ortaya koymaktadır. Bu analizler sayesinde gelecekteki araştırmalar için hem yol gösterici bilgiler hem de potansiyel boşluklar belirlenmiş olmaktadır.
+
+
+
+
+
+
+
+
+
+THANK YOU...

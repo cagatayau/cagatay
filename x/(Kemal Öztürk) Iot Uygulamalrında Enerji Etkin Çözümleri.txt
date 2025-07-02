@@ -1,0 +1,74 @@
+Bilgisayar Mühendisliğine Özel Konular
+Gerçek Zamanlı IOT Uygulamalarında Enerji-Etkin Kaynak Yönetimi (1)
+
+Kemal Eren Öztürk
+213255003
+
+19 Mart 2025
+Ajanda
+Cloud-Fog-Edge Mimarisi 
+Problem
+Geçmiş Çalışmalar
+Genetik Algoritmalar
+Çözümler
+Genetik Tabanlı Mekanizma 
+Değiştirlmiş Genetik Tabanlı Mekanizma
+Gecikme Duyarlı Mekanizma
+Giriş
+2030 yılına kadar toplam IoT cihaz sayısının 30 milyara ulaşması beklenmektedir.
+
+Bu büyümeyi desteklemek için 5G/6G, edge computing, fog computing, yazılım tanımlı ağlar (SDN) ve yapay zeka gibi gelişmiş teknolojiler gereklidir.
+
+IoT’nin ölçeklenmesiyle birlikte yüksek enerji tüketimi, operasyonel maliyetler ve çevresel etkiler önemli sorunlar oluşturmaktadır.
+
+Yük dengeli bir edge–fog–cloud mimarisi kullanılarak enerji verimli ve ölçeklenebilir bir IoT altyapısı geliştirilmelidir.
+Edge-Fog-Cloud Mimarisi
+
+Cloud Computing: Merkezi işlem gücü, yüksek gecikme.
+
+Fog Computing: Ara katman, gecikmeyi azaltır, gerçek zamanlı uygulamalara destek sağlar.
+
+Edge Computing: Veri kaynağının yakınında hesaplama, ultra-düşük gecikme.
+
+IoT Uygulamalarındaki Kaynak Yönetimi Gereksinimleri
+Akıllı Şebekeler: Telekoruma, senkrofazör izleme, SCADA, VoIP ve akıllı sayaçlar gibi kullanım senaryolarını içerir. Gecikme süresi 1 ms - 10 ms, bant genişliği 5 Mbps - 75 Mbps, güvenilirlik %99 - %99.99 arasında olmalıdır.
+Otonom Araçlar: Araçtan araca iletişim ve gelişmiş trafik yönetimi gibi uygulamalar içerir. Ultra düşük gecikme (≤1 ms), yüksek bant genişliği (512 Gbps - 1024 Gbps) ve %99.99 - %100 güvenilirlik gerektirir.
+eHealth (Sağlık Bilişimi): Gerçek zamanlı hasta izleme, acil müdahale ve uzaktan cerrahi gibi uygulamalar için gecikme 1 ms - 250 ms, bant genişliği 5 Mbps - 2 Gbps, veri iletim hızı 1 Gbps - 2 Gbps, güvenilirlik %100'e yakın olmalıdır.
+
+Genetik Algoritmalar
+Sezgisel (Heuristic) bir yöntemdir.
+
+Doğal seçilime dayanan, kısıtlı ve kısıtsız optimizasyon problemlerini çözmek için kullanılan bir yöntemdir.
+
+Genetik algoritmalar tekrar tekrar çözümlerden oluşan popülasyonu değiştirir.
+
+Mevcut popülasyondan bazı bireyler ebeveyn olarak seçilir ve bir sonraki nesil için yeni bireyler oluşturulur.
+
+Ardışık nesiller boyunca popülasyon, optimal çözüme doğru evrimleşir.
+
+Genetik Tabanlı Mekanizma
+
+QoS gereksinimlerine uygun geçerli bir popülasyon oluşturulur.
+Her birey, edge, fog ve cloud düğümlerine atanan işleri içerir.
+Genetik Algoritma Döngüsü: 
+Elit bireyler korunur, çaprazlama ve mutasyona tabi tutulmaz.
+Turnuva seçimi ile yeni nesil için uygun bireyler seçilir.
+Çaprazlama ve mutasyon işlemleri uygulanarak yeni bireyler oluşturulur.
+Geçerlilik kontrolü yapılır, uygunsuz bireyler elenir.
+Uygunluk (fitness) değeri hesaplanır, enerji verimliliği değerlendirilir.
+25 nesil boyunca iyileşme olmazsa algoritma durur.
+
+Değiştirilmiş Genetik Tabanlı Mekanizma
+Genetik bazlı algortimadan türetilmiştir.
+Gelen IOT isteklerinin aç gözlü (greedy) bir yaklaşımla ek mantık ile özelleştirilmiştir.
+IOT istekleriinn gecikme gereksinimine göre iki gruba ayrılmıştır.  
+Birinci Grup: Fog katmanunda maksimum gecikme eşiğini karşılayan IOT isteklerinden oluşur
+İkinci Grup: Fog katmanının gecikme eşiğini aşan IOT isteklerini edge katmanında yönlendirilmek üzere ikinci grupta toplanır.
+Gecikme Duyarlı Mekanizma
+ IoT istekleri iki gruba ayrılır:
+Birinci grup, Fog katmanında işlenmesi gereken IoT istekleri
+İkinci grup, Edge katmanında işlenmesi gereken IoT istekleri
+ İsteklerin işlenme sırası:
+Fog katmanı işleyemezse, istek önce edge katmanına, ardından bulut katmanına yönlendirilir.
+Edge katmanı işleyemezse, istek önce bulut katmanına, ardından fog katmanına yönlendirilir.
+

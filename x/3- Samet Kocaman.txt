@@ -1,0 +1,86 @@
+
+
+ High-Performance Computing
+ for Distributed Route Computation
+ in Traffic Flow Models
+Samet Kocaman
+
+
+Trafik sıkışıklığı, zaman ve yakıt kaybına neden olur.
+Mevcut sistemler genellikle statik rotalar sunar.
+Gerçek zamanlı veri kullanımı yetersizdir 
+Artan araç sayısı, şehir yönetiminde daha akıllı çözümleri zorunlu kılıyor.
+Şehirlerde Trafik Sorunu ve Neden yeni çözümlere ihtiyaç var?
+
+
+Önerilen Yaklaşım
+Ruth simülatörü kullanılarak şehir trafik akışı modelleme.
+Araçların anlık trafik verilerine göre rotalarını dinamik olarak değiştirme.
+Yüksek başarımlı hesaplama (HPC) ile binlerce aracın rota hesaplaması mümkün hâle getirme.
+
+
+Sonuç: Daha akıcı trafik, daha kısa sürüş süreleri, daha az sıkışıklık
+
+
+Modellemede Yaklaşımlar ve Araçlar
+Birçok modelleme yaklaşımı mevcuttur bunlardan bazıları
+
+Makroskobik modeller, büyük ölçekli trafik akışına odaklanır .
+Mikroskobik modeller, bireysel araç hareketlerini simüle ederek sürücü davranışı hakkında detaylı bilgiler sunar.
+
+Mezoskopik modeller, detay ve hesaplama yükü açısından orta yol sağlar.
+
+Her bir aracın hızını, konumunu, şerit değiştirmesini, kavşaklardaki hareketini ayrı ayrı simüle eder.
+       ÖRNEK : Bir aracın başka bir şeride sinyal vererek geçmesi gibi mikro düzeyde davranışlar modellenir.
+
+
+
+Bu  yaklaşımları ve simülasyon türlerini kullanan çeşitli trafik modelleme araçları mevcuttur 
+ve en popülerlerinden bazıları 
+SUMO: Açık kaynaklı bir mikroskobik trafik simülasyon yazılımıdır ve şehir içi trafik akışlarını detaylı şekilde modellemeye olanak tanır.
+VISSIM: Gerçek trafik koşullarını mikroskobik düzeyde simüle eden ticari bir trafik simülasyon programıdır.
+CORSIM: ABD temelli karayolu ağlarında trafik akışını simüle etmek için kullanılan bir mikroskobik trafik simülatörüdür.
+RUTH: Mezoskopik düzeyde trafik simülasyonu yapan ve yüksek başarımlı hesaplama sistemlerine uyumlu olarak geliştirilen bir trafik simülatörüdür.
+
+
+
+Ruth – Trafik Simülatörü
+
+Ruth, mezoskopik seviyede bir trafik simülatörüdür.
+Gerçek zamanlı trafik simülasyonları yapar ve yüksek başarımlı hesaplama (HPC) altyapısına uygun olarak çalışır.
+Global View özelliğiyle, her segmentteki araç yoğunluğunu zaman içinde izler ve buna göre hızları dinamik olarak belirler.
+Rotalar, trafik yoğunluğu değiştikçe Dijkstra veya Plateau algoritmalarıyla yeniden hesaplanır.
+evkit entegrasyonu sayesinde alternatif rota hesaplamaları dağıtık/paralel olarak yürütülebilir.
+Araçlar, yalnızca alternatif rota gerçekten daha hızlıysa yönlendirilir – bu, gereksiz rota değişimlerini önler.
+
+
+
+Genel Görünüm ve Yönlendirme Mekanizmaları
+Genel Görünüm (Global View):
+Her yol segmentinde kaç araç olduğu zamanla izlenir.
+Araç sayısına göre hız düşer; segmentteki yoğunluk arttıkça hız azalır.
+Yeni araçlar, segmentin sonundaki araçların hızını etkilemez.
+Segment hızı 0 m/s olursa, trafik sıkışıklığı kabul edilir ve yeni araç alınmaz.
+Segment hızları belirli aralıklarla güncellenerek haritaya yansıtılır.
+
+
+
+Yönlendirme Mekanizması:
+Genel Görünüm ve Yönlendirme Mekanizmaları
+Araçlar yalnızca segment sonunda alternatif rota alabilir.
+Dijkstra (en kısa yol) ve Plateau  algoritmaları kullanılır.
+evkit ile alternatif rota hesaplamaları yapılabilir.
+Eğer yeni rota, mevcut rotadan belirli oranda (%0, %5, %10) daha hızlıysa değişim yapılır.
+Kavşak ve segment geçişlerinde kuyruk sistemi ile geçişler düzenlenir.
+
+
+
+Arayüzler 
+Yapılandırma Arayüzü: Rota algoritmaları, güncelleme sıklığı vb. ayarları içerir.
+Görselleştirme Arayüzü: Simülasyon sonrasında trafik yoğunluk haritaları ve videolar oluşturur.
+Veri Analizi Arayüzü: Ortalama hız, seyahat süresi gibi detaylı çıktılar sunar.
+
+
+
+DİNLEDİĞİNİZ İÇİN TEŞEKKÜRLER.
+

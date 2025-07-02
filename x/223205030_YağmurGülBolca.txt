@@ -1,0 +1,85 @@
+A SYSTEMATIC REVIEW OF 
+BLOCKCHAIN FOR 
+ENERGY APPLICATIONS
+YAĞMUR GÜL BOLCA
+223205030
+BLOCKCHAİN UYGULAMASI
+Blockchain , enerji uygulamalarında farklı amaçlar için kullanılan bir teknoloji haline gelmiştir.
+Bu nedenle, birçok araştırmacı enerji sektöründeki çeşitli problemleri çözmek için blockchain kullanımını keşfetmektedir.
+Örneğin yapılan çalışmalarda belirtildiği gibi, blockchain'in kullanıldığı alanlar arasında şunlar yer almaktadır:
+Faturalandırma ( Billing ),
+Pazarlama (Marketing),
+Ticaret ( Trading ),
+Veri transferi (Data Transfer),
+Otomasyon ( Automation ),
+Enerji tokenları (Energy Tokens ),
+Karbon ticareti ( Carbon Trading ) gibi.
+Çalışmalar aşağıdaki uygulama kategorilerine göre sınıflandırılmıştır:
+•Ticaret ( Trading ):
+Dağıtık kaynaklardan elde edilen enerjinin ve son kullanıcı cihazlarının esnek çalışmasının, talep yanıtı ( demand response ) formunda yönetilmesini 
+içerir.
+(Örneğin: Bataryalarda depolanan enerjinin kullanılması gibi.)
+•Veri (Data):
+Enerji kayıtlarının saklanması, güvenliği, doğrulaması, kimlik doğrulaması ve izlenmesini kapsar.BU GRAFİK , BLOCKCHAİN
+UYGULAMALARININ KATEGORİ 
+BAZINDA KAYIT DAĞILIMINI
+GÖSTERMEKTEDİR. TİCARET 
+UYGULAMALARI BLOCKCHAİN 
+KULLANIMINDA VERİ 
+UYGULAMALARINA GÖRE DAHA 
+ÖNDE GÖZÜKMEKTEDİR. 
+•Para birimi ( currency ) ticareti , blockchain’in ilk ve en yaygın bilinen kullanım alanıdır .
+Bu durum, enerji alanındaki blockchain yeniliklerinin çoğunu da enerji ticareti yönünde
+şekillendirmiştir.
+•Ayrıca, blockchain , dağıtılmış yenilenebilir enerji kaynaklarının peer -to-peer (P2P) 
+ticaretinde ilgi görmeye devam etmektedir.
+………………………………………………………………………………… 
+ÖTE YANDAN, VERİ (DATA) KATEGORİSİNDEKİ ÇALIŞMALAR BLOCKCHAİN’İ ;
+GİZLİLİĞİN KORUNMASI ( PRİVACY PROTECTİON ),
+KİMLİK DOĞRULAMA ( AUTHENTİCATİON ),
+ENERJİ VARLIKLARININ KAYDEDİLMESİ ( ENERGY ASSET REGİSTRATİON ),
+ENERJİ KAYNAĞI TAKİBİ ( TRACKİNG ENERGY ORİGİN ),
+İŞLEM DOĞRULAMA ( TRANSACTİON VERİFİCATİON )
+AMACIYLA KULLANMIŞTIR. 
+ANCAK BLOCKCHAİN KULLANIMI AĞ GECİKMESİ VE VERİ DEPOLAMA 
+SINIRLAMALARINDAN DOLAYI GİT GİDE POPÜLERLİĞİNİ YİTİRMEKTEDİR.AYRICA, BİRÇOK VERİ ODAKLI BLOCKCHAİN UYGULAMASI:
+MERKEZİ BİR YÖNETİCİNİN KULLANIMINI GEREKTİRMEKTEDİR.
+BU DURUM,
+* TEK BİR HATA NOKTASI OLUŞTURUR ( SİNGLE POİNT OF FAİLURE ),
+* GERÇEK MERKEZİYETSİZLİK (DECENTRALİZATİON ) İLKESİNE ZARAR VERİR,
+* MEVCUT MERKEZİ ÇÖZÜMLERE KIYASLA DAHA PAHALI HALE GELİR.BLOCKCHAİN KULLANIM AMACI
+BLOCKCHAİN'İN SUNDUĞU TEMEL ÖZELLİKLER SAYESİNDE BİRÇOK FARKLI HEDEF İÇİN KUL LANIMI 
+MÜMKÜN OLMUŞTUR.
+BU TEMEL ÖZELLİKLER ŞUNLARDIR:
+* DEĞİŞTİRİLEMEZLİK ( IMMUTABİLİTY )
+* ŞEFFAFLIK ( TRANSPARENCY )
+* MERKEZİYETSİZLİK (DECENTRALİZATİON )
+* GİZLİLİK ( PRİVACY )
+* OTOMASYON ( AUTOMATİON )
+BU ÇALIŞMADA BLOCKCHAİN KULLANIM AMAÇLARI ŞU ÜÇ KATEGORİYE AYRILMIŞTIR:
+* GÜVENLİK (SECURİTY):
+ŞİFRELEME VE GÜVENLİ VERİ TRANSFERİ YOLUYLA VERİ GÜVENLİĞİNİ ART IRMAK.
+* VERİMLİLİK ( EFFİCİENCY ):
+AKILLI SÖZLEŞMELER ( SMART CONTRACTS ) YOLUYLA SÜREÇLERİ OTOMATİKLEŞTİRMEK, MERKEZİYETSİZ
+YAPILARLA ÖLÇEKLENEBİLİRLİK SAĞLAMAK.
+* GÜVEN ( TRUST ):
+KAYITLARIN DOĞRULUĞUNU VE DEĞİŞTİRİLEMEZLİĞİNİ GARANTİ ETMEK.
+ÖZETLE ,  BLOCKCHAİN ÇOĞUNLUKLA VERİMLİLİĞİ ARTTIRMAK AMACIYLA KULLANILMIŞTIR.KONSENSÜS MEKANİZMASI VE AMAÇ İLİŞKİSİ
+ÇALIŞMALARIN KULLANDIĞI KONSENSÜS MEKANİZMALARI İLE AMAÇLARI ARA SINDA İLİŞKİ BULUNMUŞTUR.
+*  POW (PROOF OF WORK ):
+ÇOĞUNLUKLA VERİMLİLİK AMACIYLA KULLANILMIŞTIR, ANCAK ENERJİ TÜKE TİMİ VE DÜŞÜK İŞLEM HIZI 
+NEDENİYLE SINIRLAMALARI VARDIR.
+* POS(PROOF OF STAKE) VEBFT (BYZANTINE FAULT TOLERANCE):
+GÜVENLİK VE VERİMLİLİK DENGESİNİ SAĞLAYAN, DAHA UYGUN ALTERNATİF LERDİR.
+*  ÖZEL KONSENSÜSLER ( CUSTOM CONSENSUS ):
+ÇOĞUNLUKLA GÜVENLİK ARTIRIMI İÇİN GELİŞTİRİLMİŞTİR, ANCAK STANDA RT DIŞI OLDUKLARINDAN 
+UYGULANABİLİRLİK SORUNLARI TAŞIMAKTADIR.BLOCKCHAİN PLATFORMLARININ KARŞILAŞTIRMASI
+SONUÇ OLARAK ;
+Başarılı blockchain projeleri için:
+•Önce hedef belirlenmeli (Verimlilik mi, Güvenlik mi, Güven mi?)
+•Uygulama türü seçilmeli (Ticaret mi? Veri mi?)
+•Uygun konsensüs mekanizması seçilmeli.
+•Maliyet ve altyapı iyi planlanmalı.
+Özellikle enerji sektöründe:
+•Blockchain doğrudan enerji ticareti için büyük avantaj sağlar.
+•Veri odaklı blockchain uygulamaları ise hâlâ depolama ve entegrasyon problemleri yaşamaktadır.BENİ DİNLEDİĞİNİZ İÇİN TEŞEKKÜR EDERİM.

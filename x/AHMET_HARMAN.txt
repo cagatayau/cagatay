@@ -1,0 +1,28 @@
+
+CEI (Cloud-Edge-IoT) and Industry 4.0
+Ahmet HARMAN
+200255059
+CEI Sürekliliği Nedir?
+CEI’ ın Kullanım Alanları
+
+
+CEI Sistemlerinin Zorlukları
+EdgeCloudSim Nedir?
+- Bulut ve edge bilgi işlemini birlikte simüle edebilen güçlü bir simülatördür.
+- Gerçek zamanlı veri işleme
+- Kaynak tahsisi
+- Gecikme analizleri gibi senaryoları değerlendirmek için kullanılır.
+Industry 4.0 ve CEI İlİŞKİSİ
+
+5G’nin Rolü
+- Yüksek veri hızı
+- Düşük gecikme
+- Güvenilir cihazlar arası iletişim
+- CEI altyapısını güçlendirir
+SUMO ve EdgeCloudSim ile Veri Üretimi
+
+Hedeflerimiz
+- CEI sürekliliğindeki zorlukları incelemek
+- Industry 4.0 kavramını CEI üzerinden anlatmak
+- SUMO ve EdgeCloudSim ile veri seti oluşturmak
+Sonuç

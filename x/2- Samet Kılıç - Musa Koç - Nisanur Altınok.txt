@@ -1,0 +1,348 @@
+
+
+
+YÜKSEK PERFORMANSLI 
+UYGULAMALAR İÇIN 
+HESAPLAMALI DEPOLAMA 
+CIHAZLARI VE YAKIN 
+BELLEK HESAPLAMASI
+
+
+SAMET KILIÇ
+223255031
+
+
+
+
+
+
+GİRİŞ
+
+Von Neumann Darboğazı Nedir?
+
+
+Veri miktarındaki artış, geleneksel CPU merkezli işlem modelini yetersiz hale getirerek Von Neumann darboğazını ortaya çıkarmıştır. Bu sorunu aşmak için hesaplamanın veriye yakın, yani verinin bulunduğu yerde yapılması önerilmektedir. SSD'lere entegre edilen işlem birimleriyle veri daha verimli, düşük gecikmeli ve enerji tasarruflu şekilde işlenebilir. Bu yaklaşım; yapay zeka, veritabanı ve veri işleme uygulamalarında performansı ve ölçeklenebilirliği artırır.
+
+
+
+
+
+
+
+HPC Sistemleri
+
+Yüksek Performanslı Hesaplama (HPC) sistemlerinde işlem maliyetleri zamanla azalsa da, veri aktarım maliyetleri aynı oranda düşmemiştir. Büyük veri hareketleri yüksek enerji tüketimine yol açarak performansı sınırlamaktadır. Bu nedenle, veri yerelliğini artırmak ve enerji verimliliğini sağlamak amacıyla veriye yakın işlem yapma yaklaşımları araştırılmaktadır. 
+Bu kapsamda Yakın Veri İşleme (NDP); Bellek İçi Hesaplama (IMC), Bellek İçi İşleme (PIM) ve Disk Üzerinde Veri İşleme (ODDP) gibi çeşitli yöntemlerin araştırıldığı bir çatı olarak kabul edilmektedir.
+
+
+
+
+
+
+
+Bellek Hiyerarşisi
+
+
+
+
+
+
+
+CSD’ler Üzerine
+
+Hesaplamalı Depolama, veri hareketini azaltmak amacıyla depolama birimlerine doğrudan veya dolaylı entegre edilen hesaplama kaynaklarını ifade eder. Bu mimariler, bant genişliği kullanımı ve gecikmeyi optimize ederek uygulama performansını ve altyapı verimliliğini artırır.
+Hesaplamalı Depolama Cihazları (CSD), işlemci tabanlı ve FPGA tabanlı olmak üzere ikiye ayrılır. Her yaklaşımın kendine özgü avantajları ve dezavantajları vardır.
+
+
+
+
+
+CSD’ler Üzerine
+İşlemci tabanlı CSD’ler, mevcut SSD çekirdekleriyle ya da özel işlemcilerle çalışır. Mevcut çekirdekler ağır yük altında verimsiz olabilirken, özel işlemciler daha esnektir fakat sunucu düzeyindeki performansa ulaşmakta yetersizdir.
+
+FPGA tabanlı CSD’ler, düşük güç tüketimi ve yüksek özelleştirilebilirlik sunar. Büyük veri uygulamalarında fayda sağlar; ancak hata ayıklama zordur ve yeniden yapılandırma zaman alıcıdır.
+
+
+
+
+CSD’ler Üzerine
+FPGA’lar üç farklı şekilde SSD ile entegre edilebilir:
+• CSD: Flash ile entegre, tak-çalıştır destekli.
+• CSP: Aynı PCIe alt sisteminde, bağımsız ölçeklenebilir.
+• CSA: Depolama ile hizalı, satıcıdan bağımsız çözüm.
+
+
+
+
+
+
+
+ÖZET
+Günümüzde teknolojinin gelişmesiyle birlikte veri akışı gittikçe artmaktadır. Bu veri akış yoğunluğu Von Neumann Darboğazı adı verilen problemi ortaya çıkarmaktadır.
+
+Yakın Veri İşleme (NDP) yaklaşımlarıyla beraber bu sorunun ortadan kaldırılması amaçlanmaktadır. Hesaplamalı Depolama Cihazları (CSD) da bu yaklaşımlar sonucu ortaya çıkan teknolojilerdir.
+
+
+
+DİNLEDİĞİNİZ İÇİN TEŞEKKÜRLER
+
+
+
+
+223255044
+MUSA KOÇ
+
+
+3.1 SABIT HIZMETLER CSD’LERI
+Sabit hizmetli CSD’ler, belirli işlemleri SSD üzerinde gerçekleştirebilen ama genel amaçlı işlem kapasitesi sınırlı sistemlerdir. Bu bölümde öne çıkan bazı mimariler ele alacağız.
+
+
+
+
+3. DEPOLAMA SINIFI BELLEKLERE YAKIN IŞLEME
+
+
+
+3.1 SABIT HIZMETLER CSD’LERI
+Biscuit, SSD üzerinde veri işleme yeteneği sunan bir NDP çerçevesidir. ARM işlemciler ve özel desen eşleştiriciler kullanır. Akış tabanlı programlama modeli ile çalışır. Dinamik modül yükleme ve bellek tahsisi gibi yeteneklere sahiptir. Ancak sınırlı işlem gücü, önbellek tutarsızlığı ve MMU eksikliği gibi donanım kısıtları bulunur.
+ SSD üzerinde veri yoğun uygulamaları çalıştırmaya yönelik bir Near Data Processing (NDP) çerçevesidir. ARM Cortex-R7 işlemcileri ve donanım tabanlı desen eşleştiricileri kullanır. Yazılım katmanında libslet ve libsisc adlı iki API kütüphanesi yer alır. Akış tabanlı programlama modeli sayesinde hesaplama ve koordinasyon görevleri ayrılır. Ancak önbellek tutarlılığı eksikliği, sınırlı senkronizasyon, Memory Management Unit (MMU) yokluğu ve işlem gücünün düşüklüğü gibi sınırlamalar, Biscuit Mimarisinin esnekliğini kısıtlamaktadır. Bu nedenle, belirli işlevler için tasarlanmış sabit bir CSD olarak değerlendirilir.
+GU VE ARKADAŞLARININ ÇALIŞMASI
+‘ BISCUIT MIMARISI ‘
+AMAÇ 2
+
+
+
+
+
+
+
+
+3.1 SABIT HIZMETLER CSD’LERI
+Do ve arkadaşları Microsoft SQL Server’ı Samsung SmartSSD ile entegre ederek ilişkisel sorguları doğrudan SSD üzerinde çalıştırmayı hedeflemiştir. API tabanlı bir programlama modeli geliştirilerek SSD içindeki bellek ve işlemci kaynakları etkin kullanılmıştır. Ancak bazı sorgu türleri desteklenmemekte ve sistemin tüm veri yapıları üzerinde çalışabilmesi için veri düzeninin gizlenmesi gerekmektedir. Ayrıca kullanılan SATA/SAS protokolü günümüz sistemleri için yetersiz kalmaktadır.
+DO VE ARKADAŞLARININ ÇALIŞMASI    ‘ SORGU ANALITIĞI ‘
+
+
+
+
+
+
+3.2 PROGRAMLANABILIR HIZMETLER CSD’LERI
+
+
+
+ Veri analitiği uygulamaları için flaş tabanlı depolamayı belleğe yakın işlem yetenekleriyle güçlendiren BlueDBM adında yeni bir sistem mimarisi önermiştir. Bu mimaride, hem ana bilgisayar hem de depolama tarafında işlem yapılmasını sağlamak amacıyla FPGA tabanlı bir yapı kullanılmıştır. BlueDBM, yüksek verim ve düşük gecikme hedefiyle tasarlanmış olup, özellikle büyük veri kümeleri üzerinde çalışacak dağıtık sistemler için optimize edilmiştir.
+
+ Sistemde iki farklı ağ yapısı mevcuttur. Birincisi, ana bilgisayarlar arasında bağlantı sağlar; ikincisi ise, BlueDBM düğümleri arasında veri alışverişini mümkün kılan özel bir depolama ağıdır. Bu yapı sayesinde, her bir BlueDBM düğümü yalnızca kendi verisiyle değil, aynı zamanda diğer düğümlerdeki verilere de doğrudan erişebilir. Ana bilgisayar ile bağlantı PCIe Gen-1 üzerinden sağlanırken, FPGA kullanılarak flaş ve işlem birimleri entegre edilmiştir.
+
+
+
+JUN VE ARKADAŞLARININ YAPTIĞI ÇALIŞMA
+
+
+
+
+
+Torabzade ve arkadaşları, CompStor adı verilen bir hesaplamalı depolama mimarisini tanıtmak için PC SSD üzerinden bir NVM kullanmıştır. CompStor bir yazılım yığını uygulamakta ve tam teşekküllü bir Linux işletim sistemi çalıştıran depolama içi işleme alt sistemini oluşturmak için özel bir dört çekirdekli ARM işlemci kullanmaktadır. Bir işletim sisteminin kullanılması, yürütülebilir dosyaların ve kabuk komut dosyalarının çalıştırılmasına olanak sağlamış ve görevlerin çalışma zamanında hesaplama SSD'sine yüklendiği dinamik görev boşaltmaya izin vermiştir. Yandaki şekilde gösterildiği gibi CompStoru iki alt sistem oluşturmaktadır; flash bellekleri SSD denetleyici modülleri ile bir araya getiren geleneksel alt sistem ve ISP alt sistemidir. Bu iki alt sistem arasındaki bağlantı, kontrol ve veri yolları arasındaki izolasyonun her ikisinin de performansını düşürmeden veri ve depolama işlevlerinin aynı anda işlenmesini sağladığı bir FPGA mezzanine kartı (baskılı devre kartı) aracılığıyla yapılmaktadır.
+TORABZADE VE ARKADAŞLARININ YAPTIĞI ÇALIŞMA
+
+
+4. YAKIN VERI HIZLANDIRMA ZORLUKLARI
+4.1 Programlama Modelleri
+NDP sistemlerinin benimsenmesindeki en büyük zorluklardan biri, geleneksel yazılım modellerinin yeterli olmamasıdır. Yeni programlama dilleri, kütüphaneler ve çok çekirdekli paralel yapıların desteklenmesi gerekir.  PIM için OpenMP, CUDA, OpenCL gibi teknolojiler önerilmiştir. Ayrıca MapReduce gibi çerçevelerle büyük veri kümelerinin işlenmesi hedeflenmiştir.
+
+
+
+
+4.2 Güvenlik
+CSD ve PIM sistemlerinde veri güvenliği kritik önemdedir. İçeride hesaplama yapan donanımların, veri bütünlüğünü koruyacak şekilde izole çalışması gerekir. Intel SGX gibi teknolojiler sınırlı destek nedeniyle tüm SSD sistemlerine uyumlu değildir. Bu nedenle, güvenliği sağlamak için daha özelleştirilmiş donanım-yazılım çözümlerine ihtiyaç duyulmaktadır.
+
+
+
+
+
+4.3 Dosya Sistemi
+ISP motorlarının, dosya sistemi düzeyinde verilere erişebilmesi gerekir. Ancak mevcut sistemler genelde blok düzeyinde çalışır. Linux tabanlı işletim sistemleri CSD’lere entegre edilerek bu sorunlar aşılmaya çalışılmıştır. Geliştiricilere özel araçlar sunularak hem uygulama geliştirme kolaylaştırılır hem de donanımın karmaşıklığı gizlenmiş olur.
+
+4. YAKIN VERI HIZLANDIRMA ZORLUKLARI
+
+
+
+
+DINLEDIĞINIZ
+IÇIN
+TEŞEKKÜRLER
+
+
+
+223255014
+2030
+NİSANUR ALTINOK
+
+
+
+
+
+NVMe-oF, geleneksel NVMe protokolünün veri merkezlerine daha iyi ölçeklenebilirlik ve düşük gecikme ile entegre edilebilmesini sağlayan bir uzantısıdır. NVMe'nin yüksek performanslı veri aktarım kapasitesi, ağ üzerinden geniş ölçekte kullanılmasını mümkün kılan bu teknolojiyle daha da ileri taşınmaktadır.
+Bu teknoloji, özellikle düşük gecikme süreleri ve yüksek bant genişliği sayesinde veri erişim süresini minimize eder. Aynı zamanda sunucular arasında yüksek verimli, esnek ve ölçeklenebilir bir depolama altyapısı sağlar
+
+ CSD’LER İÇIN KILIT ARA BAĞLANTILAR
+
+
+
+
+
+NVMe-oF genellikle büyük miktarda verinin saklandığı ve nadiren erişildiği soğuk depolama çözümlerinde tercih edilir. Ayrıca veri merkezlerinde, içerik dağıtım ağlarında ve yapay zeka uygulamalarında yüksek performans gerektiren senaryolarda da kullanımı artmaktadır.
+
+NVMe-oF iki ana ağ protokolü üzerinden çalışabilir:
+RDMA (Remote Direct Memory Access): InfiniBand, RoCE (RDMA over Converged Ethernet) ve iWARP gibi protokolleri destekler.
+TCP/IP: Daha genel ağ altyapılarında uygulanabilir, bu da dağıtık sistemlerle entegrasyonu kolaylaştırır.
+
+
+
+
+
+
+
+
+
+
+
+
+CXL, işlemciler, bellekler ve hızlandırıcılar gibi donanımlar arasında düşük gecikmeli ve yüksek bant genişlikli iletişim sağlayan yeni nesil bir ara bağlantı teknolojisidir. Özellikle heterojen bilişim ortamları için geliştirilmiş açık bir standarttır.
+
+CXL üç farklı alt protokol içerir:
+CXL.io: PCIe ile uyumlu temel bağlantı ve kontrol işlemleri.
+CXL.cache: İşlemcinin diğer cihazlardaki önbelleğe doğrudan erişebilmesini sağlar.
+CXL.mem: Bellek kaynaklarının doğrudan kullanılmasını destekler ve belleğin paylaşılmasına olanak tanır.
+
+CXL, veri merkezlerinde bellek havuzlama yaklaşımını mümkün kılar; bu da bellek kaynaklarının daha verimli kullanılmasını sağlar. Aynı zamanda raf ölçeğinde yüksek verimlilik sunarak, sistem kaynaklarının daha etkili yönetilmesini sağlar.
+
+
+COMPUTE EXPRESS LINK (CXL)
+
+
+
+
+
+
+
+
+
+
+
+SDXI, sistem içerisindeki veri hareketlerini hızlandırmak ve özellikle bellek içi işlemleri daha verimli hale getirmek için tasarlanmıştır. Günümüz sistemlerinde veri taşımak, işlemekten daha fazla kaynak tüketebildiği için bu arayüz kritik öneme sahiptir.
+
+Kullanıcı Modu ve Çekirdek Modu Desteği: Esnek tasarımı sayesinde hem kullanıcı hem de çekirdek seviyesinden erişilebilir.
+Sanallaştırma Desteği: Sanal makineler veya konteynerler arasında güvenli ve etkili veri paylaşımı sağlar. Bu özellik, SDXI’yi çok kiracılı bulut altyapıları için ideal hale getirir.
+
+
+
+SMART DATA ACCELERATOR INTERFACE (SDXI)
+
+
+
+
+
+Gen-Z, işlemciler, bellekler ve diğer veri yoğun bileşenler arasında yüksek hızlı ve doğrudan veri erişimi sunan bir mimaridir. Özellikle büyük veri analitiği ve yapay zeka gibi alanlarda, merkezi olmayan bellek yapılarını destekler.
+
+Düşük Gecikme ve Yüksek Bant Genişliği: Veri yollarında darboğaz oluşumunu engeller.
+Donanım Yeniden Kullanımı: Gen-Z, mevcut PCIe ve Ethernet fiziksel katmanları ile uyumlu çalışarak maliyetleri düşürür ve entegrasyonu kolaylaştırır.
+
+
+GEN-Z
+
+
+
+
+
+OpenCAPI:
+   OpenCAPI, işlemcilerle hızlandırıcılar (FPGA, GPU vb.) ve bellek modülleri arasında yüksek bant genişlikli ve düşük gecikmeli iletişim sağlar. OMI (Open Memory Interface) ile birlikte, esnek ve ölçeklenebilir bellek yapılarının önünü açar.
+
+ CCIX (Cache Coherent Interconnect for Accelerators):
+ CCIX, hızlandırıcı cihazlar ile işlemciler arasında önbellek tutarlılığını sağlayan bir ara bağlantı protokolüdür. PCIe Gen-4 tabanlı olması sayesinde geniş bir donanım ekosistemine entegrasyonu kolaydır ve çoklu topoloji yapılarını destekler.
+
+
+
+OPENCAPI VE CCIX
+
+
+
+
+
+ ARA BAĞLANTI TEKNOLOJILERININ KARŞILAŞTIRMASI
+
+
+
+
+
+GELECEK ARAŞTIRMA YÖNLERI VE ZORLUKLAR
+1)Programlama Modelleri
+Yeni nesil CSD sistemlerinin mimarileri, geleneksel işlemci mimarilerinden farklılık göstermektedir. Bu durum,mevcut yazılım araçlarının ve Instruction Set Architecture (ISA) yapılarının yetersiz kalmasına neden olur.
+
+Çözüm Önerileri:
+Büyük veri uygulamaları için MapReduce, OpenMP, CUDA gibi paralel programlama çerçevelerinin NDP destekli donanımlara entegre edilmesi.
+SNIA (Storage Networking Industry Association) tarafından tanımlanan standart API'lerin geliştirilmesi, bu uyumsuzluğu azaltabilir.
+
+
+
+
+
+
+
+
+GELECEK ARAŞTIRMA YÖNLERI VE ZORLUKLAR
+2)Güvenlik
+Depolama birimlerinin işlem yeteneği kazanması, veri bütünlüğü ve gizliliği açısından yeni saldırı vektörleri yaratmaktadır. Özellikle çok kiracılı ortamlarda veri izolasyonu kritik hale gelir.
+
+Çözüm Önerileri:
+Donanım tabanlı güvenli bölgeler sunan Trusted Execution Environment (TEE) teknolojileri.
+Intel SGX ve benzeri mekanizmaların CSD'lere entegre edilerek veri güvenliğinin artırılması
+
+
+
+
+
+
+GELECEK ARAŞTIRMA YÖNLERI VE ZORLUKLAR
+3)Dosya Sistemi Entegrasyonu
+CSD'ler geleneksel dosya sistemlerinin blok düzeyli erişim mantığı ile uyumsuzluk yaşayabilir. Bu da performans ve işlevsellik sorunlarına yol açar.
+Çözüm Önerileri:
+OCFS2 (Oracle Cluster File System 2) gibi Linux tabanlı sistemlerle uyumlu çözümler.
+INSIDER gibi sanal dosya soyutlama sistemleri, veri yönetimini NDP donanımlarıyla uyumlu hale getirebilir.
+
+
+
+
+
+
+GELECEK ARAŞTIRMA YÖNLERI VE ZORLUKLAR
+4)Hibrit Mimariler
+CSD’lerin hem bellek hem de depolama işlevini yerine getirmesi, bu iki yapı arasındaki sınırları bulanıklaştırır. Bu hibrit yapılar, hem veri işleme süresini kısaltabilir hem de enerji verimliliğini artırabilir.
+5)Yeni Teknolojiler
+CSD’lerin hem bellek hem de depolama işlevini yerine getirmesi, bu iki yapı arasındaki sınırları bulanıklaştırır. Bu hibrit yapılar, hem veri işleme süresini kısaltabilir hem de enerji verimliliğini artırabilir.
+
+
+
+
+
+
+ SONUÇ VE ÖNERILER
+CSD'ler, veri işleme görevlerini kendi içinde gerçekleştirebildikleri için NDP (Near Data Processing) mimarisine büyük katkı sunar. Bu yapı sayesinde, veri yoğun uygulamalarda daha düşük enerji tüketimi ve daha yüksek performans elde edilmektedir. Ayrıca, NVMe-oF, CXL gibi yeni nesil ara bağlantı teknolojileriyle bu cihazlar çok daha verimli hale gelmiştir.
+
+Bulut Tabanlı CSD’ler: OTA destekli işlemcilerle donatılmış CSD’ler, özellikle
+otomotiv ve yapay zeka alanlarında büyük potansiyel taşımaktadır.
+Ölçeklenebilirlik: Çoklu CSD'lerin birbiriyle koordineli çalışması, dağıtık sistemlerde yeni çözüm yolları sunacaktır.
+
+
+
+
+
+
+ SONUÇ VE ÖNERILER
+CSD ve NDP teknolojilerinin yaygınlaşması, yalnızca donanım değil yazılım ve standartlaşma alanlarında da yoğun bir işbirliği gerektirir. Programlama modelleri, ara bağlantı standartları ve güvenlik protokolleri bu gelişimin temel yapı taşları olacaktır.
+
+
+
+
+
+DİNLEDİĞİNİZ İÇİN TEŞEKÜR EDERİM.

@@ -1,0 +1,127 @@
+
+
+
+ Modern Güvenlik Tehditleri: Bilgi, Siber, IoT ve Ağ Saldırıları
+
+
+
+
+
+GİRİŞ
+Günümüzün hızla dijitalleşen dünyasında, bilgi sistemleri, siber altyapılar, IoT cihazları ve ağlar; hem bireyler hem de kurumlar için vazgeçilmez hale gelmiştir. Ancak bu dijital yapıların artan kullanımı, beraberinde çok katmanlı ve sofistike güvenlik tehditlerini de getirmektedir.
+Bu sunumda; bilgi sistemlerinden siber uzaya, IoT’den ağ altyapılarına kadar farklı alanlarda karşılaşılan saldırı türleri incelenmiş, bu saldırıların zarar düzeyleri ve hedefledikleri güvenlik gereksinimleri (gizlilik, bütünlük, erişilebilirlik vb.) karşılaştırmalı olarak ele alınmıştır.
+
+
+
+
+Bilgi Sistemleri, verilerin işlendiği, saklandığı ve aktarıldığı dijital ortamlardır. Bu sistemler genellikle fikri mülkiyet ihlalleri, insan hatası, sosyal mühendislik, yazılım saldırıları, teknolojik eskime gibi tehditler ile karşı karşıyadır.
+
+
+
+
+Siber Tehditler, bilgisayar sistemlerine, ağlara, yazılımlara veya dijital verilere zarar vermek, bilgi çalmak, hizmetleri aksatmak ya da kontrolü ele geçirmek amacıyla yapılan kötü niyetli faaliyetlerdir. Bu tehditler hem bireyleri hem de kurumları hedef alabilir. Zararlı yazılımlar, ortadaki adam saldırısı başlıca siber tehdit türlerine örnek olarak verilebilir.
+
+
+
+
+ Nesnelerin İnterneti (IoT) Güvenlik Zafiyetleri
+
+
+Uygulama Katmanı: Worm saldırısı (kötü amaçlı yazılım eklenir)
+Ağ Katmanı: Sinkhole saldırısı  (en kısa mesafeye sahip düğüm olarak davranarak yönlendirme verilerini üzerine çeker)
+Fiziksel Katman: Kötü niyetli node enjeksiyonu  (ağa fiziksel olarak kötü amaçlı bir düğüm yerleştirilir),
+
+
+
+
+ Nesnelerin İnterneti (IoT) Güvenlik Zafiyetleri Sonuçları
+
+
+Bu saldırılar, verileri değiştirerek, paketleri düşürerek, özel bilgileri ve şifreleme anahtarlarını çalarak ciddi zararlar verir. Zararlı düğüm enjeksiyonu, gizli düğüm açıklığını; sinkhole saldırısı ise kimlik doğrulama eksikliğini kullanır. Ayrıca, kullanıcılar güvenlik politikalarına uymayarak zararlı sitelere girebilir, spam e-postalar açabilir veya eski antivirüsler kullanabilirler 
+
+
+
+
+Ağ Saldırıları ve Kategorileri
+
+
+Aktif Saldırılar: Aktif saldırılar, hedef sistemdeki verilere veya kaynaklara müdahale ederek, onları değiştirme, engelleme veya yok etme amacı güden saldırılardır. Servis engelleme (DoS), Byzantine saldırısı örnek verilebilir
+Pasif Saldırılar: Veri dinleme (gizlilik ihlali), bir sistemdeki verilere veya ağ trafiğine müdahale etmeden, yalnızca dinleme, izleme veya bilgi toplama amacı taşıyan saldırılardır.
+
+
+
+TABLO I – Farklı Saldırıların Karşılaştırması
+
+
+
+
+Güçlü Bir Güvenlik Politikası İçin Gerekli Unsurlar
+
+
+Kimlik doğrulama, yalnızca yetkili kullanıcıların sisteme erişmesini sağlamak ve kötü niyetli kişilerin sisteme girmesini engellemek için kullanılır.
+
+Gizlilik, kişisel ve hassas verilerin yetkisiz kişiler tarafından erişilmesini engellemek için kullanılır.
+
+Bütünlük, verinin kaybolmasını, bozulmasını veya yetkisiz şekilde değiştirilmesini engellemek için kullanılır.
+
+
+
+
+Güçlü Bir Güvenlik Politikası İçin Gerekli Unsurlar
+
+
+Erişilebilirlik, kullanıcılar ve cihazlar, sistemdeki verilere ve kaynaklara her zaman ulaşabilmelidir. Bir sistem ne kadar güvenli olursa olsun, ihtiyaç anında çalışmıyorsa yeterli değildir.
+
+Yetkilendirme, kullanıcı doğrulandıktan sonra (kimlik doğrulama), ne tür işlemler yapabileceği kontrol edilir. Herkes her kaynağa erişemez.
+
+İnkâr edememe, bir işlemi yapan kişinin daha sonra bu işlemi gerçekleştirmediğini reddedememesini sağlamak anlamına gelir.
+
+
+
+
+Güvenlik politikaları oluşturulmalı
+
+Zararlı yazılımlar erkenden tespit edilip engellenmeli
+
+Eğitim programları ve çalıştaylar düzenlenmeli
+
+Araştırma ve eğitim çalışmalarıyla siber güvenlik becerileri artırılmalı
+Güçlü Bir Güvenlik Politikası İçin Gerekli Unsurlar
+
+
+Ayrıca;
+
+
+
+
+IoT için Ek Gereksinimler
+
+
+İleriye dönük gizlilik (forward secrecy): Ağdan çıkan bir IoT düğümünün sonraki mesajlara erişememesi gerekir.
+Geriye dönük gizlilik (backward secrecy): Ağa yeni katılan bir düğümün geçmiş mesajlara erişememesi gerekir
+
+
+
+
+Katmanlara Göre Güvenlik Standartları
+
+
+Taşıma Katmanı: SSL, TLS
+Uygulama Katmanı: PGP, S/MIME, HTTPS, SSH, KERBEROS
+Ağ Katmanı: IPsec, VPN, PPTP
+
+
+
+
+Genel Değerlendirme ve Öneriler
+
+
+Güvenlik sadece teknoloji değil, aynı zamanda organizasyonel bilinçtir.
+Bilgi sistemi, siber uzay, IoT ve ağ gibi dört alandan birine özel, güvenlik araçları geliştirilebilir. Ayrıca, saldırıların etkisini analiz etmek veya en uygun güvenlik çözümlerini bulmak için makine öğrenmesi algoritmaları kullanılabilir.
+Bu çalışmada, bilgi güvenliği, siber güvenlik, ağ güvenliği ve IoT güvenliği üzerine etki eden temel faktörler verilmiş ve bu alanlardaki saldırıları önlemek için gerekli güvenlik gereksinimleri tanımlanmıştır.
+
+
+
+Teşekkürler!
+
+

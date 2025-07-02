@@ -1,0 +1,28 @@
+Bilgi Güvenliği Politikası Geliştirme
+
+Vaka Analizi Yaklaşımıyla Bulgular ve Değerlendirme
+Tunç YÖRÜK – 223255063
+Mayıs 2025
+Bu sunum, büyük bir eğitim kurumunda yürütülen bilgi güvenliği politikası (ISP) incelemesinin sonuçlarını ve güncel sektör verilerini özetler.
+Bulgular – Genel Bakış
+
+• İncelenen ISP odak alanları:
+  – Şifre Yönetimi
+  – E‑posta ve İnternet Kullanımı
+  – Sosyal Ağlar (SNS- Social Networking Sites)
+  – Mobil Bilgi İşlem
+  – Bilgi İşleme ve Veri İmhası
+• Her alan için olgunluk seviyesi değerlendirildi (0–3 arası).
+
+SANS 2024 raporu: Sosyal mühendislik %89 ile en büyük insan‑kaynaklı tehdit.
+ 
+(SANS Institute’in 2024 tehdit raporuna göre analiz edilen güvenlik vakalarının %89’unda ana tetikleyici “sosyal mühendislik” yani kullanıcıları kandırarak (phishing e-postaları, sahte web sayfaları, telefonla parola isteme vb.) hassas bilgi elde etme taktikleri oldu. Başka bir deyişle, saldırıların büyük çoğunluğu teknik açıktan ziyade insan hatasını hedef alıyor; bu da eğitimin ve farkındalık programlarının teknik önlemler kadar hayati olduğunu gösteriyor.)
+
+
+Şifre ve E‑Posta Yönetimi
+
+Kısaca: “Parola ve e-posta için temel politikalar yerinde, fakat insan hatasını azaltacak ek savunmalar (MFA, phishing eğitimi, ek dosya/yönlendirme kısıtları) eksik. Bunlar tamamlanmadıkça güvenlik zincirinin en zayıf halkası kullanıcı olmaya devam ediyor.”
+İnternet, SNS ve Mobil Kullanım
+Bilgi İşleme ve Veri İmhası
+Farkındalık ve Uyum
+Tartışma ve Öneriler

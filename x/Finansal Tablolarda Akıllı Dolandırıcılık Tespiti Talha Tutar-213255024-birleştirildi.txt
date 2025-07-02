@@ -1,0 +1,359 @@
+Finansal Tablolarda Akıllı 
+Dolandırıcılık Tespiti: 
+Makine Öğrenimi ve Veri 
+Madenciliği Kullanarak 
+Sistematik Bir Literatür 
+İncelemesi -1
+Talha Tutar
+213255024Giriş.
+•Finansal dolandırıcılık, yasa dışı yöntemlerle mali kazanç 
+elde etme eylemidir ve bankacılık, sigorta ve vergi gibi 
+çeşitli alanlarda ortaya çıkmaktadır. Kredi kartı 
+dolandırıcılığı ve finansal beyan sahtekarlığı gibi türleri, 
+her yıl yüz milyonlarca dolara mal olmakta ve bu durum 
+bireyler, işletmeler ve bankalar üzerinde olumsuz etkiler 
+yaratmaktadır. Son yıllarda dolandırıcılık girişimleri önemli 
+ölçüde artmış olup, Sertifikalı Dolandırıcılık 
+Soruşturucuları Derneği (ACFE), beyaz yakalı suçların 
+%10'unun finansal beyan sahtekarlığını içerdiğini 
+belirtmektedir. Bu çalışma, özellikle finansal beyan 
+dolandırıcılığına ve şirketlerin mali durumlarını etkileyen 
+belgelere odaklanmaktadır.•Finansal tablolar, şirketlerin finansal durumunu 
+göstermek için kullanılır. Dolandırıcılık, şirketlerin kârını 
+olduğundan fazla göstermek, hisse senedi fiyatlarını 
+artırmak, vergi ödemekten kaçınmak veya kredi almak 
+amacıyla finansal tabloları manipüle etmektir. 
+Dolandırıcılık üçgeni, dolandırıcılığın motivasyonunu 
+açıklar: teşvik, rasyonelleştirme ve fırsat.
+•Geleneksel dolandırıcılık tespiti yöntemleri yetersizdir. 
+Bunun yerine, yapay zeka ve veri madenciliği, 
+dolandırıcılığı tespit etmek için daha etkili yöntemler 
+sunmaktadır. Finansal beyan dolandırıcılığı tespitinin 
+(FSFD) amacı, finansal tabloları dolandırıcı veya 
+dolandırıcı olmayan olarak sınıflandırmaktır.
+•Bu çalışma, FSFD için kullanılan makine öğrenimi ve 
+veri madenciliği tekniklerini ve veri setlerini inceler. 
+Ayrıca, bu alandaki araştırma eğilimlerini ve boşlukları 
+analiz etmeyi amaçlamaktadır.•Diğer yeni SLR'ler belirli finans alanlarına 
+odaklanırken, bizim SLR'miz finansal beyan 
+dolandırıcılığı tespiti için kullanılan makine 
+öğrenimi ve veri madenciliği yöntemlerini 
+inceliyor. Ayrıca, araştırmacılara yüksek 
+performanslı teknikler ve uygun veri setleri 
+konusunda rehberlik sağlıyor.
+•Bu SLR, Kitchenham metodolojisini takip ederek 
+sistematik adımlar izliyor. Beş büyük dijital 
+kütüphanede yapılan aramalar sonucunda 187 
+makale elde edilmiş, daha sonra 47 makale daha 
+detaylı analiz için seçilmiştir.
+•Çalışmanın temel amacı, iki araştırma sorusuna 
+yanıt bulmaktır. Gerekli bilgiler çıkarılmış ve 
+sonuçlar değerlendirilmiştir.ARAŞTIRMA 
+YÖNTEMİ
+•Bu sistematik literatür incelemesi (SLR), finansal beyan 
+dolandırıcılığı tespiti (FSFD) alanındaki mevcut araştırma 
+durumunu incelemek ve aşağıdaki araştırma sorularını 
+yanıtlamak için gerçekleştirilmiştir:
+•(Soru 1) Literatürde finansal tablolara yönelik hangi 
+dolandırıcılık tespit teknikleri ve veri setleri kullanılmıştır?
+•(Soru 2) Bu alandaki araştırma boşlukları, eğilimleri ve 
+gelecekteki araştırma yönleri nelerdir?
+•İlk soru, akıllı FSFD için kullanılan en son makine 
+öğrenimi tekniklerini ve en popüler veri kaynaklarını 
+derlememizi ve analiz etmemizi sağlar.
+•İkinci soru ise, araştırma eğilimlerini, mevcut 
+çalışmalardaki boşlukları ve bu alandaki gelecekteki 
+araştırma yönlerini belirlememize rehberlik eder.GELIŞTIRME ARAMA 
+STRATEJİSİ
+•Arama stratejisi oluşturulurken, "fraud*", "financial 
+statement " ve "Artificial Intelligence" OR "machine 
+learning" OR "data mining" anahtar kelimeleri 
+kullanılmıştır.
+•Bu arama dizisi, ACM Digital Library, IEEE Xplore, 
+Scopus, Web of Science ve ScienceDirect olmak üzere beş 
+dijital kütüphanede uygulanmış ve toplam 187 makale elde 
+edilmiştir.
+•Tekrarlı 63 makale çıkarıldıktan sonra, kalan 124 makale 
+üzerinde seçim süreci başlatılmıştır. Ek olarak, "kar topu" 
+tekniği kullanılarak referans listelerinden 8 daha makale 
+bulunmuştur.PRİMER 
+ÇALIŞMALARIN 
+SEÇİMİÖncelikle dijital kütüphanelerden elde edilen 
+187 makalenin 63 tanesi tekrarlı olduğu için 
+çıkarılmış ve 124 makale kalmıştır.
+Başlık, özet ve anahtar kelimelere göre yapılan 
+ilk eleme sonucunda 77 makale seçilmiştir.
+Tam metin incelemesi ve kalite değerlendirmesi 
+sonucunda 39 makale kalmıştır.
+Son olarak, "kar topu" tekniği kullanılarak 8 ek 
+makale daha dahil edilmiş ve toplam 47 makale 
+SLR için seçilmiştir.•Beni Dinlediğiniz İçin 
+Teşekkürler.HALİL İBRAHİM KÜYÜK
+223255068
+2. KISIM3-VERİ ÇIKARIMI
+Buadım, seçilen makalelerden ilgili veri ve
+bilgilerin elde edilmesini içerir .Aşağıdaki tablo
+veriçıkarma formunu göstermektedir .
+Çıkarılan verileri iki ana araştırma sorumuzu 
+yanıtlamak için kullanıyoruz. 
+Bu sorular : 
+ (RQ1) Literatürde finansal tablolarla ilgili hangi    
+dolandırıcılık tespit teknikleri ve veri setleri 
+kullanılmıştır? 
+ (RQ2) Bu alandaki araştırma boşlukları, 
+eğilimleri ve gelecekteki araştırma yönleri 
+nelerdir?
+D. META -ANALİZ
+Bubölüm, birden fazla çalışmanın sonuçlarını birleştirmek
+için istatistiksel biryaklaşım kullanarak seçilen makalelerin
+birincil araştırma sonuçlarını göstermektedir .
+1)SEÇİLEN MAKALELERİN YILLARA GÖRE DAĞILIMI
+Yayın yılıkonusunda herhangi birkısıtlama yapılmamıştır .
+Bu, çalışma alanındaki engeleneksel tekniklerden en
+yenilerine kadar tüm yayınlanmış makaleleri geniş bir
+şekilde araştırılmıştır .Kriterlere göre seçilen makalelerin
+yayın yılları 1995 ile2019 arasında değişmektedir ;buda
+son dört yılda, yani 2016 'dan 2019 'akadar buaraştırma
+alanına artan birilgiolduğunu göstermektedir .
+2)YAYIN TÜRÜ
+Sadece hakemli dergi makaleleri vekonferans bildirilerini
+dikkate alınmıştır .Makalelerin çoğunluğu dergi makaleleridir .III. VERİ 
+SENTEZİ 
+SONUÇLARI
+A-VERİ KÜMESİVeri Çeşitliliği: Sahte beyanları tespit etmek için yapılan çalışmalarda 
+sayısal veriler (finansal tablolar gibi), metin ve ses gibi çok çeşitli veri 
+türleri kullanılmaktadır. 
+Kaynak Farklılıkları: Bu veriler, şirketlerin kendi finansal tablolarından 
+veya dış kaynaklardan elde edilebilir. 
+Etiketleme Yöntemleri: Bir şirketin beyanının sahte olup olmadığını 
+belirlemek için farklı finansal referans noktaları kullanılır. 
+Performansa Etkisi: Kullanılan veri setinin özellikleri ve özellikle de 
+sahtekarlık olarak tanımlanan vaka sayısındaki küçük değişiklikler bile, 
+dolandırıcılık tespit modellerinin başarısını önemli ölçüde etkileyebilir. 
+Sistematik İnceleme: Bu nedenlerle, literatürdeki çalışmaların hangi veri 
+kümelerini ve hangi özellikleri kullandığını anlamak kritik öneme sahiptir 
+ve bu metnin yazarları da kendi sistematik literatür taramalarında (SLT) 
+bu faktörleri analiz etmişlerdir. I. VERİ 
+TÜRÜİki Ana Veri Türü: Veriler genel olarak iki kategoriye ayrılır:
+Yapılandırılmış veri: Önceden tanımlanmış bir şemaya sahiptir ve SQL ile kolayca işlenebilir (örneğin, finansal 
+oranlar).
+Yapılandırılmamış veri: Önceden tanımlanmış bir şeması olmayan, işlenmesi ve analizi daha zor olan verilerdir 
+(örneğin metin veya ses kayıtları).
+Yapılandırılmış Verilerin Hakimiyeti: Dolandırıcılık tespiti üzerine yapılan makine öğrenmesi çalışmalarının 
+büyük çoğunluğu, analiz etmesi daha kolay olan yapılandırılmış verilere odaklanmıştır. Yapılan incelemeye 
+göre finansal oranlar gibi yapılandırılmış veriler, metin veya ses gibi yapılandırılmamış verilere göre çok daha 
+sık kullanılmıştır.
+Hibrit Yaklaşımlar ve Yapılandırılmamış Verilerin Rolü: Makine öğrenmesi algoritmaları, finansal tabloların 
+değerlendirme performansını artırmak için metin ve ses gibi yapılandırılmamış verileri de işleyebilir. Ayrıca, 
+bazı çalışmalar her iki veri türünü bir arada kullanarak (hibrit bir yaklaşımla) daha etkili sonuçlar elde etmiştir.
+Önemli Bir Bulgusu: Metnin yazarları, inceledikleri makalelerdeki veri türlerini dört kategoriye ayırmışlardır. 
+Dikkat çekici bir bulgu olarak, dolandırıcılık tespiti amacıyla tek başına finansal olmayan oranların kullanıldığı 
+hiçbir çalışmaya rastlanmamıştır. Bu oranlar her zaman başka verilerle birlikte kullanılmıştır .Veri kümeleri veri türlerine göre dört ana kategoriye 
+ayrılır. Bunlar aşağıdaki tabloda gözükmektedir.
+A: FİNANSAL ORANLAR
+Finansal oranlar, birşirkethakkında anlamlı bilgiler elde etmek için finansal
+tablolardan toplanan sayısaldeğerlere dayanarak hesaplanır .Busayılar, bir
+şirketin finansal tablolarının çeşitli bölümlerinde, özellikle bilançolarda, nakitakış
+tablolarında ve gelirtablolarında gözlemlenebilir .Bunlar, kantitatif analiz
+yapmak, birşirketin performansını değerlendirmek, birşirketin büyümesini,
+karlılığını vedeğerlemesini ölçmek içinkullanılır .Kendi endüstrilerindeki benzer
+işletmeleri karşılaştırmak içinkullanılan ölçümlerdir .B: FİNANSAL OLMAYAN ORANLAR
+Yatırımcıların finansal olmayan bilgileri deincelemesi esastır .Finansal
+olmayan bilgiler, birşirketin yönetim kalitesi, rakipleri vedurumu gibi
+şirketin getirisini etkileyebilir .Rekabetçi değerlendirmeler, işgücü,
+teknolojik değişiklikler, yönetim kalitesi, ekonominin durumu vepiyasa
+güçleri gibi bilgiler birşirketin finansal tablolarında hemen kendini
+göstermez .Bunlar finansal olmayan bilgiler olarak kabul edilir vebazı
+çalışmalar butürdeğişkenleri tahmin yöntemlerinde girdi verisi olarak
+kullanır .C: METİNSEL İÇERİKLER
+➢Metinsel veriler, finansal raporların tespitinde önemli birroloynayabilir .
+Özellikle kazanç konferans görüşmelerinin transkriptlerinden elde edilen
+veriler, finansal tabloların işlenmesinde kullanılabilir .
+➢Metin madenciliği uygulamaları, finansal karar alma problemlerinde ve
+dolandırıcılık tespiti gibialanlarda kullanılmaktadır .
+➢Finansal alandaki önceki çalışmalar, metin madenciliği yaklaşımlarının
+dolandırıcılık tespiti problemleri için daha az araştırıldığını
+göstermektedir .
+➢Finansal tabloların MD&A bölümü veya CEO konuşmalarından elde
+edilen metinsel veriler, yönetimsel raporlar olarak değerlendirilebilir ve
+dolandırıcılık tespitinde önemli birroloynayabilir .
+➢Üstdüzey yöneticilerin sahte davranışları sürdürmeleri, metinsel bilgilerin
+önemini vurgular veakıllı dolandırıcılık tespit yöntemlerini güçlendirir .D: SESLİ KONUŞMA
+➢Humpherys tarafından yapılan çalışmada, CEO konuşmalarının finansal tablo
+sahtekarlıklarını analiz etmek içinbilgilendirici birverikaynağı olduğu belirtilmiştir .Sesli
+ipuçlarından (sözlü vesözsüz) yararlanarak, sesli veriler ileinsan duyguları arasındaki
+ilişkiyi incelemişlerdir .Katmanlı sesanalizi (LVA) adı verilen birteknoloji kullanarak,
+sahte finansal tabloları tespit etmek için sesli değişkenleri kritik insan duygularıyla
+ilişkilendirmişlerdir .Bu çalışma, konferans görüşmelerindeki belirli temel sözsüz
+sinyallerin, sahte finansal tabloları gerçeklerden ayırt etmeyi sağladığını göstermiştir .
+➢Diğer biraraştırmada, metinsel veriler, finansal oranlar vesesli özelliklerin bir
+kombinasyonu kullanılarak birFTSD yöntemi geliştirilmiştir .Finansal oranlar, MD&A
+bölümünden alınan metinsel veriler vesesli nitelikler, dolandırıcılık tespiti için değerli
+olabileceği belirtilmiştir .Buçalışmada, üçveri kaynağının eşzamanlı olarak dahil
+edilmesinin birFTSD aracının performansını artırabileceği gösterilmiştir .Sayısal, metinsel
+ve sesli özelliklerin birleşiminin kullanılmasının dolandırıcılık tespit yaklaşımının
+doğruluğunu artırdığı sonucuna varılmıştır .BENİ DİNLEDİĞİNİZ 
+İÇİN TEŞEKKÜR 
+EDERİMFinansal  Tablolarda  
+Zekâya  Dayalı  Hile 
+Tespiti -3
+Mustafa Uzunpostalcı
+200205098Finansal Tablo Hilesi Nedir?
+• Gelir , varlık , satış  gibi kalemlerin  gerçekte  olduğundan  fazla  
+gösterilmesi
+• Gider, borç  ya da zararların  eksik  gösterilmesi
+• Amaç: Vergiden  kaçınma , hisse  değerini  artırma , kredi  alma vb.
+• Geleneksel  yöntemler  maliyetli  ve zaman alıcıdırKullanılan  Veri Türleri
+1. Yapılandırılmış Veri (%77)
+Finansal Oranlar (%66):
+Bilanço, gelir tablosu, nakit akışından elde edilen sayısal veriler.
+Örnek: Likidite, kârlılık, borç oranları.
+Finansal Olmayan Oranlar (%11):
+Yönetim kalitesi, şirket yönetişimi, sektör analizleri.
+2. Yapılandırılmamış Veri (%23)
+Metinsel İçerik (%20):
+Yönetim raporları (MD&A), sosyal medya yorumları.
+Ses Kayıtları (%3):
+CEO konuşmaları, kazanç konferansları.Veri Kaynakları
+Finansal Tablolar: Bilanço, gelir tablosu.
+MD&A Bölümü: Şirket performans analizleri.
+Sosyal Medya Platformları: SeekingAlpha gibi yatırım forumları.
+Konferans Transkriptleri: CEO sunumları.Referans Veritabanları
+ SEC (ABD): Muhasebe ve Denetim Uygulama Yayınları ( AAERs ).
+Audit Analytics :Finansal yeniden şekilldendirme verileri.
+COMPUSTAT: Küresel şirket verileri.
+CSRC (Çin): Finansal uyumsuzluk cezaları.Makine Öğrenimi Yöntemleri
+1. Denetimli Öğrenme (42 Makale)
+Sınıflandırma: SVM, Karar Ağaçları, Bayes Ağları.
+Regresyon: Lojistik Regresyon.
+2. Denetimsiz Öğrenme (4 Makale)
+Kümeleme (K -means , SOM).
+Anomali Tespiti ( Mahalanobis Mesafesi).
+3. Hibrit Yöntemler
+Örnek: SOM + K -means .Performans Karşılaştırması
+En Yüksek Doğruluk:
+Derin Sinir Ağları (%93.7).
+Lojistik Regresyon (%93.33).
+Topluluk Yöntemleri:
+Random Forest (Rastgele Ormanlama ) (%87.5),
+Bagging (Torbalama)(%87.9).Kullanılan Popüler Yöntemler
+• Denetimli  Öğrenme : SVM, Karar Ağaçları , Lojistik  Regresyon
+• Ensemble Yöntemler : Rastgele  Orman, Adaboost
+• Diğerleri : Yapay  Sinir  Ağları , Bayes Ağları , K-En Yakın  Komşu
+• Az kullanılanlar : Kümeleme , Anomali  Tespiti , Ses MadenciliğiGelecek Araştırmalar için Öneriler
+1.Yapılandırılmamış Veri: Metin ve ses analizine odaklanma.
+2.Dengesiz Veri: SMOTE dışında yöntemler denenmeli.
+3.Yeni Algoritmalar: Kelime gömme (Word2Vec, BERT).
+4.Çapraz Ülke Verileri: Genel modeller geliştirme.FİNANSAL BEYANLARDA 
+AKILLI DOLANDIRICILIK 
+TESPİTİ-4
+Ders:  Bilgisayar Mühendisli ği Özel Konular
+Hazırlayan:  Mustafa KILIÇER -213255063REGRESYON
+•Finansal tablolarda dolandırıcılık tespitinde Lojistik Regresyon en
+yaygın kullanılan yöntemlerden biridir.
+•İncelenen 16çalışma Lojistik Regresyon yöntemini tercih etmiştir .
+•Lojistik Regresyon hem ikili (evet/hayır) hem deçoklu sınıf
+sınıflandırma problemlerinde kullanılabilir .
+•Muhasebe vefinans literatüründe tercih edilmesinin sebebi, istatistiksel
+olarak kolay yorumlanabilir olmasıdır .ENSEMBLE YÖNTEMLER
+•Birden fazla zayıf modeli birleştirerek daha güçlü tahmin modelleri
+oluşturur .
+Temel Türler
+•Bagging :Eğitim verisini rastgele altkümelere böler, bağımsız
+modellerle varyansı azaltır .
+•Boosting :Modelleri ardışık veuyarlanabilir şekilde eğitir,önyargıyı
+azaltır .
+•Stacking :Farklı modellerin çıktılarını tekbirmeta modelde birleştirir .
+•Random Forest :Çoksayıda karar ağacından oluşur ;sınıflandırma ve
+regresyonda yüksek performans sağlar.METAHÖR İSTİK ALGORİTMALAR
+•Bualgoritmalar yalnızca denetimli öğrenme kapsamında uygulanmıştır .
+•Genetik Programlama, genetik algoritmaların uzantısı olup, çözümleri
+genetik işlemlerle geliştirir .
+•Genetik Programlama, çözüm popülasyonunu rastgele başlatır ;
+çaprazlama, mutasyon veüreme gibiişlemler uygular .KURAL TABANLI YAKLAŞIMLAR
+•IF-THEN kurallarıyla veriiçindeki düzenlilikleri bulmayı amaçlar .
+•Reurink [58],finansal tablolardaki kusurları değerlendiren biruzman
+sistem tasarlamıştır .
+•Hobson veark.[30],genetik özellik seçimi ileFURIA algoritmasını
+kullanarak bulanık kural tabanlı model oluşturmuştur .
+•Buyaklaşımlar, hem erken hem güncel çalışmalarda finansal
+dolandırıcılık tespitinde etkili olmuştur .ÖRNEK TABANLI Ö ĞRENME
+•Yeniverileri eğitimde görülen örneklerle karşılaştırarak çalışır .
+•Üççalışma, buyöntemi denetimli [34],yarıdenetimli [37]veya çok
+örnekli [44]tekniklerle uygulamıştır .
+•Yarı denetimli öğrenme, etiketsiz verifazlalığınarağmen azsayıda
+etiketli örnekle etkili sonuçlar vermektedir .KÜMELEME
+•Kümeleme, denetimsiz öğrenme tekniğiolup, benzer örnekleri aynı
+gruplarda toplar ;ancak dolandırıcılık tespitinde sınıflandırmaya göre
+daha azkullanılmıştır .
+•Sadece 3çalışma kümeleme yöntemleriyle dolandırıcı finansal tabloları
+tespit etmiştir [17],[25],[33].ANOMAL İTESPİTİ
+•Denetimsiz öğrenme kategorisinde yeralanbiryaklaşımdır .
+•Mahalanobis mesafesi, anormal veri noktalarını belirlemede
+kullanılan basit veetkili biryöntemdir [70].
+•Yaoveark.[72],Mahalanobis mesafesi kullanarak verinoktalarının
+dağılımmerkeziyle olanuzaklığınıhesaplamış veanomali büyüklüğünü
+belirlemiştir .
+•Önerilen model, finansal tabloların güvenilirli ğinietkili biçimde
+değerlendirmiştir .PERFORMANS
+•İncelenen makalelerde doğruluk, hassasiyet, özgüllük gibiperformans
+ölçütleri kullanılmıştır ;ancak enyaygın veanalizde öncelikli olan kriter
+doğruluktur .
+•Performans karşılaştırmaları için makine ö ğrenmesi/ veri madencili ği 
+teknikleri üç kategoriye ayrılmıştır: 
+ensemble modeller, hibrit modeller ve tek modeller
+•Analizde ayrıca verikümesi oranı parametresi kullanılmıştır ;buoran
+dolandırıcı örnek sayısının dolandırıcı olmayan örnek sayısına
+bölünmesiyle hesaplanır .TEŞEKKÜRLERFinansal Tablo Sahteciliği
+Tespiti: Araştırma Trendleri 
+MOHAMMED HUSSEIN OBAID
+200205080GÜNDEM SAYFASINA DÖNFTS Tespitinde ML/DM Teknikleri ve
+Doğruluk Oranları
+Performans Sonuçları
+Derin Neural Network: %93.7 doğruluk
+Lojistik Regresyon: %93.33 doğruluk
+Boosting (Ensemble): %91.8 doğruluk
+SOM + K-Means (Hibrit): %91.0 doğruluk
+* Dengeli veri setleri = Daha yüksek performansGÜNDEM SAYFASINA DÖNYıllara Göre Araştırma Eğilimleri (1995-2019)
+Veri Türleri
+Veri Türlerinin Evrimi
+Her Dönem: Finansal değişkenler en popüler
+2015-2019 Trendi:
+Metin verileri (MD&A raporları) 
+Finansal olmayan değişkenler 
+CEO konuşmaları (az kullanılan) 
+Coğrafi Genişleme: 
+                Öncü Ülkeler: ABD, Çin, Yunanistan
+                Yeni Katılımcılar: Hindistan, G. Kore, EndonezyaGÜNDEM SAYFASINA DÖNAlgoritmik Trendler ve Değişimler
+Öğrenme Paradigmalarının Evrimi
+Denetimli Öğrenme: Her zaman dominant
+Denetimsiz Öğrenme: Azalan trend (3/4'ü 2015 öncesi)
+Ensemble Yöntemler: Büyük artış (7/10 makale 2015+)
+Anomaly Detection: Sadece 1 makale (2019) - büyük fırsat!GÜNDEM SAYFASINA DÖNKeşfedilmemiş Alanlar - Teknikler
+Boşluklar ve Fırsatlar
+Anomali Tespiti: Yeni sahtekarlık yöntemlerini yakalayabilir
+Meta-Sezgisel Algoritmalar: Özellik seçimi için kullanılmalı
+Çoklu Veri Kaynakları: Sosyal medya + finansal + metin verileri
+Modern NLP: Word2Vec, Doc2Vec, BERT teknikleriGÜNDEM SAYFASINA DÖNVeri Sorunları ve Çözümler
+Ana Problemler
+Küçük Veri Setleri: Tek ülke verileri → Overfitting riski
+Dengesiz Veri: Sahtekar şirket sayısı çok az
+Mevcut Çözüm: SMOTE (oversampling)
+Gelecek Çözümler:
+Ülkeler arası genel modeller
+Undersampling teknikleri
+Maliyet-duyarlı öğrenmeGÜNDEM SAYFASINA DÖNSosyal Medya ve Metin Analizi
+Yeni Veri Kaynakları
+Sosyal Medya: Finansal bloglar, forumlar
+Duygu Analizi: Genel kanaat ölçümü
+Yapılandırılmamış Veri:
+MD&A raporları derinlemesine analiz
+Kazanç çağrısı transkriptleri
+Modern kelime gömme teknikleriGÜNDEM SAYFASINA DÖNÇalışmanın Geçerlilik Tehditleri ve
+Sınırlamaları
+Geçerlilik Tehditleri
+Arama Yanlılığı: Tüm veritabanları taranmamış olabilir
+Dil Yanlılığı: Sadece İngilizce makaleler
+Azaltma Yöntemleri:
+"Kartopu" tekniği kullanıldı
+Arama terimleri doğrulandıDinlediniz için teşekkürler

@@ -1,0 +1,60 @@
+
+Tartışma 
+Açık Sorunlar 
+
+
+
+IoT (Nesnelerin İnterneti) programlaması, geliştirilen sistemin amacına göre iki temel şekilde ele alınabilir:
+ 1.Veri Analizi ve Görselleştirme Odaklı IoT2. Cihaz Kontrolüne Odaklanan IoT
+Bu iki yaklaşım, IoT'nin nasıl kullanıldığına bağlı olarak farklı programlama paradigmaları gerektirir. Şimdi bunları detaylıca ele alalım:
+
+veri Analizi ve Görselleştirme Odaklı IoT
+Bu yaklaşımda temel amaç, sensörlerden gelen verileri işleyip kullanıcıya anlamlı bilgiler sunmaktır. Burada, cihazlardan toplanan veriler bulut sistemlerine ya da yerel sunuculara gönderilir ve belirli kurallara göre analiz edilir. Kullanıcılar, genellikle bir web paneli ya da mobil uygulama aracılığıyla bu verilere erişir ve kararlar alır.
+ Nasıl Çalışır?
+IoT cihazları (sensörler) veriyi toplar.
+Bu veriler, Stream Processing (SP - Akış İşleme) veya Complex Event Processing (CEP - Karmaşık Olay İşleme) platformları ile analiz edilir.
+Kullanıcıya grafikler, bildirimler veya raporlar sunulur.
+
+
+🔹 Örnek: Akıllı Şehir Trafik Yönetimi
+Şehir genelinde yerleştirilen trafik sensörleri araç yoğunluğunu ölçer.
+Sensörlerden gelen veriler bulutta işlenir ve yoğunluk analiz edilir.
+Sürücülere Google Maps gibi uygulamalar üzerinden trafik durumu hakkında bilgiler verilir.
+Eğer trafik yoğunluğu belirli bir seviyeyi aşarsa, trafik ışıklarının süreleri optimize edilebilir.
+🔹 Örnek: Akıllı Tarım Sensörleri
+Topraktaki nem, sıcaklık ve ışık sensörleri verileri toplar.
+Bu veriler, merkezi bir sunucuda analiz edilir ve çiftçiye rapor olarak sunulur.
+Çiftçi, bitkilerin su ihtiyacını öğrenir ve sulama planını buna göre yapar.
+
+Cihaz Kontrolüne Odaklanan IoT (Aktüatör Kullanımı, Geri Besleme Döngüsü)
+Bu tür IoT sistemleri yalnızca veri toplamakla kalmaz, aynı zamanda toplanan veriye göre cihazlara doğrudan müdahale eder. Yani sistem otomatik aksiyon alabilir veya kullanıcı bir komut vererek cihazı kontrol edebilir.
+ Nasıl Çalışır?
+Sensörlerden gelen veriler analiz edilir.
+Eğer belirli bir durum oluşursa, bir aktüatör (motor, röle, vana vb.) devreye girer ve aksiyon alır.
+Kullanıcılar manuel olarak da sistemi kontrol edebilir.
+
+Örnek: Akıllı Termostat (Nest Thermostat)
+Sıcaklık sensörü, ortam sıcaklığını sürekli olarak ölçer.
+Eğer sıcaklık belirli bir eşiğin altına düşerse, ısıtıcı otomatik olarak açılır.
+Kullanıcı, mobil uygulama üzerinden uzaktan ısıtıcıyı açıp kapatabilir.
+ Örnek: Tesla’nın Otopilot Sistemi
+Lidar ve radar sensörleri, çevredeki araçları ve yolları sürekli analiz eder.
+Eğer araç önündeki mesafeyi kısa algılarsa, fren yaparak yavaşlar.
+Direksiyon ve gaz pedalı kontrol edilerek otomatik şerit değiştirme veya hız ayarlama işlemleri gerçekleştirilir.
+
+1.Otomasyon ve Adaptasyon Dengesi
+	
+oT sistemlerinde kurulum, yönetim ve güncelleme gibi işlemler karmaşıktır çünkü farklı donanımlar ve yazılımlar bir arada çalışır. Bu süreci kolaylaştırmak için orta katman yazılımlar (middleware) kullanılır. Bu yazılımlar:✔ Protokol çevirme✔ Önbellekleme (caching)✔ Hata toleransı gibi işlemleri otomatikleştirerek geliştiricinin sadece uygulama mantığına odaklanmasını sağlar.
+Ancak sorun şu: Otomasyon arttıkça esneklik azalır. Örneğin, uygulamanın veri işleme modeli veya ağ durumuna göre hesaplamalarını değiştirmesi gerekiyorsa, otomatik sistemler bunu zorlaştırabilir. Yani, otomasyon sayesinde kolaylık sağlanırken, gerektiğinde uygulamaya özgü özelleştirmeler yapmak zorlaşabilir.
+ Otomatik vs. Manuel Araçlar
+Otomatik vitesli arabalar sürücüyü vites değiştirme zahmetinden kurtarır (otomasyon), ancak sürücü, tam güç kontrolünü kaybeder (esneklik azalır).
+Manuel vitesli arabalar daha fazla esneklik sunar, ancak sürücüye ekstra yük getirir.
+2.Altyapı Bağımlılığı
+Bazı IoT sistemleri, hizmet sağlamak için çok katmanlı bir altyapıya dayanır (örneğin, Cloud + Edge veya Cloud + Fog + Edge). Çoğu IoT platformu, programcılara hem Cloud hem de Edge hizmetlerine tek bir API ile erişim sunar. Ancak, hizmetlerin çalışma sırasında farklı katmanlar arasında taşınması (örneğin, Cloud'dan Edge'e veya tam tersi) genellikle desteklenmez.
+Bu eksiklik, sistemlerin belirli bir altyapıya bağımlı kalmasına (infrastructure lock-in) yol açar. Yani, programcılar uygulamanın hangi katmanda çalışacağını önceden belirlemek zorundadır ve uygulama genellikle bu katmanda kalır. Oysa dinamik taşıma (Edge ↔ Cloud) sağlanabilseydi, uygulamalar gecikme, işlem gücü ve ağ durumu gibi faktörlere göre en uygun katmanda çalışabilirdi.
+
+Kontrollü öğrenme
+Günümüzde, IoT alanı giderek daha fazla Yapay Zeka (AI) yaklaşımlarıyla entegre edilmektedir. Bu entegrasyon; optimizasyon, tahmin, uyarlanabilirlik gibi çeşitli hedeflere yöneliktir. IoT, büyük miktarda veri üretmesi sayesinde AI gelişiminde önemli bir rol oynamış ve veri odaklı modellerin eğitilmesini kolaylaştırmıştır. Bu nedenle, kontrol edilebilirlik ve öngörülebilirlik sağlamak için ayarlanabilir özerklik, adalet ve güvenlik gibi AI alanındaki araştırmaların IoT sistemlerine entegre edilmesi gerekmektedir.
+Ancak, veri odaklı AI yaklaşımlarında kontrol edilebilirlik sorunu ortaya çıkmaktadır. Öğrenilen modellerin belirli güvenlik sınırları içinde kalmasını nasıl garanti edebiliriz? Bu güvenlik sınırları; etik (örneğin, ayrımcılık yapmayan karar mekanizmaları), sağlık (insanlara zarar vermeme) veya teknik (cihazların güvenli çalışması) açılardan olabilir. IoT sistemlerinde bu riskler daha da büyüktür çünkü sistemler, fiziksel dünyaya doğrudan etki edebilir. Örneğin, bir otonom aracın yanlış yönetilmesi ciddi kazalara yol açabilir.
+
+DİNLEDİĞİNİZ İÇİN TEŞŞEKÜRLER

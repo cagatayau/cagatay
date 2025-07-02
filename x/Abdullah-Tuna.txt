@@ -1,0 +1,97 @@
+
+DOS Saldırısı Nedir
+DoS (Denial of Service) saldırısı, bir sistemin, servis sağlayıcının veya ağın kaynaklarını (CPU, RAM, bant genişliği, vb.) aşırı yükleyerek meşru kullanıcıların erişimini engellemek amacıyla gerçekleştirilen bir siber saldırıdır. 
+Genellikle tek bir kaynaktan gelen sürekli ve yoğun isteklerle hedef sistemin hizmet veremez hâle gelmesi hedeflenir.
+Teknik olarak, saldırgan hedefe:
+Çok sayıda TCP bağlantısı başlatarak (SYN Flood),
+Geçersiz veya kötü amaçlı paketler göndererek (Ping of Death, Teardrop),
+Ağ protokollerinin zayıf noktalarını sömürerek hedef sistemin çökmesine veya aşırı yavaşlamasına neden olabilir.
+Ddos Saldırısı Nedir
+DDoS (Distributed Denial of Service) saldırısı, birden fazla farklı kaynaktan (çoğunlukla botnet’lere bağlı zombi cihazlar) eş zamanlı olarak yürütülen bir DoS saldırısı türüdür.
+Saldırganlar, önceden ele geçirilmiş IoT cihazları gibi yüzlerce hatta milyonlarca cihazı kullanarak hedef sisteme eş zamanlı trafik yönlendirir. 
+Bu saldırılar, çoğunlukla:
+Volumetrik (hacimsel) saldırılar: Ağa saniyede gigabitlerce veri akışı yüklenerek bant genişliği tüketilir. (örneğin UDP Flood)
+Protokol sömürücü saldırılar: Sunucu kaynakları TCP/UDP başlatma talepleriyle tükenir.
+Uygulama katmanı saldırıları: HTTP/HTTPS istekleriyle web uygulamaları boğulur. (örn. HTTP GET Flood)
+DDoS saldırıları, tekil DoS saldırılarına göre çok daha güçlü, yaygın ve tespiti zor saldırı türleridir. IoT cihazlarının kontrolsüz yaygınlaşması, bu saldırıların etkisini daha da artırmaktadır.
+IoT Güvenlik Sorunu: DoS ve DDoS Tehdİtleri
+IoT cihazları, sınırlı kaynakları nedeniyle savunmasızdır. 
+⮕ Düşük işlem gücü,
+⮕ Sınırlı bellek ve enerji,
+⮕ Güvenliksiz protokoller,
+⮕ Güncellenemez firmware,
+⮕Basit ağ yığınları nedeniyle gelişmiş güvenlik çözümlerini çalıştıramaz, bu da onları DoS/DDoS saldırıları gibi tehditlere karşı savunmasız hale getirir.
+Özellikle enerji verimliliği ve işlem gücü limitleri, saldırı tespiti gibi sürekli izleme gerektiren güvenlik çözümlerini doğrudan cihaz seviyesinde uygulanamaz hale getirmektedir.
+DoS ve DDoS Tehditleri
+Klasik IDS sistemleri yetersiz, false positive oranları yüksek.
+IoT protokollerinin çeşitliliği (MQTT, CoAP, AMQP, Zigbee vb.) ve bu protokollerin çoğunun kaynak kısıtlı cihazlar için optimize edilmiş, hafif, düşük başlıklı yapıda olması; klasik IDS sistemlerinin imza tabanlı tespit mekanizmalarının etkinliğini düşürmektedir. 
+Bu nedenle geleneksel IDS'ler, IoT trafiğindeki anormal davranışları yeterince doğru modelleyememekte ve yeni nesil IoT tabanlı saldırılara karşı büyük ölçüde reaktif, gecikmeli kalmaktadır. 
+Özellikle uygulama katmanı odaklı saldırılar veya protokol ihlalleri, imza tabanlı sistemlerde yüksek oranda atlanabilmekte ya da yanlış alarm üretebilmektedir.
+DoS ve DDoS Tehditleri
+DoS ve DDoS saldırıları, IoT ağlarında hem hizmet kesintisine neden olan hem de cihazların ele geçirilip zombi ağlarının bir parçası haline getirilmesine yol açan en kritik tehditlerden biridir. Özellikle IoT botnet'leri (Mirai, Mozi vb.), ele geçirilen cihazları volumetrik DDoS saldırılarında hem saldırı aracı hem de hedef olarak kullanarak, ağların çökmesine ve zincirleme güvenlik risklerinin artmasına sebep olmaktadır.
+Literatüre Giren Saldırılar-1
+Mirai Botnet Saldırıları (2016–Günümüz)
+
+Mirai, varsayılan şifrelerle korunan IoT cihazlarını (özellikle IP kameralar ve ev yönlendiricileri) hedef alarak büyük çaplı DDoS saldırıları gerçekleştiren bir kötü amaçlı yazılımdır. 2016 yılında Dyn DNS sağlayıcısına yapılan saldırı, Twitter, Netflix ve GitHub gibi büyük platformların erişilemez hale gelmesine neden olmuştur. Bu saldırılar, düşük işlem gücüne sahip cihazların kolayca ele geçirilebileceğini ve büyük ölçekli saldırılarda kullanılabileceğini göstermiştir.
+Kaynak Kodu: 
+https://github.com/jgamblin/Mirai-Source-Code.git
+
+Mirai Botnet Saldırsı kaynak kodu
+Literatüre Giren Saldırılar-2
+BrickerBot Saldırıları (2017)
+
+BrickerBot, güvenlik açıkları bulunan IoT cihazlarını kalıcı olarak kullanılamaz hale getiren (brick) bir kötü amaçlı yazılımdır. Bu saldırılar, özellikle düşük kaynaklara sahip cihazların fiziksel olarak zarar görmesine ve hizmet dışı kalmasına neden olmuştur. BrickerBot'un amacı, savunmasız cihazları ağdan çıkartarak daha büyük botnet saldırılarını engellemekti, ancak yöntemleri oldukça yıkıcıydı.
+Literatüre Giren Saldırılar-3
+DeadBolt Fidye Yazılımı Saldırısı (2022)
+
+DeadBolt, QNAP NAS cihazlarını hedef alan bir fidye yazılımıdır. Bu saldırı, kullanıcıların verilerini şifreleyerek fidye talep etmiştir. Saldırı, cihazların sınırlı güvenlik önlemleri ve güncelleme eksiklikleri nedeniyle başarılı olmuştur. Bu olay, IoT cihazlarının fidye yazılımlarına karşı ne kadar savunmasız olduğunu göstermektedir.
+Literatüre Giren Saldırılar-4
+Enerji Hasat Eden Cihazlara Yönelik Enerji Saldırıları (2023)
+
+Enerji hasat eden, yani bataryasız IoT cihazları, çevresel enerjiyi kullanarak çalışırlar. Ancak, bu cihazlar enerji manipülasyonu yoluyla saldırılara açık hale gelebilir. 2023 yılında yapılan bir çalışma, çevresel enerji kaynaklarının kontrol edilerek bu cihazların çalışmasının engellenebileceğini ve hizmet dışı bırakılabileceğini göstermiştir. Bu tür saldırılar, özellikle sağlık gibi kritik alanlarda kullanılan cihazlar için büyük risk taşımaktadır.
+Literatüre Giren Saldırılar-5
+Rusya-Ukrayna savaşında, IoT cihazlarını hedef alarak çeşitli siber saldırılar gerçekleştirmiştir. Bu saldırılar, hem istihbarat toplama hem de lojistik destek hatlarını bozma amacı taşımaktadır.
+Güvenlik Kameralarının Ele Geçirilmesi: https://www.thetimes.co.uk/article/russia-hijacks-border-cameras-to-spy-on-military-aid-entering-ukraine-70bbv6ts3
+ Sınır Güvenlik Sistemlerinin Hedef Alınması: https://www.theguardian.com/world/2025/may/21/russia-accused-trying-disrupt-aid-ukraine-hacking-border-crossings
+IP Kameraların ve Diğer IoT Cihazlarının Kullanımı: https://chatgpt.com/g/g-p-6835e70baab08191aa5e08cb33ad07e8-bmoksunum/c/6836b655-df68-8000-8222-7a7034c1e0d6
+IoT Cihazlarının Botnet Olarak Kullanılması: Uydu İletişim Sistemlerine Saldırı: https://chatgpt.com/g/g-p-6835e70baab08191aa5e08cb33ad07e8-bmoksunum/c/6836b655-df68-8000-8222-7a7034c1e0d6
+Uydu İnterneti Üzerinden IoT Cihazların Etkilenmesi (AcidRain/Viasat Saldırısı): https://en.wikipedia.org/wiki/Viasat_hack
+
+Küresel IoT Cihaz Sayısı ve Saldırı İstatistikleri
+IoT Cihaz Sayısı: 2023 yılı sonunda dünya genelinde 16,6 milyar IoT cihazı bulunmaktaydı. Bu sayının 2024 yılı sonunda %13 artarak 18,8 milyara ulaşması beklenmektedir. 
+https://iot-analytics.com/number-connected-iot-devices/
+AsimilyIoT Kötü Amaçlı Yazılım Saldırıları: 2023 yılında IoT cihazlarına yönelik kötü amaçlı yazılım saldırılarında %400 artış gözlemlenmiştir. Bu saldırıların %66'sı Mirai ve Gafgyt gibi botnet yazılımları tarafından gerçekleştirilmiştir.
+Zscaler Sektörel Dağılım: Üretim sektörü, IoT kötü amaçlı yazılım saldırılarının %54,5'ini oluşturarak en çok hedeflenen sektör olmuştur. 
+https://www.zscaler.com/blogs/security-research/2023-threatlabz-report-indicates-400-growth-iot-malware-attacks
+
+IoT Güvenlik Risklerinin Kritiklik Seviyesi
+Saldırı Süresi: Yeni bir IoT cihazı internete bağlandıktan sonra ortalama 5 dakika içinde saldırıya uğramaktadır.
+https://llcbuddy.com/data/iot-security-statistics/
+Zafiyetli Cihazlar: 2023 yılında en fazla güvenlik açığı tespit edilen IoT cihazları arasında televizyonlar (%34), akıllı prizler (%18), dijital video kaydediciler (%13) ve yönlendiriciler (%12) yer almaktadır. 
+https://www.netgear.com/hub/network/2024-iot-threat-report/
+NETGEAR Karanlık Ağ Hizmetleri: Karanlık ağda IoT cihazlarına yönelik DDoS saldırıları, botnet kiralama ve sıfırıncı gün zafiyetleri gibi hizmetler artış göstermektedir.
+https://securelist.com/iot-threat-report-2023/110644/
+Uluslararası Kurumların İstatistiksel Çalışmaları
+ENISA (2024 IoT Security Recommendations):
+https://www.enisa.europa.eu/publications/enisa-threat-landscape-for-iot-2022-23Kaspersky
+ IoT Tehdit Raporu (2023):
+https://www.kaspersky.com/about/press-releases/kaspersky-unveils-an-overview-of-iot-related-threats-in-2023
+Palo Alto Networks IoT Security Benchmark Report (2023):
+https://start.paloaltonetworks.com/rs/531-OCS-018/images/2023-benchmark-report-on-iot-security.pdf
+DoS/DDoS Saldırı Tespitinde Zorluklar
+YÜKSEK HACİMLİ SALDIRILARIN ETKİSİ
+ANOMALİ TABANLI TESPİTLERDE DOĞRU VERİ SIKINTISI
+DATASET EKSİKLİĞİ
+Yüksek Hacimli Saldırıların Etkisi
+DDoS saldırıları saniyede milyonlarca paketle ağa yük bindirerek, hem hedef sistemleri hem de tespit sistemlerini felce uğratabilir. Bu hacim altında çalışan IDS/IPS sistemleri paketleri analiz edemez veya düşen tepki süresi nedeniyle saldırıyı zamanında tespit edemez.
+Anomali Tabanlı Tespitlerde Doğru Veri Sıkıntısı
+
+Anomali tabanlı sistemler, normal trafik davranışını öğrenip ondan sapmaları tespit eder; ancak IoT trafiği oldukça değişken ve heterojendir. Bu nedenle doğru “normal profil” oluşturulamazsa, sistem ya saldırıyı atlar ya da yanlış alarm üretir.
+Dataset Eksikliği
+Makine öğrenmesine dayalı tespit sistemlerinin eğitilmesi için gerçek ve etiketlenmiş IoT saldırı verilerine ihtiyaç vardır; ancak bu tür veri setleri sayıca azdır ve çoğu simülasyon tabanlıdır. Gerçek dünya trafiğini yansıtmayan veri setleri, modelin genelleme gücünü zayıflatır ve sahada başarısız olmasına yol açar.
+DOS SALDIRI SİMÜLASYONU
+Hedefte Oluşan Trafik
+Honeypot Üzerinden Yakalanan Talebin Log Kayıtları
+Yoğun Talep Durumunda Sistemin Çökmesi
+Honeypot Tarafından Yapılan Saldırıların Yakalanması Ve Tasnifi
+Dinlediğiniz için teşekkürler…

@@ -1,0 +1,37 @@
+MEHMET RECAI BOZKIR
+180255040 Dağıtık Çizelgeleme Problemlerinde Kullanılan
+YöntemlerProblem
+KarmaşıklığıDağıtık çizelgeleme problemleri NP-
+zor sınıfındadır.
+Gerçek dünyadaki belirsizlikler
+(makine arızası, teslimat süresi
+değişikliği) modeli daha da
+zorlaştırır.Hem fabrika seçimi hem de
+makine sıralaması yapılmalıdır.Küçük ölçekli problemler için
+en iyi çözümü verir, ama
+yavaştır.Exact M ethods
+Hızlı ve basit ama garantili
+çözüm sunmaz.Heuristic M ethods
+Doğadan ilham alan sezgisel
+yöntemler (örn. Karınca, Arı
+algoritmaları)Swarm  Intelligence
+(SI)Kullanılan Yöntem Türleri
+Evrimsel biyoloji temelli algoritmalar (örn.
+Genetik algoritma, PSO, DE)Evolutionary Algorithm s (EA)Neden SI ve EA
+Kullanılıyor?Büyük ve karmaşık problemler
+için uygun
+Matematiksel modelleme
+gerekmeden uygulanabilir
+Yüksek esneklik ve
+uyarlanabilirlik
+Literatürdeki çalışmaların %74’ü
+bu yöntemleri kullanmışAlgoritmaların İşleyişi
+(Basit Şema ile)Başlangıç populasyonu oluştur 1
+Uygunluk değerlendirmesi (fitness function) 2
+Yeni çözümler üret 3
+Populasyonu güncelle 4
+En iyi çözümü bulana kadar döngü 5
+Sonuçları çıkart 6Başlangıç populasyonunu iyileştirme: Sezgisel çözümle başla
+Yerel arama ile en iyi sonucu derinlemesine bul
+Denge: Keşif (exploration) ve sömürü (exploitation) yeteneklerinin dengelenmesi önemliPerformans Artırma StratejileriMEHMET RECAI BOZKIR
+180255040TEŞEKKÜRLER

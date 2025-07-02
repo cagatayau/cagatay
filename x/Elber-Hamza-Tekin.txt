@@ -1,0 +1,49 @@
+Siber Saldırıların Tespiti
+
+ELBER HAMZA TEKİN
+223255019
+Arka Plan
+Çalışmanın hangi akademik ve teknik zemine oturduğunu anlamasını,
+
+Konuyla ilgili daha önce neler yapıldığını görmesini,
+
+Bu çalışmanın neden yapıldığını ve ne katkı sağlayabileceğini kavramasını sağlar.
+Siber Saldırı Türleri
+Çevrimiçi faaliyetler arttıkça siber saldırılar da artıyor. Artık bu saldırılar birer dijital silah haline geldi. Tehditler çeşitlendikçe, savunma yöntemleri de çeşitlenmek zorunda kalıyor. Bu yüzden, saldırı türünü önceden bilmek, etkili bir savunmanın ilk adımıdır.
+Siber Saldırı Türleri
+1. Kötü Amaçlı Yazılımlar :Bilgisayara zarar vermek veya veri çalmak için tasarlanmış yazılımlar 
+2. Kimlik Avı: kullanıcı bilgilerinin çalınması
+3. Dağıtık Hizmet Engelleme (DDoS): Bir sistemi, sunucuyu veya ağı aşırı trafikle boğarak hizmet veremez hale getirme.
+4. Orta Adam Saldırısı :İki taraf arasındaki iletişimi gizlice dinleme veya değiştirme.
+5. SQL Enjeksiyonu: Zayıf güvenlikli veri tabanlarına zararlı SQL komutları enjekte ederek veri çalma veya değiştirme.
+Siber Saldırı Türleri
+6. Sıfırıncı Gün Saldırıları: Daha önce bilinmeyen ve henüz bir güvenlik yaması olmayan açıkların sömürülmesi.
+7. İçeriden Gelen Tehditler: Kurum içindeki çalışanların bilerek veya bilmeden sisteme zarar vermesi.
+8. Fidye Yazılımı: Dosyaları şifreleyip açmak için fidye isteyen zararlı yazılımlar.
+9. Sosyal Mühendislik: İnsan psikolojisini kullanarak kişileri aldatıp bilgi toplama
+10. Oturum Ele Geçirme: Kullanıcının oturum bilgilerini çalarak hesabına erişim sağlama.
+Siber Güvenlikte Açık Erişimli Veri Kümeleri 
+1. Ağ trafiğine dayalı veri kümeleri
+ Bilgisayarlar veya cihazlar arasındaki veri paketlerinin içeriklerini analiz eder.
+
+ Amaç: Saldırı tespiti, anomali tespiti.
+
+2. Elektriksel trafiğe dayalı veri kümeleri
+Elektronik sistemlerdeki güç tüketimi ve elektriksel sinyallerin analizine dayanır.
+ Amaç: Fiziksel sızma veya donanım tabanlı saldırıların tespiti.
+3. İnternet trafiğine dayalı veri kümeleri
+Web, e-posta, DNS gibi genel internet hizmetlerinin veri akışını inceler.
+ Amaç: Web saldırıları, spam, botnet tespiti.
+4. VPN veri kümeleri
+Sanal Özel Ağ (VPN) bağlantılarındaki veri trafiğini içerir.
+ Amaç: Şifrelenmiş veri üzerinde anomali veya kötüye kullanım tespiti.
+5. Android uygulamalara dayalı veri kümeleri
+Android uygulamalardan gelen veriler (izinler, davranışlar, ağ trafiği).
+Amaç: Zararlı mobil uygulamaların tespiti.
+6. Nesnelerin İnterneti (IoT) trafiğine dayalı veri kümeleri
+Akıllı ev cihazları, sensörler gibi IoT cihazlarının ağ trafiğini analiz eder.
+Amaç: IoT cihazlarına yönelik saldırıların belirlenmesi.
+7. İnternete bağlı cihazlara dayalı veri kümeleri
+Genel olarak tüm internete bağlanan cihazların (kamera, yazıcı, router vb.) faaliyet verilerini içerir.
+Amaç: Cihaz tabanlı tehditlerin ve açıkların analizi.
+BENİ DİNLEDİĞİNİZ İÇİNTEŞEKKÜR EDERİM

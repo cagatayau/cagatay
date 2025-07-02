@@ -1,0 +1,94 @@
+Nesnelerin İnterneti(IoT)
+Hazırlayan : Abdulsamet Barak
+3/16/2025
+
+              
+1
+İÇERİK
+3/16/2025
+
+              
+2
+IoT ' nin Genel Özellikleri ve Büyüme İstatistikleri
+3/16/2025
+
+              
+3
+IoT Sistemlerine Genel Bakış 
+3/16/2025
+
+              
+4
+IoT ' nin Yaygınlaşması ve Güvenlik Zorlukları
+3/16/2025
+
+              
+5
+KİMLİK DOĞRULAMA SALDIRILARI VE GEREKLİ SAĞLAMLIK 
+
+
+3/16/2025
+
+              
+6
+Kimlik Doğrulama Sistemleri 
+3/16/2025
+
+              
+7
+Karşılıklı Kimlik Doğrulama
+3/16/2025
+
+              
+8
+Cihazdan Cihaza Kimlik Doğrulama
+
+3/16/2025
+
+              
+9
+Prosedür Tabanlı Kimlik Doğrulama 
+
+3/16/2025
+
+              
+10
+Geleneksel kriptosİSTEMLERDEN YENİ TEKNOLOJİLERE GEÇİŞ 
+
+
+3/16/2025
+
+              
+11
+Iot cİHAZLARIN HETOROJENLİĞİ VE BUNUN KİMLİK DOĞRULAMAYA ETKİSİ 
+
+
+3/16/2025
+
+              
+12
+İLGİLİ ÇALIŞMALARIN İNCELENMESİ(2014-2023)
+
+
+3/16/2025
+
+              
+13
+Hafif Anahtar Değişim Algoritması 
+3/16/2025
+
+              
+14
+Örtülü Sertifikalar
+
+3/16/2025
+
+              
+15
+MAKALENİN AMACI VE KATKILARI
+
+
+3/16/2025
+
+              
+16

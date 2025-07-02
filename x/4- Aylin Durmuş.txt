@@ -1,0 +1,73 @@
+
+Trafik Akış Modellerinde Dağıtılmış Rota Hesaplaması için Yüksek Performanslı Hesaplama
+Aylin durmuş
+223255004
+TRAFİK MODELLEMİSİNDE KULLANILAN METODOLOJİ ÜÇ ANA BAŞLIKTA yapılandırılmıştır
+
+1) Kaç Aracın Alternatif Rotaya İhtiyaç Duyduğunun Belirlenmesi
+
+  İlk bölümde amaç daha hızlı sürüş süreleri ve daha akıcı trafik akışı elde etmek için hesaplanan güncel trafik bilgilerine ve alternatif rotalara ihtiyaç duyan araçların optimum yüzdesi belirlemektir. 
+
+  Çek Cumhuriyeti’nin Prag kentindeki yol ağında 10.000 aracın katıldığı bir trafik simülasyonu gerçekleştirilmiştir. Araçlar için üç farklı rota değişikliği ayarıyla iki alternatif rota kullanılmıştır. Araçlar, alternatif rota mevcut rotaları kadar hızlıysa (%0) veya %5 ila %10 daha hızlıysa rotalarını değiştirecek şekilde ayarlanmıştır. Taşıtlar, alternatif güzergah mevcut güzergahlarıyla en az aynı hızda (yani %0 farkla) ya da %5 ila %10 daha hızlıysa rotalarını değiştirecek şekilde ayarlanmıştır.
+
+Her bir rota değiştirme ayarı için, rotasını değiştirebilecek araçların oranı %0'dan %100'e kadar, %5'lik artışlarla (yani %0, %5, %10, ..., %95, %100) değiştirilerek 20 farklı simülasyon çalıştırılmıştır. Bu da toplamda 60 trafik simülasyonu ile sonuçlanmıştır.
+
+Bu çalışmada araçların sürüş süresi ve yürütme süresi ölçülmüştür.
+
+Gerçek zamanlı trafik bilgileri, haritaların her 20 saniyede bir güncellendiği küresel bir trafik görünümü ile temsil edilmiştir.
+2) DAĞITIM VE PARALELLEŞTRİME
+İkinci bölümde, trafik simülasyonunun hesaplama açısından maliyetli dağıtık ve paralel hale getirilmesi amaçlanmıştır.
+Bu çalışmada, EVEREST projesi kapsamında geliştirilen dağıtık çalışma zamanı aracı evkit’in, Ruth trafik simülatörü ile entegre edilmesi yoluyla alternatif rotaların dağıtık şekilde hesaplanması sağlanmıştır.
+Evkit, trafik simülatöründen gelen girdileri ağ üzerinden başka bir CPU veya hesaplama düğümünde çalışan bir evkit worker bileşenine aktarır. 
+Alternatif rota worker tarafından hesaplanır ve daha sonra simülatöre geri gönderilir. Performans değerlendirmesinde, Python ve NetworkX Dijkstra algoritması kullanan sıralı (tek işlemcili) sürüm ile, C++ ve Plateau kullanan dağıtık sürüm karşılaştırılmıştır.
+
+3) Trafik Simülatörünün Genel Kazanımlarının ve Ölçeklenebilirliğinin Değerlendirilmesi
+Üçüncü aşamada, yoğun trafik akışına sahip bir şehirde geçmiş verilere dayanan büyük ölçekli bir simülasyon başlatılarak, çok sayıda aracın bulunduğu dağıtık bir yapıda trafik simülatörünün performansına dair veriler toplanmıştır.
+Her araç için iki alternatif rota hesaplanmış ve rota değiştirme eşiği, alternatifin mevcut rotadan %10 daha hızlı olmasını gerektirecek şekilde belirlenmiştir.
+Farklı dağıtım yapılandırmaları altında, özellikle kullanılan hesaplama düğümlerinin sayısına odaklanarak, gerçekleştirilen simülasyon adımlarının sayısı ölçülmüştür.
+Çalışma Verileri ve Simülasyon Parametreleri
+Bu çalışma için gerekli giriş verileri, trafik akış tanımlarına dayanarak geliştirilen bir Başlangıç ve Varış (Origin-Destination, OD) matrisi ile sağlanmıştır. Bu matris, trafik simülatörü için temel bir girdi olarak kullanılmıştır.
+Simülasyonlar, farklı donanım kaynakları kullanılarak farklı yüksek başarımlı hesaplama (HPC) kümelerinde (Barbora ve Karolina) yürütülmüştür; bu sayede yazılımın farklı koşullar altındaki davranışı değerlendirilmiştir.
+
+Kullanılan veriler ve parametreler:
+- Orijin ve Hedef (OD) matrisi: trafik akış tanımına dayalı olarak oluşturulmuştur.
+- Prag yönlendirme ağı (graf): 21.817 düğüm / 49.540 kenar.
+- Boston yönlendirme ağı (graf): 51.181 düğüm / 125.888 kenar.
+- Yönlendirme algoritması: Dijkstra (Python) / Plato (C++)
+.- En hızlı yol seçimi: 1, 2 veya 3 alternatif mevcut - mevcut yoldan daha hızlıysa seçilir.
+DENEYSEL SONUÇLAR
+Şekillerde bu çalışma kapsamında gerçekleştirilen bazı simülasyonlara ait görsel anlık görüntüleri göstermektedir.
+Solda, Prag’daki simülasyon daha akıcı bir trafik akışına sahiptir (yeşil renklerle gösterilmiştir).
+Öte yandan, Boston’daki simülasyonlarda çok daha fazla araç bulunmakta ve bu da artan trafik sıkışıklığına ve yoğunluğuna yol açmıştır (sarı ve kırmızı renklerle gösterilmiştir).
+Alternatif Rotalama Gerektiren Araç Oranının Belirlenmesi
+Şekilde gösterildiği üzere, 10.000 araçlık Prag senaryosunda, araçların %45 ila %50’sinin canlı güncellemeler alması ve alternatif rotalarını hesaplaması durumunda trafik akışının gerçekten iyileştiği görülmektedir. Buradan elde edilen trafik akışındaki iyileşme, ilave güncellemelerin azalan getiri sağladığı bir eşiğe işaret etmektedir.
+Aynı zamanda bu durum, hesaplama süresinde tasarruf sağlamış ve trafik modellemesinin her zaman yüksek kaynak gerektirmeyebileceğini göstermiştir.
+Dağıtılmış Hesaplamanın Etkinleştirilmesi
+
+Evkit entegrasyonu yoluyla alternatif rota hesaplamasının dağıtımını etkinleştirdikten sonra, Prag bölgesinde 60.000 araçla simülasyon başlatılan bu senaryoda, her simülasyon adımının yürütme süresini 7 kattan fazla hızlandırmak mümkün olmuştur.
+Tablonun ilk satırı, Python’da Dijkstra algoritması ile çalışan simülatörün sıralı versiyonunu göstermektedir.
+İkinci satır, yalnızca bir CPU (evkit worker) üzerinde çalışan C++ ile Plateau algoritmasını kullanan versiyonu göstermektedir.
+İki algoritma arasındaki farklar, 3.600 saniyenin her iki durumda da eşit şekilde geçtiği halde, Plateau algoritması ile çok daha fazla simülasyon adımı tamamlandığını göstermektedir:
+Plateau: 230 adım
+Dijkstra: 16 adım
+Bu da algoritma değişikliğinin hemen performans kazancı sağladığını, bir adımın süresinin 225 saniyeden yaklaşık 15 saniyeye düştüğünü ortaya koymaktadır. 
+Bununla birlikte, hesaplama düğümlerinin tam kullanımı dikkate alındığında, 16 düğüm kullanmanın, tam kapasite kullanılan tek bir düğüme göre yalnızca 1,58 kat daha fazla hız sağladığı görülmektedir (bunun nedenlerinden biri, simülatörün henüz dağıtılmamış ve gelecekteki çalışmalar kapsamında ele alınacak kısımlarının olmasıdır).
+
+
+Ölçeklenebilirlik Değerlendirmesi
+Bu deneysel çalışmanın bu bölümünde bir dizi simülasyon gerçekleştirilmiştir.
+114 worker bulunan bir düğümde, alternatif rota hesaplamasının hesaplama yükü yaklaşık %73 olarak ölçülmüştür. 
+Bu değerler, ölçeklenebilirlik kapasitesini değerlendirmek için yapılan profillemeler sayesinde tespit şekillerde gösterilmiştir.
+Şekil 6, Boston’un alan haritasında 300.000 araçla 1 düğümlü bir simülasyon çalıştırmanın, yürütme süresinin yaklaşık:
+%73’ünü alternatif rota hesaplamalarının,
+%18’ini rota seçiminin,
+%5’ini ise araçların ilerletilmesinin gerektirdiğini göstermektedir.
+12 düğüme ulaşıldığında, "Rota Seç" gibi diğer işlevlerin, alternatif rotalardan daha fazla yürütme süresi gerektirdiğini göstermektedir. 
+Şekil 7, daha önce bahsedilen bulguları tamamlamaktadır; çünkü 12 düğüme kadar bir iyileşme gösterdiğini ve 25 ile 50 düğümde alternatif rota hesaplama talebinin yaklaşık %35 seviyesinde sabitlendiğini ortaya koymaktadır. Bu da, “Rota Seç” ve “Aracı İlerlet” gibi işlevlerde daha fazla optimizasyonun, yani dağıtımın etkinleştirilmesinin gerektiği anlamına gelmektedir.
+
+SONUÇ
+
+Bu çalışmanın temel bulgularından biri, canlı trafik verilerinin bilinçli bir şekilde yönetilmesinin ve seçici alternatif rota hesaplamasının, bir şehirdeki genel sürüş süresi ve trafik akışı üzerinde önemli bir etkiye sahip olabileceğini göstermektedir. 
+Navigasyon ve yönlendirme sistemlerinin hizmet sağlayıcıları, fazlalığı azaltmak ve kritik trafik alanlarına öncelik vermek amacıyla bilinçli olarak seçici güncellemeler uygulayabilir, böylece hem trafik akışını iyileştirir hem de hesaplama kaynaklarını optimize eder.
+Bu yaklaşım sadece hesaplama yükünü azaltmakla kalmaz, aynı zamanda büyük ölçekli trafik yönetimini daha uygulanabilir hale getirmektedir.
+DİNLEDİĞİNİZ İÇİN TEŞEKKÜRLER

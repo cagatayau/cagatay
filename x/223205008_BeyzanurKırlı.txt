@@ -1,0 +1,88 @@
+Blockchain’in Enerji Uygulamaları: Blockchain teknolojisinin enerji sektöründe kullanımı hızla artan bir ilgi görüyor.
+Farklı Ülkelerde Benimsenme: Blockchain'in benimsenme seviyesi, ülkelere göre değişiklik göstermektedir.
+
+Sistematik Derlemenin Sonuçları
+Ülkeler Arası Farklılıklar
+Çin: Blockchain araştırmalarında en fazla çalışma bulunan ülke. Çin’in 2025 stratejik planı, blockchain'i yenilikçi bir teknoloji olarak desteklemektedir.
+Hindistan: Kripto para karşıtlığına rağmen, blockchain'i diğer alanlarda kullanmaya teşvik etmektedir.
+Avustralya: 2021’de blockchain için ulusal bir yol haritası geliştirildi ve bu alanda yatırımlar yapıldı.
+Avrupa Birliği: Merkezi finansman kaynaklarıyla blockchain araştırmalarını destekliyor ve 2015’ten itibaren stratejiler geliştirmekte.
+
+Yatırım ve Finansman
+Girişim Sermayesi Yatırımları: Blockchain araştırmaları, sadece hükümet fonlamalarıyla değil, girişim sermayesi yatırımlarıyla da desteklenmektedir.
+2020 Yatırımları: 2020 yılında blockchain şirketlerine 2.75 milyar USD yatırım yapılmıştır.
+En Fazla Yatırım Alan Bölgeler: Kuzey Amerika, Asya ve Avrupa.
+
+COVID-19’un Etkisi
+Pandemi Dönemi: Gelişmekte olan ekonomiler, pandemi sırasında daha fazla zorluk yaşadı. Bu durum, blockchain araştırmalarında bazı yeni ülkelerin öne çıkmasına neden oldu.
+Araştırma Azalışı (2022-2023): 2022 ve 2023 yıllarında blockchain araştırmalarında azalma görüldü.
+Araştırma Azalmasının Nedenleri
+Merkezi Sistemlerin Sorunları: Pandemi sırasında çevrimiçi işlemlerde artış yaşanması, merkezi sistemlerin verimsizliğine dikkat çekti. Bu da blockchain teknolojisine olan ilgiyi artırmıştı ancak bu ilgi sonrası araştırmalar azaldı.
+Kripto Para Piyasası Çöküşü: 2022’de kripto para piyasasında yaşanan büyük çöküş, Bitcoin’in değerinin düşmesi, blockchain yatırımlarını olumsuz etkiledi.
+Güvenlik Sorunları: Kripto para platformlarında yaşanan büyük güvenlik ihlalleri, yatırımcı güvenini sarstı.
+2022 Resesyonu: Pandemi sonrası öngörülen ekonomik daralma, blockchain araştırmalarındaki yatırımların azalmasına yol açtı.
+
+Konsensüs Mekanizmaları ve Gelişimi
+Yeni Konsensüs Mekanizmaları: Blockchain 2.0'dan sonra çeşitli blockchain teknolojisi varyantları ortaya çıkmıştır. Her biri daha iyi performans vaat eden kendi konsensüs yaklaşımlarını sunmaktadır.
+Mevcut Konsensüs Yaklaşımları:
+Byzantine Fault Tolerance (BFT) ve Crash Fault Tolerance (CFT), lider-izleyici konsensüs kuralı kullanır.
+Proof of Authority (PoA), özel blockhain'lerde işlem doğrulamak için sınırlı güvenilir düğümler kullanır.
+Avalanche, yüksek işlem verimliliği sunan, paralel işlem yapabilen bir konsensüs mekanizmasıdır.
+
+Konsensüsün Önemi
+Konsensüsün Rolü: Konsensüs, blockchain'in temel özelliklerinden biridir ve ölçeklenebilirliği doğrudan etkiler.
+Çalışmalarda Konsensüs Dağılımı: Çalışmaların %60'ı yaygın konsensüs yaklaşımlarını benimsemişken, %40'ı özel (custom) konsensüs algoritmaları geliştirmiştir.
+Özel Konsensüs (Custom): Bu grup, yeni algoritmalar geliştiren veya standart yöntemlerden farklı simülasyonlar kullanan çalışmaları içerir.
+
+Konsensüs Algoritması Geliştirme Zorlukları
+Zorluklar: Konsensüs algoritması geliştirmek, güvenli, zamanında ve düşük işlem gücü tüketen çözümler sunmayı gerektirir.
+Örnekler:
+Özel konsensüsler çoğunlukla uygulamalı ve gerçek zamanlı testlerle güvenilirlik kazanmalıdır.
+MATLAB Simülasyonu: Bazı çalışmalar, güvenli veri paylaşımını sağlamak için özel algoritmalarla simülasyon yapmıştır, ancak gerçek dünya uygulamaları genellikle pratik değildir.
+
+Konsensüs Mekanizmalarının Yıllık Değişimi
+2021-2023 Trendleri:
+2021'de özel konsensüs mekanizmaları %39 iken, 2023'te bu oran %59'a yükselmiştir.
+Standart Konsensüsler: Proof of Work (PoW), yüksek güvenlik sağlasa da enerji tüketimi nedeniyle enerji sektörü uygulamalarında sınırlıdır.
+BFT ve CFT: Bu konsensüsler, daha az enerji tüketir ve daha olgunlaşmış teknolojilerdir.
+Konsensüs Mekanizmalarının Kullanımı
+2022 Yılındaki Değişiklikler: Avalanche gibi yeni konsensüsler kullanılmaya başlasa da, PoW ve BFT gibi diğer konsensüsler hala yaygın olarak kullanıldı.
+Solo Konsensüs: 2022'de kullanımdan kaldırılmıştır. Bu mekanizma, yalnızca test amaçlıdır ve Hyperledger Fabric tarafından resmen terk edilmiştir.
+
+Konsensüs Mekanizmalarının Seçimi ve Avantajları
+PoW: Yüksek güvenlik sağlar ancak enerji tüketimi yüksektir.
+BFT ve CFT: Daha az enerji tüketir ve olgunlaşmış mekanizmalardır.
+PoA ve Avalanche: Hızlı işlem onayları ve düşük işlem gücü gerektiren uygulamalarda kullanılır.
+PoS: Daha az enerji tüketir ve Ethereum’un entegrasyonu ile daha fazla kabul görmektedir.
+
+Blockchain Platformlarının Geliştirilmesi ve Dağılımı
+Blockchain platformu geliştirmek oldukça zorlu bir süreçtir çünkü farklı platformlar sürekli olarak bazı özelliklerini geliştirmeye çalışmaktadır. İncelenen çalışmalarda, platformların dağılımı şemada gösterilmiştir. Çalışmalarda "Özel" platformlar daha çok kullanılmıştır ve bu platformlar şu şekilde tanımlanır:
+Yerel bilgisayar ortamlarında, bağımsız makinelerle (örneğin Raspberry Pi) geliştirme ve test etme.
+IEEE bus deneysel ortamları veya MATLAB gibi ortamlarla yapılan uygulama simülasyonları.
+Platform bilgisi belirtilmeyen veya tespit edilemeyen çalışmalarda kullanılan platformlar.
+Özetle, %46'lık bir kesim, deneysel ortamlar kullanarak blockchain simülasyonları yapmıştır. Ancak, bu yaklaşımda bazı önemli pratik sorunlar göz ardı edilmiştir. Özellikle, maliyetler, performans sorunları, akıllı sözleşmelerin sınırlamaları ve uyumluluk gibi faktörler gerçek dünya uygulamaları için kritik önem taşır.
+
+Olgunlaşmış Blockchain Platformları ve Ethereum
+Diğer taraftan, yapılan çalışmalarda %53'lük bir kesim, daha olgunlaşmış ve güvenlik, uygulama kolaylığı ve ölçeklenebilirlik gibi avantajlara sahip standart blockchain platformlarını tercih etmiştir. En yaygın kullanılan platform Ethereum’dur. Bu platform, Ethereum Sanal Makinesi (EVM) kullanarak test ağlarında uygulanmış ve hızlı prototipler için çeşitli araçlar (Truffle, Hardhat, Ganache gibi) kullanılmıştır. Ethereum, farklı konsensüs mekanizmalarını desteklemesi (PoW ve PoS gibi) nedeniyle oldukça esnektir.
+Örneğin, bir çalışmada, Ethereum'un EVM üzerinde, enerji ticareti için önerilen bir sistem test edilmiştir. Ethereum, esnekliği ve test ağları (Sepolia, Goerli gibi) kullanabilmesi nedeniyle tercih edilmiştir. Ethereum'un PoS konsensüs mekanizmasına geçişiyle birlikte, bu platformun popülerliği daha da artacaktır.
+
+ Yeni Blockchain Platformları ve Özellikleri
+Yeni blockchain platformları, belirli özellikleri nedeniyle giderek daha fazla ilgi görmektedir. Avalanche, IOTA Tangle, Cosmos ve Monero gibi platformlar, özel kullanım durumlarına yönelik geliştirilmiştir:
+IOTA Tangle: İşlem hızını artırmayı ve madencilik ihtiyacını ortadan kaldırmayı hedefler.
+Monero: Gizlilik ve güvenlik odaklı şifreleme tekniklerine sahiptir.
+Cosmos: Blockchain'ler arasında iletişimi sağlayan Inter-Blockchain Communication Protocol (IBC) kullanır.
+
+Konsensüs Mekanizmaları ve Platform Seçimi
+Çalışmaların büyük çoğunluğu, kullandıkları konsensüs mekanizmalarına göre platformlarını seçmiştir. Örneğin:
+Özel konsensüs mekanizmaları kullanan çalışmalar, genellikle özel blockchain platformlarını tercih etmiştir.
+PoW ve PoS konsensüs mekanizmaları kullanan çalışmaların çoğu Ethereum platformunu seçmiştir.
+Hyperledger Fabric, CFT ve Solo konsensüs mekanizmaları için tercih edilen platformdur.
+BFT (Practical Byzantine Fault Tolerance), daha esnek olduğu için birçok farklı platformda kullanılabilir, ancak çoğunlukla Hyperledger üzerinde tercih edilmiştir.
+Sonuç olarak, özel bir konsensüs mekanizması geliştiren uygulamalar genellikle özel blockchain platformları kullanırken, mevcut ve olgunlaşmış konsensüs mekanizmalarıyla çalışan uygulamalar Ethereum ve Hyperledger gibi platformları tercih etmektedir.
+
+Gelecek Perspektifi ve Ethereum'un Rolü
+Ethereum'un PoS konsensüs mekanizmasına geçişi ile birlikte bu platformun daha fazla araştırma ve uygulama tarafından tercih edilmesi beklenmektedir. PoW'un yerine PoS'un geçmesi, Ethereum’un enerji verimliliğini artıracak ve daha fazla uygulamanın Ethereum üzerinde hayata geçirilmesini sağlayacaktır.
+
+Beni dinlediğiniz için teşekkür ederim :)
+Beyzanur KIRLI 
+223205008
