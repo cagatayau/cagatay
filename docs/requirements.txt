@@ -1,0 +1,4 @@
+weasyprint==62.3
+markdown==3.6
+python-markdown-math==0.8
+pymdown-extensions==10.7.1
